@@ -7,8 +7,8 @@
 
 <body class="authentication-bg">
     @yield('content')
-
-    @include('components.guest.script')
 </body>
+
+@include('components.guest.footer')
 
 </html>
