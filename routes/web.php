@@ -24,6 +24,68 @@ Route::get('/', function () {
     return view('welcome');
 })->name('index');
 
+Route::get('/about', function () {
+    return view('pages.frontend.about');
+})->name('about');
+
+Route::get('/service', function () {
+    return view('pages.frontend.service');
+})->name('service');
+
+Route::get('/construction', function () {
+    return view('pages.frontend.construction');
+})->name('construction');
+
+Route::get('/project_management', function () {
+    return view('pages.frontend.project_management');
+})->name('project_management');
+
+Route::get('/valuation', function () {
+    return view('pages.frontend.valuation');
+})->name('valuation');
+
+Route::get('/survey', function () {
+    return view('pages.frontend.survey');
+})->name('survey');
+
+Route::get('/interior', function () {
+    return view('pages.frontend.interior');
+})->name('interior');
+
+Route::get('/approval', function () {
+    return view('pages.frontend.approval');
+})->name('approval');
+
+Route::get('/quality_survey', function () {
+    return view('pages.frontend.quality_survey');
+})->name('quality_survey');
+
+Route::get('/contact', function () {
+    return view('pages.frontend.contact');
+})->name('contact');
+
+Route::get('/builders-in-trichy', function () {
+    return view('pages.frontend.builders-in-trichy');
+})->name('builders-in-trichy');
+
+Route::get('/interior-designer-in-trichy', function () {
+    return view('pages.frontend.interior-designer-in-trichy');
+})->name('interior-designer-in-trichy');
+
+Route::get('/construction-company-in-trichy', function () {
+    return view('pages.frontend.construction-company-in-trichy');
+})->name('construction-company-in-trichy');
+
+Route::get('/civil-project-and-management-company-in-trichy', function () {
+    return view('pages.frontend.civil-project-and-management-company-in-trichy');
+})->name('civil-project-and-management-company-in-trichy');
+
+Route::get('/home-interior-design', function () {
+    return view('pages.frontend.home-interior-design');
+})->name('home-interior-design');
+
+
+
 Route::get('/privacy-policy', function () {
     return view('pages.frontend.privacy-policy');
 })->name('privacy.policy');
