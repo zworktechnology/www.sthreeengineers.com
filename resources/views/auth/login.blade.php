@@ -1,4 +1,4 @@
-@extends('layouts.guest')
+@extends('layouts.bguest')
 
 @section('content')
 <div class="account-pages my-5 pt-sm-5">
