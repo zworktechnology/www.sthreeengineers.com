@@ -102,8 +102,8 @@
 													<li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
 												</ul>
 											</li>
-											<li><a href="{{ route('project') }}">Projects</a></li>
                                             <li><a href="{{ route('blog') }}">Blog</a></li>
+											<li><a href="{{ route('project') }}">Projects</a></li>
 											<li><a href="{{ route('contact') }}">Contact</a></li>
 										</ul>
 

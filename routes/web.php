@@ -88,15 +88,6 @@ Route::get('/home-interior-design', function () {
     return view('pages.frontend.home-interior-design');
 })->name('home-interior-design');
 
-Route::get('/blog', function () {
-    return view('pages.frontend.blog');
-})->name('blog');
-
-Route::get('/blog-details', function () {
-    return view('pages.frontend.blog-details');
-})->name('blog-details');
-
-
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
 Route::get('/blog/filter/{id}/{name}', [FrontendController::class, 'blogfilter'])->name('blog-filter');
