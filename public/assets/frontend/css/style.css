@@ -2690,10 +2690,10 @@ h1.project-1-bottom-title {
 
 .blog-1-lower-content-alt2,
 .blog-1-lower-content-alt {
-    margin-top: -50px;
+    margin-top: 0px;
     margin-left: 1px;
     padding-left: 1px;
-    padding-top: 25px;
+    padding-top: 50px;
 	padding-bottom: 50px;
 	transition: .5s;
 }

@@ -34,7 +34,7 @@
                 <div class="blog-1-block mb_40 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
                     <div class="blog-1-image hvr-img-zoom-1"><img src="{{ asset('assets/frontend/images/blog/blog-4.jpg') }}" alt=""></div>
                     <div class="blog-1-lower-content-alt p_relative">
-                        <h4 class="blog-1-title mb_15 fs_34 lh_35" style="margin-top: 80px"><a href="{{ route('blog-details') }}">Normal that has evolved from <br>
+                        <h4 class="blog-1-title mb_15 fs_34 lh_35"><a href="{{ route('blog-details') }}">Normal that has evolved from <br>
                                 generation on </a></h4>
                         <p style="text-align: justify;">Our objective at homelane is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share. </p>
                         <div class=""><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_primary pr_30 p_relative z_1 td_underline" href="{{ route('blog-details') }}">continue reading</a></div>
@@ -46,7 +46,7 @@
                 <div class="blog-1-block mb_40 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
                     <div class="blog-1-image hvr-img-zoom-1"><img src="{{ asset('assets/frontend/images/blog/blog-4.jpg') }}" alt=""></div>
                     <div class="blog-1-lower-content-alt p_relative">
-                        <h4 class="blog-1-title mb_15 fs_34 lh_35" style="margin-top: 80px"><a href="{{ route('blog-details') }}">Normal that has evolved from <br>
+                        <h4 class="blog-1-title mb_15 fs_34 lh_35"><a href="{{ route('blog-details') }}">Normal that has evolved from <br>
                                 generation on </a></h4>
                         <p style="text-align: justify;">Our objective at homelane is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share. </p>
                         <div class=""><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_primary pr_30 p_relative z_1 td_underline" href="{{ route('blog-details') }}">continue reading</a></div>
@@ -58,7 +58,7 @@
                 <div class="blog-1-block mb_40 wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
                     <div class="blog-1-image hvr-img-zoom-1"><img src="{{ asset('assets/frontend/images/blog/blog-4.jpg') }}" alt=""></div>
                     <div class="blog-1-lower-content-alt p_relative">
-                        <h4 class="blog-1-title mb_15 fs_34 lh_35" style="margin-top: 80px"><a href="{{ route('blog-details') }}">Normal that has evolved from <br>
+                        <h4 class="blog-1-title mb_15 fs_34 lh_35"><a href="{{ route('blog-details') }}">Normal that has evolved from <br>
                                 generation on </a></h4>
                         <p style="text-align: justify;">Our objective at homelane is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share. </p>
                         <div class=""><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_primary pr_30 p_relative z_1 td_underline" href="{{ route('blog-details') }}">continue reading</a></div>
