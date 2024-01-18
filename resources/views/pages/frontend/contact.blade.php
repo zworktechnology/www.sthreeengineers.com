@@ -16,7 +16,7 @@
             <div class="p_relative text-center">
                 <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Contact Us</h1> 
                 <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="{{ route('index') }}">Home</a></li>
                     <li class="ml_10 mr_10">/</li>
                     <li>Contact Us</li>
                 </ul>
@@ -66,19 +66,19 @@
                         <div class="ps-lg-3">
                             <h3 class="fs_35 mb_20">Our Address</h3>
                             <div class="d-flex align-items-start pb_30">
-                                <img class="mr_20 mt_10" src="assets/images/icons/icon-map.png" alt="">
+                                <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-map.png') }}" alt="">
                                 <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Registered Office :</span> <br> Pudukkottai Main Road, Subramaniyapuram, Trichy.</p>
                             </div>
                             <div class="d-flex align-items-start pb_30">
-                                <img class="mr_20 mt_10" src="assets/images/icons/icon-map.png" alt="">
+                                <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-map.png') }}" alt="">
                                 <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Branch Office :</span> <br> Attur Main Road, Perambalur, Tamilnadu.</p>
                             </div>
                             <div class="d-flex align-items-start pb_30">
-                                <img class="mr_20 mt_10" src="assets/images/icons/icon-mail.png" alt="">
+                                <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-mail.png') }}" alt="">
                                 <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Phone :</span> <br> <a href="tel:+9104312963987">+91 0431-2963987</a><sapn> | </sapn><a class="fs_20" href="tel:+917871313987">+91 78713 13987</a></p>
                             </div>
                             <div class="d-flex align-items-start pb_30">
-                                <img class="mr_20 mt_10" src="assets/images/icons/icon-phone.png" alt="">
+                                <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-phone.png') }}" alt="">
                                 <p class="mb_0 fs_20 lh_30"><span class="fs_20 fw_bold c_dark">Email :</span> <br> <a href="mailto:admin@sthreeengineers.com">admin@sthreeengineers.com</a><sapn> | </sapn><a href="mailto:sthreeengineers@gmail.com">sthreeengineers@gmail.com</a></p>
                             </div>
                         </div>

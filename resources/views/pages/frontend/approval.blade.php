@@ -16,9 +16,9 @@
             <div class="p_relative text-center">
                 <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Approval</h1> 
                 <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="{{ route('index') }}">Home</a></li>
                     <li class="ml_10 mr_10">/</li>
-                    <li><a href="services.php">Services</a></li>
+                    <li><a href="{{ route('service') }}">Services</a></li>
                     <li class="ml_10 mr_10">/</li>
                     <li>Approval</li>
                 </ul>
@@ -96,7 +96,7 @@
                             <h2 class="c_light fs_45 fw_black mb_18">Leading Way In Civil <br> Construction</h2>
                             <p class="mb_20 fs_16 c_light p_relative">Bring to the table win-win survival strategies to ensure
                                 proactive domination. At the end of the day, going forward, a new normal that has evolved.</p>
-                            <a href="contact.php" class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
+                            <a href="{{ route('contact') }}" class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
                             <div class="p_absolute r_0 t__35 p_33 bg_primary"><a href="https://youtu.be/uop7muARSno" class="video-btn-1 ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a></div>
                         </div>
                     </div>

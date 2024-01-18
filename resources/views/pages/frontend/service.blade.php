@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- banner -->
+	<!-- banner -->
     <section class="banner-1-section pt_240 pb_140 bg_cover overflow-hidden" style="background-image: url(assets/frontend/images/background/bg-7.jpg);">
 	    <div class="line-grid-wrap">
 	        <span class="line-grid-1"></span>
@@ -16,7 +16,7 @@
 	        <div class="p_relative text-center">
 	            <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Services</h1>
 	            <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
-	                <li><a href="index.php">Home</a></li>
+	                <li><a href="{{ route('index') }}">Home</a></li>
 	                <li class="ml_10 mr_10">/</li>
 	                <li>Services</li>
 	            </ul>
@@ -40,7 +40,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-building"></i></div>
-	                    <a href="construction.php">
+	                    <a href="{{ route('construction') }}">
 	                        <h4 class="service-1-title fs_25">Building Construction</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -53,7 +53,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-engineer"></i></div>
-	                    <a href="project_management.php">
+	                    <a href="{{ route('project_management') }}">
 	                        <h4 class="service-1-title fs_25">Project Management</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -66,7 +66,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-planning"></i></div>
-	                    <a href="valuation.php">
+	                    <a href="{{ route('valuation') }}">
 	                        <h4 class="service-1-title fs_25">Valuation</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -79,7 +79,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-measure"></i></div>
-	                    <a href="survey.php">
+	                    <a href="{{ route('survey') }}">
 	                        <h4 class="service-1-title fs_25">Surveying</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -92,7 +92,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-interior-design"></i></div>
-	                    <a href="interior.php">
+	                    <a href="{{ route('interior') }}">
 	                        <h4 class="service-1-title fs_25">Interior Works</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -105,7 +105,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-building-1"></i></div>
-	                    <a href="approval.php">
+	                    <a href="{{ route('approval') }}">
 	                        <h4 class="service-1-title fs_25">Approval</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -118,7 +118,7 @@
 	                <div class="service-1-block alt">
 	                    <div class="service-1-shape"></div>
 	                    <div class="service-1-icon"><i class="flaticon-newspaper"></i></div>
-	                    <a href="quality_survey.php">
+	                    <a href="{{ route('quality_survey') }}">
 	                        <h4 class="service-1-title fs_25">Quantity Survey</h4>
 	                    </a>
 	                    <div class="service-1-image">
@@ -145,7 +145,7 @@
 	                        <h2 class="c_light fs_45 fw_black mb_18">Leading Way In Civil <br> Construction</h2>
 	                        <p class="mb_20 fs_16 c_light p_relative">Bring to the table win-win survival strategies to ensure
 	                            proactive domination. At the end of the day, going forward, a new normal that has evolved.</p>
-	                        <a href="contact.php" class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
+	                        <a href="{{ route('contact') }}" class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
 	                        <div class="p_absolute r_0 t__35 p_33 bg_primary"><a href="https://youtu.be/uop7muARSno" class="video-btn-1 ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a></div>
 	                    </div>
 	                </div>

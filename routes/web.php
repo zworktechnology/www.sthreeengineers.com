@@ -60,6 +60,10 @@ Route::get('/quality_survey', function () {
     return view('pages.frontend.quality_survey');
 })->name('quality_survey');
 
+Route::get('/project', function () {
+    return view('pages.frontend.project');
+})->name('project');
+
 Route::get('/contact', function () {
     return view('pages.frontend.contact');
 })->name('contact');
@@ -84,74 +88,14 @@ Route::get('/home-interior-design', function () {
     return view('pages.frontend.home-interior-design');
 })->name('home-interior-design');
 
+Route::get('/blog', function () {
+    return view('pages.frontend.blog');
+})->name('blog');
 
+Route::get('/blog-details', function () {
+    return view('pages.frontend.blog-details');
+})->name('blog-details');
 
-Route::get('/privacy-policy', function () {
-    return view('pages.frontend.privacy-policy');
-})->name('privacy.policy');
-
-Route::get('/terms-and-conditions', function () {
-    return view('pages.frontend.terms-and-conditions');
-})->name('terms.and.conditions');
-
-Route::get('/cancellation-and-refund', function () {
-    return view('pages.frontend.cancellation-and-refund');
-})->name('cancellation.and.refund');
-
-Route::get('/shipping-and-delivery', function () {
-    return view('pages.frontend.shipping-and-delivery');
-})->name('shipping.and.delivery');
-
-Route::get('/contact-us', function () {
-    return view('pages.frontend.contact-us');
-})->name('contact.us');
-Route::get('/about-us', function () {
-    return view('pages.frontend.about-us');
-})->name('about.us');
-
-Route::get('/services', function () {
-    return view('pages.frontend.service');
-})->name('service');
-
-Route::get('/web-development', function () {
-    return view('pages.frontend.web-development');
-})->name('web.development');
-
-Route::get('/mobile-app-development', function () {
-    return view('pages.frontend.mobile-app-development');
-})->name('mobile.app.development');
-
-Route::get('/ecommerce-soluation', function () {
-    return view('pages.frontend.ecommerce-soluation');
-})->name('ecommerce.soluation');
-
-Route::get('/cms-crm-erp-soluation', function () {
-    return view('pages.frontend.cms-crm-erp-soluation');
-})->name('cms.crm.erp.soluation');
-
-Route::get('/custom-software', function () {
-    return view('pages.frontend.custom-software');
-})->name('custom.software');
-
-Route::get('/graphics-desiging', function () {
-    return view('pages.frontend.graphics-desiging');
-})->name('graphics.desiging');
-
-Route::get('/digital-marketing', function () {
-    return view('pages.frontend.digital-marketing');
-})->name('digital.marketing');
-
-Route::get('/social-media', function () {
-    return view('pages.frontend.social-media');
-})->name('social.media');
-
-Route::get('/portfolio', function () {
-    return view('pages.frontend.portfolio');
-})->name('portfolio');
-
-Route::get('/contact', function () {
-    return view('pages.frontend.contact');
-})->name('contact');
 
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
@@ -160,22 +104,6 @@ Route::get('/blog/filter/{id}/{name}', [FrontendController::class, 'blogfilter']
 Route::get('/blog/search', [FrontendController::class, 'searchblog'])->name('blog-search');
 
 Route::get('/{title}/{id}', [FrontendController::class, 'blogreadmore'])->name('read-blog');
-
-// SEO
-Route::get('/web-development-company-in-trichy', function () {
-    return view('pages.frontend.seo.web-development-company-in-trichy');})->name('web.development.company.in.trichy');
-
-Route::get('/web-design-company-in-trichy', function () {
-    return view('pages.frontend.seo.web-design-company-in-trichy');})->name('web.design.company.in.trichy');
-
-// Route::get('/mobile-app-development-company-trichy', function () {
-//     return view('pages.frontend.seo.mobile-app-development-company-trichy');})->name('mobile.app.development.company.trichy');
-
-Route::get('/digital-marketing-company-in-trichy', function () {
-    return view('pages.frontend.seo.digital-marketing-company-in-trichy');})->name('digital.marketing.company.in.trichy');
-
-// Route::get('/social-media-marketing-company-trichy', function () {
-//     return view('pages.frontend.seo.social-media-marketing-company-trichy');})->name('social.media.marketing.company.trichy');
 
 Auth::routes();
 

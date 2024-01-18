@@ -76,7 +76,7 @@
                 <div class="auto-container">
                     <div class="inner-container d-flex align-items-center justify-content-between">
                         <div class="logo-box">
-                            <div class="logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 80px;"></a>
+                            <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 80px;"></a>
                             </div>
                         </div>
                         <div class="right-column d-flex align-items-center">
@@ -85,22 +85,21 @@
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li class="dropdown"><a href="services.php">Services</a>
-                                                <ul>
-                                                    <li><a href="construction.php">Building Construction </a></li>
-                                                    <li><a href="project_management.php">Project Management (PMC)</a>
-                                                    </li>
-                                                    <li><a href="valuation.php">Valuation</a></li>
-                                                    <li><a href="survey.php">Surveying</a></li>
-                                                    <li><a href="interior.php">Interior Works</a></li>
-                                                    <li><a href="approval.php">Approval</a></li>
-                                                    <li><a href="quality_survey.php">Quantity Survey</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="project.php">Projects</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="{{ route('index') }}">Home</a></li>
+											<li><a href="{{ route('about') }}">About Us</a></li>
+											<li class="dropdown"><a href="{{ route('service') }}">Services</a>
+												<ul>
+													<li><a href="{{ route('construction') }}">Building Construction </a></li>
+													<li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
+													<li><a href="{{ route('valuation') }}">Valuation</a></li>
+													<li><a href="{{ route('survey') }}">Surveying</a></li>
+													<li><a href="{{ route('interior') }}">Interior Works</a></li>
+													<li><a href="{{ route('approval') }}">Approval</a></li>
+													<li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
+												</ul>
+											</li>
+											<li><a href="{{ route('project') }}">Projects</a></li>
+											<li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
 
                                     </div>
@@ -118,7 +117,7 @@
                     <div class="auto-container">
                         <div class="inner-container d-flex align-items-center justify-content-between">
                             <div class="logo-box">
-                                <div class="logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 70px;"></a></div>
+                                <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 70px;"></a></div>
                             </div>
                             <div class="right-column d-flex align-items-center">
                                 <div class="nav-outer">
@@ -142,7 +141,7 @@
                 <div class="close-btn"><span class="fal fa-times"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
@@ -264,7 +263,7 @@
                 <div class="p_relative text-center">
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Home Interior Designer</h1>
                     <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="{{ route('index') }}">Home</a></li>
                     </ul>
                 </div>
             </div>
@@ -284,7 +283,7 @@
                                 designer is the key to bringing your vision to life. At Sthree Engineers, we are your trusted
                                 ally in creating interiors that reflect your unique taste and preferences. With our experienced
                                 team of
-                                <span><a href="project.php" style="color: blue;">home interior designers</a></span>
+                                <span><a href="{{ route('project') }}" style="color: blue;">home interior designers</a></span>
                                 , we specialize in turning homes into dream homes.
                             </p>
                         </div>
@@ -297,7 +296,7 @@
                                 create functional and aesthetically pleasing interiors.</p>
                             <p><b>Personalization :</b> We understand that every homeowner has a distinct vision for their home.
                                 Our home
-                                <span><a href="interior.php" style="color: blue;">interior designers work</a></span>
+                                <span><a href="{{ route('interior') }}" style="color: blue;">interior designers work</a></span>
                                 closely with you to understand your preferences and create
                                 custom designs that align with your lifestyle.
                             </p>
@@ -332,7 +331,7 @@
                 <div class="projectdetails-1-text">
                     <p>
                         At
-                        <span><a href="index.php" style="color: blue;">Sthree Engineers</a></span>
+                        <span><a href="{{ route('index') }}" style="color: blue;">Sthree Engineers</a></span>
                         , our home interior design services cover a wide
                         range of areas
                     </p>

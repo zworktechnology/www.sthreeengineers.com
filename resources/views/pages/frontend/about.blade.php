@@ -15,7 +15,7 @@
         <div class="p_relative text-center">
             <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">About Us</h1>
             <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="{{ route('index') }}">Home</a></li>
                 <li class="ml_10 mr_10">/</li>
                 <li>About Us</li>
             </ul>

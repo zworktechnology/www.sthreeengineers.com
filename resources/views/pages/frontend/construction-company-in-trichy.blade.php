@@ -76,7 +76,7 @@
                 <div class="auto-container">
                     <div class="inner-container d-flex align-items-center justify-content-between">
                         <div class="logo-box">
-                            <div class="logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 80px;"></a>
+                            <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 80px;"></a>
                             </div>
                         </div>
                         <div class="right-column d-flex align-items-center">
@@ -85,22 +85,21 @@
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation">
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li class="dropdown"><a href="services.php">Services</a>
+                                            <li><a href="{{ route('index') }}">Home</a></li>
+                                            <li><a href="{{ route('about') }}">About Us</a></li>
+                                            <li class="dropdown"><a href="{{ route('service') }}">Services</a>
                                                 <ul>
-                                                    <li><a href="construction.php">Building Construction </a></li>
-                                                    <li><a href="project_management.php">Project Management (PMC)</a>
-                                                    </li>
-                                                    <li><a href="valuation.php">Valuation</a></li>
-                                                    <li><a href="survey.php">Surveying</a></li>
-                                                    <li><a href="interior.php">Interior Works</a></li>
-                                                    <li><a href="approval.php">Approval</a></li>
-                                                    <li><a href="quality_survey.php">Quantity Survey</a></li>
+                                                    <li><a href="{{ route('construction') }}">Building Construction </a></li>
+                                                    <li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
+                                                    <li><a href="{{ route('valuation') }}">Valuation</a></li>
+                                                    <li><a href="{{ route('survey') }}">Surveying</a></li>
+                                                    <li><a href="{{ route('interior') }}">Interior Works</a></li>
+                                                    <li><a href="{{ route('approval') }}">Approval</a></li>
+                                                    <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="project.php">Projects</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="{{ route('project') }}">Projects</a></li>
+                                            <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
 
                                     </div>
@@ -118,7 +117,7 @@
                     <div class="auto-container">
                         <div class="inner-container d-flex align-items-center justify-content-between">
                             <div class="logo-box">
-                                <div class="logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 70px;"></a></div>
+                                <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 70px;"></a></div>
                             </div>
                             <div class="right-column d-flex align-items-center">
                                 <div class="nav-outer">
@@ -142,7 +141,7 @@
                 <div class="close-btn"><span class="fal fa-times"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
@@ -265,7 +264,7 @@
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                         Construction Company In Trichy</h1>
                     <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="{{ route('index') }}">Home</a></li>
                     </ul>
                 </div>
             </div>
@@ -297,7 +296,7 @@
                 <div class="projectdetails-1-text mb_30">
                     <p> Are you looking to embark on a construction journey in Trichy? Your choice of a construction company can make all the difference in bringing your vision to life seamlessly.
                         At Sthree Engineers, we stand out as a leading force in the civil project and management industry, offering specialized services tailored to meet your unique needs.
-                        Here's why choosing us is the right decision for your building constructions,<br> <span><a href="approval.php" style="color: blue;">building plan approval</a></span>, and construction services in Trichy.
+                        Here's why choosing us is the right decision for your building constructions,<br> <span><a href="{{ route('approval') }}" style="color: blue;">building plan approval</a></span>, and construction services in Trichy.
                     </p>
                 </div>
                 <div class="row">
@@ -330,7 +329,7 @@
                                 <b>Local Knowledge and Commitment to Trichy :</b>
                                 Being based in Trichy, we have a deep understanding of the local landscape, regulations, and community needs.
                                 This local knowledge enables us to navigate challenges effectively, ensuring that your
-                                <span><a href="project.php" style="color: blue;">construction project</a></span> aligns seamlessly with the cultural and regulatory context of Trichy.
+                                <span><a href="{{ route('project') }}" style="color: blue;">construction project</a></span> aligns seamlessly with the cultural and regulatory context of Trichy.
                             </p>
                             <p>
                                 <b>Transparent Communication and Timely Updates :</b>
@@ -344,7 +343,7 @@
                     <div class="projectdetails-1-text">
                         <p>
                             At Sthree Engineers,
-                            <span><a href="construction.php" style="color: blue;">our construction services</a></span> in Trichy span a wide range of project types:
+                            <span><a href="{{ route('construction') }}" style="color: blue;">our construction services</a></span> in Trichy span a wide range of project types:
                         </p>
                     </div>
                     <p>

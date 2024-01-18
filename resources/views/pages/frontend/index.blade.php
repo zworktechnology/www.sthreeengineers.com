@@ -75,12 +75,11 @@
 		</div>
 
 		<header class="main-header header-style-one">
-
 			<div class="header-upper">
 				<div class="auto-container">
 					<div class="inner-container d-flex align-items-center justify-content-between">
 						<div class="logo-box">
-							<div class="logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+							<div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
 										style="height: 80px;"></a>
 							</div>
 						</div>
@@ -90,22 +89,22 @@
 								<nav class="main-menu navbar-expand-md navbar-light">
 									<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 										<ul class="navigation">
-											<li><a href="index.php">Home</a></li>
-											<li><a href="about.php">About Us</a></li>
-											<li class="dropdown"><a href="services.php">Services</a>
+											<li><a href="{{ route('index') }}">Home</a></li>
+											<li><a href="{{ route('about') }}">About Us</a></li>
+											<li class="dropdown"><a href="{{ route('service') }}">Services</a>
 												<ul>
-													<li><a href="construction.php">Building Construction </a></li>
-													<li><a href="project_management.php">Project Management (PMC)</a>
-													</li>
-													<li><a href="valuation.php">Valuation</a></li>
-													<li><a href="survey.php">Surveying</a></li>
-													<li><a href="interior.php">Interior Works</a></li>
-													<li><a href="approval.php">Approval</a></li>
-													<li><a href="quality_survey.php">Quantity Survey</a></li>
+													<li><a href="{{ route('construction') }}">Building Construction </a></li>
+													<li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
+													<li><a href="{{ route('valuation') }}">Valuation</a></li>
+													<li><a href="{{ route('survey') }}">Surveying</a></li>
+													<li><a href="{{ route('interior') }}">Interior Works</a></li>
+													<li><a href="{{ route('approval') }}">Approval</a></li>
+													<li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
 												</ul>
 											</li>
-											<li><a href="project.php">Projects</a></li>
-											<li><a href="contact.php">Contact</a></li>
+											<li><a href="{{ route('project') }}">Projects</a></li>
+                                            <li><a href="{{ route('blog') }}">Blog</a></li>
+											<li><a href="{{ route('contact') }}">Contact</a></li>
 										</ul>
 
 									</div>
@@ -126,7 +125,7 @@
 					<div class="auto-container">
 						<div class="inner-container d-flex align-items-center justify-content-between">
 							<div class="logo-box">
-								<div class="logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+								<div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
 											style="height: 70px;"></a></div>
 							</div>
 							<div class="right-column d-flex align-items-center">
@@ -154,7 +153,7 @@
 				<div class="close-btn"><span class="fal fa-times"></span></div>
 
 				<nav class="menu-box">
-					<div class="nav-logo"><a href="index.php"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+					<div class="nav-logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
 								title=""></a></div>
 					<div class="menu-outer">
 						<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -294,7 +293,7 @@
                         company that specializes in safe, dependable, <br> and FIRST CLASS construction. Excellent <br>
                         building construction management services are<br> what we offer. </p>
                     <div class="link-btn tt_u pr_font fs_14 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1.5s">
-                        <a href="about.php" class="c_light ff_sec fw_bold tt_u fs_14 ls_1">discorver more <i
+                        <a href="{{ route('about') }}" class="c_light ff_sec fw_bold tt_u fs_14 ls_1">discorver more <i
                                 class="ml_10 fs_20 v_middle flaticon-right-1 p_relative t_2"></i></a></div>
                 </div>
             </div>
@@ -362,7 +361,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-building"></i></div>
-                                <a href="construction.php">
+                                <a href="{{ route('construction') }}">
                                     <h4 class="service-1-title fs_23">Building Construction</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -382,7 +381,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-guarantee"></i></div>
-                                <a href="project_management.php">
+                                <a href="{{ route('project_management') }}">
                                     <h4 class="service-1-title fs_23">Project Management</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -401,7 +400,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-interior-design"></i></div>
-                                <a href="interior.php">
+                                <a href="{{ route('interior') }}">
                                     <h4 class="service-1-title fs_23">Interior Works</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -420,7 +419,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-measure"></i></div>
-                                <a href="survey.php">
+                                <a href="{{ route('survey') }}">
                                     <h4 class="service-1-title fs_23">Surveying</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -440,7 +439,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-blueprint"></i></div>
-                                <a href="valuation.php">
+                                <a href="{{ route('valuation') }}">
                                     <h4 class="service-1-title fs_23">Valuation</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -459,7 +458,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-guarantee"></i></div>
-                                <a href="approval.php">
+                                <a href="{{ route('approval') }}">
                                     <h4 class="service-1-title fs_25">Approval</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -479,7 +478,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-newspaper"></i></div>
-                                <a href="quality_survey.php">
+                                <a href="{{ route('quality_survey') }}">
                                     <h4 class="service-1-title fs_23">Quantity Survey</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -555,7 +554,7 @@
                                     to ensure
                                     proactive domination. At the end of the day, going forward, a new normal that has
                                     evolved.</p>
-                                <a href="contact.php" class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request
+                                <a href="{{ route('contact') }}" class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request
                                     a call back <i class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
                                 <div class="p_absolute r_0 t__35 p_33 bg_primary"><a href="https://youtu.be/uop7muARSno"
                                         class="video-btn-1 ripple" data-fancybox="video-1" data-caption=""><i
@@ -577,7 +576,7 @@
                                 class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>our work</h6>
                         <h2 class="c_light fs_45 fw_black mb_40">Explore Recent Projects</h2>
                     </div>
-                    <div class="link-btn mb_30"><a href="project.php"
+                    <div class="link-btn mb_30"><a href="{{ route('project') }}"
                             class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">view all
                             projects <i class="flaticon-fast-forward"></i> <span></span></a></div>
                 </div>
@@ -589,14 +588,14 @@
                             <div class="project-1-column wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/1.webp') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" alt="">
                                         <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/1.webp') }}" class="project-1-icon"
+                                            <a href="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         </div>
                                         <div class="project-1-content">
-                                            <p class="project-1-cat">Sthree Engineers</p>
-                                            <h4 class="project-1-title"> Project</h4>
+                                            <p class="project-1-cat">Front View</p>
+                                            <h4 class="project-1-title">K.K Nagar Project</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -606,14 +605,14 @@
                             <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/2.webp') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" alt="">
                                         <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/2.webp') }}" class="project-1-icon"
+                                            <a href="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         </div>
                                         <div class="project-1-content">
-                                            <p class="project-1-cat">Sthree Engineers</p>
-                                            <h4 class="project-1-title"> Project</h4>
+                                            <p class="project-1-cat">Front View</p>
+                                            <h4 class="project-1-title">Gunaseeelam Project</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -623,14 +622,14 @@
                             <div class="project-1-column wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/3.webp') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" alt="">
                                         <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/3.webp') }}" class="project-1-icon"
+                                            <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         </div>
                                         <div class="project-1-content">
-                                            <p class="project-1-cat">Sthree Engineers</p>
-                                            <h4 class="project-1-title"> Project</h4>
+                                            <p class="project-1-cat">Front View</p>
+                                            <h4 class="project-1-title">Vivekanandha Nagar Project</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -640,31 +639,14 @@
                             <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/4.webp') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" alt="">
                                         <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/4.webp') }}" class="project-1-icon"
+                                            <a href="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         </div>
                                         <div class="project-1-content">
-                                            <p class="project-1-cat">Sthree Engineers</p>
-                                            <h4 class="project-1-title"> Project</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="project-1-block">
-                                    <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/5.webp') }}" alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/5.webp') }}" class="project-1-icon"
-                                                data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Sthree Engineers</p>
-                                            <h4 class="project-1-title"> Project</h4>
+                                            <p class="project-1-cat">Side View</p>
+                                            <h4 class="project-1-title">Office Interior Project</h4>
                                         </div>
                                     </div>
                                 </div>
