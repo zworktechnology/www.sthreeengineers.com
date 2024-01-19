@@ -54,6 +54,6 @@ class FrontendController extends Controller
     {
         $data = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->get();
 
-        return view('pages.sitemap', compact('data'));
+        return response()->view('pages.sitemap', compact('data'))->header('Content-Type', 'text/xml');
     }
 }
