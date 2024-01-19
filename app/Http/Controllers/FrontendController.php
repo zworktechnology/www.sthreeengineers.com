@@ -49,4 +49,11 @@ class FrontendController extends Controller
 
     //     return view('pages.frontend.blog', compact('data', 'masterblogdata', 'latestblog', 'term'));
     // }
+
+    public function sitemap()
+    {
+        $data = Blog::where('soft_delete', '!=', 1)->where('active_status', '!=', 1)->orderBy('id', 'desc')->get();
+
+        return view('pages.sitemap', compact('data'));
+    }
 }

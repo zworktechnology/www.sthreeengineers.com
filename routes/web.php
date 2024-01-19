@@ -96,6 +96,8 @@ Route::get('/blog/search', [FrontendController::class, 'searchblog'])->name('blo
 
 Route::get('/{title}/{id}', [FrontendController::class, 'blogreadmore'])->name('read-blog');
 
+Route::get('/sitemap.xml', [FrontendController::class, 'sitemap'])->name('sitemap');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+    <url>
+        <loc>https://www.sthreeengineers.com/</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/about</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/service</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/construction</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/project_management</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/valuation</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/survey</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/interior</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/approval</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/quality_survey</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/blog</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/project</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/contact</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/builders-in-trichy</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/interior-designer-in-trichy</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/construction-company-in-trichy</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/civil-project-and-management-company-in-trichy</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/home-interior-design</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    @foreach ($data as $sitemap)
+    <url>
+        <loc>https://www.sthreeengineers.com/{{ $sitemap->slug_url }}/{{ $sitemap->random_id }}</loc>
+        <lastmod>{{ $sitemap->updated_at }}</lastmod>
+        <priority>0.80</priority>
+    </url>
+    @endforeach
+
+</urlset>

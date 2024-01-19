@@ -44,15 +44,6 @@
             </div>
             <div class="col-lg-3">
                 <aside class="sidebar">
-                    <!-- Search -->
-                    <div class="sidebar-widget search-box">
-                        <form method="post" action="contact.html">
-                            <div class="form-group">
-                                <input type="search" name="search-field" value="" placeholder="Enter Search Keywords" required="">
-                                <button type="submit"><span class="fal fa-search"></span></button>
-                            </div>
-                        </form>
-                    </div>
                     <!--Blog Category Widget-->
                     <div class="sidebar-widget sidebar-blog-category">
                         <div class="sidebar-title">
