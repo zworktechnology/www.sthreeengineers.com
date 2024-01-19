@@ -98,7 +98,7 @@
     @foreach ($data as $sitemap)
     <url>
         <loc>https://www.sthreeengineers.com/{{ $sitemap->slug_url }}/{{ $sitemap->random_id }}</loc>
-        <lastmod>{{ $sitemap->updated_at }}</lastmod>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     @endforeach
