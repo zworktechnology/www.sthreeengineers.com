@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="author" content="Zwork Technology">
+    <meta name="author" content="Sthree Engineers">
     <meta name="description"
-        content="Build futures with a trusted construction company and quality aggregates for sustainable development.">
+        content="{{ $data->short_content }}">
     <meta name="keywords"
-        content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
+        content="{{ $data->meta_keywords }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
-    <meta property="og:title" content="The best solution for your construction needs">
+    <meta property="og:url" content="https://www.sthreeengineers.com/{{ $data->slug_url }}/{{ $data->random_id }}">
+    <meta property="og:title" content="{{ $data->title }}">
     <meta property="og:description"
-        content="A company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
+        content="{{ $data->short_content }}">
+    <meta property="og:image" content="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}">
 
     <!-- Page Title -->
-    <title>Sthree Engineers | The Key For All Your Construction Needs</title>
+    <title>{{ $data->title }}</title>
 
     <!-- Google Tag Manager -->
     <script>
