@@ -296,7 +296,7 @@
 
 
             <section class="banner-1-section pt_240 pb_140 bg_cover overflow-hidden"
-                style="background-image: url(assets/frontend/images/background/bg-7.jpg);">
+                style="background-image: url(/assets/frontend/images/background/bg-7.jpg);">
                 <div class="line-grid-wrap">
                     <span class="line-grid-1"></span>
                     <span class="line-grid-2"></span>
