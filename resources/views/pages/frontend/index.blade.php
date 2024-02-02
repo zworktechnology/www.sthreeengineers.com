@@ -18,7 +18,7 @@
 	<meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
 
 	<!-- Page Title -->
-	<title>Construction Maestros | Unveiling the Artistry of Sthree Engineers</title>
+	<title>Sthree Engineers | The Key For All Your Construction Needs</title>
 
 	<!-- Google Tag Manager -->
 	<script>

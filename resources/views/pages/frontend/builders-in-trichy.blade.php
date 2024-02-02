@@ -274,93 +274,103 @@
 
         <!-- Project Details -->
         <section class="projectdetails-1-section pt_120 pb_90">
-            <div class="auto-container">
+            <div class="container">
+
+                <div class="sec-title-area mb_30">
+                    <h2 class="fw_black fs_45">Crafting Dreams into Reality</h2>
+                </div>
+
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-title-area mb_30">
-
-                            <h2 class="fw_black fs_45">Crafting Dreams into Reality</h2>
-
+                    <div class="col-6">
+                        <div class="mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" alt="">
                         </div>
-
-                        <div class="projectdetails-1-text mb_30">
-
+                    </div>
+                    <div class="col-6">
+                        <div class="projectdetails-1-text mb_30 pt-5">
                             <p>When it comes to realizing your dream home or investment property in Trichy, finding the
                                 right builder is the first and crucial step. At Sthree Engineers, we take pride in being
                                 your trusted partner in the journey of building your dreams. Our team of experienced
-                                professionals has been delivering top-notch construction services in Trichy for years,
-                                making us the go-to choice for quality construction projects in the region.</p>
-
-                        </div>
-                        <h4 class="fw_bold fs_28 mb_20">Why Choose Builders?</h4>
-
-                        <div class="projectdetails-1-text mb_30">
-
-                            <p>As it continues to grow and evolve, the demand for residential and commercial spaces is
-                                on the rise. Choosing the right builder is paramount, and here's why SThree Engineers
-                                should be your top choice:</p>
-
-                            <p><b>Local Expertise :</b> With an in-depth understanding of the local market and building
-                                regulations, our builders in Trichy have successfully completed numerous projects across
-                                the city. We know the terrain, the challenges, and the opportunities.</p>
-
-                            <p><b>Quality Assurance :</b> We are committed to delivering the highest standards of
-                                construction quality. Our team uses the finest materials and employs modern construction
-                                techniques to ensure that your project meets or exceeds your expectations.</p>
-
-                            <p><b>Timely Delivery :</b> Time is of the essence in the construction industry. We take
-                                pride in completing projects within the agreed-upon timeframes, ensuring that you can
-                                move into your new space as planned.</p>
-
-                            <p><b>Customization :</b> Whether you're looking for a residential villa, apartment complex,
-                                or commercial space, we offer customized solutions tailored to your specific needs and
-                                preferences.
+                                professionals has been delivering top-notch <span><a href="{{ route('construction') }}" style="color: blue;">construction services </a></span> in Trichy for years,
+                                making us the go-to choice for quality construction projects in the region.
                             </p>
-
-                            <p><b>Transparency :</b> We believe in open communication. Our clients are kept in the loop
-                                throughout the construction process, with regular updates on progress and costs.</p>
-
-                        </div>
-                        <h4 class="fw_bold fs_28 mb_20">Why Invest in Trichy</h4>
-
-                        <div class="projectdetails-1-text">Trichy is a city on the rise, offering a perfect blend of
-                            tradition and modernity. Its strategic location in Tamil Nadu makes it an attractive
-                            destination for both homebuyers and investors. Here's why investing in Trichy is a wise
-                            choice:</div>
-
-                        <p><b>Connectivity :</b> Trichy's well-developed road and rail networks make it easily
-                            accessible from major cities like Chennai, Bangalore, and Madurai. The international airport
-                            also enhances connectivity.</p>
-
-                        <p><b>Economic Growth :</b> Trichy's economy is thriving, thanks to its booming industrial
-                            sector, including manufacturing, IT, and aerospace industries. This translates into a
-                            promising job market and increased property value.</p>
-
-                        <p><b>Educational Hub :</b> The city is home to renowned educational institutions, making it a
-                            sought-after destination for students and families seeking quality education.</p>
-
-                        <p><b>Cultural Heritage :</b> Trichy boasts a rich cultural heritage with historical temples,
-                            monuments, and festivals. It offers a unique living experience with a blend of tradition and
-                            modernity.</p>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" alt=""></div>
-                            </div>
                         </div>
                     </div>
                 </div>
+                <h4 class="fw_bold fs_28 mb_20">Why Choose Builders?</h4>
+
+                <div class="projectdetails-1-text mb_30">
+
+                    <p>As it continues to grow and evolve, the demand for residential and commercial spaces is
+                        on the rise. Choosing the right builder is paramount, and here's why SThree Engineers
+                        should be your top choice:
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <p><b>Local Expertise :</b> With an in-depth understanding of the local market and building
+                            regulations, our builders in Trichy have successfully completed numerous projects across
+                            the city. We know the terrain, the challenges, and the opportunities.
+                        </p>
+
+                        <p><b>Quality Assurance :</b> We are committed to delivering the highest standards of
+                            construction quality. Our team uses the finest materials and employs modern construction
+                            techniques to ensure that your project meets or exceeds your expectations.
+                        </p>
+
+                        <p><b>Timely Delivery :</b> Time is of the essence in the construction industry. We take
+                            pride in <span><a href="{{ route('project') }}" style="color: blue;">completing projects </a></span> within the agreed-upon timeframes, ensuring that you can
+                            move into your new space as planned.
+                        </p>
+
+                        <p><b>Customization :</b> Whether you're looking for a residential villa, apartment complex,
+                            or commercial space, we offer customized solutions tailored to your specific needs and
+                            preferences.
+                        </p>
+
+                        <p><b>Transparency :</b> We believe in open communication. Our clients are kept in the loop
+                            throughout the construction process, with regular updates on progress and costs.
+                        </p>
+                    </div>
+                    <div class="col-6 text-center">
+                        <div class="mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" alt="">
+                        </div>
+                        <div class="mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="fw_bold fs_28 mb_20">Why Invest in Trichy</h4>
+                <div class="projectdetails-1-text">
+                    <p>
+                        Trichy is a city on the rise, offering a perfect blend of
+                        tradition and modernity. Its strategic location in Tamil Nadu makes it an attractive
+                        destination for both homebuyers and investors. Here's why investing in Trichy is a wise
+                        choice:
+                    </p>
+                </div>
+                <p><b>Connectivity :</b> Trichy's well-developed road and rail networks make it easily
+                    accessible from major cities like Chennai, Bangalore, and Madurai. The international airport
+                    also enhances connectivity.
+                </p>
+
+                <p><b>Economic Growth :</b> Trichy's economy is thriving, thanks to its booming industrial
+                    sector, including manufacturing, IT, and aerospace industries. This translates into a
+                    promising job market and <span><a href="{{ route('valuation') }}" style="color: blue;"> increased property value. </a></span>
+                </p>
+
+                <p><b>Educational Hub :</b> The city is home to renowned educational institutions, making it a
+                    sought-after destination for students and families seeking quality education.
+                </p>
+
+                <p><b>Cultural Heritage :</b> Trichy boasts a rich cultural heritage with historical temples,
+                    monuments, and festivals. It offers a unique living experience with a blend of tradition and
+                    modernity.
+                </p>
+                <div class="mb_30 text-center"><img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" alt=""></div>
             </div>
         </section>
 

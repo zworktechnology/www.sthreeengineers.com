@@ -339,7 +339,7 @@
                         </div>
                     </div>
 
-                    <h4 class="fw_bold fs_28 mb_20">Construction Services in Trichy</h4>
+                    <h4 class="fw_bold fs_28 mb_10">Construction Services in Trichy</h4>
                     <div class="projectdetails-1-text">
                         <p>
                             At Sthree Engineers,
