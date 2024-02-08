@@ -32,3 +32,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+<!-- Place the first <script> tag in your HTML's <head> -->
+<script src="https://cdn.tiny.cloud/1/gduif9elkdt5mcup5zffjzrc8qycnqswxxs4krqx3fjq1nfz/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
