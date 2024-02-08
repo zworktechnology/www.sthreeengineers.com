@@ -52,13 +52,5 @@
 <script src="{{ asset('assets/backend/js/pages/form-repeater.int.js') }}"></script>
 
 <!--tinymce js-->
-<script src="https://cdn.tiny.cloud/1/eraf3oo5x4229s7g70swbu0mu8a4ildcf14v0hsy731rcqjn/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-<script>
-    tinymce.init({
-        selector: 'textarea#myeditorinstance',
-        plugins: 'preview importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap pagebreak nonbreaking anchor insertdatetime advlist lists wordcount help charmap quickbars emoticons',
-        menubar: 'file edit view insert format tools table help',
-        toolbar: 'undo redo | bold italic underline strikethrough | fontfamily fontsize blocks | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview save print | insertfile image media template link anchor codesample | ltr rtl',
-    });
 
-</script>
+

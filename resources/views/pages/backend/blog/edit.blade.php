@@ -122,7 +122,7 @@
                                             <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">
                                                 Blog Content</label>
                                             <div class="col-sm-9">
-                                                <textarea id="myeditorinstance" type="text" class="form-control" name="blog_content" placeholder="Enter here ">{!! $data->blog_content !!}</textarea>
+                                                <textarea type="text" class="tinymce-editor form-control" name="blog_content" placeholder="Enter here ">{!! $data->blog_content !!}</textarea>
                                             </div>
                                         </div>
                                     </div>

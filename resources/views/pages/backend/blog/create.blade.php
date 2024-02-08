@@ -114,7 +114,7 @@
                                             <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">
                                                 Blog Content <span style="color: red;">*</span></label>
                                             <div class="col-sm-9">
-                                                <textarea id="myeditorinstance" type="text" class="form-control" name="blog_content" placeholder="Enter here "></textarea>
+                                                <textarea type="text" class="tinymce-editor form-control" name="blog_content" placeholder="Enter here "></textarea>
                                             </div>
                                         </div>
                                     </div>
