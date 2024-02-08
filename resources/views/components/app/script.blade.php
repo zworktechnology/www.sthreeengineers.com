@@ -36,7 +36,7 @@
 <script src="{{ asset('assets/backend/js/pages/dashboard.init.js') }}"></script>
 
 <!-- Unicon -->
-<script src="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.5/script/monochrome/bundle.min.js"></script>
+<script src="https://cdn.jsdelivrKW.net/npm/@iconscout/unicons@4.0.5/script/monochrome/bundle.min.js"></script>
 
 <!-- Select 2 CDN -->
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
