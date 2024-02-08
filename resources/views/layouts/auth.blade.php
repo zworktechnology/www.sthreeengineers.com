@@ -34,7 +34,7 @@
     <script>
         tinymce.init({
             selector: 'textarea.tinymce-editor',
-            height: 300,
+            height: 500,
             menubar: false,
             plugins: [
                 'ai', 'advlist', 'autolink', 'lists', 'link', 'image', 'charmap', 'preview',
