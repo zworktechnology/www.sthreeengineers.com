@@ -54,11 +54,11 @@
                                                 <input type="text" class="form-control" name="slug_url" placeholder="Enter here " required>
                                             </div>
                                         </div>
-                                        <div class="row mb-4">
+                                        <div class="row mb-4" style="display: none;">
                                             <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">
                                                 Quotes </label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="quotes" placeholder="Enter here ">
+                                                <input type="text" class="form-control" name="quotes" placeholder="Enter here " value="0">
                                             </div>
                                         </div>
                                         <div class="row mb-4">

@@ -16,7 +16,7 @@
     <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
 
     <!-- Page Title -->
-    <title>Project Management | Civil PMC Company in Trichy</title>
+    <title>Civil Project Management | PMC Company in Trichy</title>
 
     <!-- Google Tag Manager -->
     <script>

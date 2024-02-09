@@ -55,7 +55,7 @@
                                                 <input type="text" class="form-control" name="slug_url" placeholder="Enter here " required value="{{ $data->slug_url }}">
                                             </div>
                                         </div>
-                                        <div class="row mb-4">
+                                        <div class="row mb-4" style="display: none;">
                                             <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">
                                                 Quotes</label>
                                             <div class="col-sm-9">
