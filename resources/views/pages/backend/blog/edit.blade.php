@@ -59,7 +59,7 @@
                                             <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">
                                                 Quotes</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" name="quotes" placeholder="Enter here " required value="{{ $data->quotes }}">
+                                                <input type="text" class="form-control" name="quotes" placeholder="Enter here " value="{{ $data->quotes }}">
                                             </div>
                                         </div>
                                         <div class="row mb-4">
