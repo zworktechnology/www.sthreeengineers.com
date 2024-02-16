@@ -256,4 +256,197 @@
     </div>
 </section>
 
+<!-- Q/A -->
+<section class="pt_120 pb_90">
+    <div class="auto-container">
+        <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>FAQ</h6>
+        <h2 class="fs_45 fw_black mb_20">Frequently Ask Questions</h2>
+        <p class="fs_18 mb_40">
+            Find quick answers to common inquiries about our construction services.
+        </p>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <!--Accordian Box-->
+                <ul class="accordion-box alt-2 pe-lg-5">
+                    <!--Block-->
+                    <li class="accordion block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            Why choose a construction company?
+                        </div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p class="fs_18">
+                                    Choosing a construction company in Trichy ensures local expertise and personalized service tailored to the region's unique needs.
+                                    With a construction company in Trichy, clients benefit from a deep understanding of local regulations, climate challenges, and cultural nuances.
+                                    Moreover, a construction company in Trichy fosters strong community relationships, facilitating smoother project execution and timely completion.
+                                    From residential to commercial ventures, partnering with a construction company in Trichy guarantees meticulous attention to detail, adherence to quality standards, and a commitment to customer satisfaction.
+                                    Entrust your construction endeavors to a trusted construction company in Trichy for unmatched professionalism and peace of mind.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Block-->
+                    <li class="accordion block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            How to choose a builder?
+                        </div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p class="fs_18">
+                                    When selecting builders in Trichy, consider their reputation, experience, and portfolio.
+                                    Look for builders in Trichy with a proven track record of delivering high-quality projects on time and within budget.
+                                    Seek recommendations from friends, family, or online reviews to gauge customer satisfaction.
+                                    Verify builders in Trichy credentials, licenses, and certifications to ensure compliance with regulations.
+                                    Discuss your requirements and budget with builders in Trichy to assess their understanding and feasibility of your project.
+                                    Transparent communication and a detailed contract are essential for a successful collaboration with builders in Trichy.
+                                    Finally, trust your instincts and choose builders in Trichy who instill confidence and professionalism.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Block-->
+                    <li class="accordion block active-block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold active">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            Why surveyor is important and how many types of surveying are there?
+                        </div>
+                        <div class="acc-content current">
+                            <div class="content">
+                                <p class="fs_18">
+                                    The role of a surveyor is crucial in various industries, ensuring precise measurements and data collection for surveying projects.
+                                    Surveyors play a vital role in quantity survey and land development, providing accurate assessments for construction projects.
+                                    There are several types of surveying, including land surveying, topographic surveying, and hydrographic surveying, each tailored to specific needs.
+                                    Whether it's assessing land boundaries or mapping terrain, surveyors utilize advanced techniques and equipment to deliver reliable results.
+                                    In construction, quantity surveyors meticulously evaluate costs and materials, optimizing budgets and project efficiency.
+                                    Their expertise is indispensable in maintaining project integrity and success.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Block-->
+                    <li class="accordion block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            How building plans are approved and why its important?
+                        </div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p class="fs_18">
+                                    Building plans are vital blueprints for construction projects, ensuring adherence to safety and regulatory standards.
+                                    The process of plan approval involves thorough scrutiny by regulatory bodies to verify compliance with zoning laws, building codes, and environmental regulations.
+                                    It's crucial for maintaining structural integrity and safeguarding occupants' well-being. Without proper approval, construction could face legal issues and compromise safety.
+                                    Timely plan approval expedites the commencement of building construction, streamlining the entire process.
+                                    By adhering to approval guidelines, projects progress smoothly, minimizing delays and ensuring structures meet stringent quality standards.
+                                    In essence, plan approval is the cornerstone of responsible and lawful building construction.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <!--Accordian Box-->
+                <ul class="accordion-box alt-2 pe-lg-5">
+                    <!--Block-->
+                    <li class="accordion block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            What is valuation and why its important?
+                        </div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p class="fs_18">
+                                    Valuation is the process of determining the current worth of an asset or a company.
+                                    It plays a crucial role in e-valuation as it assesses the financial health and potential of online businesses.
+                                    Understanding valuation is important as it guides investment decisions, merger and acquisition strategies, and financial reporting.
+                                    Through valuation, investors can gauge the e-valuation of digital ventures accurately, ensuring informed choices and maximizing returns.
+                                    Therefore, mastering valuation methods is essential for success in the dynamic world of e-valuation.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Block-->
+                    <li class="accordion block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            What is PMC and how it works?
+                        </div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p class="fs_18">
+                                    PMC, or Project Management Consultancy, plays a pivotal role in the construction industry by providing project management expertise and oversight.
+                                    A PMC company acts as a liaison between stakeholders, overseeing various aspects of a project from inception to completion.
+                                    Their responsibilities encompass project management tasks such as scheduling, budgeting, risk assessment, and quality control.
+                                    PMC companies ensure seamless coordination among contractors, architects, and clients, optimizing resources and mitigating potential issues.
+                                    With their specialized knowledge and experience in the construction industry project management, PMC companies streamline operations, enhance efficiency, and deliver successful outcomes for complex construction projects.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Block-->
+                    <li class="accordion block active-block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold active">
+                            <div class="icon-outer">
+                                <span class="icon icon-plus fa fa-plus"></span>
+                                <span class="icon icon-minus fa fa-minus"></span>
+                            </div>
+                            How interior design makes your space to looks so gorgeous?
+                        </div>
+                        <div class="acc-content current">
+                            <div class="content">
+                                <p class="fs_18">
+                                    Interior design by a skilled interior designer in Trichy can transform your space into a breathtaking oasis of style and functionality.
+                                    Through meticulous planning and creative vision, interior works seamlessly blend aesthetics with practicality, enhancing the beauty and comfort of your home.
+                                    From selecting the perfect color palette to optimizing space utilization, every aspect of home interior design is carefully curated to reflect your taste and personality.
+                                    With the expertise of an experienced interior designer in Trichy, your space comes alive with harmonious layouts, elegant furnishings, and bespoke accents, creating an ambiance that truly captivates the senses.
+                                    The magic of interior design lies in its ability to orchestrate elements such as lighting, textures, and proportions to evoke a sense of luxury and sophistication.
+                                    A skilled interior designer in Trichy harnesses these elements to craft spaces that not only look stunning but also function effortlessly for your lifestyle needs.
+                                    From conceptualization to execution, each phase of interior works is executed with precision and attention to detail, ensuring that every corner of your home reflects the highest standards of design excellence.
+                                    Experience the transformative power of home interior design and elevate your living spaces to unparalleled levels of beauty and elegance with the expertise of a trusted interior designer in Trichy.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--Block-->
+                    <!-- <li class="accordion block">
+                        <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                            <div class="icon-outer"><span class="icon icon-plus fa fa-plus"></span> <span class="icon icon-minus fa fa-minus"></span></div>Multiple touchpoints for
+                            offshoring ?
+                        </div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <p class="fs_18">Lorem ipsum dolor sit amet, vix an natum labitur eleifd, mel am
+                                    laoreet menandri. Ei justo complectitur duo. Ei mundi solet utos soletu
+                                    possit quo. Sea cu justo laudem. An utinam consulatu eos, est facilis.</p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 @endsection
