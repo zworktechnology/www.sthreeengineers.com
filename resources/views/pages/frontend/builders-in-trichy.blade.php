@@ -51,6 +51,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -98,6 +105,7 @@
                                                     <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="{{ route('blog') }}">Blog</a></li>
                                             <li><a href="{{ route('project') }}">Projects</a></li>
                                             <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
@@ -273,104 +281,106 @@
         </section>
 
         <!-- Project Details -->
-        <section class="projectdetails-1-section pt_120 pb_90">
+        <section class="projectdetails-1-section pt_70 pb_90">
             <div class="container">
 
-                <div class="sec-title-area mb_30">
-                    <h2 class="fw_black fs_45">Crafting Dreams into Reality</h2>
+                <div class="sec-title-area mb_10">
+                    <div class="row ">
+                        <p class="mb_30">
+                            We take pride in being the leading builders in Trichy.
+                            With a legacy of excellence spanning years, we bring innovation, reliability, and quality craftsmanship to every project we undertake.
+                        </p>
+                        <div class="col-12 text-center mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" style="width: 750px;" alt="">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-6">
-                        <div class="mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="projectdetails-1-text mb_30 pt-5">
-                            <p>When it comes to realizing your dream home or investment property in Trichy, finding the
-                                right builder is the first and crucial step. At Sthree Engineers, we take pride in being
-                                your trusted partner in the journey of building your dreams. Our team of experienced
-                                professionals has been delivering top-notch <span><a href="{{ route('construction') }}" style="color: blue;">construction services </a></span> in Trichy for years,
-                                making us the go-to choice for quality construction projects in the region.
+                    <div class="col-12">
+                        <div class="projectdetails-1-text mb_30">
+                            <h5>About Us</h5>
+                            <p>
+                                Sthree Engineers is a renowned name in the construction industry, known for our unwavering commitment to excellence.
+                                As builders in Trichy, we specialize in a wide range of construction projects, catering to diverse sectors with precision and expertise.
                             </p>
                         </div>
                     </div>
                 </div>
-                <h4 class="fw_bold fs_28 mb_20">Why Choose Builders?</h4>
 
+                <h4 class="fw_bold fs_28 mb_20">Our Services</h4>
                 <div class="projectdetails-1-text mb_30">
-
-                    <p>As it continues to grow and evolve, the demand for residential and commercial spaces is
-                        on the rise. Choosing the right builder is paramount, and here's why SThree Engineers
-                        should be your top choice:
-                    </p>
+                    <p> As your trusted builders in Trichy, we offer an extensive array of services tailored to meet the unique needs of our clients:</p>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <div class="mb_30">
+                            <p>
+                                <b>Residential Buildings :</b>
+                                From custom homes to residential complexes, we specialize in creating living spaces that reflect your style and comfort.
+                            </p>
+                            <p>
+                                <b>Commercial Buildings :</b>
+                                Whether it's office buildings, retail spaces, or commercial complexes, we have the expertise to bring your commercial vision to life.
+                            </p>
+                            <p>
+                                <b>Industrial Construction :</b>
+                                Our proficiency extends to industrial projects, providing comprehensive solutions for factories, warehouses, and manufacturing facilities.
+                            </p>
+                            <p>
+                                <b>Institutional Buildings :</b>
+                                We have the capabilities to construct institutional buildings such as schools, colleges, and healthcare facilities, fostering environments conducive to growth and development.
+                            </p>
+                            <p>
+                                <b>Religious Buildings :</b>
+                                Entrust us with the construction of religious structures, ensuring the sanctity and architectural integrity of your sacred spaces.
+                            </p>
+                            <p>
+                                <b>Roads and Bridges :</b>
+                                Contributing to the infrastructure development of Trichy, we specialize in the construction of roads, bridges, and transportation networks.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-5 text-center mb_20" style="width: 325px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="">
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-6">
-                        <p><b>Local Expertise :</b> With an in-depth understanding of the local market and building
-                            regulations, our builders in Trichy have successfully completed numerous projects across
-                            the city. We know the terrain, the challenges, and the opportunities.
+                    <div class="col-5 text-center mt_30" style="width: 350px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" style="width: 350px;" class="mt_20" alt="">
+                    </div>
+                    <div class="col-7">
+                        <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
+                        <p>
+                            <b>Exceptional Quality :</b>
+                            As leading builders in Trichy, we uphold the highest standards of quality in every project we undertake, ensuring longevity and durability.
                         </p>
-
-                        <p><b>Quality Assurance :</b> We are committed to delivering the highest standards of
-                            construction quality. Our team uses the finest materials and employs modern construction
-                            techniques to ensure that your project meets or exceeds your expectations.
+                        <p>
+                            <b>Client-Centric Approach : </b>
+                            We prioritize client satisfaction, working closely with our clients to understand their needs and deliver solutions that exceed expectations.
                         </p>
-
-                        <p><b>Timely Delivery :</b> Time is of the essence in the construction industry. We take
-                            pride in <span><a href="{{ route('project') }}" style="color: blue;">completing projects </a></span> within the agreed-upon timeframes, ensuring that you can
-                            move into your new space as planned.
+                        <p>
+                            <b>Innovation and Efficiency :</b>
+                            Leveraging the latest technologies and construction practices, we optimize efficiency without compromising on quality, ensuring timely completion of projects.
                         </p>
-
-                        <p><b>Customization :</b> Whether you're looking for a residential villa, apartment complex,
-                            or commercial space, we offer customized solutions tailored to your specific needs and
-                            preferences.
-                        </p>
-
-                        <p><b>Transparency :</b> We believe in open communication. Our clients are kept in the loop
-                            throughout the construction process, with regular updates on progress and costs.
+                        <p>
+                            <b>Proven Track Record :</b>
+                            With a portfolio of successful projects and satisfied clients, we have earned a reputation as the builders in Trichy you can trust.
                         </p>
                     </div>
-                    <div class="col-6 text-center">
-                        <div class="mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" alt="">
-                        </div>
-                        <div class="mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" alt="">
-                        </div>
+
+                </div>
+
+                <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
+                <p>
+                    Ready to embark on your next construction project? Get in touch with us today to discuss your requirements and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier builders in Trichy.
+                </p>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" style="width: 500px;" alt="">
                     </div>
                 </div>
-
-                <h4 class="fw_bold fs_28 mb_20">Why Invest in Trichy</h4>
-                <div class="projectdetails-1-text">
-                    <p>
-                        Trichy is a city on the rise, offering a perfect blend of
-                        tradition and modernity. Its strategic location in Tamil Nadu makes it an attractive
-                        destination for both homebuyers and investors. Here's why investing in Trichy is a wise
-                        choice:
-                    </p>
-                </div>
-                <p><b>Connectivity :</b> Trichy's well-developed road and rail networks make it easily
-                    accessible from major cities like Chennai, Bangalore, and Madurai. The international airport
-                    also enhances connectivity.
-                </p>
-
-                <p><b>Economic Growth :</b> Trichy's economy is thriving, thanks to its booming industrial
-                    sector, including manufacturing, IT, and aerospace industries. This translates into a
-                    promising job market and <span><a href="{{ route('valuation') }}" style="color: blue;"> increased property value. </a></span>
-                </p>
-
-                <p><b>Educational Hub :</b> The city is home to renowned educational institutions, making it a
-                    sought-after destination for students and families seeking quality education.
-                </p>
-
-                <p><b>Cultural Heritage :</b> Trichy boasts a rich cultural heritage with historical temples,
-                    monuments, and festivals. It offers a unique living experience with a blend of tradition and
-                    modernity.
-                </p>
-                <div class="mb_30 text-center"><img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" alt=""></div>
             </div>
         </section>
 

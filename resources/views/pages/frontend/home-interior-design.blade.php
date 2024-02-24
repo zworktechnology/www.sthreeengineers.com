@@ -16,7 +16,7 @@
     <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
 
     <!-- Page Title -->
-    <title>Home Interior Design | Utility and Unique Transformation</title>
+    <title>Home Interior Designer | Utility and Unique Transformation</title>
 
     <!-- Google Tag Manager -->
     <script>
@@ -51,6 +51,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -85,21 +92,22 @@
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation">
-                                        <li><a href="{{ route('index') }}">Home</a></li>
-											<li><a href="{{ route('about') }}">About Us</a></li>
-											<li class="dropdown"><a href="{{ route('service') }}">Services</a>
-												<ul>
-													<li><a href="{{ route('construction') }}">Building Construction </a></li>
-													<li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
-													<li><a href="{{ route('valuation') }}">Valuation</a></li>
-													<li><a href="{{ route('survey') }}">Surveying</a></li>
-													<li><a href="{{ route('interior') }}">Interior Works</a></li>
-													<li><a href="{{ route('approval') }}">Approval</a></li>
-													<li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
-												</ul>
-											</li>
-											<li><a href="{{ route('project') }}">Projects</a></li>
-											<li><a href="{{ route('contact') }}">Contact</a></li>
+                                            <li><a href="{{ route('index') }}">Home</a></li>
+                                            <li><a href="{{ route('about') }}">About Us</a></li>
+                                            <li class="dropdown"><a href="{{ route('service') }}">Services</a>
+                                                <ul>
+                                                    <li><a href="{{ route('construction') }}">Building Construction </a></li>
+                                                    <li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
+                                                    <li><a href="{{ route('valuation') }}">Valuation</a></li>
+                                                    <li><a href="{{ route('survey') }}">Surveying</a></li>
+                                                    <li><a href="{{ route('interior') }}">Interior Works</a></li>
+                                                    <li><a href="{{ route('approval') }}">Approval</a></li>
+                                                    <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{ route('blog') }}">Blog</a></li>
+                                            <li><a href="{{ route('project') }}">Projects</a></li>
+                                            <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
 
                                     </div>
@@ -270,80 +278,87 @@
         </section>
 
         <!-- Project Details -->
-        <section class="projectdetails-1-section pt_120 pb_90">
-            <div class="auto-container">
+        <section class="projectdetails-1-section pt_70 pb_90">
+            <div class="container">
+
+                <div class="sec-title-area mb_10">
+                    <div class="row ">
+                        <p class="mb_30">
+                            At Sthree Engineers, we take pride in transforming houses into dream homes through our expert home interior design services.
+                            As your dedicated home interior designer, we bring creativity, functionality, and style together to create spaces that truly reflect your personality and lifestyle.
+                        </p>
+                        <div class="col-12 text-center mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-13.webp') }}" style="width: 750px;" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="fw_bold fs_28 mb_20">Our Home Interior Design Services</h4>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-title-area mb_30">
-                            <h2 class="fw_black fs_45">Crafting Your Dream Home</h2>
-                        </div>
-                        <div class="projectdetails-1-text mb_30">
-                            <p>Your home is more than just four walls; it's an expression of your personality and style. When it
-                                comes to designing the interiors of your home, partnering with the right home interior
-                                designer is the key to bringing your vision to life. At Sthree Engineers, we are your trusted
-                                ally in creating interiors that reflect your unique taste and preferences. With our experienced
-                                team of
-                                <span><a href="{{ route('project') }}" style="color: blue;">home interior designers</a></span>
-                                , we specialize in turning homes into dream homes.
+                    <div class="col-7">
+                        <div class="mb_30">
+                            <p>
+                                <b>Personalized Consultation :</b>
+                                Our journey begins with a personalized consultation where we delve into your vision, preferences, and lifestyle. We pay meticulous attention to every detail to ensure that the final design aligns perfectly with your aspirations.
+                            </p>
+                            <p>
+                                <b>Space Planning and Layout :</b>
+                                Efficient space planning is crucial for creating a harmonious home environment. Our home interior designers excel in optimizing space utilization, ensuring that each room is not only aesthetically pleasing but also functional and practical.
+                            </p>
+                            <p>
+                                <b>Customized Furniture and Fixtures :</b>
+                                Elevate your home with bespoke furniture and fixtures that are tailored to your taste. Our home interior designer team collaborates with skilled craftsmen to bring your unique design ideas to life, creating one-of-a-kind pieces that enhance the overall ambiance of your home.
+                            </p>
+                            <p>
+                                <b>Color Palette and Material Selection :</b>
+                                Choosing the right color palette and materials is fundamental to achieving a cohesive design. Our experienced home interior designers guide you through the selection process, considering factors such as durability, aesthetics, and personal preferences.
+                            </p>
+                            <p>
+                                <b>Lighting Design :</b>
+                                Lighting can significantly impact the mood and atmosphere of a space. Our home interior designer team carefully plans and implements lighting solutions that enhance the beauty of your home, creating a perfect balance between functionality and ambiance.
                             </p>
                         </div>
-                        <h4 class="fw_bold fs_28 mb_20">Why Choose a home Interior Designer?</h4>
-                        <div class="projectdetails-1-text mb_30">
-                            <p>Designing the interiors of your home is a significant endeavor, and here's why selecting a home
-                                interior designer, especially Sthree Engineers, is a wise decision:</p>
-                            <p><b>Expertise :</b> Our home interior designers bring a wealth of expertise to the table. They
-                                are well-versed in the latest design trends, materials, and space optimization techniques to
-                                create functional and aesthetically pleasing interiors.</p>
-                            <p><b>Personalization :</b> We understand that every homeowner has a distinct vision for their home.
-                                Our home
-                                <span><a href="{{ route('interior') }}" style="color: blue;">interior designers work</a></span>
-                                closely with you to understand your preferences and create
-                                custom designs that align with your lifestyle.
-                            </p>
-                            <p><b>Creativity :</b> Creativity is at the core of our designs. From selecting color palettes to
-                                choosing furniture and accessories, our designers infuse creativity into every aspect of your
-                                home's interior.</p>
-                            <p><b>Budget Management :</b> We believe in transparent communication and efficient budget
-                                management. Our designers help you make informed decisions to ensure that your project stays
-                                within budget.</p>
-                            <p><b>Quality Assurance :</b> We use high-quality materials and finishes to ensure that your home's
-                                interiors are not only beautiful but also durable and functional.</p>
-                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="row pt-5">
-                            <div class="col-md-12">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-13.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-14.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-15.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-16.webp') }}" alt=""></div>
-                            </div>
-                        </div>
+                    <div class="col-5 text-center mb_20" style="width: 325px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-14.webp') }}" class="mt_50 ml_20" style="width: 900px; height: 500px;" alt="">
                     </div>
                 </div>
-                <h4 class="fw_bold fs_28 mb_20">Home Interior Design Services</h4>
-                <div class="projectdetails-1-text">
-                    <p>
-                        At
-                        <span><a href="{{ route('index') }}" style="color: blue;">Sthree Engineers</a></span>
-                        , our home interior design services cover a wide
-                        range of areas
-                    </p>
+
+                <div class="row">
+                    <div class="col-5 text-center mt_30" style="width: 350px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-15.webp') }}" style="width: 350px;" class="mt_10" alt="">
+                    </div>
+                    <div class="col-7">
+                        <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
+                        <p>
+                            <b>Expertise :</b>
+                            Our team of seasoned home interior designers brings a wealth of experience and creativity to every project.
+                        </p>
+                        <p>
+                            <b>Client-Centric Approach : </b>
+                            We prioritize your vision and preferences, ensuring that the final design exceeds your expectations.
+                        </p>
+                        <p>
+                            <b>Quality Craftsmanship :</b>
+                            From furniture to fixtures, we collaborate with skilled artisans to deliver high-quality, custom-made pieces.
+                        </p>
+                        <p>
+                            <b>Attention to Detail :</b>
+                            It's the little details that make a big difference. Our meticulous attention to detail sets us apart as your trusted home interior designer.
+                        </p>
+                    </div>
+
                 </div>
-                <p><b>Living Room Design :</b> Create a warm and inviting living space that reflects your personality
-                    and welcomes guests.</p>
-                <p><b>Bedroom Design : </b> Design bedrooms that offer comfort and serenity for relaxation.</p>
-                <p><b>Kitchen and Dining :</b> Transform your kitchen and dining areas into functional and stylish
-                    spaces.</p>
-                <p><b>Bathroom Design :</b> Create spa-like bathrooms with elegant fixtures and finishes.</p>
-                <p><b>Custom Furniture :</b> Our designers can also help you select or customize furniture that
-                    complements your interior design.</p>
+
+                <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
+                <p>
+                Transform your home into a masterpiece with Us, where innovative design meets unparalleled craftsmanship. Contact us today to schedule your consultation with a dedicated home interior designer who will turn your dream home into a reality.
+                </p>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-16.webp') }}" style="width: 500px;" alt="">
+                    </div>
+                </div>
             </div>
         </section>
 

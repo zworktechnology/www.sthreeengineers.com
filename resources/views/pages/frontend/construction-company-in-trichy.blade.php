@@ -51,6 +51,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -98,6 +105,7 @@
                                                     <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="{{ route('blog') }}">Blog</a></li>
                                             <li><a href="{{ route('project') }}">Projects</a></li>
                                             <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
@@ -271,99 +279,115 @@
         </section>
 
         <!-- Project Details -->
-        <section class="projectdetails-1-section pt_120 pb_90">
-
+        <section class="projectdetails-1-section pt_70 pb_90">
             <div class="container">
-                <div class="sec-title-area mb_30">
-                    <h2 class="fw_black fs_45">Building Excellence, Creating Dreams</h2>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="projectdetails-1-text mb_30 pt-3">
-                            <p>When it comes to turning your construction dreams into reality in Trichy, choosing the right
-                                construction company is paramount. At Sthree Engineers, we take pride in being your trusted
-                                partner in the journey of building excellence. Our experienced team of professionals specializes
-                                in delivering top-notch construction services in Trichy, making us the preferred choice for
-                                quality construction projects in the region.</p>
+                
+                <div class="sec-title-area mb_10">
+                    <div class="row ">
+                        <p class="mb_30">
+                            At Sthree Engineers, we pride ourselves on being the foremost construction company in Trichy. With a legacy of excellence spanning years, we bring innovation, reliability, and quality craftsmanship to every project we undertake.
+                        </p>
+                        <div class="col-12 text-center mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-2.webp') }}" style="width: 750px;" alt="">
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-1.webp') }}" alt=""></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="projectdetails-1-text mb_30">
+                            <h5>About Us</h5>
+                            <p>
+                                Sthree Engineers is a leading construction company in Trichy dedicated to delivering unparalleled construction solutions tailored to meet the unique needs of our clients.
+                                Our team comprises seasoned professionals who are experts in their respective fields, ensuring that each project is executed with precision and efficiency.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <h4 class="fw_bold fs_28 mb_20">Why Choose Us for Your Construction Needs in Trichy?</h4>
+                <h4 class="fw_bold fs_28 mb_20">Our Services</h4>
                 <div class="projectdetails-1-text mb_30">
-                    <p> Are you looking to embark on a construction journey in Trichy? Your choice of a construction company can make all the difference in bringing your vision to life seamlessly.
-                        At Sthree Engineers, we stand out as a leading force in the civil project and management industry, offering specialized services tailored to meet your unique needs.
-                        Here's why choosing us is the right decision for your building constructions,<br> <span><a href="{{ route('approval') }}" style="color: blue;">building plan approval</a></span>, and construction services in Trichy.
-                    </p>
+                    <p> As the premier construction company in Trichy, we offer a comprehensive range of services including:</p>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-3.webp') }}" alt="">
+                        </div>
+                    </div>
+
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <div class="mb_30 pt-5">
-                            <img style="width:350px;" src="{{ asset('assets/frontend/images/gallery/gallery-2.webp') }}" alt="">
-                            <br><br>
-                            <img style="width:350px;" src="{{ asset('assets/frontend/images/gallery/gallery-3.webp') }}" alt="">
+                        <div class="mb_30">
+                            <p>
+                                <b>Residential Construction :</b>
+                                From custom homes to apartment complexes, we specialize in creating living spaces that epitomize comfort and luxury.
+                            </p>
+                            <p>
+                                <b>Commercial Construction :</b>
+                                Whether it's office buildings, retail spaces, or industrial complexes, we have the expertise to bring your commercial vision to life.
+                            </p>
+                            <p>
+                                <b>Industrial Construction :</b>
+                                Power your industrial ventures with our robust and efficient construction solutions, designed to meet the demands of modern industries.
+                            </p>
+                            <p>
+                                <b>Institutional Construction :</b>
+                                We understand the unique requirements of institutional projects and deliver functional and inspiring spaces for educational, healthcare, and governmental institutions.
+                            </p>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="projectdetails-1-text mb_30">
                             <p>
-                                <b>Expertise in Building Constructions :</b>
-                                Our team at sthree engineers comprises seasoned professionals with extensive expertise in building constructions.
-                                From residential projects to commercial developments, we bring a wealth of knowledge and experience to every construction endeavor.
-                                Trust us to turn your dreams into reality, creating structures that stand the test of time.
+                                <b>Religious Buildings :</b>
+                                Create sacred spaces that inspire and uplift with our expertise in designing and constructing religious structures that resonate with your beliefs and values.
                             </p>
                             <p>
-                                <b>Streamlined Building Plan Approval Process :</b>
-                                Navigating the intricacies of building plan approval can be a daunting task. However, with us, you can expect a streamlined and efficient approval process.
-                                Our experts are well-versed in local regulations and work diligently to ensure that your plans meet all necessary requirements, expediting the approval process and saving you time and effort.
+                                <b>Infrastructure Development :</b>
+                                Our proficiency extends to infrastructure projects such as roads, bridges, and utilities, contributing to the growth and development of Trichy.
                             </p>
                             <p>
-                                <b>Comprehensive Construction Services :</b>
-                                We offer end-to-end construction services to cater to all your project needs. From project conceptualization and planning to execution and completion, our services cover every stage of the construction lifecycle.
-                                Our commitment to quality and attention to detail set us apart as a reliable partner for all your construction requirements.
-                            </p>
-                            <p>
-                                <b>Local Knowledge and Commitment to Trichy :</b>
-                                Being based in Trichy, we have a deep understanding of the local landscape, regulations, and community needs.
-                                This local knowledge enables us to navigate challenges effectively, ensuring that your
-                                <span><a href="{{ route('project') }}" style="color: blue;">construction project</a></span> aligns seamlessly with the cultural and regulatory context of Trichy.
-                            </p>
-                            <p>
-                                <b>Transparent Communication and Timely Updates :</b>
-                                Communication is key to a successful construction project. We prioritize transparent and open communication, keeping you informed at every stage of the process.
-                                Our commitment to providing timely updates ensures that you are always in the loop, allowing for collaborative decision-making and peace of mind.
+                                <b>Renovation and Remodeling :</b>
+                                Transform your existing space into a masterpiece with our renovation and remodeling services, tailored to suit your aesthetic preferences and functional requirements.
                             </p>
                         </div>
                     </div>
-
-                    <h4 class="fw_bold fs_28 mb_10">Construction Services in Trichy</h4>
-                    <div class="projectdetails-1-text">
-                        <p>
-                            At Sthree Engineers,
-                            <span><a href="{{ route('construction') }}" style="color: blue;">our construction services</a></span> in Trichy span a wide range of project types:
-                        </p>
+                    <h4 class="fw_bold fs_28 mb_10">Why Choose Sthree Engineers?</h4>
+                    <div class="row">
+                        <div class="col-7">
+                            <p>
+                                <b>Residential Construction :</b>
+                                We are committed to delivering the highest standards of quality in every aspect of our work, ensuring that your project stands the test of time.
+                            </p>
+                            <p>
+                                <b>Client-Centric Approach : </b>
+                                At Sthree Engineers, client satisfaction is our top priority. We work closely with our clients, listening to their needs and preferences to deliver solutions that exceed expectations.
+                            </p>
+                            <p>
+                                <b>Innovation and Efficiency :</b>
+                                Leveraging the latest technologies and innovative construction practices, we optimize efficiency without compromising on quality, saving you time and money.
+                            </p>
+                            <p>
+                                <b>Proven Track Record :</b>
+                                With a portfolio of successful projects and satisfied clients, we have earned a reputation as the construction company in Trichy you can trust.
+                            </p>
+                        </div>
+                        <div class="col-5" style="width: 450px;">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-1.webp') }}" class="mt_50" alt="">
+                        </div>
                     </div>
+
+                    <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                     <p>
-                        <b>Residential Construction :</b>
-                        From individual homes to multi-unit residential complexes, we have a proven track record of delivering comfortable and stylish living spaces.
+                        Ready to embark on your next construction project? Get in touch with us today to discuss your requirements and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier construction company in Trichy.
                     </p>
-                    <p>
-                        <b>Commercial Construction : </b>
-                        We specialize in creating innovative and functional commercial properties that cater to businesses of all sizes.
-                    </p>
-                    <p>
-                        <b>Industrial Construction :</b>
-                        Our expertise extends to industrial facilities, warehouses, and manufacturing units, meeting the specific requirements of industrial clients.
-                    </p>
-                    <p>
-                        <b>Infrastructure Projects :</b>
-                        We are equipped to undertake infrastructure projects that contribute to the city's development and growth.
-                    </p>
-                    <div class="mb_30 pt-3"><img src="{{ asset('assets/frontend/images/gallery/gallery-4.webp') }}" alt=""></div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-4.webp') }}" style="width: 500px;" alt="">
+                        </div>
+                    </div>
                 </div>
+            </div>
         </section>
 
         @include('components.guest.footer')

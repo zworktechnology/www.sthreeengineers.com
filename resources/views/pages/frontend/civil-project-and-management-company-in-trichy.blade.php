@@ -51,6 +51,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -98,6 +105,7 @@
                                                     <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="{{ route('blog') }}">Blog</a></li>
                                             <li><a href="{{ route('project') }}">Projects</a></li>
                                             <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
@@ -272,100 +280,110 @@
         </section>
 
         <!-- Project Details -->
-        <section class="projectdetails-1-section pt_120 pb_90">
+        <section class="projectdetails-1-section pt_70 pb_90">
             <div class="container">
-                <div class="sec-title-area mb_30">
-                    <h2 class="fw_black fs_45">Transforming Visions into Reality</h2>
+
+                <div class="sec-title-area mb_10">
+                    <div class="row ">
+                        <p class="mb_30">
+                            At Sthree Engineers, we take pride in being the leading civil project and management company in Trichy.
+                            With our expertise in construction project management, we ensure that every endeavor we undertake is executed with precision and excellence.
+                        </p>
+                        <div class="col-12 text-center mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-5.webp') }}" style="width: 750px;" alt="">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-6">
-                        <div class="projectdetails-1-text mb_30 pt-3">
-                            <p>When it comes to realizing your civil construction projects in Trichy, partnering with the right
-                                civil <span><a href="{{ route('project_management') }}" style="color: blue;">project and management</a></span> company is the cornerstone of success. At Sthree Engineers, we are
-                                your trusted ally in turning your construction visions into tangible reality. With years of
-                                experience and expertise, our dedicated team specializes in delivering top-tier civil project
-                                management services in Trichy, making us the preferred choice for quality construction projects
-                                in the region.
+                    <div class="col-12">
+                        <div class="projectdetails-1-text mb_30">
+                            <h5>About Us</h5>
+                            <p>
+                                Sthree Engineers is dedicated to providing comprehensive solutions in civil project management, making us the preferred choice for clients seeking construction project management services in Trichy and beyond.
+                                With a team of seasoned professionals, we bring expertise, innovation, and reliability to every project we handle.
                             </p>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-5.webp') }}" alt="">
-                        </div>
-                    </div>
                 </div>
 
-                <h4 class="fw_bold fs_28 mb_20">Why Choose a Civil Project and Management Company?</h4>
+                <h4 class="fw_bold fs_28 mb_20">Our Services</h4>
                 <div class="projectdetails-1-text mb_30">
-                    <p>The demand for professional civil project and management<span><a href="{{ route('project') }}" style="color: blue;">
-                                services </a></span> Trichy is on the rise as more individuals and organizations look to invest in
-                        various civil projects. Here's why selecting a civil project and management company in Trichy,
-                        particularly Sthree Engineers, is a strategic move:
-                    </p>
+                    <p> As the foremost civil project and management company in Trichy, we offer a wide range of services tailored to meet the diverse needs of our clients:</p>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <div class="mb_30">
+                            <p>
+                                <b>Project Planning and Execution :</b>
+                                From inception to completion, our construction project management expertise ensures seamless execution and timely delivery of projects, adhering to the highest quality standards.
+                            </p>
+                            <p>
+                                <b>Site Development :</b>
+                                Our skilled team specializes in site development services, including land clearing, grading, and infrastructure installation, laying the foundation for successful construction projects.
+                            </p>
+                            <p>
+                                <b>Quality Assurance and Control :</b>
+                                At Sthree Engineers, we prioritize quality at every stage of the project, implementing rigorous construction project management practices to deliver superior results.
+                            </p>
+                            <p>
+                                <b>Risk Management :</b>
+                                Mitigating risks is crucial in the construction industry. Our proactive approach to risk management ensures smooth project execution and minimizes potential disruptions.
+                            </p>
+                            <p>
+                                <b>Post-Construction Support :</b>
+                                Our commitment to client satisfaction extends beyond project completion. We offer comprehensive post-construction support, ensuring that every aspect of the project meets or exceeds expectations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-5 text-center mb_20" style="width: 325px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-7.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="">
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-6 text-center">
-                        <div class="mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-6.webp') }}" alt="">
-                        </div>
-                        <div class="mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-7.webp') }}" alt="">
-                        </div>
+
+                    <div class="col-5 text-center mt_30" style="width: 350px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-6.webp') }}" style="width: 350px;" class="mt_20" alt="">
                     </div>
-                    <div class="col-6">
-                        <p><b>Local Expertise :</b> Our construction experts have an in-depth understanding of Trichy's
-                            unique landscape, building regulations, and market trends. This local knowledge allows us to
-                            navigate challenges effectively and seize opportunities for your project.
-                        </p>
 
-                        <p><b>Quality Craftsmanship :</b> We are committed to upholding the highest standards of
-                            construction quality. Our team uses premium materials and employs modern construction techniques
-                            to ensure that your project not only meets but exceeds your expectations.
+                    <div class="col-7 ml_50">
+                        <h4 class="fw_bold fs_28 mb_20">Why Choose Sthree Engineers?</h4>
+                        <p>
+                            <b>Expertise :</b>
+                            With years of experience in civil project management, we have the knowledge and skills to handle projects of any scale or complexity.
                         </p>
-
-                        <p><b>Timely Delivery :</b> We understand that time is of the essence in construction. Our track
-                            record speaks for itself as we consistently complete projects within the agreed-upon timeframes,
-                            ensuring that your vision becomes a reality on schedule.
+                        <p>
+                            <b>Innovation : </b>
+                            We leverage the latest technologies and best practices in the industry to deliver innovative solutions that drive efficiency and cost-effectiveness.
                         </p>
-
-                        <p><b>Customization :</b> Whether you require a residential complex, commercial space, or industrial
-                            facility, our <span><a href="{{ route('construction') }}" style="color: blue;">construction services</a></span> in Trichy are tailored to your unique needs and preferences.
+                        <p>
+                            <b>Reliability :</b>
+                            Clients trust us for our unwavering commitment to delivering on time and within budget, without compromising on quality.
                         </p>
-
-                        <p><b>Transparency :</b> We value open and honest communication. Our clients are kept well-informed
-                            throughout the construction process, with regular updates on project progress and budget.
+                        <p>
+                            <b>Client-Centric Approach :</b>
+                            At Sthree Engineers, we prioritize client satisfaction, striving to exceed expectations and build long-lasting relationships.
+                        </p>
+                        <p>
+                            <b>Proven Track Record :</b>
+                            Our portfolio speaks for itself, showcasing a diverse range of successful projects completed with excellence and precision.
                         </p>
                     </div>
+
                 </div>
 
-                <h4 class="fw_bold fs_28 mb_10">Construction Services in Trichy</h4>
-                <div class="projectdetails-1-text">
-                    <p>
-                        At Sthree Engineers, our construction services in Trichy span a wide
-                        range of project types,
-                    </p>
+                <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
+                <p>
+                    Experience the difference of working with the premier civil project and management company in Trichy. Contact Sthree Engineers today to discuss your project requirements and let us turn your vision into reality with our unparalleled expertise in construction project management.
+                </p>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-8.webp') }}" style="width: 500px;" alt="">
+                    </div>
                 </div>
-                <p><b>Residential Construction :</b> From individual homes to multi-unit residential complexes, we have
-                    a proven track record of delivering comfortable and stylish living spaces.
-                </p>
-
-                <p><b>Commercial Construction :</b> We specialize in creating innovative and functional commercial
-                    properties that cater to businesses of all sizes.
-                </p>
-
-                <p><b>Industrial Construction :</b> Our expertise extends to industrial facilities, warehouses, and
-                    manufacturing units, meeting the specific requirements of industrial clients.
-                </p>
-                <p><b>Infrastructure Projects :</b> We are equipped to undertake infrastructure <span><a href="{{ route('project') }}" style="color: blue;">projects</a></span> that contribute
-                    to the city's development and growth.
-                </p>
-
-                <div class="mb_30 text-center"><img src="{{ asset('assets/frontend/images/gallery/gallery-8.webp') }}" alt=""></div>
-
             </div>
-        </section>
+    </div>
+    </section>
 
-        @include('components.guest.footer')
+    @include('components.guest.footer')

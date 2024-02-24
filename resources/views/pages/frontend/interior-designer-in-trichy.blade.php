@@ -51,6 +51,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <style>
+        @media only screen and (max-width: 600px) {
+            [class="col-7"] {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -98,6 +105,7 @@
                                                     <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="{{ route('blog') }}">Blog</a></li>
                                             <li><a href="{{ route('project') }}">Projects</a></li>
                                             <li><a href="{{ route('contact') }}">Contact</a></li>
                                         </ul>
@@ -271,80 +279,97 @@
         </section>
 
         <!-- Project Details -->
-        <section class="projectdetails-1-section pt_120 pb_90">
-            <div class="auto-container">
+        <section class="projectdetails-1-section pt_70 pb_90">
+            <div class="container">
+
+                <div class="sec-title-area mb_10">
+                    <div class="row ">
+                        <p class="mb_30">
+                            Are you seeking expert interior designers in Trichy to transform your space? Look no further than Sthree Engineers.
+                            Our dedicated interior design team is committed to bringing your vision to life with creativity, precision, and flair.
+                        </p>
+                        <div class="col-12 text-center mb_30">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-9.webp') }}" style="width: 750px;" alt="">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-title-area mb_30">
-                            <h2 class="fw_black fs_45">Transforming Spaces with Creativity</h2>
-                        </div>
+                    <div class="col-12">
                         <div class="projectdetails-1-text mb_30">
-                            <p>When it comes to crafting beautiful and functional interiors in Trichy, finding the right
-                                <span><a href="{{ route('interior') }}" style="color: blue;">interior designer</a></span>
-                                is essential. At Sthree Engineers, we are your trusted partners in the journey
-                                of transforming your spaces into works of art. Our experienced team of interior designers in
-                                Trichy specializes in creating unique and personalized interiors that reflect your style and
-                                personality.
-                            </p>
-                        </div>
-                        <h4 class="fw_bold fs_28 mb_20">Why Choose an Interior Designer?</h4>
-                        <div class="projectdetails-1-text mb_30">
-                            <p> As it embraces modern living, the demand for professional interior designers has grown. Here's
-                                why choosing an interior designer in Trichy, particularly Sthree Engineers, is a wise
-                                decision:</p>
-                            <p><b>Local Expertise :</b> Our interior designers have an in-depth understanding of Trichy's
-                                culture, architecture, and design preferences. We blend local aesthetics with contemporary
-                                trends to create spaces that resonate with the city's spirit.</p>
-                            <p><b>Creative Excellence :</b> Creativity is at the heart of our designs. Whether you're
-                                looking to revamp your home, office, or commercial space, our interior designers in Trichy
-                                bring fresh and innovative ideas to the table.</p>
-                            <p><b>Personalization :</b> We understand that each space is unique, and every client has
-                                distinct preferences. Our interior designers work closely with you to tailor designs that
-                                align with your vision and lifestyle.</p>
-                            <p><b>Quality Materials :</b> We prioritize the use of high-quality materials and finishes to
-                                ensure durability and longevity. Our attention to detail in material selection sets us apart
-                                from the rest.</p>
-                            <p><b>Timely Delivery :</b> We recognize the importance of timelines. Our<br>
-                                <span><a href="{{ route('project') }}" style="color: blue;">interior design projects</a></span>
-                                in Trichy are executed efficiently, ensuring that you can enjoy your beautifully
-                                designed space as planned.
+                            <h5>About Us</h5>
+                            <p>
+                            Sthree Engineers is more than just a construction company - we're your trusted partners in design excellence. 
+                            With a specialized interior designer in Trichy team at your service, we offer comprehensive solutions for all your interior design needs.
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6" style="padding-top: 100px">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-9.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-10.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-11.webp') }}" alt=""></div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="mb_30"><img src="{{ asset('assets/frontend/images/gallery/gallery-12.webp') }}" alt=""></div>
-                            </div>
+                </div>
+
+                <h4 class="fw_bold fs_28 mb_20">Our Services</h4>
+                <div class="projectdetails-1-text mb_30">
+                    <p> As your trusted builders in Trichy, we offer an extensive array of services tailored to meet the unique needs of our clients:</p>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <div class="mb_30">
+                            <p>
+                                <b>Design :</b>
+                                Our interior designer in Trichy team brings innovation and expertise to every project, crafting bespoke designs tailored to your preferences and lifestyle.
+                            </p>
+                            <p>
+                                <b>Execution :</b>
+                                From concept to completion, our skilled craftsmen ensure flawless execution, bringing your vision to reality with meticulous attention to detail.
+                            </p>
+                            <p>
+                                <b>Consulting :</b>
+                                Need guidance on design decisions? Our experienced interior designer in Trichy team provides expert consulting services, helping you make informed choices every step of the way.
+                            </p>
+                            <p>
+                                <b>Site Coordination :</b>
+                                We understand the importance of seamless coordination during the construction process. Our dedicated site coordination team ensures smooth workflow and timely project delivery.
+                            </p>
                         </div>
                     </div>
-                    <h4 class="fw_bold fs_28 mb_20">Interior Design Services</h4>
-                    <div class="projectdetails-1-text">
+                    <div class="col-5 text-center mb_20" style="width: 325px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-10.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-5 text-center mt_30" style="width: 350px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-11.webp') }}" style="width: 350px;" class="mt_20" alt="">
+                    </div>
+                    <div class="col-7">
+                        <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
                         <p>
-                            At Sthree Engineers, our interior design services in Trichy encompass
-                            a wide range of areas:
+                            <b>Expertise :</b>
+                            With a highly skilled interior designer in Trichy team, we deliver unparalleled design solutions tailored to your needs.
+                        </p>
+                        <p>
+                            <b>Quality : </b>
+                            We are committed to excellence in every aspect of our work, ensuring superior quality and craftsmanship in every project.
+                        </p>
+                        <p>
+                            <b>Customer Satisfaction :</b>
+                            Your satisfaction is our priority. We work closely with you to understand your vision and exceed your expectations.
+                        </p>
+                        <p>
+                            <b>Reliability :</b>
+                            Trust Sthree Engineers for reliable service, timely delivery, and transparent communication throughout the project.
                         </p>
                     </div>
-                    <p><b>Residential Interiors :</b> From elegant living rooms to cozy bedrooms, our interior designers can
-                        transform your home into a comfortable haven.</p>
-                    <p><b>Commercial Interiors : </b> We specialize in designing office spaces that promote productivity and
-                        create a positive work environment.</p>
-                    <p><b>Retail Interiors :</b> Our expertise extends to creating inviting retail spaces that enhance the
-                        shopping experience.</p>
-                    <p><b>Hospitality Interiors :</b> We have a proven
-                        <span><a href="{{ route('about') }}" style="color: blue;">track record</a></span>
-                        in designing hotels, restaurants, and
-                        cafes that leave a lasting impression on guests.
-                    </p>
+
+                </div>
+
+                <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
+                <p>
+                Transform your space with Sthree Engineers and experience the difference our interior designer in Trichy team can make. Get in touch with us today to discuss your project requirements and embark on a journey of design excellence.
+                </p>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-12.webp') }}" style="width: 500px;" alt="">
+                    </div>
                 </div>
             </div>
         </section>
