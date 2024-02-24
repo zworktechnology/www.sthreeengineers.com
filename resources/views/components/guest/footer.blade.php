@@ -114,7 +114,7 @@
 <script src="{{ asset('assets/frontend/js/odometer.min.js') }}"></script>
 <script src="{{ asset('assets/frontend/js/script.js') }}"></script>
 <!--Chat Bot Start-->
-    <!--<script src="//code.tidio.co/mmmjw8itonoioll2maa7qf0v4scyhmxb.js"></script>--!>
+    <script src="//code.tidio.co/mmmjw8itonoioll2maa7qf0v4scyhmxb.js"></script>
 <!--Chat Bot End-->
 </body>
 
