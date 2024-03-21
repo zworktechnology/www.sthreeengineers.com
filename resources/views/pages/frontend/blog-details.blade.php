@@ -177,7 +177,7 @@
                                         class="fab fa-facebook-square"></span></a></li>
                             <li><a href="https://www.instagram.com/sthreeengineers" target="_blank"><span
                                         class="fab fa-instagram"></span></a></li>
-                            <li><a href="https://www.youtube.com/@sthreeengineers2143" target="_blank"><span
+                            <li><a href="https://www.youtube.com/@sthreeengineers" target="_blank"><span
                                         class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
@@ -272,14 +272,14 @@
                                             href="https://www.facebook.com/sthreeengineers" target="_blank">
                                             <i class="fab fa-facebook-f"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                            href="https://www.linkedin.com/company/sthree-engineering/"
+                                            href="https://www.linkedin.com/company/sthreeengineers"
                                             target="_blank">
                                             <i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                             href="https://www.instagram.com/sthreeengineers" target="_blank">
                                             <i class="fab fa-instagram"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                            href="https://www.youtube.com/@sthreeengineers2143" target="_blank">
+                                            href="https://www.youtube.com/@sthreeengineers" target="_blank">
                                             <i class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
@@ -423,13 +423,13 @@
                                             href="https://www.facebook.com/sthreeengineers" target="_blank"><i
                                                 class="fab fa-facebook-f"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                            href="https://www.linkedin.com/company/sthree-engineering/"
+                                            href="https://www.linkedin.com/company/sthreeengineers"
                                             target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                             href="https://www.instagram.com/sthreeengineers" target="_blank"><i
                                                 class="fab fa-instagram"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                            href="https://www.youtube.com/@sthreeengineers2143" target="_blank"><i
+                                            href="https://www.youtube.com/@sthreeengineers" target="_blank"><i
                                                 class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
