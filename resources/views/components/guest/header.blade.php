@@ -54,6 +54,7 @@
 	<link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
 	<link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
 	<meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>

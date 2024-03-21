@@ -16,16 +16,19 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+        $this->ValidatedData();
+
         $data = new Contact();
 
         $data->name = $request->get('name');
         $data->email = $request->get('email');
-        $data->phone_number = $request->get('phone_number');
+        $data->mobile = $request->get('mobile');
+        $data->subject = $request->get('subject');
         $data->message = $request->get('message');
 
         $data->save();
 
-        return redirect()->back();
+        return redirect()->route('index');
     }
 
     public function reachout($id)
@@ -59,4 +62,16 @@ class ContactController extends Controller
 
     //     return Redirect::to($url)->with('redirectToFunction', true);
     // }
+
+    protected function validatedData()
+    {
+        return request()->validate(
+            [
+                'g-recaptcha-response' => 'required|recaptcha'
+            ],
+            [
+                'g-recaptcha-response.required' => 'Captcha is Required',
+            ]
+        );
+    }
 }

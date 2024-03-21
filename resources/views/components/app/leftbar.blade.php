@@ -4,19 +4,19 @@
     <div class="navbar-brand-box">
         <a href="javascript:void(0);" class="logo logo-dark">
             <span class="logo-sm">
-                <img src="{{ asset('assets/frontend/image/logo/black-logo-1.png') }}" alt="" height="22">
+                <img src="{{ asset('assets/backend/images/favicon.png') }}" alt="" height="50">
             </span>
             <span class="logo-lg">
-                <img src="{{ asset('assets/frontend/image/logo/black-logo-1.png') }}" alt="" height="20">
+                <img src="{{ asset('assets/backend/images/logo-light.png') }}" alt="" height="50">
             </span>
         </a>
 
         <a href="javascript:void(0);" class="logo logo-light">
             <span class="logo-sm">
-                <img src="{{ asset('assets/frontend/image/logo/black-logo-1.png') }}" alt="" height="22">
+                <img src="{{ asset('assets/backend/images/favicon.png') }}" alt="" height="50">
             </span>
             <span class="logo-lg">
-                <img src="{{ asset('assets/frontend/image/logo/black-logo-1.png') }}" alt="" height="20">
+                <img src="{{ asset('assets/backend/images/logo-light.png') }}" alt="" height="50">
             </span>
         </a>
     </div>

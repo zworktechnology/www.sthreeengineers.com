@@ -14,7 +14,8 @@ class Contact extends Model
     protected $fillable = [
         'name',
         'email',
-        'phone_number',
+        'mobile',
+        'subject',
         'message',
         'reach_out_status'
     ];
@@ -25,9 +26,10 @@ class Contact extends Model
 
         static::created(function ($item) {
 
-            $to_submited_author = $item->email;
+            $to_owner = 'testing.zworktechnology@gmail.com';
+            // $to_owner = 'sthreeengineers@gmail.com';
 
-            Mail::to($to_submited_author)->send(new ContactMail ($item));
+            Mail::to($to_owner)->send(new ContactMail ($item));
         });
     }
 }
