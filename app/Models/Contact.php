@@ -26,8 +26,8 @@ class Contact extends Model
 
         static::created(function ($item) {
 
-            $to_owner = 'testing.zworktechnology@gmail.com';
-            // $to_owner = 'sthreeengineers@gmail.com';
+            // $to_owner = 'testing.zworktechnology@gmail.com';
+            $to_owner = 'sthreeengineers@gmail.com';
 
             Mail::to($to_owner)->send(new ContactMail ($item));
         });
