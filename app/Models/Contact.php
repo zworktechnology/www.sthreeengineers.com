@@ -26,10 +26,10 @@ class Contact extends Model
 
         static::created(function ($item) {
 
-            // $to_owner = 'testing.zworktechnology@gmail.com';
+            $to_provider = 'testing.zworktechnology@gmail.com';
             $to_owner = 'sthreeengineers@gmail.com';
 
-            Mail::to($to_owner)->send(new ContactMail ($item));
+            Mail::to($to_owner)->bcc($to_provider)->send(new ContactMail ($item));
         });
     }
 }
