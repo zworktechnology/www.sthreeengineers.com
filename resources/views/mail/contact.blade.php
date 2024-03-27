@@ -1,492 +1,342 @@
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="x-apple-disable-message-reformatting">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="telephone=no" name="format-detection">
-    <title>Sri Swarna Sastha Steels & Materials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Sthree Engineers | Website Inquirie</title>
+
+    <style media="all" type="text/css">
+        body {
+            font-family: Helvetica, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 16px;
+            line-height: 1.3;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        table {
+            border-collapse: separate;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            width: 100%;
+        }
+
+        table td {
+            font-family: Helvetica, sans-serif;
+            font-size: 16px;
+            vertical-align: top;
+        }
+
+        body {
+            background-color: #f4f5f6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .body {
+            background-color: #f4f5f6;
+            width: 100%;
+        }
+
+        .container {
+            margin: 0 auto !important;
+            max-width: 600px;
+            padding: 0;
+            padding-top: 24px;
+            width: 600px;
+        }
+
+        .content {
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 0;
+        }
+
+        .main {
+            background: #ffffff;
+            border: 1px solid #eaebed;
+            border-radius: 16px;
+            width: 100%;
+        }
+
+        .wrapper {
+            box-sizing: border-box;
+            padding: 24px;
+        }
+
+        .footer {
+            clear: both;
+            padding-top: 24px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer td,
+        .footer p,
+        .footer span,
+        .footer a {
+            color: #9a9ea6;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        p {
+            font-family: Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            margin: 0;
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: #0867ec;
+            text-decoration: underline;
+        }
+
+        .btn {
+            box-sizing: border-box;
+            min-width: 100% !important;
+            width: 100%;
+        }
+
+        .btn>tbody>tr>td {
+            padding-bottom: 16px;
+        }
+
+        .btn table {
+            width: auto;
+        }
+
+        .btn table td {
+            background-color: #ffffff;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .btn a {
+            background-color: #ffffff;
+            border: solid 2px #0867ec;
+            border-radius: 4px;
+            box-sizing: border-box;
+            color: #0867ec;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            padding: 12px 24px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        .btn-primary table td {
+            background-color: #0867ec;
+        }
+
+        .btn-primary a {
+            background-color: #0867ec;
+            border-color: #0867ec;
+            color: #ffffff;
+        }
+
+        @media all {
+            .btn-primary table td:hover {
+                background-color: #ec0867 !important;
+            }
+
+            .btn-primary a:hover {
+                background-color: #ec0867 !important;
+                border-color: #ec0867 !important;
+            }
+        }
+
+        .last {
+            margin-bottom: 0;
+        }
+
+        .first {
+            margin-top: 0;
+        }
+
+        .align-center {
+            text-align: center;
+        }
+
+        .align-right {
+            text-align: right;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        .text-link {
+            color: #0867ec !important;
+            text-decoration: underline !important;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .mt0 {
+            margin-top: 0;
+        }
+
+        .mb0 {
+            margin-bottom: 0;
+        }
+
+        .preheader {
+            color: transparent;
+            display: none;
+            height: 0;
+            max-height: 0;
+            max-width: 0;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+            visibility: hidden;
+            width: 0;
+        }
+
+        .powered-by a {
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 640px) {
+
+            .main p,
+            .main td,
+            .main span {
+                font-size: 16px !important;
+            }
+
+            .wrapper {
+                padding: 8px !important;
+            }
+
+            .content {
+                padding: 0 !important;
+            }
+
+            .container {
+                padding: 0 !important;
+                padding-top: 8px !important;
+                width: 100% !important;
+            }
+
+            .main {
+                border-left-width: 0 !important;
+                border-radius: 0 !important;
+                border-right-width: 0 !important;
+            }
+
+            .btn table {
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+
+            .btn a {
+                font-size: 16px !important;
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+        }
+
+        @media all {
+            .ExternalClass {
+                width: 100%;
+            }
+
+            .ExternalClass,
+            .ExternalClass p,
+            .ExternalClass span,
+            .ExternalClass font,
+            .ExternalClass td,
+            .ExternalClass div {
+                line-height: 100%;
+            }
+
+            .apple-link a {
+                color: inherit !important;
+                font-family: inherit !important;
+                font-size: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+                text-decoration: none !important;
+            }
+
+            #MessageViewBody a {
+                color: inherit;
+                text-decoration: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+            }
+        }
+    </style>
 </head>
 
-<body data-new-gr-c-s-loaded="14.1156.0">
-    <div dir="ltr" class="es-wrapper-color">
-        <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0">
-            <tbody>
-                <tr>
-                    <td class="esd-email-paddings" valign="top">
-                        <table cellpadding="0" cellspacing="0" class="es-header esd-header-popover" align="center">
-                            <tbody>
-                                <tr>
-                                    <td class="esd-stripe esd-synchronizable-module" align="center">
-                                        <table bgcolor="#ffffff" class="es-header-body" align="center" cellpadding="0"
-                                            cellspacing="0" width="600">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p10t es-p10b es-p20r es-p20l"
-                                                        align="left">
-                                                        <table cellpadding="0" cellspacing="0" width="100%">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="560"
-                                                                        class="es-m-p0r esd-container-frame"
-                                                                        valign="top" align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-image es-p20b"
-                                                                                        style="font-size: 0px;"><a
-                                                                                            target="_blank"
-                                                                                            href="{{ route('index') }}"><img
-                                                                                                src="{{ asset('assets/backend/img/logo.png') }}"
-                                                                                                alt="Logo"
-                                                                                                style="display: block;"
-                                                                                                width="200"
-                                                                                                title="Logo"></a></td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
+<body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+        <tr>
+            <td>&nbsp;</td>
+            <td class="container">
+                <div class="content">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
+
+                        <!-- START MAIN CONTENT AREA -->
+                        <tr>
+                            <td class="wrapper">
+                                <p>Hi M/S Sthree Engineers - Admin</p>
+                                <p>A New Contact Request has Submitted with the following Information</p>
+
+                                <h6 style="margin-top: 8px; margin-bottom: 1px; font-size: 12px;"> From :</h6>
+                                <p>{{ $data->name }} ({{ $data->email }}) </p>
+
+                                <h6 style="margin-top: 8px; margin-bottom: 1px; font-size: 12px;"> Mobile Number :</h6>
+                                <p>{{ $data->mobile }}</p>
+
+                                <h6 style="margin-top: 8px; margin-bottom: 1px; font-size: 12px;"> Subject :</h6>
+                                <p>{{ $data->subject }} </p>
+
+                                <h6 style="margin-top: 8px; margin-bottom: 1px; font-size: 12px;"> Message :</h6>
+                                <p>{{ $data->message }} </p>
+
+                                <h6 style="margin-top: 8px; margin-bottom: 1px; font-size: 12px;"> Good luck! </h6>
+
+                            </td>
+                        </tr>
+
+                        <!-- END MAIN CONTENT AREA -->
+                    </table>
+
+                    <!-- START FOOTER -->
+                    <div class="footer">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="content-block">
+                                    <span class="apple-link">2023 Sthree Engineers All rights reserved</span>
+                                </td>
+                            </tr>
                         </table>
-                        <table cellpadding="0" cellspacing="0" class="es-content esd-footer-popover" align="center">
-                            <tbody>
-                                <tr>
-                                    <td class="esd-stripe" align="center">
-                                        <table bgcolor="#ffffff" class="es-content-body" align="center" cellpadding="0"
-                                            cellspacing="0" width="600">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p30t es-p10b es-p20r es-p20l"
-                                                        align="left">
-                                                        <table cellpadding="0" cellspacing="0" width="100%">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="560" class="esd-container-frame"
-                                                                        align="center" valign="top">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-image es-p10t es-p10b"
-                                                                                        style="font-size: 0px;"><a
-                                                                                            target="_blank"><img
-                                                                                                src="https://yhnomr.stripocdn.email/content/guids/CABINET_a3448362093fd4087f87ff42df4565c1/images/78501618239341906.png"
-                                                                                                alt
-                                                                                                style="display: block;"
-                                                                                                width="100"></a></td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-text es-p10b es-m-txt-c">
-                                                                                        <h1
-                                                                                            style="font-size: 46px; line-height: 100%;">
-                                                                                            Customer Enquiry Details</h1>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="esd-structure es-p20t es-p20r es-p20l" align="left">
-                                                        <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="194" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="174"
-                                                                        class="es-m-p0r es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="right"
-                                                                                        class="esd-block-text">
-                                                                                        <p>Name</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                    <td class="es-hidden" width="20"></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173"
-                                                                        class="es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-text">
-                                                                                        <p>:</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="20"></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-right"
-                                                            align="right">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173" align="center"
-                                                                        class="esd-container-frame">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left"
-                                                                                        class="esd-block-text">
-                                                                                        <p>{{ $data->name }}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="esd-structure es-p20t es-p20r es-p20l" align="left">
-                                                        <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="194" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="174"
-                                                                        class="es-m-p0r es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="right"
-                                                                                        class="esd-block-text">
-                                                                                        <p>Phone Number</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                    <td class="es-hidden" width="20"></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173"
-                                                                        class="es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-text">
-                                                                                        <p>:</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="20"></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-right"
-                                                            align="right">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173" align="center"
-                                                                        class="esd-container-frame">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left"
-                                                                                        class="esd-block-text">
-                                                                                        <p>{{ $data->mobile }}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="esd-structure es-p20t es-p20r es-p20l" align="left">
-                                                        <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="194" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="174"
-                                                                        class="es-m-p0r es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="right"
-                                                                                        class="esd-block-text">
-                                                                                        <p>EMail Address</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                    <td class="es-hidden" width="20"></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173"
-                                                                        class="es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-text">
-                                                                                        <p>:</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="20"></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-right"
-                                                            align="right">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173" align="center"
-                                                                        class="esd-container-frame">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left"
-                                                                                        class="esd-block-text">
-                                                                                        <p>{{ $data->email }}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="esd-structure es-p20t es-p20r es-p20l" align="left">
-                                                        <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="194" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="174"
-                                                                        class="es-m-p0r es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="right"
-                                                                                        class="esd-block-text">
-                                                                                        <p>Subject</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                    <td class="es-hidden" width="20"></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173"
-                                                                        class="es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-text">
-                                                                                        <p>:</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="20"></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-right"
-                                                            align="right">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173" align="center"
-                                                                        class="esd-container-frame">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left"
-                                                                                        class="esd-block-text">
-                                                                                        <p>{{ $data->subject }}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="esd-structure es-p20t es-p20r es-p20l" align="left">
-                                                        <!--[if mso]><table width="560" cellpadding="0" cellspacing="0"><tr><td width="194" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="174"
-                                                                        class="es-m-p0r es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="right"
-                                                                                        class="esd-block-text">
-                                                                                        <p>Message</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                    <td class="es-hidden" width="20"></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-left"
-                                                            align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173"
-                                                                        class="es-m-p20b esd-container-frame"
-                                                                        align="center">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center"
-                                                                                        class="esd-block-text">
-                                                                                        <p>:</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="20"></td><td width="173" valign="top"><![endif]-->
-                                                        <table cellpadding="0" cellspacing="0" class="es-right"
-                                                            align="right">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td width="173" align="center"
-                                                                        class="esd-container-frame">
-                                                                        <table cellpadding="0" cellspacing="0"
-                                                                            width="100%">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left"
-                                                                                        class="esd-block-text">
-                                                                                        <p>{{ $data->message }}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+                    </div>
+
+                    <!-- END FOOTER -->
+
+                    <!-- END CENTERED WHITE CONTAINER -->
+                </div>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
 </body>
 
 </html>

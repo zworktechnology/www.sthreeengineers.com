@@ -102,6 +102,10 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/mailview', function () {
+    return view('mail.contact');
+})->name('home-interior-design');
+
 // Home - Prevent Back Browser Button - After Logout
 Route::middleware(['prevent-back-history'])->get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

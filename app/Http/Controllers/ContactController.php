@@ -28,7 +28,9 @@ class ContactController extends Controller
 
         $data->save();
 
-        return redirect()->route('index');
+        return view('pages.frontend.thanks');
+
+        // return redirect()->route('index');
     }
 
     public function reachout($id)

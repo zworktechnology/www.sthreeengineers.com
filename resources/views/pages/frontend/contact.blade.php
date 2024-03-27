@@ -45,18 +45,18 @@
                             @csrf
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" name="name" class="form-control"     
+                                    <input type="text" name="name" class="form-control"
                                         placeholder="Name *" required="" value="{{ old('name') }}">
                                 </div>
 
                                 <div class="form-group col-md-6">
                                     <input type="email" name="email" class="form-control"
-                                        placeholder="Email *" required="" value="{{ old('email') }}">
+                                        placeholder="name@example.com *" required="" value="{{ old('email') }}">
                                 </div>
 
                                 <div class="form-group col-md-6">
                                     <input type="number" name="mobile" class="form-control"
-                                        placeholder="Phone Number *" required="" value="{{ old('mobile') }}">
+                                        placeholder="+91 xxxxxxxxxx *" required="" value="{{ old('mobile') }}">
                                 </div>
 
                                 <div class="form-group col-md-6">
