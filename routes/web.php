@@ -102,6 +102,10 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/thankyou', function () {
+    return view('pages.frontend.thanks');
+})->name('thankyou');
+
 // Home - Prevent Back Browser Button - After Logout
 Route::middleware(['prevent-back-history'])->get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

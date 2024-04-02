@@ -5,19 +5,19 @@
             <div class="navbar-brand-box">
                 <a href="javascript:void(0);" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{ asset('assets/frontend/image/logo/black-logo-2.png') }}" alt="" height="22">
+                        <img src="{{ asset('assets/backend/images/favicon.png') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('assets/frontend/image/logo/black-logo-2.png') }}" alt="" height="20">
+                        <img src="{{ asset('assets/backend/images/logo-light.png') }}" alt="" height="20">
                     </span>
                 </a>
 
                 <a href="javascript:void(0);" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ asset('assets/frontend/image/logo/black-logo-2.png') }}" alt="" height="22">
+                        <img src="{{ asset('assets/backend/images/favicon.png') }}" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('assets/frontend/image/logo/black-logo-2.png') }}" alt="" height="20">
+                        <img src="{{ asset('assets/backend/images/logo-light.png') }}" alt="" height="20">
                     </span>
                 </a>
             </div>
@@ -28,17 +28,6 @@
         </div>
 
         <div class="d-flex">
-            <div class="dropdown d-none d-lg-inline-block ms-1">
-                <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
-                    <i class="uil-minus-path"></i>
-                </button>
-            </div>
-
-            <div class="dropdown d-inline-block">
-                <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
-                    <i class="uil-cog"></i>
-                </button>
-            </div>
 
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

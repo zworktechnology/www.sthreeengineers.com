@@ -33,9 +33,9 @@
                         <div class="logo mb_30"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 90px;"></div>
                         <ul class="footer-social-media mt_70">
                             <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.facebook.com/sthreeengineers" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.linkedin.com/company/sthree-engineering/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.linkedin.com/company/sthreeengineers" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.instagram.com/sthreeengineers" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.youtube.com/@sthreeengineers2143" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.youtube.com/@sthreeengineers" target="_blank"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>

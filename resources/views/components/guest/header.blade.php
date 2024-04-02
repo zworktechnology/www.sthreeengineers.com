@@ -52,6 +52,7 @@
 	<link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
 	<link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
 	<meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -164,7 +165,7 @@
 										class="fab fa-facebook-square"></span></a></li>
 							<li><a href="https://www.instagram.com/sthreeengineers" target="_blank"><span
 										class="fab fa-instagram"></span></a></li>
-							<li><a href="https://www.youtube.com/@sthreeengineers2143" target="_blank"><span
+							<li><a href="https://www.youtube.com/@sthreeengineers" target="_blank"><span
 										class="fab fa-youtube"></span></a></li>
 						</ul>
 					</div>
@@ -252,13 +253,13 @@
 											href="https://www.facebook.com/sthreeengineers" target="_blank">
 											<i class="fab fa-facebook-f"></i></a></li>
 									<li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-											href="https://www.linkedin.com/company/sthree-engineering/" target="_blank">
+											href="https://www.linkedin.com/company/sthreeengineers" target="_blank">
 											<i class="fab fa-linkedin-in"></i></a></li>
 									<li><a class="hvr-zoom-1 hvr-zoom-1-primary"
 											href="https://www.instagram.com/sthreeengineers" target="_blank">
 											<i class="fab fa-instagram"></i></a></li>
 									<li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-											href="https://www.youtube.com/@sthreeengineers2143" target="_blank">
+											href="https://www.youtube.com/@sthreeengineers" target="_blank">
 											<i class="fab fa-youtube"></i></a></li>
 								</ul>
 							</div>
