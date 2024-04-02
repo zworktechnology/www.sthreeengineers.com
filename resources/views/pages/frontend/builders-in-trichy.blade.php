@@ -7,13 +7,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-    <meta name="description" content="Discover Trichy's premier builder, crafting dream homes. Your ideal construction partner for a perfect home.">
-    <meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
+    <meta name="description" content="Discover your premier builders in trichy, crafting dream homes. Your ideal construction partner for a perfect home.">
+    <meta name="keywords" content="builders in trichy, builder near me, building contractor and building plan approval">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
-    <meta property="og:title" content="The perfect solution for all your construction needs!">
-    <meta property="og:description" content="Elevating construction excellence, Sthree Engineers - a PMC company, pioneers precision and innovation in project management.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
+    <meta property="og:url" content="https://www.sthreeengineers.com/builders-in-trichy">
+    <meta property="og:title" content="Builders in Trichy deliver exceptional constructions.">
+    <meta property="og:description" content="A leading construction company, is renowned for their exceptional building projects that combine innovation, precision, and quality craftsmanship.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-47.webp" alt="builders in trichy">
 
     <!-- Page Title -->
     <title>Builders In Trichy | Crafting Dream With Your Ideal Builder Partner</title>
@@ -291,7 +291,7 @@
                             With a legacy of excellence spanning years, we bring innovation, reliability, and quality craftsmanship to every project we undertake.
                         </p>
                         <div class="col-12 text-center mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" style="width: 750px;" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" style="width: 750px;" alt="builder near me">
                         </div>
                     </div>
                 </div>
@@ -342,13 +342,13 @@
                         </div>
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="building plan approval">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-5 text-center mt_30" style="width: 350px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" style="width: 350px;" class="mt_20" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" style="width: 350px;" class="mt_20" alt="building contractor">
                     </div>
                     <div class="col-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
@@ -378,7 +378,7 @@
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" style="width: 500px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" style="width: 500px;" alt="builders in trichy">
                     </div>
                 </div>
             </div>

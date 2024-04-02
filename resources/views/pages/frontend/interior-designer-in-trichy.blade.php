@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
     <meta name="description" content="Transform your space with the top interior designer in Trichy. Elevate aesthetics and comfort seamlessly.">
-    <meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
+    <meta name="keywords" content="interior designer in trichy, interior design works, interior designer, interior design">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
+    <meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-in-trichy">
     <meta property="og:title" content="The best solution for your construction needs">
     <meta property="og:description" content="A company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-12.webp" alt="interior design works">
 
     <!-- Page Title -->
     <title>Interior Designer In Trichy | Elevate Your Space with the Best</title>
@@ -289,7 +289,7 @@
                             Our dedicated interior design team is committed to bringing your vision to life with creativity, precision, and flair.
                         </p>
                         <div class="col-12 text-center mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-9.webp') }}" style="width: 750px;" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-9.webp') }}" style="width: 750px;" alt="interior design">
                         </div>
                     </div>
                 </div>
@@ -299,7 +299,7 @@
                         <div class="projectdetails-1-text mb_30">
                             <h5>About Us</h5>
                             <p>
-                            Sthree Engineers is more than just a construction company - we're your trusted partners in design excellence. 
+                            Sthree Engineers is more than just a construction company - we're your trusted partners in design excellence.
                             With a specialized interior designer in Trichy team at your service, we offer comprehensive solutions for all your interior design needs.
                             </p>
                         </div>
@@ -332,13 +332,13 @@
                         </div>
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-10.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-10.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="interior designer">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-5 text-center mt_30" style="width: 350px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-11.webp') }}" style="width: 350px;" class="mt_20" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-11.webp') }}" style="width: 350px;" class="mt_20" alt="interior designer in trichy">
                     </div>
                     <div class="col-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
@@ -368,7 +368,7 @@
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-12.webp') }}" style="width: 500px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-12.webp') }}" style="width: 500px;" alt="interior design works">
                     </div>
                 </div>
             </div>

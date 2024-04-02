@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
     <meta name="description" content="Discover the leading construction company in Trichy, offering exceptional services for all your building needs.">
-    <meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
+    <meta name="keywords" content="construction, construction company in trichy, construction services, valuation, surveying, quantity survey">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
-    <meta property="og:title" content="The perfect solution for all your construction needs!">
-    <meta property="og:description" content="Elevating construction excellence, Sthree Engineers - a PMC company, pioneers precision and innovation in project management.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
+    <meta property="og:url" content="https://www.sthreeengineers.com/construction-company-in-trichy">
+    <meta property="og:title" content="Leading Construction Company in Trichy - Quality Guaranteed!">
+    <meta property="og:description" content="We build more than structures, we build spaces filled with life, laughter, and love. We turn your dreams into the places where you'll make cherished memories.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-4.webp" alt="construction services">
 
     <!-- Page Title -->
     <title>Construction Company in Trichy | Building a Better Future With Us</title>
@@ -281,14 +281,14 @@
         <!-- Project Details -->
         <section class="projectdetails-1-section pt_70 pb_90">
             <div class="container">
-                
+
                 <div class="sec-title-area mb_10">
                     <div class="row ">
                         <p class="mb_30">
                             At Sthree Engineers, we pride ourselves on being the foremost construction company in Trichy. With a legacy of excellence spanning years, we bring innovation, reliability, and quality craftsmanship to every project we undertake.
                         </p>
                         <div class="col-12 text-center mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-2.webp') }}" style="width: 750px;" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-2.webp') }}" style="width: 750px;" alt="quantity survey">
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@
                     <p> As the premier construction company in Trichy, we offer a comprehensive range of services including:</p>
                     <div class="row">
                         <div class="col-12 text-center">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-3.webp') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-3.webp') }}" alt="construction company in trichy">
                         </div>
                     </div>
 
@@ -373,7 +373,7 @@
                             </p>
                         </div>
                         <div class="col-5" style="width: 450px;">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-1.webp') }}" class="mt_50" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-1.webp') }}" class="mt_50" alt="surveying">
                         </div>
                     </div>
 
@@ -383,7 +383,7 @@
                     </p>
                     <div class="row">
                         <div class="col-12 text-center">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-4.webp') }}" style="width: 500px;" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-4.webp') }}" style="width: 500px;" alt="construction">
                         </div>
                     </div>
                 </div>

@@ -11,10 +11,10 @@
             <span class="line-grid-4"></span>
             <span class="line-grid-5"></span>
         </div>
-        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt=""></div>              
+        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="building construction"></div>
         <div class="auto-container">
             <div class="p_relative text-center">
-                <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Surveying</h1> 
+                <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Surveying</h1>
                 <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li class="ml_10 mr_10">/</li>
@@ -27,14 +27,14 @@
     </section>
 
     <!-- services -->
-    <section class="pb_110 pt_100">        
+    <section class="pb_110 pt_100">
         <div class="auto-container">
              <div class="row">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Land Surveying</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Survey/1.jpg')}}" alt="">
+                            <img src="{{asset('assets/frontend/images/resource/Survey/1.jpg')}}" alt="surveyor">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Precise land surveying services for property boundaries and topographical data. Get an accurate picture of your land.
                                 </a>
@@ -46,7 +46,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Building Surveying</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Survey/2.jpg')}}" alt="">
+                            <img src="{{asset('assets/frontend/images/resource/Survey/2.jpg')}}" alt="approval">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Through building surveying to assess structural integrity and condition. Ensure safety and compliance.
                                 </a>
@@ -58,7 +58,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Terrain Survey (Recconnaissance - Reece)</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Survey/3.jpg')}}" alt="">
+                            <img src="{{asset('assets/frontend/images/resource/Survey/3.jpg')}}" alt="builders in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">Sthree Engineers.</a></div>
                         </div>
                     </div>
@@ -68,10 +68,10 @@
     </section>
 
     <!-- whychoose us -->
-    <section class="">    
+    <section class="">
         <div class="parallax-bg-wrap b_0 p_absolute t_0 l_0 r_0 o_hidden">
             <div class="parallax-bg bg_cover  p_absolute t__50 l_0 r_0 b__50" data-parallax='{"y": 30}' style="background-image: url(assets/frontend/images/background/bg-6.jpg);"></div>
-        </div>    
+        </div>
         <div class="auto-container">
             <div class="row no-gutters align-items-end">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">

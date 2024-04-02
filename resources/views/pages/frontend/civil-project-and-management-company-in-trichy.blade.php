@@ -7,13 +7,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-    <meta name="description" content="Enhance construction efficiency with our specialized civil project management services. Discuss with us now!">
-    <meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
+    <meta name="description" content="Transforming Trichy's skyline, one project at a time. Our civil project and management company handles every detail, so you can focus on the dream.">
+    <meta name="keywords" content="pmc company, civil project and management company in trichy, construction industry project management">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
-    <meta property="og:title" content="The perfect solution for all your construction needs!">
-    <meta property="og:description" content="Elevating construction excellence, Sthree Engineers - a PMC company, pioneers precision and innovation in project management.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
+    <meta property="og:url" content="https://www.sthreeengineers.com/civil-project-and-management-company-in-trichy">
+    <meta property="og:title" content="Your peace of mind starts here. Dream realized.">
+    <meta property="og:description" content="From complex plans to soaring structures, our civil engineering experts manage every detail. Your project, our dedication - together, we build the future.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-6.webp" alt="construction industry project management">
 
     <!-- Page Title -->
     <title>Civil Project Management | PMC Company in Trichy</title>
@@ -290,7 +290,7 @@
                             With our expertise in construction project management, we ensure that every endeavor we undertake is executed with precision and excellence.
                         </p>
                         <div class="col-12 text-center mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-5.webp') }}" style="width: 750px;" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-5.webp') }}" style="width: 750px;" alt="civil project and management company in trichy">
                         </div>
                     </div>
                 </div>
@@ -337,14 +337,14 @@
                         </div>
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-7.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-7.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="pmc company">
                     </div>
                 </div>
 
                 <div class="row">
 
                     <div class="col-5 text-center mt_30" style="width: 350px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-6.webp') }}" style="width: 350px;" class="mt_20" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-6.webp') }}" style="width: 350px;" class="mt_20" alt="construction industry project management">
                     </div>
 
                     <div class="col-7 ml_50">
@@ -379,7 +379,7 @@
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-8.webp') }}" style="width: 500px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-8.webp') }}" style="width: 500px;" alt="civil project and management company in trichy">
                     </div>
                 </div>
             </div>

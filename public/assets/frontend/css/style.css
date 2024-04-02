@@ -7,26 +7,26 @@
 
 
 
-* 1. imported styles 
-* 2. miscelnious styles 
+* 1. imported styles
+* 2. miscelnious styles
 * 3. header styles
-* 4. banner styles 
-* 5. about styles 
-* 6. service styles 
-* 7. team styles 
+* 4. banner styles
+* 5. about styles
+* 6. service styles
+* 7. team styles
 * 8. testimonial styles
-* 9. estimate styles 
-* 10. fact styles 
-* 11. main footer styles 
-* 12. why choose styles 
-* 13. welcome styles 
-* 14. project styles 
-* 15. page title styles 
-* 16. blog styles 
-* 17. error styles 
-* 18. commingsoon styles 
-* 19. comment form styles 
-* 20. contact styles 
+* 9. estimate styles
+* 10. fact styles
+* 11. main footer styles
+* 12. why choose styles
+* 13. welcome styles
+* 14. project styles
+* 15. page title styles
+* 16. blog styles
+* 17. error styles
+* 18. commingsoon styles
+* 19. comment form styles
+* 20. contact styles
 
 
 
@@ -47,7 +47,7 @@
 @import url('timePicker.css');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/*** 
+/***
 ====================================================================
 	Reset
 ====================================================================
@@ -61,8 +61,8 @@
 	font-size: 100%;
 	line-height: inherit;
 }
-/*** 
-		
+/***
+
 ====================================================================
 	Global Settings
 ====================================================================
@@ -125,7 +125,7 @@ h1, .h1 {
 	font-size: 100px;
 	font-weight: 700;
 	line-height: 1;
-}	
+}
 
 h2, .h2 {
 	font-size: 60px;
@@ -343,6 +343,7 @@ img {
 	width: 100%;
 	height: 100%;
 	background: #1e1e1e;
+    
 }
 .owl-nav {
 	display: none;
@@ -936,7 +937,7 @@ ul.header-top-1-contact-info li a:hover {
 	z-index: 5;
 	display: none;
 }
-/*** 
+/***
 ====================================================================
 	Search Popup
 ====================================================================
@@ -1085,7 +1086,7 @@ ul.header-top-1-contact-info li a:hover {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-/*** 
+/***
 
 ====================================================================
 			Sticky Header
@@ -1136,8 +1137,8 @@ ul.header-top-1-contact-info li a:hover {
 .sticky-header .main-menu .navigation>li:before {
 	bottom: 20px;
 }
-/*** 
-		
+/***
+
 ====================================================================
 			Mobile Menu
 ====================================================================
@@ -1477,33 +1478,33 @@ ul.header-top-1-contact-info li a:hover {
 	position: relative;
 	display: block;
   }
-  
+
   .sidebar-contact-info ul li {
 	position: relative;
 	display: block;
 	margin-bottom: 23px;
   }
-  
+
   .sidebar-contact-info ul li:last-child {
 	margin-bottom: 0;
   }
-  
+
   .sidebar-contact-info ul li .inner {
 	position: relative;
 	display: block;
 	padding-left: 45px;
   }
-  
+
   .sidebar-contact-info ul li .inner .icon {
 	position: absolute;
 	top: -2px;
 	left: 0;
   }
-  
+
   .sidebar-contact-info ul li:first-child .inner .icon {
 	top: 7px;
   }
-  
+
   .sidebar-contact-info ul li .inner .icon span {
 	position: relative;
 	display: block;
@@ -1511,22 +1512,22 @@ ul.header-top-1-contact-info li a:hover {
 	font-size: 30px;
 	line-height: 30px;
   }
-  
+
   .sidebar-contact-info ul li .inner .icon span.map-marker {
 	position: relative;
 	top: 11px;
 	font-size: 34px;
   }
-  
+
   .sidebar-contact-info ul li .inner .text {
 	position: relative;
 	display: block;
   }
-  
+
   .sidebar-contact-info ul li .inner .text p {
 	line-height: 24px;
   }
-  
+
   .sidebar-contact-info ul li .inner .text p a {
 	color: var(--thm-gray);
   }
@@ -1756,7 +1757,7 @@ header.main-header.header-style-one {
     border-radius: 50%;
     z-index: -1;
     transition: all 500ms ease;
-    
+
 }
 .hvr-zoom-1-dark:before {
 	background: #222;
@@ -1783,7 +1784,7 @@ header.main-header.header-style-one {
     border-radius: 50%;
     z-index: -1;
     transition: all 500ms ease;
-    
+
 }
 .hvr-zoom-2-dark:before {
 	background: #222;
@@ -1842,7 +1843,7 @@ header.main-header.header-style-one {
 @media (min-width:992px) {
 	.ml_lg__30 {
 		margin-left: -30px;
-	}	
+	}
 }
 
 .c_primary {
@@ -2187,12 +2188,12 @@ h4.service-1-title {margin-bottom: -15px;transition: .5s;position: relative;}
 }
 
 .h_576 {
-	height: 576px;	
+	height: 576px;
 }
 
 
 .h_435 {
-	height: 435px;	
+	height: 435px;
 }
 
 .b__50 {
@@ -2400,7 +2401,7 @@ ul.list-1.alt i:before {
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	height: 83%;
+	height: 100%;
 	opacity: 0;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -2452,7 +2453,7 @@ h4.project-1-title {
 	font-weight: 500;
 	left: 30px;
 	bottom: 30px;
-	transition: .5s;	
+	transition: .5s;
 	margin-bottom: 5px;
 }
 .project-1-block:hover .project-1-cat {
@@ -2953,13 +2954,13 @@ form textarea {
 }
 
 form input[type=search]:focus,
-form input[type=text]:focus, 
-form input[type=email]:focus, 
-form input[type=password]:focus, 
-form input[type=tel]:focus, 
-form input[type=number]:focus, 
-form input[type=file]:focus, 
-form select:focus, 
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=password]:focus,
+form input[type=tel]:focus,
+form input[type=number]:focus,
+form input[type=file]:focus,
+form select:focus,
 form textarea:focus {
     border-color: var(--theme-color);
 }
@@ -2973,7 +2974,7 @@ header.main-header.header-style-two {
     padding: 0 70px;
 }
 
-.header-style-two .main-menu .navigation>li.current>a, 
+.header-style-two .main-menu .navigation>li.current>a,
 .header-style-two .main-menu .navigation>li>a:hover {
 	color: #fff;
 }
@@ -3240,7 +3241,7 @@ ul.team-1-social-icon a:hover {
     color: #fff;
 }
 
-.team-1-share-icon:before {	
+.team-1-share-icon:before {
     position: absolute;
     content: '';
     width: 100%;
@@ -3255,7 +3256,7 @@ ul.team-1-social-icon a:hover {
 }
 
 
-.team-1-block:hover .team-1-share-icon:before {	
+.team-1-block:hover .team-1-share-icon:before {
     transform: scale(1,1);
 }
 
@@ -3322,14 +3323,14 @@ ul.team-1-social-icon a:hover {
 }
 
 /* form alt */
-.form-alt form input[type=search], 
-.form-alt form input[type=text], 
-.form-alt form input[type=email], 
-.form-alt form input[type=password], 
-.form-alt form input[type=tel], 
-.form-alt form input[type=number], 
-.form-alt form input[type=file], 
-.form-alt form select, 
+.form-alt form input[type=search],
+.form-alt form input[type=text],
+.form-alt form input[type=email],
+.form-alt form input[type=password],
+.form-alt form input[type=tel],
+.form-alt form input[type=number],
+.form-alt form input[type=file],
+.form-alt form select,
 .form-alt form textarea {
     border-radius: 8px;
     background-color: #ffffff;
@@ -3707,7 +3708,7 @@ a.box-btn-dark:hover {
     color: #000;
 }
 
-.main-header.header-style-three .main-menu .navigation>li.current>a, 
+.main-header.header-style-three .main-menu .navigation>li.current>a,
 .main-header.header-style-three .main-menu .navigation>li>a:hover {
     color: #000;
 }
@@ -3880,7 +3881,7 @@ header.main-header.header-style-four  .header-upper .logo-box .logo {
     padding: 14px 0px;
 }
 
-header.main-header.header-style-four .main-menu .navigation>li.current>a, 
+header.main-header.header-style-four .main-menu .navigation>li.current>a,
 header.main-header.header-style-four .main-menu .navigation>li>a:hover {
     color: #fff;
 }
@@ -3992,7 +3993,7 @@ header.main-header.header-style-five .main-menu .navigation>li {
     padding: 28px 0px;
 }
 
-header.main-header.header-style-five .main-menu .navigation>li.current>a, 
+header.main-header.header-style-five .main-menu .navigation>li.current>a,
 header.main-header.header-style-five .main-menu .navigation>li>a:hover {
 	color: var(--theme-color);
 }
@@ -4034,7 +4035,7 @@ h1.banner-1-side-text {
     position: absolute;
 }
 
-.header-style-six .main-menu .navigation>li.current>a, 
+.header-style-six .main-menu .navigation>li.current>a,
 .header-style-six .main-menu .navigation>li>a:hover {
     color: #fff;
 }
@@ -4078,7 +4079,7 @@ header.main-header.header-style-seven {
     position: absolute;
 }
 
-.header-style-seven .main-menu .navigation>li.current>a, 
+.header-style-seven .main-menu .navigation>li.current>a,
 .header-style-seven .main-menu .navigation>li>a:hover {
 	color: #fff;
 }
@@ -4146,14 +4147,14 @@ header.main-header.header-style-seven {
 	color: #222;
 }
 
-.form-alt2 form input[type=search], 
-.form-alt2 form input[type=text], 
-.form-alt2 form input[type=email], 
-.form-alt2 form input[type=password], 
-.form-alt2 form input[type=tel], 
-.form-alt2 form input[type=number], 
-.form-alt2 form input[type=file], 
-.form-alt2 form select, 
+.form-alt2 form input[type=search],
+.form-alt2 form input[type=text],
+.form-alt2 form input[type=email],
+.form-alt2 form input[type=password],
+.form-alt2 form input[type=tel],
+.form-alt2 form input[type=number],
+.form-alt2 form input[type=file],
+.form-alt2 form select,
 .form-alt2 form textarea {
     background: transparent;
     color: #fff;
@@ -4176,7 +4177,7 @@ header.main-header.header-style-nine .main-menu .navigation>li>a {
     color: #000;
 }
 
-header.main-header.header-style-nine .main-menu .navigation>li.current>a, 
+header.main-header.header-style-nine .main-menu .navigation>li.current>a,
 header.main-header.header-style-nine .main-menu .navigation>li>a:hover {
     color: #000;
 }
@@ -4389,7 +4390,7 @@ header.main-header.header-style-nine button.theme-btn.search-toggler {
 	font-style: italic;
 	color: var(--theme-color);
 }
-/*** 
+/***
 
 ====================================================================
 	Countdown style
@@ -4479,14 +4480,14 @@ background-color: #222;
 }
 
 /* form alt3 */
-.form-alt3 form input[type=search], 
-.form-alt3 form input[type=text], 
-.form-alt3 form input[type=email], 
-.form-alt3 form input[type=password], 
-.form-alt3 form input[type=tel], 
-.form-alt3 form input[type=number], 
-.form-alt3 form input[type=file], 
-.form-alt3 form select, 
+.form-alt3 form input[type=search],
+.form-alt3 form input[type=text],
+.form-alt3 form input[type=email],
+.form-alt3 form input[type=password],
+.form-alt3 form input[type=tel],
+.form-alt3 form input[type=number],
+.form-alt3 form input[type=file],
+.form-alt3 form select,
 .form-alt3 form textarea {
     border: 0;
     border-bottom: 1px solid #e3e3e3;
@@ -4503,7 +4504,7 @@ background-color: #222;
     margin-bottom: 25px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -4730,7 +4731,7 @@ background-color: #222;
 	border-color: var(--theme-color);
 	background-color: var(--theme-color);
 }
-/*** 
+/***
 
 ====================================================================
 	Styled Pagination
@@ -4772,7 +4773,7 @@ background-color: #222;
 	-o-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 }
-.styled-pagination li a:hover, 
+.styled-pagination li a:hover,
 .styled-pagination li a.active {
 	color: #ffffff;
 	border-color: var(--theme-color);
@@ -4817,14 +4818,14 @@ background-color: #222;
     padding-bottom: 130px;
 }
 
-.blog-comment-form form input[type=search], 
-.blog-comment-form form input[type=text], 
-.blog-comment-form form input[type=email], 
-.blog-comment-form form input[type=password], 
-.blog-comment-form form input[type=tel], 
-.blog-comment-form form input[type=number], 
-.blog-comment-form form input[type=file], 
-.blog-comment-form form select, 
+.blog-comment-form form input[type=search],
+.blog-comment-form form input[type=text],
+.blog-comment-form form input[type=email],
+.blog-comment-form form input[type=password],
+.blog-comment-form form input[type=tel],
+.blog-comment-form form input[type=number],
+.blog-comment-form form input[type=file],
+.blog-comment-form form select,
 .blog-comment-form form textarea {
     height: 45px;
     padding-left: 20px;
@@ -5000,27 +5001,27 @@ iframe {
 	margin: 0px;
 	line-height: 28px;
   }
-  
+
   .appointment-form{
 	position: relative;
 	display: block;
   }
-  
+
   .appointment-form .single-box {
 	position: relative;
 	display: block;
 	overflow: hidden;
 	margin-bottom: 30px;
   }
-  
+
   .appointment-form .single-box.selectbox {
 	overflow: inherit;
   }
-  
+
   .appointment-form .single-box .jobsite-address input{
 	margin-bottom: 20px;
   }
-  
+
   .appointment-form .single-box .inner-title{
 	position: relative;
 	display: block;
@@ -5033,7 +5034,7 @@ iframe {
 	font-weight: 600;
 	font-family: 'Barlow', sans-serif;
   }
-  
+
   .appointment-checkbox {
 	position: relative;
 	display: block;
@@ -5105,14 +5106,14 @@ iframe {
   .appointment-checkbox input[type="checkbox"]:checked + label span:after {
 	opacity: 1;
   }
-  
-  
+
+
   .appointment-form input[type="text"],
   .appointment-form input[type="email"],
   .appointment-form textarea,
   .appointment-form select{
 	position: relative;
-	display: block;   
+	display: block;
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	width: 100%;
@@ -5126,17 +5127,17 @@ iframe {
 	transition: all 500ms ease;
 	font-family: 'Barlow', sans-serif;
   }
-  
+
   .appointment-form textarea{
 	height: 180px;
 	resize: none;
   }
-  
+
   .appointment-form input:focus,
   .appointment-form textarea:focus{
 	border-color: #ffc800;
   }
-  
+
   .appointment-form .date-box{
 	position: relative;
 	display: block;
@@ -5154,12 +5155,12 @@ iframe {
 	position: relative;
 	top: 2px;
   }
-  
-  
+
+
   .appointment-form .time-box{
 	position: relative;
 	display: block;
-	width: 160px;  
+	width: 160px;
   }
   .appointment-form .time-box .icon{
 	position: absolute;
@@ -5177,7 +5178,7 @@ iframe {
 	color: #444;
 	font-size: 16px;
   }
-  
+
   .newsletter-checkbox {
 	position: relative;
 	display: block;
@@ -5231,12 +5232,12 @@ iframe {
 	opacity: 1;
 	background: -webkit-linear-gradient(-45deg, #aeb3b9, #e9e9ea 80%);
   }
-  
+
   .appointment-form .bootstrap-select {
 	position: relative;
 	display: block;
   }
-  
+
   .appointment-form .bootstrap-select .dropdown-toggle {
 	position: relative;
 	display: block;
@@ -5261,21 +5262,21 @@ iframe {
 	transition: none !important;
 	font-family: 'Barlow', sans-serif;
   }
-  
+
   .appointment-form .bootstrap-select .dropdown-toggle:focus{
 	outline: none !important;
   }
-  
+
   .appointment-form .bootstrap-select .dropdown-menu li{
 	position: relative;
 	display: block;
   }
-  
+
   .appointment-form .bootstrap-select .dropdown-menu li a span.text {
 	display: inline-block;
 	margin: 0;
   }
-  
+
   .appointment-form .bootstrap-select>.dropdown-toggle::after {
 	position: absolute;
 	top: 50%;
@@ -5316,21 +5317,21 @@ iframe {
 	transition: all 500ms ease;
 	font-family: 'Barlow', sans-serif;
   }
-  
+
   .appointment-form .dropdown-item.active,
   .appointment-form .dropdown-item:active {
 	color: #222222;
   }
-  
+
   .appointment-form .dropdown-item:hover {
 	color: #222222;
   }
-  
+
   .appointment-form-button{
 	position: relative;
 	display: block;
   }
-  
+
   .appointment-form .date-box select{
 	height: 40px;
 	background: #fff;
@@ -5343,19 +5344,19 @@ iframe {
 	margin-right: 10px;
 	float: left;
   }
-  
+
   .appointment-form .date-box #dobday{
 	width: 99px;
   }
-  
+
   .appointment-form .date-box #dobmonth{
 	width: 110px;
   }
-  
+
   .appointment-form .date-box #dobyear{
 	width: 104px;
   }
-  
+
 
 /* header style ten */
 header.main-header.header-style-ten {

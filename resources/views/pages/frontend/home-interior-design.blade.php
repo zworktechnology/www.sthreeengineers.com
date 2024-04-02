@@ -7,13 +7,13 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-    <meta name="description" content="Explore the art of interior design, create your dream Place with our professional services and expertise.">
-    <meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
+    <meta name="description" content="Feeling stuck in a space that doesn't reflect you? A home interior designer unlocks your dream home's potential. Let's create a heaven you love.">
+    <meta name="keywords" content="interior works, home interior designer, interior design, interior design work, interior designer">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
-    <meta property="og:title" content="The perfect solution for all your construction needs!">
-    <meta property="og:description" content="Elevating construction excellence, Sthree Engineers - a PMC company, pioneers precision and innovation in project management.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/images/project/upcoming/1.jpeg">
+    <meta property="og:url" content="https://www.sthreeengineers.com/home-interior-design">
+    <meta property="og:title" content="Love where you live. Home designer creates your dream.">
+    <meta property="og:description" content="Is your home yearning for a refresh? A home interior designer can be your magic wand, transforming your space into a heaven that speaks to your soul.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-13.webp" alt="interior works">
 
     <!-- Page Title -->
     <title>Home Interior Designer | Utility and Unique Transformation</title>
@@ -288,7 +288,7 @@
                             As your dedicated home interior designer, we bring creativity, functionality, and style together to create spaces that truly reflect your personality and lifestyle.
                         </p>
                         <div class="col-12 text-center mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-13.webp') }}" style="width: 750px;" alt="">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-13.webp') }}" style="width: 750px;" alt="interior design">
                         </div>
                     </div>
                 </div>
@@ -320,13 +320,13 @@
                         </div>
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-14.webp') }}" class="mt_50 ml_20" style="width: 900px; height: 500px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-14.webp') }}" class="mt_50 ml_20" style="width: 900px; height: 500px;" alt="interior design work">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-5 text-center mt_30" style="width: 350px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-15.webp') }}" style="width: 350px;" class="mt_10" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-15.webp') }}" style="width: 350px;" class="mt_10" alt="interior designer">
                     </div>
                     <div class="col-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
@@ -356,7 +356,7 @@
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-16.webp') }}" style="width: 500px;" alt="">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-16.webp') }}" style="width: 500px;" alt="home interior designer">
                     </div>
                 </div>
             </div>

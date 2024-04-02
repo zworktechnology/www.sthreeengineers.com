@@ -11,7 +11,7 @@
         <span class="line-grid-4"></span>
         <span class="line-grid-5"></span>
     </div>
-    <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}" alt=""></div>
+    <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}" alt="building construction"></div>
     <div class="auto-container">
         <div class="p_relative text-center">
             <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Our
@@ -46,7 +46,7 @@
 							<li class="filter" data-role="button" data-filter=".cat-2">Ongoing</li>
 							<li class="filter" data-role="button" data-filter=".cat-3">Completed</li>
 						</ul>
-					</div> -->                
+					</div> -->
                 <!--Sortable Galery-->
 
                 <div class="sortable-masonry">
@@ -54,7 +54,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/1.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/kknagar/1.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/kknagar/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -68,7 +68,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/2.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/kknagar/2.webp') }}" alt="building contractor">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/kknagar/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -82,7 +82,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/3.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/kknagar/3.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/kknagar/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -96,7 +96,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -116,7 +116,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/1.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/1.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/gunaseelam/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -130,7 +130,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/2.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/2.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/gunaseelam/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -144,7 +144,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/3.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/3.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/gunaseelam/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -158,7 +158,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -178,7 +178,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/sajith/1.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/sajith/1.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/sajith/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -198,7 +198,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/1.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/1.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -212,7 +212,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/2.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/2.webp') }}" alt="building contractor">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -226,7 +226,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/3.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/3.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -240,7 +240,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -260,7 +260,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/1.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/office interior/1.webp') }}" alt="Interior designer in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/office interior/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -274,7 +274,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/2.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/office interior/2.webp') }}" alt="home interior design">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/office interior/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -288,7 +288,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/3.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/office interior/3.webp') }}" alt="Interior designer in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/office interior/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -302,7 +302,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" alt="interior works">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -322,7 +322,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/1.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/1.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/ramyas hotel/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -336,7 +336,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/2.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/2.webp') }}" alt="builders in trichy">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/ramyas hotel/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -350,7 +350,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/3.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/3.webp') }}" alt="building contractor">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/ramyas hotel/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
@@ -364,7 +364,7 @@
                         <div class="masonry-item all cat-1 col-lg-3 col-md-6">
                             <div class="project-1-block alt">
                                 <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/4.webp') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/4.webp') }}" alt="building construction">
                                     <div class="project-1-overlay">
                                         <a href="{{ asset('assets/frontend/images/project/ramyas hotel/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                     </div>
