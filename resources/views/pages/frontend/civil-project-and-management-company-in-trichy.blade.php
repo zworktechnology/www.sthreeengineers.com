@@ -287,7 +287,7 @@
                     <div class="row ">
                         <p class="mb_30">
                             At Sthree Engineers, we take pride in being the leading civil project and management company in Trichy.
-                            With our expertise in construction project management, we ensure that every endeavor we undertake is executed with precision and excellence.
+                            With our expertise in construction <a href="{{ route('project_management') }}" style="color: blue">project management </a>, we ensure that every endeavor we undertake is executed with precision and excellence.
                         </p>
                         <div class="col-12 text-center mb_30">
                             <img src="{{ asset('assets/frontend/images/gallery/gallery-5.webp') }}" style="width: 750px;" alt="civil project and management company in trichy">
@@ -320,7 +320,7 @@
                             </p>
                             <p>
                                 <b>Site Development :</b>
-                                Our skilled team specializes in site development services, including land clearing, grading, and infrastructure installation, laying the foundation for successful construction projects.
+                                Our skilled team specializes in site development services, including land clearing, grading, and infrastructure installation, laying the foundation for <a href="{{ route('project') }}" style="color: blue">successful construction projects </a>.
                             </p>
                             <p>
                                 <b>Quality Assurance and Control :</b>
@@ -375,7 +375,7 @@
 
                 <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                 <p>
-                    Experience the difference of working with the premier civil project and management company in Trichy. Contact Sthree Engineers today to discuss your project requirements and let us turn your vision into reality with our unparalleled expertise in construction project management.
+                    Experience the difference of working with the premier civil project and management company in Trichy. Contact Sthree Engineers today to <a href="{{ route('contact') }}" style="color: blue"> discuss your project requirements </a> and let us turn your vision into reality with our unparalleled expertise in construction project management.
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">

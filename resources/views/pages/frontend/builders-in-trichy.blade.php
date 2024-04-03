@@ -302,7 +302,7 @@
                             <h5>About Us</h5>
                             <p>
                                 Sthree Engineers is a renowned name in the construction industry, known for our unwavering commitment to excellence.
-                                As builders in Trichy, we specialize in a wide range of construction projects, catering to diverse sectors with precision and expertise.
+                                As builders in Trichy, we specialize in a <a href="{{ route('construction') }}" style="color: blue"> wide range of construction </a> projects, catering to diverse sectors with precision and expertise.
                             </p>
                         </div>
                     </div>
@@ -354,7 +354,7 @@
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
                         <p>
                             <b>Exceptional Quality :</b>
-                            As leading builders in Trichy, we uphold the highest standards of quality in every project we undertake, ensuring longevity and durability.
+                            As <a href="{{ route('index') }}" style="color: blue">leading builders in Trichy </a>, we uphold the highest standards of quality in every project we undertake, ensuring longevity and durability.
                         </p>
                         <p>
                             <b>Client-Centric Approach : </b>
@@ -374,7 +374,7 @@
 
                 <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                 <p>
-                    Ready to embark on your next construction project? Get in touch with us today to discuss your requirements and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier builders in Trichy.
+                    Ready to embark on your next construction project? Get in touch with us today to <a href="{{ route('contact') }}" style="color: blue"> discuss your requirements </a> and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier builders in Trichy.
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">

@@ -11,9 +11,9 @@
 	<meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.sthreeengineers.com/">
-	<meta property="og:title" content="The best solution for your construction needs">
-	<meta property="og:description" content="A company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/og/ogimage.webp" alt="builders in trichy">
+	<meta property="og:title" content="The Best Solution For Your All Construction Needs">
+	<meta property="og:description" content="A construction company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Building_Construction/2.jpg" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 
 	<!-- Page Title -->
 	<title>Sthree Engineers | The Key For All Your Construction Needs</title>
@@ -278,7 +278,7 @@
                 <span class="line-grid-4"></span>
                 <span class="line-grid-5"></span>
             </div>
-            <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/main-slider/image-123.png') }}" alt="building construction">
+            <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/main-slider/image-123.png') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
             </div>
             <!-- <div class="banner-1-image-2" data-parallax='{"x": -50}'><img src="assets/images/main-slider/image-4.png" alt=""></div>                 -->
             <div class="auto-container">
@@ -303,7 +303,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="image p_relative mb_30 d_iblock">
-                            <img src="{{ asset('assets/frontend/images/resource/image-1.jpg') }}" alt="valuation">
+                            <img src="{{ asset('assets/frontend/images/resource/image-1.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <!-- <div class="shape-1 p_absolute r_0 b_0"><img src="assets/images/shape/shape-1.png" alt=""></div>-->
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                                             <p class="mb_20 fs_18 c_light" style="float:right;">Founder</p>
                                         </div>
                                         <div class="image mb_30 mr_20"><img class="b_radius_40"
-                                                src="{{ asset('assets/frontend/images/resource/authors.png') }}" alt="Construction company in trichy"></div>
+                                                src="{{ asset('assets/frontend/images/resource/authors.png') }}"></div>
                                     </div>
                         </div>
                     </div>
@@ -363,7 +363,7 @@
                                     <h4 class="service-1-title fs_23">Building Construction</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/1.jpg') }}" alt="building construction">
+                                    <img src="{{ asset('assets/frontend/images/resource/1.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -383,7 +383,7 @@
                                     <h4 class="service-1-title fs_23">Project Management</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/5.jpg') }}" alt="builders in trichy">
+                                    <img src="{{ asset('assets/frontend/images/resource/5.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -402,7 +402,7 @@
                                     <h4 class="service-1-title fs_23">Interior Works</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/2.jpg') }}" alt="Interior designer in trichy">
+                                    <img src="{{ asset('assets/frontend/images/resource/2.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -421,7 +421,7 @@
                                     <h4 class="service-1-title fs_23">Surveying</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/14.jpg') }}" alt="surveyor">
+                                    <img src="{{ asset('assets/frontend/images/resource/14.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -441,7 +441,7 @@
                                     <h4 class="service-1-title fs_23">Valuation</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/3.jpg') }}" alt="valuation">
+                                    <img src="{{ asset('assets/frontend/images/resource/3.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -460,7 +460,7 @@
                                     <h4 class="service-1-title fs_25">Approval</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/4.jpg') }}" alt="approval">
+                                    <img src="{{ asset('assets/frontend/images/resource/4.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -480,7 +480,7 @@
                                     <h4 class="service-1-title fs_23">Quantity Survey</h4>
                                 </a>
                                 <div class="service-1-image">
-                                    <img src="{{ asset('assets/frontend/images/resource/12.jpg') }}" alt="building construction">
+                                    <img src="{{ asset('assets/frontend/images/resource/12.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                     <div class="service-1-read-more"><a href="javascript:void(0);"
                                             class="c_light ff_sec fw_bold fs_14 ls_1">
                                             <span class="text_j">
@@ -530,7 +530,7 @@
                             </ul>
                             <div class="d-flex align-items-center mb_35">
                                 <div class="image mr_60 p_relative">
-                                    <img src="{{ asset('assets/frontend/images/resource/author-5.jpg') }}" alt="building contractor">
+                                    <img src="{{ asset('assets/frontend/images/resource/author-5.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 </div>
                                 <div class="right-column">
                                     <h5 class="fs_14 fw_bold tt_u c_primary mt_10 mb_10">call for contractor now</h5>
@@ -586,7 +586,7 @@
                             <div class="project-1-column wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" alt="building construction">
+                                        <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                         <div class="project-1-overlay">
                                             <a href="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
@@ -603,7 +603,7 @@
                             <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" alt="building construction">
+                                        <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                         <div class="project-1-overlay">
                                             <a href="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
@@ -620,7 +620,7 @@
                             <div class="project-1-column wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" alt="building construction">
+                                        <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                         <div class="project-1-overlay">
                                             <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
@@ -637,7 +637,7 @@
                             <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
-                                        <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" alt="builders in trichy">
+                                        <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                         <div class="project-1-overlay">
                                             <a href="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" class="project-1-icon"
                                                 data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
@@ -661,7 +661,7 @@
             <div class="auto-container">
                 <div class="row">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="image mb_30"><img src="{{ asset('assets/frontend/images/resource/service-8.jpg') }}" alt="surveyor"></div>
+                        <div class="image mb_30"><img src="{{ asset('assets/frontend/images/resource/service-8.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
                     </div>
                     <div class="col-lg-7">
                         <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span
@@ -723,7 +723,7 @@
                                         </div>
                                         <div class="testimonials-1-author">
                                             <div class="testimonials-1-author-image"><img
-                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="builders in trichy"></div>
+                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
                                             <div class="testimonials-1-author-title">Our Client</div>
                                             <div class="testimonials-1-designation">Review</div>
                                         </div>
@@ -741,7 +741,7 @@
                                         </div>
                                         <div class="testimonials-1-author">
                                             <div class="testimonials-1-author-image"><img
-                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="builders in trichy"></div>
+                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
                                             <div class="testimonials-1-author-title">Our Client</div>
                                             <div class="testimonials-1-designation">Review</div>
                                         </div>
@@ -762,7 +762,7 @@
                                         </div>
                                         <div class="testimonials-1-author">
                                             <div class="testimonials-1-author-image"><img
-                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="builders in trichy"></div>
+                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
                                             <div class="testimonials-1-author-title">Our Client</div>
                                             <div class="testimonials-1-designation">Review</div>
                                         </div>
@@ -779,7 +779,7 @@
                                         </div>
                                         <div class="testimonials-1-author">
                                             <div class="testimonials-1-author-image"><img
-                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="builders in trichy"></div>
+                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
                                             <div class="testimonials-1-author-title">Our Client</div>
                                             <div class="testimonials-1-designation">Review</div>
                                         </div>
@@ -796,7 +796,7 @@
                                         </div>
                                         <div class="testimonials-1-author">
                                             <div class="testimonials-1-author-image"><img
-                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="builders in trichy"></div>
+                                                    src="{{ asset('assets/frontend/images/resource/author-9.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
                                             <div class="testimonials-1-author-title">Our Client</div>
                                             <div class="testimonials-1-designation">Review</div>
                                         </div>

@@ -11,7 +11,7 @@
             <span class="line-grid-4"></span>
             <span class="line-grid-5"></span>
         </div>
-        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="building construction"></div>
+        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
         <div class="auto-container">
             <div class="p_relative text-center">
                 <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Quantity Survey</h1>
@@ -34,7 +34,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Quantity Estimation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/1.jpg')}}" alt="valuation">
+                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/1.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Assess and ensure the quality standards of your construction project. Our experts provide accurate quality estimation.
                                 </a>
@@ -46,7 +46,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Cost Estimation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/2.jpg')}}" alt="building contractor">
+                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/2.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Get precise cost estimates for your project. We help you plan your budget effectively.
                                 </a>
@@ -58,7 +58,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Material Estimation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/3.jpg')}}" alt="building contractor">
+                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/3.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Optimize material usage with our thorough material estimation services. Minimize waste and costs.
                                 </a>
@@ -70,7 +70,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Approved Drawing Estimation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/4.jpg')}}" alt="builders in trichy">
+                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/4.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Estimate project costs based on approved architectural drawings. Ensure compliance with design specifications.
                                 </a>
@@ -82,7 +82,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Loan Estimation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/5.jpg')}}" alt="builders in trichy">
+                            <img src="{{asset('assets/frontend/images/resource/Quality_Survey/5.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Calculate loan requirements with confidence. Our loan estimation services help you secure the right financing.
                                 </a>

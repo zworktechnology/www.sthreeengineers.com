@@ -11,7 +11,7 @@
             <span class="line-grid-4"></span>
             <span class="line-grid-5"></span>
         </div>
-        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="building construction"></div>
+        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior works, Interior designer in trichy, home interior design"></div>
         <div class="auto-container">
             <div class="p_relative text-center">
                 <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Interior Works</h1>
@@ -34,7 +34,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Design</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Interior/1.jpg')}}" alt="interior works">
+                            <img src="{{asset('assets/frontend/images/resource/Interior/1.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior works, Interior designer in trichy, home interior design">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Elevate your space with our creative interior design solutions. Tailored to your style and preferences.
                                 </a>
@@ -46,7 +46,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Execution</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Interior/2.jpg')}}" alt="Interior designer in trichy">
+                            <img src="{{asset('assets/frontend/images/resource/Interior/2.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior works, Interior designer in trichy, home interior design">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Turn your design vision into reality. We handle every detail to bring your dream interior to life.
                                 </a>
@@ -58,7 +58,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Consulting</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Interior/4.jpg')}}" alt="interior works">
+                            <img src="{{asset('assets/frontend/images/resource/Interior/4.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior works, Interior designer in trichy, home interior design">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                             Expert guidance for infrastructure projects, ensuring efficiency, compliance, and sustainability through Civil Consulting Service.
                                 </a>
@@ -70,7 +70,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Site Coordination</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Interior/5.jpg')}}" alt="home interior design">
+                            <img src="{{asset('assets/frontend/images/resource/Interior/5.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior works, Interior designer in trichy, home interior design">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                             Efficiently manage construction projects with our Civil Site Coordination Service, ensuring seamless collaboration and timely progress.
                                 </a>

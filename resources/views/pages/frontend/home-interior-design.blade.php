@@ -11,7 +11,7 @@
     <meta name="keywords" content="interior works, home interior designer, interior design, interior design work, interior designer">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sthreeengineers.com/home-interior-design">
-    <meta property="og:title" content="Love where you live. Home designer creates your dream.">
+    <meta property="og:title" content="Love where you live. Home interior designer creates your dream.">
     <meta property="og:description" content="Is your home yearning for a refresh? A home interior designer can be your magic wand, transforming your space into a heaven that speaks to your soul.">
     <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-13.webp" alt="interior works">
 
@@ -285,7 +285,7 @@
                     <div class="row ">
                         <p class="mb_30">
                             At Sthree Engineers, we take pride in transforming houses into dream homes through our expert home interior design services.
-                            As your dedicated home interior designer, we bring creativity, functionality, and style together to create spaces that truly reflect your personality and lifestyle.
+                            As your dedicated home <a href="{{ route('interior') }}" style="color: blue"> interior designer </a>, we bring creativity, functionality, and style together to create spaces that truly reflect your personality and lifestyle.
                         </p>
                         <div class="col-12 text-center mb_30">
                             <img src="{{ asset('assets/frontend/images/gallery/gallery-13.webp') }}" style="width: 750px;" alt="interior design">
@@ -311,7 +311,7 @@
                             </p>
                             <p>
                                 <b>Color Palette and Material Selection :</b>
-                                Choosing the right color palette and materials is fundamental to achieving a cohesive design. Our experienced home interior designers guide you through the selection process, considering factors such as durability, aesthetics, and personal preferences.
+                                Choosing the right color palette and materials is fundamental to achieving a cohesive design. Our <a href="{{ route('index') }}" style="color: blue"> experienced home interior </a> designers guide you through the selection process, considering factors such as durability, aesthetics, and personal preferences.
                             </p>
                             <p>
                                 <b>Lighting Design :</b>
@@ -352,7 +352,7 @@
 
                 <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                 <p>
-                Transform your home into a masterpiece with Us, where innovative design meets unparalleled craftsmanship. Contact us today to schedule your consultation with a dedicated home interior designer who will turn your dream home into a reality.
+                Transform your home into a masterpiece with Us, where innovative design meets unparalleled craftsmanship. Contact us today to <a href="{{ route('contact') }}" style="color: blue"> schedule your consultation </a> a dedicated home interior designer who will turn your dream home into a reality.
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">

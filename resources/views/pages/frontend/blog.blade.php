@@ -36,7 +36,7 @@
                         <div class="blog-1-image hvr-img-zoom-1"><img src="{{ asset('assets/backend/blog/blog_image/' . $datas->blog_image) }}" alt=""></div>
                         <div class="blog-1-lower-content-alt p_relative">
                             <h4 class="blog-1-title mb_15 fs_34 lh_35">
-                                <a href="{{ route('read-blog', ['title' => $datas->slug_url, 'id' => $datas->random_id]) }}" style="word-spacing: 5px;">{{ $datas->title }}</a>
+                                <a href="{{ route('read-blog', ['title' => $datas->slug_url, 'id' => $datas->random_id]) }}" style="word-spacing: 5px; font-size: 32px;">{{ $datas->title }}</a>
                             </h4>
                             <p style="text-align: justify;">{{ $datas->short_content }}</p>
                             <div class=""><a class="ff_sec fw_bold tt_u fs_14 ls_1 c_primary pr_30 p_relative z_1" href="{{ route('read-blog', ['title' => $datas->slug_url, 'id' => $datas->random_id]) }}">continue reading</a></div>

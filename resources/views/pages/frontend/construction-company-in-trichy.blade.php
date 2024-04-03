@@ -298,7 +298,7 @@
                         <div class="projectdetails-1-text mb_30">
                             <h5>About Us</h5>
                             <p>
-                                Sthree Engineers is a leading construction company in Trichy dedicated to delivering unparalleled construction solutions tailored to meet the unique needs of our clients.
+                                Sthree Engineers is a discuss your project requirements <a href="{{ route('index') }}" style="color: blue">leading construction company in Trichy</a> dedicated to delivering unparalleled construction solutions tailored to meet the unique needs of our clients.
                                 Our team comprises seasoned professionals who are experts in their respective fields, ensuring that each project is executed with precision and efficiency.
                             </p>
                         </div>
@@ -330,14 +330,14 @@
                                 <b>Industrial Construction :</b>
                                 Power your industrial ventures with our robust and efficient construction solutions, designed to meet the demands of modern industries.
                             </p>
-                            <p>
-                                <b>Institutional Construction :</b>
-                                We understand the unique requirements of institutional projects and deliver functional and inspiring spaces for educational, healthcare, and governmental institutions.
-                            </p>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="projectdetails-1-text mb_30">
+                            <p>
+                                <b>Institutional Construction :</b>
+                                We understand the unique requirements of institutional projects and deliver functional and inspiring spaces for educational, healthcare, and governmental institutions.
+                            </p>
                             <p>
                                 <b>Religious Buildings :</b>
                                 Create sacred spaces that inspire and uplift with our expertise in designing and constructing religious structures that resonate with your beliefs and values.
@@ -346,10 +346,6 @@
                                 <b>Infrastructure Development :</b>
                                 Our proficiency extends to infrastructure projects such as roads, bridges, and utilities, contributing to the growth and development of Trichy.
                             </p>
-                            <p>
-                                <b>Renovation and Remodeling :</b>
-                                Transform your existing space into a masterpiece with our renovation and remodeling services, tailored to suit your aesthetic preferences and functional requirements.
-                            </p>
                         </div>
                     </div>
                     <h4 class="fw_bold fs_28 mb_10">Why Choose Sthree Engineers?</h4>
@@ -357,7 +353,7 @@
                         <div class="col-7">
                             <p>
                                 <b>Residential Construction :</b>
-                                We are committed to delivering the highest standards of quality in every aspect of our work, ensuring that your project stands the test of time.
+                                We are committed to delivering the highest standards of <a href="{{ route('project') }}" style="color: blue"> quality in every aspect of our work </a>, ensuring that your project stands the test of time.
                             </p>
                             <p>
                                 <b>Client-Centric Approach : </b>
@@ -379,7 +375,7 @@
 
                     <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                     <p>
-                        Ready to embark on your next construction project? Get in touch with us today to discuss your requirements and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier construction company in Trichy.
+                        Ready to embark on your next construction project? Get in touch with us today to <a href="{{ route('contact') }}" style="color: blue"> discuss your requirements </a>  and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier construction company in Trichy.
                     </p>
                     <div class="row">
                         <div class="col-12 text-center">

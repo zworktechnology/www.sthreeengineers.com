@@ -11,7 +11,7 @@
             <span class="line-grid-4"></span>
             <span class="line-grid-5"></span>
         </div>
-        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="builders in trichy"></div>
+        <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{asset('assets/frontend/images/main-slider/image-2.png')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
         <div class="auto-container">
             <div class="p_relative text-center">
                 <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Project Management</h1>
@@ -34,7 +34,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Project Management</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/9.jpg')}}" alt="building contractor">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/9.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                             Efficiently plan, execute, and oversee construction projects with our comprehensive civil project management services.
                                 </a>
@@ -46,7 +46,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Documentation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/1.jpg')}}" alt="approval">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/1.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Streamline your project with comprehensive documentation services. Organized records for smooth operations.
                                 </a>
@@ -58,7 +58,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">BOQ Preparation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/2.jpg')}}" alt="valuation">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/2.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Accurate BOQs prepared to detail. Ensuring transparency and precision in project cost estimation.
                                 </a>
@@ -70,7 +70,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Time Management</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/3.jpg')}}" alt="valuation">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/3.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Time is money. Our experts optimize project schedules for timely and efficient delivery.
                                 </a>
@@ -82,7 +82,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Bill Certification</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/5.jpg')}}" alt="builders in trichy">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/5.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Trust us for accurate bill certification services. Ensuring fair and transparent financial transactions.
                                 </a>
@@ -94,7 +94,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Cost Management</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/4.jpg')}}" alt="valuation">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/4.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Keep costs in check with our meticulous cost management strategies. Maximizing value for your investments.
                                 </a>
@@ -106,7 +106,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Rate Analysis</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/6.jpg')}}" alt="valuation">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/6.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 In-depth rate analysis for informed decision-making. Achieve cost-effective project outcomes.
                                 </a>
@@ -118,7 +118,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Quality & Cost Audit</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/7.jpg')}}" alt="valuation">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/7.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Rigorous audits for quality and cost-effectiveness. Continuous improvement for project excellence.
                                 </a>
@@ -130,7 +130,7 @@
                     <div class="service-1-block alt">
                         <h4 class="service-1-title fs_25">Project Consultation</h4>
                         <div class="service-1-image">
-                            <img src="{{asset('assets/frontend/images/resource/Project_Management/8.jpg')}}" alt="building contractor">
+                            <img src="{{asset('assets/frontend/images/resource/Project_Management/8.jpg')}}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                             <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">
                                 Consult with our experts for project success. Invaluable insights and guidance throughout your venture.
                                 </a>

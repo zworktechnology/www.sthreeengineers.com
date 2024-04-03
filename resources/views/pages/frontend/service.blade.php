@@ -11,7 +11,7 @@
 	        <span class="line-grid-4"></span>
 	        <span class="line-grid-5"></span>
 	    </div>
-	    <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}" alt="building construction"></div>
+	    <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy"></div>
 	    <div class="auto-container">
 	        <div class="p_relative text-center">
 	            <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">Services</h1>
@@ -44,7 +44,7 @@
 	                        <h4 class="service-1-title fs_25">Building Construction</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/1.jpg') }}" alt="builders in trichy">
+	                        <img src="{{ asset('assets/frontend/images/resource/1.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">Building exceptional structures with precision and quality craftsmanship.</a></div>
 	                    </div>
 	                </div>
@@ -57,7 +57,7 @@
 	                        <h4 class="service-1-title fs_25">Project Management</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/5.jpg') }}" alt="building contractor">
+	                        <img src="{{ asset('assets/frontend/images/resource/5.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">We efficiently manage every aspect of &nbsp;your construction project.</a></div>
 	                    </div>
 	                </div>
@@ -70,7 +70,7 @@
 	                        <h4 class="service-1-title fs_25">Valuation</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/13.jpg') }} " alt="valuation">
+	                        <img src="{{ asset('assets/frontend/images/resource/13.jpg') }} " alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">We provide accurate and reliable property valuation for your needs.</a></div>
 	                    </div>
 	                </div>
@@ -83,7 +83,7 @@
 	                        <h4 class="service-1-title fs_25">Surveying</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/14.jpg') }} " alt="surveyor">
+	                        <img src="{{ asset('assets/frontend/images/resource/14.jpg') }} " alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">We provide Accurate land and building surveying for informed decision-making.</a></div>
 	                    </div>
 	                </div>
@@ -96,7 +96,7 @@
 	                        <h4 class="service-1-title fs_25">Interior Works</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/2.jpg') }}" alt="Interior designer in trichy">
+	                        <img src="{{ asset('assets/frontend/images/resource/2.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior designer in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">Transform your Empty space with customized and innovative designs.</a></div>
 	                    </div>
 	                </div>
@@ -109,7 +109,7 @@
 	                        <h4 class="service-1-title fs_25">Approval</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/4.jpg') }}" alt="approval">
+	                        <img src="{{ asset('assets/frontend/images/resource/4.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">Efficient building approval services for a hassle-free construction process.</a></div>
 	                    </div>
 	                </div>
@@ -122,7 +122,7 @@
 	                        <h4 class="service-1-title fs_25">Quantity Survey</h4>
 	                    </a>
 	                    <div class="service-1-image">
-	                        <img src="{{ asset('assets/frontend/images/resource/12.jpg') }}" alt="surveyor">
+	                        <img src="{{ asset('assets/frontend/images/resource/12.jpg') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 	                        <div class="service-1-read-more"><a href="javascript:void(0);" class="c_light ff_sec fw_bold fs_14 ls_1">Ensure the on time completion in cost-efficiency in your construction project.</a></div>
 	                    </div>
 	                </div>

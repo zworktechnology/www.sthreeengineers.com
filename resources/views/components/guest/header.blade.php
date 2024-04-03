@@ -11,9 +11,9 @@
 	<meta name="keywords" content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.sthreeengineers.com/">
-	<meta property="og:title" content="The best solution for your construction needs">
-	<meta property="og:description" content="A company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/og/image.webp" alt="builders in trichy">
+	<meta property="og:title" content="The Best Solution For Your All Construction Needs">
+	<meta property="og:description" content="A construction company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Building_Construction/2.jpg" alt="builders in trichy">
 
 	<!-- Page Title -->
 	<title>Construction Maestros | Unveiling the Artistry of Sthree Engineers</title>

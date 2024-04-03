@@ -11,8 +11,8 @@
     <meta name="keywords" content="interior designer in trichy, interior design works, interior designer, interior design">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-in-trichy">
-    <meta property="og:title" content="The best solution for your construction needs">
-    <meta property="og:description" content="A company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
+    <meta property="og:title" content="Turn spaces into stories. Design your happy place.">
+    <meta property="og:description" content="From dream to heaven. Steel & brick to sanctuary. We build, our designer ignites joy. Picture your perfect space – we make it real.">
     <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-12.webp" alt="interior design works">
 
     <!-- Page Title -->
@@ -300,7 +300,7 @@
                             <h5>About Us</h5>
                             <p>
                             Sthree Engineers is more than just a construction company - we're your trusted partners in design excellence.
-                            With a specialized interior designer in Trichy team at your service, we offer comprehensive solutions for all your interior design needs.
+                            With a specialized interior designer in Trichy team at your service,<a href="{{ route('service') }}" style="color: blue"> we offer comprehensive solutions </a> for all your interior design needs.
                             </p>
                         </div>
                     </div>
@@ -348,7 +348,7 @@
                         </p>
                         <p>
                             <b>Quality : </b>
-                            We are committed to excellence in every aspect of our work, ensuring superior quality and craftsmanship in every project.
+                            We are committed to excellence in every aspect of our work, ensuring superior quality and craftsmanship in every <a href="{{ route('project') }}" style="color: blue">project</a>.
                         </p>
                         <p>
                             <b>Customer Satisfaction :</b>
@@ -364,7 +364,7 @@
 
                 <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                 <p>
-                Transform your space with Sthree Engineers and experience the difference our interior designer in Trichy team can make. Get in touch with us today to discuss your project requirements and embark on a journey of design excellence.
+                Transform your space with Sthree Engineers and experience the difference our interior designer in Trichy team can make. Get in touch with us today to <a href="{{ route('contact') }}" style="color: blue">discuss your project requirements</a> and embark on a journey of design excellence.
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">
