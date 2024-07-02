@@ -25,366 +25,12 @@
     </div>
 </section>
 
-<!-- project -->
 <section class="pt_110 pb_90">
     <div class="auto-container">
         <div class="d-flex justify-content-between align-items-end">
             <div class="mb_40">
                 <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>our work</h6>
-                <h2 class="fs_35 fw_black">K.K Nagar Project</h2>
-            </div>
-        </div>
-    </div>
-    <div class="auto-container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!--Filter-->
-                <!-- <div class="filters alt">
-						<ul class="filter-tabs filter-btns">
-							<li class="filter active" data-role="button" data-filter=".all">All</li>
-							<li class="filter" data-role="button" data-filter=".cat-1">Upcoming</li>
-							<li class="filter" data-role="button" data-filter=".cat-2">Ongoing</li>
-							<li class="filter" data-role="button" data-filter=".cat-3">Completed</li>
-						</ul>
-					</div> -->
-                <!--Sortable Galery-->
-
-                <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/1.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/kknagar/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">K.K Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/2.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/kknagar/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">K.K Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/3.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/kknagar/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">K.K Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">K.K Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h4 class="fs_35 fw_black mb_40">Gunaseelam Project</h4>
-                <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/1.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/gunaseelam/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Gunaseelam Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/2.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/gunaseelam/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Gunaseelam Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/3.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/gunaseelam/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Gunaseelam Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">Gunaseelam Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h4 class="fs_35 fw_black mb_40"> Mr. Sajith Project</h4>
-                <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/sajith/1.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/sajith/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Mr. Sajith Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h4 class="fs_35 fw_black mb_40"> Vivekanandha Nagar Project</h4>
-                <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/1.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Top View</p>
-                                        <h4 class="project-1-title">Vivekanandha Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/2.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Vivekanandha Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/3.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Vivekanandha Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">Vivekanandha Nagar Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h4 class="fs_35 fw_black mb_40"> Office Interior Project</h4>
-                <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/1.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/office interior/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Office Interior Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/2.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/office interior/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">Office Interior Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/3.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior designer in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/office interior/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">Office Interior Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior works">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/office interior/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Office Interior Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h4 class="fs_35 fw_black mb_40"> Ramyas Hotel Project</h4>
-                <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/1.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/ramyas hotel/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Top View</p>
-                                        <h4 class="project-1-title">Ramyas Hotel Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/2.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/ramyas hotel/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Top View</p>
-                                        <h4 class="project-1-title">Ramyas Hotel Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/3.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/ramyas hotel/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Side View</p>
-                                        <h4 class="project-1-title">Ramyas Hotel Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
-                            <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/ramyas hotel/4.webp') }}" alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                    <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/ramyas hotel/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
-                                    </div>
-                                    <div class="project-1-content">
-                                        <p class="project-1-cat">Front View</p>
-                                        <h4 class="project-1-title">Ramyas Hotel Project</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- <div class="auto-container">
-        <div class="d-flex justify-content-between align-items-end">
-            <div class="mb_40">
-                <h2 class="fs_45 fw_black">Explore Recent Project Video</h2>
+                <h2 class="fs_45 fw_black">Explore Our Projects</h2>
             </div>
         </div>
     </div>
@@ -392,48 +38,153 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="sortable-masonry">
-                    <div class="items-container row">
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
+                    <div class="items-container row" style="position: relative; height: 1065px;">
+                        <div class="masonry-item all cat-1 col-lg-4 col-md-6" style="position: absolute; left: 0px; top: 0px;">
                             <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/1.webp') }}" alt="">
-                                    <div class="p_absolute r_30 b_30"><a href="https://youtu.be/uop7muARSno?si=abi7jxqP9UKBy85z" class="video-btn-1 alt ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a>
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/1.jpeg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/1.jpeg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.Logan Athan, G+3 Style</p>
+                                        <h4 class="project-1-title">New Residential House, 4500sqft</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/2.webp') }}" alt="">
-                                    <div class="p_absolute r_30 b_30"><a href="https://youtu.be/a0iPZXgrQf4?si=ospw_9S687BlrvcC" class="video-btn-1 alt ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a>
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/3.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/3.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.Beerahamed, Vivekanand Nagar</p>
+                                        <h4 class="project-1-title">House Renovation, 1200sqft</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/3.webp') }}" alt="">
-                                    <div class="p_absolute r_30 b_30"><a href="https://youtu.be/V-wG41gDY0Q?si=MxPeh5SXrk7mtcFf" class="video-btn-1 alt ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a>
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/4.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/4.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.Beerahamed, Vivekanand Nagar</p>
+                                        <h4 class="project-1-title">House Renovation, 1200sqft</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/20.webp') }}" alt="">
-                                    <div class="p_absolute r_30 b_30"><a href="https://youtu.be/11qWPK1gZds?si=LAT4wkvpchn2tlwA" class="video-btn-1 alt ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a>
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/7.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/7.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.Aneez, G+1 Style</p>
+                                        <h4 class="project-1-title">New Residential House, 1500sqft</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="masonry-item all cat-1 col-lg-3 col-md-6">
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
-                                <div class="project-1-image" style="height: 200px !important;">
-                                    <img src="{{ asset('assets/frontend/images/project/89.webp') }}" alt="">
-                                    <div class="p_absolute r_30 b_30"><a href="https://youtu.be/Tfb7K1-rdsw?si=ToePy5PT8zc84Wmg" class="video-btn-1 alt ripple" data-fancybox="video-1" data-caption=""><i class="flaticon-play-button"></i></a>
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/8.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/8.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.Aneez, G+1 Style</p>
+                                        <h4 class="project-1-title">New Residential House, 1500sqft</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
+                            <div class="project-1-block alt">
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/6.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/6.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.?, Palpannai</p>
+                                        <h4 class="project-1-title">Residential House, ?sqft</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
+                            <div class="project-1-block alt">
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/5.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/5.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.?, Palpannai</p>
+                                        <h4 class="project-1-title">Residential House, ?sqft</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
+                            <div class="project-1-block alt">
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/9.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/9.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">Mr.?, Goa</p>
+                                        <h4 class="project-1-title">Hospital, ?sqft</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
+                            <div class="project-1-block alt">
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/10.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/10.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">M/s.?, Goa</p>
+                                        <h4 class="project-1-title">Hospital, ?sqft</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
+                            <div class="project-1-block alt">
+                                <div class="project-1-image">
+                                    <img src="{{ asset('assets/frontend/images/project/new/11.jpg') }}" alt="">
+                                    <div class="project-1-overlay">
+                                        <a href="{{ asset('assets/frontend/images/project/new/11.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="project-details.html"><i class="flaticon-link"></i></a>
+                                    </div>
+                                    <div class="project-1-content">
+                                        <p class="project-1-cat">M/s.?, Goa</p>
+                                        <h4 class="project-1-title">Hospital, ?sqft</h4>
                                     </div>
                                 </div>
                             </div>
@@ -442,8 +193,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
-
+    </div>
 </section>
 
 @endsection
