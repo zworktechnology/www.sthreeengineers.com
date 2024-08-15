@@ -52,6 +52,55 @@
 	<link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
 	<link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
 	<meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
+
+    <style>
+        /* Modal background */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        /* Modal content */
+        .modal-content {
+            margin: 10% auto;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Close button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Image inside modal */
+        .modal-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -175,6 +224,14 @@
 				<div class="cursor-follower"></div>
 			</div>
 		</header>
+
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                {{-- <span class="close">&times;</span> --}}
+                <img src="{{ asset('assets/frontend/images/aug15.png') }}" alt="Happy 78th Independence Day">
+            </div>
+        </div>
 
 		<section class="hidden-sidebar close-sidebar">
 			<div class="wrapper-box">
@@ -861,5 +918,30 @@
                 </div>
             </div>
         </section>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user visits the page, open the modal
+            window.onload = function() {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
 
         @include('components.guest.footer')
