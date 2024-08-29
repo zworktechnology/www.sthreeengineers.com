@@ -226,12 +226,12 @@
 		</header>
 
 
-        <div id="myModal" class="modal">
+        {{-- <div id="myModal" class="modal">
             <div class="modal-content">
-                {{-- <span class="close">&times;</span> --}}
+                <span class="close">&times;</span>
                 <img src="{{ asset('assets/frontend/images/aug15.png') }}" alt="Happy 78th Independence Day">
             </div>
-        </div>
+        </div> --}}
 
 		<section class="hidden-sidebar close-sidebar">
 			<div class="wrapper-box">
