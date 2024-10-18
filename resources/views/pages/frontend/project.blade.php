@@ -42,9 +42,9 @@
                         <div class="masonry-item all cat-1 col-lg-4 col-md-6" style="position: absolute; left: 0px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/1.jpeg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/11.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/1.jpeg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/11.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -57,9 +57,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/3.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/5.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/3.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/5.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -72,9 +72,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/4.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/6.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/4.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/6.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -87,9 +87,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/7.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/9.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/7.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/9.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -102,9 +102,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/8.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/10.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/8.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/10.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -117,9 +117,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/6.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/12.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/6.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/12.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -132,9 +132,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/5.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/3.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/5.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('aassets/frontend/images/project/project_images/3.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -147,9 +147,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/9.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/1.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/9.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/1.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -162,9 +162,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/10.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/2.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/10.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/2.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
@@ -177,9 +177,9 @@
                         <div class="masonry-item all cat-2 col-lg-4 col-md-6" style="position: absolute; left: 400px; top: 0px;">
                             <div class="project-1-block alt">
                                 <div class="project-1-image">
-                                    <img src="{{ asset('assets/frontend/images/project/new/11.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/frontend/images/project/project_images/4.webp') }}" alt="">
                                     <div class="project-1-overlay">
-                                        <a href="{{ asset('assets/frontend/images/project/new/11.jpg') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
+                                        <a href="{{ asset('assets/frontend/images/project/project_images/4.webp') }}" class="project-1-icon" data-fancybox="project-1"><i class="flaticon-zoom"></i></a>
                                         <a href="project-details.html"><i class="flaticon-link"></i></a>
                                     </div>
                                     <div class="project-1-content">
