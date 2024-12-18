@@ -1847,7 +1847,7 @@ header.main-header.header-style-one {
 }
 
 .pt_330 {
-    padding-top: 330px;
+    padding-top: 200px;
 }
 
 .pt_240 {
@@ -5789,6 +5789,31 @@ cite.projectdetails-1-author-name {
 	text-align: justify;
 }
 
+.hero_form form input[type=text],form input[type=email]{
+	height: 40px !important;
+	border-radius: 8px !important;
+}
+.hero_form form input[type=text]::placeholder {
+	color: rgb(146, 146, 146);
+	opacity: 1; /* Firefox */
+  }
+.hero_form form textarea{
+	height: 50px !important;
+}
+.hero_form form textarea::placeholder {
+	color: rgb(146, 146, 146);
+	opacity: 1; /* Firefox */
+  }
+.hero_form form textarea{
+	margin-bottom: 0px !important;
+}
 
+.hero_form form .form-group{
+	margin-bottom: 10px !important;
+}
+.hero_form .theme-btn-one{
+	background-color: var(--theme-color);;
+    color:white;
+}
 
 

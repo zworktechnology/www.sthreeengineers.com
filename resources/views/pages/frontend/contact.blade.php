@@ -68,14 +68,14 @@
                                     <textarea name="message" class="form-control" placeholder="Message *" required="">{{ old('message') }}</textarea>
                                 </div>
                                 <div class="row fullwidth">
-                                    <div class="goolge-v2 col-6">
+                                    <div class="goolge-v2 col-md-6">
                                         @if (config('services.recaptcha.key'))
                                             <div class="g-recaptcha"
                                                 data-sitekey="{{ config('services.recaptcha.key') }}">
                                             </div>
                                         @endif
                                     </div>
-                                    <div class="submit-area col-6">
+                                    <div class="submit-area col-md-6 my-md-0 my-4 d-md-block d-flex justify-content-center ">
                                         <button
                                             class="btn-1 text-center pt_12 pb_9 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1"
                                             type="submit" value="Send Mail" name="submit">Send Mail<span></span></button>
@@ -89,19 +89,19 @@
                     <div class="ms-lg-5">
                         <div class="ps-lg-3">
                             <h3 class="fs_35 mb_20">Our Address</h3>
-                            <div class="d-flex align-items-start pb_30">
+                            <div class="d-flex flex-nowrap align-items-start pb_30">
                                 <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-map.png') }}"
                                     alt="">
                                 <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Registered Office :</span> <br>
                                     Pudukkottai Main Road, Subramaniyapuram, Trichy.</p>
                             </div>
-                            <div class="d-flex align-items-start pb_30">
+                            <div class="d-flex flex-nowrap  align-items-start pb_30">
                                 <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-map.png') }}"
                                     alt="">
                                 <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Branch Office :</span> <br> Attur
                                     Main Road, Perambalur, Tamilnadu.</p>
                             </div>
-                            <div class="d-flex align-items-start pb_30">
+                            <div class="d-flex flex-nowrap  align-items-start pb_30">
                                 <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-mail.png') }}"
                                     alt="">
                                 <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Phone :</span> <br> <a
@@ -109,7 +109,7 @@
                                     <sapn> | </sapn><a class="fs_20" href="tel:+917871313987">+91 78713 13987</a>
                                 </p>
                             </div>
-                            <div class="d-flex align-items-start pb_30">
+                            <div class="d-flex flex-nowrap  align-items-start pb_30">
                                 <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-phone.png') }}"
                                     alt="">
                                 <p class="mb_0 fs_20 lh_30"><span class="fs_20 fw_bold c_dark">Email :</span> <br> <a
