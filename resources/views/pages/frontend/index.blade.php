@@ -431,27 +431,27 @@
                 </div>
                 <div class="d-flex justify-content-center w-100 mt-md-0 mt-4 position-relative mb-2"
                     style='z-index:99 !important '>
-                    <div class="hero_form px-4 py-4 w-100 rounded-3" style='background:#f4f4f3;bottom:1px !important'>
-                        <h3 class="fs-5 text-center mb-4">Meet Interior Designer</h3>
+                    <div class="hero_form px-3 py-4 w-100" style='background:#f4f4f3;bottom:1px !important; border-radius: 10px'>
+                        <h3 class="fs-5 text-center mb-3">Hot Deal Alert! Lifetime Structural Warranty - Book a Call Now!</h3>
                         <form class='d-flex flex-md-row flex-column' autocomplete="off" method="POST"
                             action="{{ route('contact.store') }}">
                             @csrf
                             <div class='row col-12 m-0 p-0'>
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-md-3" style="margin-right: 0px !important; padding-right: 0px !important;">
                                     <input class="" type="text" name="name" placeholder="Your Name"
-                                        required="">
+                                        required="" style="border-radius: 8px 0px 0px 8px !important;  height: 50px !important;">
                                 </div>
-                                <div class="form-group col-md-3">
-                                    <input type="text" name="phone" placeholder="Mobile Number" required="">
+                                <div class="form-group col-md-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
+                                    <input type="text" name="phone" placeholder="Mobile Number" required="" style="border-radius: 0px !important;  height: 50px !important;">
                                 </div>
-                                <div class="form-group col-md-3">
-                                    <input type="text" name="address" placeholder="Your Address" required="">
+                                <div class="form-group col-md-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
+                                    <input type="text" name="address" placeholder="Your Address" required="" style="border-radius: 0px !important;  height: 50px !important;">
                                 </div>
                                 {{-- <div class=" col-12 mb-0">
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div> --}}
-                                <div class="col-md-3  form-group message-btn">
-                                    <button type="submit" class="theme-btn-one px-3 py-2 w-100 rounded-2">Book Free
+                                <div class="col-md-3 form-group message-btn" style="margin-left: 0px !important; padding-left: 0px !important;">
+                                    <button type="submit" class="theme-btn-one px-3 w-100" style="border-radius: 0px 8px 8px 0px !important; Padding: 11px 0px;">Book Free
                                         Consultation</button>
                                 </div>
                             </div>
