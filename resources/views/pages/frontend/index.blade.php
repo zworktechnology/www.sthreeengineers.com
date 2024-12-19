@@ -19,26 +19,7 @@
     <meta property="og:image"
         content="https://www.sthreeengineers.com/assets/frontend/images/resource/Building_Construction/2.jpg"
         alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="author" content="Zwork Technology">
-    <meta name="description"
-        content="Our Construction Company in Trichy creates homes filled with love, joy, and memories, transforming dreams into cherished realities for every family.">
-    <meta name="keywords"
-        content="building construction, valuation, interior works, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, Interior designer in trichy, Construction company in trichy, home interior design">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/">
-    <meta property="og:title" content="The Best Solution For Your All Construction Needs">
-    <meta property="og:description"
-        content="A construction company that specializes in safe, dependable, and economical construction. Excellent building services are what we offer.">
-    <meta property="og:image"
-        content="https://www.sthreeengineers.com/assets/frontend/images/resource/Building_Construction/2.jpg"
-        alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
 
-    <!-- Page Title -->
-    <title>Sthree Engineers | The Key For All Your Construction Needs</title>
     <!-- Page Title -->
     <title>Sthree Engineers | The Key For All Your Construction Needs</title>
 
@@ -63,24 +44,10 @@
     <!-- Stylesheets -->
     <link href="{{ asset('assets/frontend/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/frontend/css/style.css') }}" rel="stylesheet">
-    <!-- Stylesheets -->
-    <link href="{{ asset('assets/frontend/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/frontend/css/style.css') }}" rel="stylesheet">
 
     <!-- Responsive File -->
     <link href="{{ asset('assets/frontend/css/responsive.css') }}" rel="stylesheet">
-    <!-- Responsive File -->
-    <link href="{{ asset('assets/frontend/css/responsive.css') }}" rel="stylesheet">
 
-    <!-- Color File -->
-    <link href="{{ asset('assets/frontend/css/color.css') }}" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../../css2?family=Barlow:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
-    <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
     <!-- Color File -->
     <link href="{{ asset('assets/frontend/css/color.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,22 +114,9 @@
         <iframe src="https://www.googletagmanager.com/ns.php?id=GTM-NTTZ597K" height="0" width="0"
             style="display:none;visibility:hidden"></iframe>
     </noscript>
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.php?id=GTM-NTTZ597K" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe>
-    </noscript>
 
     <div class="page-wrapper">
         <div class="page-wrapper">
-
-            {{-- <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">Preloader Close</div>
-            </div>
-            <div class="layer layer-one"><span class="overlay"></span></div>
-            <div class="layer layer-two"><span class="overlay"></span></div>
-            <div class="layer layer-three"><span class="overlay"></span></div>
-        </div> --}}
 
             <header class="main-header header-style-one">
                 <div class="header-upper">
@@ -175,14 +129,10 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-center">
-                                {{-- <div class='d-md-none d-flex'>
-                                <i class='fab fa-whatsapp' style="color:#26d869;font-size:50px"></i>
-                            </div> --}}
                                 <div class="right-column d-flex align-items-center">
                                     <div class="nav-outer">
                                         <div class="mobile-nav-toggler"><img
-                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
-                                                alt="">
+                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
                                         </div>
                                         <nav class="main-menu navbar-expand-md navbar-light">
                                             <div class="collapse navbar-collapse show clearfix"
@@ -190,8 +140,7 @@
                                                 <ul class="navigation">
                                                     <li><a href="{{ route('index') }}">Home</a></li>
                                                     <li><a href="{{ route('about') }}">About Us</a></li>
-                                                    <li class="dropdown"><a
-                                                            href="{{ route('service') }}">Services</a>
+                                                    <li class="dropdown"><a href="{{ route('service') }}">Services</a>
                                                         <ul>
                                                             <li><a href="{{ route('construction') }}">Building
                                                                     Construction
@@ -218,13 +167,11 @@
                                         </nav>
                                     </div>
                                     <div class="header-link-btn ml_30"><a
-                                            href="https://api.whatsapp.com/send/?phone=%2B917871313987"
-                                            target="_blank"
+                                            href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank"
                                             class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
                                             On Whatsapp<span></span></a></div>
                                     <div class="sidemenu-nav-toggler mr_30 ml_30"><img
-                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
-                                            alt="">
+                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -238,27 +185,24 @@
                             <div class="inner-container d-flex align-items-center justify-content-between">
                                 <div class="logo-box">
                                     <div class="logo"><a href="{{ route('index') }}"><img
-                                                src="{{ asset('assets/frontend/images/logo-light.png') }}"
-                                                alt="" style="height: 70px;"></a></div>
+                                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+                                                style="height: 70px;"></a></div>
                                 </div>
                                 <div class="right-column d-flex align-items-center">
                                     <div class="nav-outer">
                                         <div class="mobile-nav-toggler"><img
-                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
-                                                alt="">
+                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
                                         </div>
                                         <nav class="main-menu navbar-expand-md navbar-light">
 
                                         </nav>
                                     </div>
                                     <div class="header-link-btn ml_30"><a
-                                            href="https://api.whatsapp.com/send/?phone=%2B917871313987"
-                                            target="_blank"
+                                            href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank"
                                             class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
                                             On Whatsapp<span></span></a></div>
                                     <div class="sidemenu-nav-toggler mr_30 ml_30"><img
-                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
-                                            alt="">
+                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -272,8 +216,8 @@
 
                     <nav class="menu-box">
                         <div class="nav-logo"><a href="{{ route('index') }}"><img
-                                    src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
-                                    title=""></a></div>
+                                    src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a>
+                        </div>
                         <div class="menu-outer">
                             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                         </div>
@@ -297,19 +241,11 @@
                 </div>
             </header>
 
-
-            {{-- <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <img src="{{ asset('assets/frontend/images/aug15.png') }}" alt="Happy 78th Independence Day">
-            </div>
-        </div> --}}
-
             <section class="hidden-sidebar close-sidebar">
                 <div class="wrapper-box">
                     <div class="hidden-sidebar-close"><span class="fal fa-times"></span></div>
-                    <div class="logo"><a href="#"><img
-                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""></a></div>
+                    <div class="logo"><a href="#"><img src="{{ asset('assets/frontend/images/logo-light.png') }}"
+                                alt=""></a></div>
                     <div class="content">
                         <div class="about-widget-two sidebar-widget">
                             <h3>The perfect solution for all your construction needs </h3>
@@ -390,8 +326,7 @@
                                                 href="https://www.facebook.com/sthreeengineers" target="_blank">
                                                 <i class="fab fa-facebook-f"></i></a></li>
                                         <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                                href="https://www.linkedin.com/company/sthreeengineers"
-                                                target="_blank">
+                                                href="https://www.linkedin.com/company/sthreeengineers" target="_blank">
                                                 <i class="fab fa-linkedin-in"></i></a></li>
                                         <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                                 href="https://www.instagram.com/sthreeengineers" target="_blank">
@@ -433,7 +368,8 @@
                         <p class="mb-2 fs_20 c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">A
                             company that specializes in safe, dependable, <br> and FIRST CLASS construction. Excellent
                             <br>
-                            building construction management services are<br> what we offer. </p>
+                            building construction management services are<br> what we offer.
+                        </p>
                         <div class="mb-3 d-md-none d-block"><a
                                 href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank"
                                 class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
@@ -451,30 +387,28 @@
                             style='background:#f4f4f3;bottom:1px !important; border-radius: 10px'>
                             <h3 class="fs-5 text-center mb-3">Hot Deal Alert! Lifetime Structural Warranty - Book a
                                 Call Now!</h3>
-                                <form autocomplete="off" method="POST" action="{{ route('enquiry.store') }}"
+                            <form autocomplete="off" method="POST" action="{{ route('enquiry.store') }}"
                                 class="contact-validation-active">
                                 @csrf
                                 <div class='row col-12 m-0 p-0'>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important;padding-left:0px !important">
-                                        <input class="left-borderRadius" type="text" name="name"
-                                            placeholder="Your Name" required="" style="height: 50px !important;">
+                                        <input class="left-borderRadius" type="text" name="name" placeholder="Your Name"
+                                            required="" style="height: 50px !important;">
                                     </div>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
-                                        <input type="text" name="phone" placeholder="Mobile Number"
-                                            required=""
+                                        <input type="text" name="phone" placeholder="Mobile Number" required=""
                                             style="border-radius: 0px !important;  height: 50px !important;">
                                     </div>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
-                                        <input type="text" name="address" placeholder="Your Address"
-                                            required=""
+                                        <input type="text" name="address" placeholder="Your Address" required=""
                                             style="border-radius: 0px !important;  height: 50px !important;">
                                     </div>
                                     {{-- <div class=" col-12 mb-0">
-                                    <textarea name="message" placeholder="Message"></textarea>
-                                </div> --}}
+                                        <textarea name="message" placeholder="Message"></textarea>
+                                    </div> --}}
                                     <div class="col-lg-3 form-group message-btn"
                                         style="margin-left: 0px !important; padding-left: 0px !important;padding-right:0px !important">
                                         <button type="submit" class="theme-btn-one px-3 w-100 right-borderRadius"
@@ -1083,28 +1017,28 @@
                     <div class="row align-items-center">
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-1.png') }}"
-                                    alt=""></div>
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-1.png') }}" alt="">
+                            </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-2.png') }}"
-                                    alt=""></div>
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-2.png') }}" alt="">
+                            </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}"
-                                    alt=""></div>
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}" alt="">
+                            </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-3.png') }}"
-                                    alt=""></div>
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-3.png') }}" alt="">
+                            </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}"
-                                    alt=""></div>
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
