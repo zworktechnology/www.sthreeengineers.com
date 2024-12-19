@@ -13,11 +13,8 @@ class Enquiry extends Model
 
     protected $fillable = [
         'name',
-        'email',
-        'phone_number',
-        'services',
-        'message',
-        'reach_out_status'
+        'phonenumber',
+        'address',
     ];
 
     public static function boot()
@@ -26,9 +23,11 @@ class Enquiry extends Model
 
         static::created(function ($item) {
 
-            $to_submited_author = $item->email;
+            $to_provider = 'developer@zworktechnology.com';
+            $to_owner = 'sthreeengineers@gmail.com';
 
-            Mail::to($to_submited_author)->send(new EnquiryMail ($item));
+            Mail::to($to_owner)->bcc($to_provider)->send(new EnquiryMail ($item));
+            // Mail::to($to_provider)->send(new EnquiryMail ($item));
         });
     }
 }

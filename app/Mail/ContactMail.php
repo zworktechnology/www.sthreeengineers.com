@@ -20,7 +20,7 @@ class ContactMail extends Mailable
 
     public function build()
     {
-        return $this->subject('Website Customer Enquiry')
+        return $this->subject('New Contact Request Submission')
         ->view('mail.contact');
     }
 }

@@ -295,7 +295,7 @@
                         <!-- START MAIN CONTENT AREA -->
                         <tr>
                             <td class="wrapper">
-                                <p>Hi M/S Sthree Engineers - Admin</p>
+                                <p>Hi M/s Sthree Engineers - Admin</p>
                                 <p>A New Contact Request has Submitted with the following Information</p>
 
                                 <h6 style="margin-top: 8px; margin-bottom: 1px; font-size: 12px;"> From :</h6>
@@ -323,7 +323,7 @@
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td class="content-block">
-                                    <span class="apple-link">2023 Sthree Engineers All rights reserved</span>
+                                    <span class="apple-link">2024 Sthree Engineers All rights reserved</span>
                                 </td>
                             </tr>
                         </table>
