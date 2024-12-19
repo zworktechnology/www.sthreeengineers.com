@@ -9,7 +9,7 @@
     </style>
 
     <link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
-    <meta http-equiv="refresh" content="3; url= https://www.sthreeengineers.com/contact" />
+    <meta http-equiv="refresh" content="3; url= https://www.sthreeengineers.com/" />
 
 	<script>
 		(function (w, d, s, l, i) {
@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    
+
     <noscript>
 		<iframe src="https://www.googletagmanager.com/ns.php?id=GTM-NTTZ597K" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe>
