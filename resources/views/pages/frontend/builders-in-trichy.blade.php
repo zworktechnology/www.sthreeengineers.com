@@ -7,13 +7,16 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-    <meta name="description" content="Discover your premier builders in trichy, crafting dream homes. Your ideal construction partner for a perfect home.">
+    <meta name="description"
+        content="Discover your premier builders in trichy, crafting dream homes. Your ideal construction partner for a perfect home.">
     <meta name="keywords" content="builders in trichy, builder near me, building contractor and building plan approval">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sthreeengineers.com/builders-in-trichy">
     <meta property="og:title" content="Builders in Trichy deliver exceptional constructions.">
-    <meta property="og:description" content="A leading construction company, is renowned for their exceptional building projects that combine innovation, precision, and quality craftsmanship.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-47.webp" alt="builders in trichy">
+    <meta property="og:description"
+        content="A leading construction company, is renowned for their exceptional building projects that combine innovation, precision, and quality craftsmanship.">
+    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-47.webp"
+        alt="builders in trichy">
 
     <!-- Page Title -->
     <title>Builders In Trichy | Crafting Dream With Your Ideal Builder Partner</title>
@@ -47,7 +50,8 @@
     <link href="{{ asset('assets/frontend/css/color.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="../../css2?family=Barlow:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="../../css2?family=Barlow:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
@@ -58,24 +62,19 @@
             }
         }
     </style>
+
+    @include('pages.googleads')
+
 </head>
 
 <body>
 
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.php?id=GTM-NTTZ597K" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="https://www.googletagmanager.com/ns.php?id=GTM-NTTZ597K" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
     </noscript>
 
     <div class="page-wrapper">
-
-        {{-- <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">Preloader Close</div>
-            </div>
-            <div class="layer layer-one"><span class="overlay"></span></div>
-            <div class="layer layer-two"><span class="overlay"></span></div>
-            <div class="layer layer-three"><span class="overlay"></span></div>
-        </div> --}}
 
         <header class="main-header header-style-one">
 
@@ -83,12 +82,15 @@
                 <div class="auto-container">
                     <div class="inner-container d-flex align-items-center justify-content-between">
                         <div class="logo-box">
-                            <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 80px;"></a>
+                            <div class="logo"><a href="{{ route('index') }}"><img
+                                        src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+                                        style="height: 80px;"></a>
                             </div>
                         </div>
                         <div class="right-column d-flex align-items-center">
                             <div class="nav-outer">
-                                <div class="mobile-nav-toggler"><img src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
+                                <div class="mobile-nav-toggler"><img
+                                        src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation">
@@ -96,8 +98,10 @@
                                             <li><a href="{{ route('about') }}">About Us</a></li>
                                             <li class="dropdown"><a href="{{ route('service') }}">Services</a>
                                                 <ul>
-                                                    <li><a href="{{ route('construction') }}">Building Construction </a></li>
-                                                    <li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
+                                                    <li><a href="{{ route('construction') }}">Building Construction </a>
+                                                    </li>
+                                                    <li><a href="{{ route('project_management') }}">Project Management
+                                                            (PMC)</a></li>
                                                     <li><a href="{{ route('valuation') }}">Valuation</a></li>
                                                     <li><a href="{{ route('survey') }}">Surveying</a></li>
                                                     <li><a href="{{ route('interior') }}">Interior Works</a></li>
@@ -113,9 +117,12 @@
                                     </div>
                                 </nav>
                             </div>
-                            <div class="header-link-btn ml_30"><a href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank" class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
+                            <div class="header-link-btn ml_30"><a
+                                    href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank"
+                                    class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
                                     On Whatsapp<span></span></a></div>
-                            <div class="sidemenu-nav-toggler mr_30 ml_30"><img src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
+                            <div class="sidemenu-nav-toggler mr_30 ml_30"><img
+                                    src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -125,19 +132,25 @@
                     <div class="auto-container">
                         <div class="inner-container d-flex align-items-center justify-content-between">
                             <div class="logo-box">
-                                <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" style="height: 70px;"></a></div>
+                                <div class="logo"><a href="{{ route('index') }}"><img
+                                            src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+                                            style="height: 70px;"></a></div>
                             </div>
                             <div class="right-column d-flex align-items-center">
                                 <div class="nav-outer">
-                                    <div class="mobile-nav-toggler"><img src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                    <div class="mobile-nav-toggler"><img
+                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
                                     </div>
                                     <nav class="main-menu navbar-expand-md navbar-light">
 
                                     </nav>
                                 </div>
-                                <div class="header-link-btn ml_30"><a href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank" class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
+                                <div class="header-link-btn ml_30"><a
+                                        href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank"
+                                        class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
                                         On Whatsapp<span></span></a></div>
-                                <div class="sidemenu-nav-toggler mr_30 ml_30"><img src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
+                                <div class="sidemenu-nav-toggler mr_30 ml_30"><img
+                                        src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -149,16 +162,20 @@
                 <div class="close-btn"><span class="fal fa-times"></span></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="{{ route('index') }}"><img
+                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
                     <!--Social Links-->
                     <div class="social-links">
                         <ul class="clearfix">
-                            <li><a href="https://www.facebook.com/sthreeengineers" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
-                            <li><a href="https://www.instagram.com/sthreeengineers" target="_blank"><span class="fab fa-instagram"></span></a></li>
-                            <li><a href="https://www.youtube.com/@sthreeengineers" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="https://www.facebook.com/sthreeengineers" target="_blank"><span
+                                        class="fab fa-facebook-square"></span></a></li>
+                            <li><a href="https://www.instagram.com/sthreeengineers" target="_blank"><span
+                                        class="fab fa-instagram"></span></a></li>
+                            <li><a href="https://www.youtube.com/@sthreeengineers" target="_blank"><span
+                                        class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
                 </nav>
@@ -173,7 +190,8 @@
         <section class="hidden-sidebar close-sidebar">
             <div class="wrapper-box">
                 <div class="hidden-sidebar-close"><span class="fal fa-times"></span></div>
-                <div class="logo"><a href="#"><img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""></a></div>
+                <div class="logo"><a href="#"><img src="{{ asset('assets/frontend/images/logo-light.png') }}"
+                            alt=""></a></div>
                 <div class="content">
                     <div class="about-widget-two sidebar-widget">
                         <h3>The perfect solution for all your construction needs </h3>
@@ -188,7 +206,8 @@
                             <li>
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="text">
                                         <p><span class="theme-color">Registered Office:</span> 43F, 1st Floor,
@@ -200,7 +219,8 @@
                             <li>
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="text">
                                         <p><span class="theme-color">Branch Office:</span> 17/F, kamban Street, Attur
@@ -211,7 +231,8 @@
                             <li>
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="{{ asset('assets/frontend/images/icons/icon-10__clock.png') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/icons/icon-10__clock.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="text">
                                         <p>Monday - Saturday (09.00 AM - 08.00 PM)</p>
@@ -221,7 +242,8 @@
                             <li>
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="{{ asset('assets/frontend/images/icons/icon-8__envelop.png') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/icons/icon-8__envelop.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="text">
                                         <p><a href="mailto:admin@sthreeengineers.com">admin@sthreeengineers.com</a></p>
@@ -241,13 +263,17 @@
 
                             <div>
                                 <ul class="footer-social-media mt_70">
-                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.facebook.com/sthreeengineers" target="_blank">
+                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
+                                            href="https://www.facebook.com/sthreeengineers" target="_blank">
                                             <i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.linkedin.com/company/sthreeengineers" target="_blank">
+                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
+                                            href="https://www.linkedin.com/company/sthreeengineers" target="_blank">
                                             <i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.instagram.com/sthreeengineers" target="_blank">
+                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
+                                            href="https://www.instagram.com/sthreeengineers" target="_blank">
                                             <i class="fab fa-instagram"></i></a></li>
-                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary" href="https://www.youtube.com/@sthreeengineers" target="_blank">
+                                    <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
+                                            href="https://www.youtube.com/@sthreeengineers" target="_blank">
                                             <i class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
@@ -258,7 +284,8 @@
 
         </section>
 
-        <section class="banner-1-section pt_240 pb_140 bg_cover overflow-hidden" style="background-image: url(assets/frontend/images/background/bg-4.jpg);">
+        <section class="banner-1-section pt_240 pb_140 bg_cover overflow-hidden"
+            style="background-image: url(assets/frontend/images/background/bg-4.jpg);">
             <div class="line-grid-wrap">
                 <span class="line-grid-1"></span>
                 <span class="line-grid-2"></span>
@@ -266,14 +293,16 @@
                 <span class="line-grid-4"></span>
                 <span class="line-grid-5"></span>
             </div>
-            <div class="banner-1-image-1 p_absolute b_0 r_0"><img src="{{ asset('assets/frontend/images/resource/building3.png') }}" alt="">
+            <div class="banner-1-image-1 p_absolute b_0 r_0"><img
+                    src="{{ asset('assets/frontend/images/resource/building3.png') }}" alt="">
             </div>
             <div class="auto-container">
                 <div class="p_relative text-center">
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                         Builders
                         In Trichy</h1>
-                    <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="1.5s">
+                    <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s"
+                        data-wow-duration="1.5s">
                         <li><a href="{{ route('index') }}">Home</a></li>
                     </ul>
                 </div>
@@ -288,10 +317,12 @@
                     <div class="row ">
                         <p class="mb_30">
                             We take pride in being the leading builders in Trichy.
-                            With a legacy of excellence spanning years, we bring innovation, reliability, and quality craftsmanship to every project we undertake.
+                            With a legacy of excellence spanning years, we bring innovation, reliability, and quality
+                            craftsmanship to every project we undertake.
                         </p>
                         <div class="col-12 text-center mb_30">
-                            <img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}" style="width: 750px;" alt="builder near me">
+                            <img src="{{ asset('assets/frontend/images/gallery/gallery-50.webp') }}"
+                                style="width: 750px;" alt="builder near me">
                         </div>
                     </div>
                 </div>
@@ -301,8 +332,11 @@
                         <div class="projectdetails-1-text mb_30">
                             <h5>About Us</h5>
                             <p>
-                                Sthree Engineers is a renowned name in the construction industry, known for our unwavering commitment to excellence.
-                                As builders in Trichy, we specialize in a <a href="{{ route('construction') }}" style="color: blue"> wide range of construction </a> projects, catering to diverse sectors with precision and expertise.
+                                Sthree Engineers is a renowned name in the construction industry, known for our
+                                unwavering commitment to excellence.
+                                As builders in Trichy, we specialize in a <a href="{{ route('construction') }}"
+                                    style="color: blue"> wide range of construction </a> projects, catering to diverse
+                                sectors with precision and expertise.
                             </p>
                         </div>
                     </div>
@@ -310,63 +344,77 @@
 
                 <h4 class="fw_bold fs_28 mb_20">Our Services</h4>
                 <div class="projectdetails-1-text mb_30">
-                    <p> As your trusted builders in Trichy, we offer an extensive array of services tailored to meet the unique needs of our clients:</p>
+                    <p> As your trusted builders in Trichy, we offer an extensive array of services tailored to meet the
+                        unique needs of our clients:</p>
                 </div>
                 <div class="row">
                     <div class="col-7">
                         <div class="mb_30">
                             <p>
                                 <b>Residential Buildings :</b>
-                                From custom homes to residential complexes, we specialize in creating living spaces that reflect your style and comfort.
+                                From custom homes to residential complexes, we specialize in creating living spaces that
+                                reflect your style and comfort.
                             </p>
                             <p>
                                 <b>Commercial Buildings :</b>
-                                Whether it's office buildings, retail spaces, or commercial complexes, we have the expertise to bring your commercial vision to life.
+                                Whether it's office buildings, retail spaces, or commercial complexes, we have the
+                                expertise to bring your commercial vision to life.
                             </p>
                             <p>
                                 <b>Industrial Construction :</b>
-                                Our proficiency extends to industrial projects, providing comprehensive solutions for factories, warehouses, and manufacturing facilities.
+                                Our proficiency extends to industrial projects, providing comprehensive solutions for
+                                factories, warehouses, and manufacturing facilities.
                             </p>
                             <p>
                                 <b>Institutional Buildings :</b>
-                                We have the capabilities to construct institutional buildings such as schools, colleges, and healthcare facilities, fostering environments conducive to growth and development.
+                                We have the capabilities to construct institutional buildings such as schools, colleges,
+                                and healthcare facilities, fostering environments conducive to growth and development.
                             </p>
                             <p>
                                 <b>Religious Buildings :</b>
-                                Entrust us with the construction of religious structures, ensuring the sanctity and architectural integrity of your sacred spaces.
+                                Entrust us with the construction of religious structures, ensuring the sanctity and
+                                architectural integrity of your sacred spaces.
                             </p>
                             <p>
                                 <b>Roads and Bridges :</b>
-                                Contributing to the infrastructure development of Trichy, we specialize in the construction of roads, bridges, and transportation networks.
+                                Contributing to the infrastructure development of Trichy, we specialize in the
+                                construction of roads, bridges, and transportation networks.
                             </p>
                         </div>
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" class="mt_50 ml_20" style="width: 800px;" alt="building plan approval">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" class="mt_50 ml_20"
+                            style="width: 800px;" alt="building plan approval">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-5 text-center mt_30" style="width: 350px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" style="width: 350px;" class="mt_20" alt="building contractor">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" style="width: 350px;"
+                            class="mt_20" alt="building contractor">
                     </div>
                     <div class="col-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
                         <p>
                             <b>Exceptional Quality :</b>
-                            As <a href="{{ route('index') }}" style="color: blue">leading builders in Trichy </a>, we uphold the highest standards of quality in every project we undertake, ensuring longevity and durability.
+                            As <a href="{{ route('index') }}" style="color: blue">leading builders in Trichy </a>, we
+                            uphold the highest standards of quality in every project we undertake, ensuring longevity
+                            and durability.
                         </p>
                         <p>
                             <b>Client-Centric Approach : </b>
-                            We prioritize client satisfaction, working closely with our clients to understand their needs and deliver solutions that exceed expectations.
+                            We prioritize client satisfaction, working closely with our clients to understand their
+                            needs and deliver solutions that exceed expectations.
                         </p>
                         <p>
                             <b>Innovation and Efficiency :</b>
-                            Leveraging the latest technologies and construction practices, we optimize efficiency without compromising on quality, ensuring timely completion of projects.
+                            Leveraging the latest technologies and construction practices, we optimize efficiency
+                            without compromising on quality, ensuring timely completion of projects.
                         </p>
                         <p>
                             <b>Proven Track Record :</b>
-                            With a portfolio of successful projects and satisfied clients, we have earned a reputation as the builders in Trichy you can trust.
+                            With a portfolio of successful projects and satisfied clients, we have earned a reputation
+                            as the builders in Trichy you can trust.
                         </p>
                     </div>
 
@@ -374,11 +422,15 @@
 
                 <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
                 <p>
-                    Ready to embark on your next construction project? Get in touch with us today to <a href="{{ route('contact') }}" style="color: blue"> discuss your requirements </a> and experience the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier builders in Trichy.
+                    Ready to embark on your next construction project? Get in touch with us today to <a
+                        href="{{ route('contact') }}" style="color: blue"> discuss your requirements </a> and experience
+                    the unparalleled craftsmanship and professionalism that sets Sthree Engineers apart as the premier
+                    builders in Trichy.
                 </p>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" style="width: 500px;" alt="builders in trichy">
+                        <img src="{{ asset('assets/frontend/images/gallery/gallery-47.webp') }}" style="width: 500px;"
+                            alt="builders in trichy">
                     </div>
                 </div>
             </div>

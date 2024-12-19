@@ -106,6 +106,8 @@
         }
     </style>
 
+    @include('pages.googleads')
+    
 </head>
 
 <body>
