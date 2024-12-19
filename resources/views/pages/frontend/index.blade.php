@@ -451,8 +451,8 @@
                             style='background:#f4f4f3;bottom:1px !important; border-radius: 10px'>
                             <h3 class="fs-5 text-center mb-3">Hot Deal Alert! Lifetime Structural Warranty - Book a
                                 Call Now!</h3>
-                            <form class='d-flex flex-md-row flex-column px-lg-4' autocomplete="off" method="POST"
-                                action="{{ route('contact.store') }}">
+                                <form autocomplete="off" method="POST" action="{{ route('enquiry.store') }}"
+                                class="contact-validation-active">
                                 @csrf
                                 <div class='row col-12 m-0 p-0'>
                                     <div class="form-group col-lg-3"
@@ -482,8 +482,6 @@
                                             Consultation</button>
                                     </div>
                                 </div>
-
-
                             </form>
                         </div>
                     </div>
