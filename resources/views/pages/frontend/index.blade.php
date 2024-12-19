@@ -437,20 +437,20 @@
                             action="{{ route('contact.store') }}">
                             @csrf
                             <div class='row col-12 m-0 p-0'>
-                                <div class="form-group col-md-3" style="margin-right: 0px !important; padding-right: 0px !important;">
+                                <div class="form-group col-lg-3" style="margin-right: 0px !important; padding-right: 0px !important;padding-left:0px !important">
                                     <input class="" type="text" name="name" placeholder="Your Name"
                                         required="" style="border-radius: 8px 0px 0px 8px !important;  height: 50px !important;">
                                 </div>
-                                <div class="form-group col-md-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
+                                <div class="form-group col-lg-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
                                     <input type="text" name="phone" placeholder="Mobile Number" required="" style="border-radius: 0px !important;  height: 50px !important;">
                                 </div>
-                                <div class="form-group col-md-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
+                                <div class="form-group col-lg-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
                                     <input type="text" name="address" placeholder="Your Address" required="" style="border-radius: 0px !important;  height: 50px !important;">
                                 </div>
                                 {{-- <div class=" col-12 mb-0">
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div> --}}
-                                <div class="col-md-3 form-group message-btn" style="margin-left: 0px !important; padding-left: 0px !important;">
+                                <div class="col-lg-3 form-group message-btn" style="margin-left: 0px !important; padding-left: 0px !important;">
                                     <button type="submit" class="theme-btn-one px-3 w-100" style="border-radius: 0px 8px 8px 0px !important; Padding: 11px 0px;">Book Free
                                         Consultation</button>
                                 </div>
