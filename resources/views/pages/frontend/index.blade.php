@@ -433,23 +433,20 @@
                     style='z-index:99 !important '>
                     <div class="hero_form px-3 py-4 w-100" style='background:#f4f4f3;bottom:1px !important; border-radius: 10px'>
                         <h3 class="fs-5 text-center mb-3">Hot Deal Alert! Lifetime Structural Warranty - Book a Call Now!</h3>
-                        <form class='d-flex flex-md-row flex-column' autocomplete="off" method="POST"
-                            action="{{ route('contact.store') }}">
+                        <form autocomplete="off" method="POST" action="{{ route('enquiry.store') }}"
+                            class="contact-validation-active">
                             @csrf
                             <div class='row col-12 m-0 p-0'>
                                 <div class="form-group col-lg-3" style="margin-right: 0px !important; padding-right: 0px !important;padding-left:0px !important">
-                                    <input class="" type="text" name="name" placeholder="Your Name"
+                                    <input class="" type="text" name="name" placeholder="Mr/Ms. Name"
                                         required="" style="border-radius: 8px 0px 0px 8px !important;  height: 50px !important;">
                                 </div>
                                 <div class="form-group col-lg-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
-                                    <input type="text" name="phone" placeholder="Mobile Number" required="" style="border-radius: 0px !important;  height: 50px !important;">
+                                    <input type="text" name="phonenumber" placeholder="00xxxxxx00" required="" style="border-radius: 0px !important;  height: 50px !important;">
                                 </div>
                                 <div class="form-group col-lg-3" style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
-                                    <input type="text" name="address" placeholder="Your Address" required="" style="border-radius: 0px !important;  height: 50px !important;">
+                                    <input type="text" name="address" placeholder="Location" required="" style="border-radius: 0px !important;  height: 50px !important;">
                                 </div>
-                                {{-- <div class=" col-12 mb-0">
-                                    <textarea name="message" placeholder="Message"></textarea>
-                                </div> --}}
                                 <div class="col-lg-3 form-group message-btn" style="margin-left: 0px !important; padding-left: 0px !important;">
                                     <button type="submit" class="theme-btn-one px-3 w-100" style="border-radius: 0px 8px 8px 0px !important; Padding: 11px 0px;">Book Free
                                         Consultation</button>

@@ -20,11 +20,8 @@ return new class extends Migration
 
             // Request columns
             $table->string('name');
-            $table->string('email');
-            $table->string('phone_number')->nullable();
-            $table->string('services');
-            $table->longText('message');
-            $table->boolean('reach_out_status')->default(0);
+            $table->string('phonenumber');
+            $table->string('address')->nullable();
 
             // CreatedAt & UpdatedAt columns
             $table->timestamps();

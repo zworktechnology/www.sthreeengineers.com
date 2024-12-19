@@ -19,14 +19,12 @@ class EnquiryController extends Controller
         $data = new Enquiry();
 
         $data->name = $request->get('name');
-        $data->email = $request->get('email');
-        $data->phone_number = $request->get('phone_number');
-        $data->services = $request->get('services');
-        $data->message = $request->get('message');
+        $data->phonenumber = $request->get('phonenumber');
+        $data->address = $request->get('address');
 
         $data->save();
 
-        return redirect()->back();
+        return redirect()->route('thankyou');
     }
 
     public function reachout($id)

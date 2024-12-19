@@ -21,8 +21,9 @@ return new class extends Migration
             // Request columns
             $table->string('name');
             $table->string('email');
-            $table->string('phone')->nullable();
-            $table->longText('message');
+            $table->string('mobile')->nullable();
+            $table->string('subject')->nullable();
+            $table->longText('message')->nullable();
             $table->boolean('reach_out_status')->default(0);
 
             // CreatedAt & UpdatedAt columns

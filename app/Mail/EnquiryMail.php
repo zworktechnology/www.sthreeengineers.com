@@ -20,7 +20,7 @@ class EnquiryMail extends Mailable
 
     public function build()
     {
-        return $this->subject('Zwork Technology - Enquiry')
+        return $this->subject('New Contact Request Submission')
         ->view('mail.enquiry');
     }
 }
