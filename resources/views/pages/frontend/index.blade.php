@@ -61,25 +61,23 @@
     <style>
         /* Modal background */
         .modal {
-            display: none;
+            display: block;
             position: fixed;
-            z-index: 1;
             left: 0;
             top: 0;
             width: 100%;
-            height: 100%;
+            max-height: 100vh;
             overflow: auto;
             background-color: rgba(0, 0, 0, 0.7);
+            z-index: 10000000;
         }
 
         /* Modal content */
         .modal-content {
             margin: 10% auto;
-            padding: 10px;
             background-color: white;
-            border-radius: 10px;
-            width: 80%;
-            max-width: 600px;
+            border-radius: 20px;
+            width: 70%;
             text-align: center;
         }
 
@@ -87,22 +85,240 @@
         .close {
             color: #aaa;
             float: right;
-            font-size: 28px;
+            font-size: 38px;
             font-weight: bold;
+            padding-top: 20px !important;
+            padding-right: 23px !important;
         }
 
         .close:hover,
         .close:focus {
-            color: black;
+            color: #26d869;
             text-decoration: none;
             cursor: pointer;
         }
 
-        /* Image inside modal */
-        .modal-content img {
-            max-width: 100%;
-            height: auto;
+
+
+        .popup-form .popup-input {
+            border: 1px solid rgb(139, 136, 136) !important;
+            border-radius: 8px !important;
+            color: black !important;
+            padding: 20px 15px !important;
+        }
+
+        .popup-form input[type=text] {
+            height: 30px;
+        }
+
+        .popup-form .form-control:focus {
+            box-shadow: none !important;
+        }
+
+        .popup-btn {
+            background-color: #26d869;
+            color: #ffffff;
             border-radius: 10px;
+            font-weight: 600;
+        }
+
+        ul.product_list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .product_grid a {
+            text-decoration: none;
+        }
+
+        .product_item {
+            padding-top: 0px;
+            position: relative;
+            border-radius: 20px;
+        }
+
+        .product_title {
+            float: left;
+            width: 100%;
+        }
+
+        .product_title h5 {
+            margin: auto;
+            font-size: 1.6em;
+            font-weight: 700;
+            line-height: 1;
+            padding-bottom: 2px;
+            color: #26d869;
+            text-align: left;
+        }
+
+        .product_price p {
+            line-height: 1;
+            text-align: left;
+            font-size: 18px;
+            color: #4d4c4b;
+        }
+
+        .product_desc p {
+            margin: 0;
+            line-height: 1.3;
+            padding: 10px 0;
+        }
+
+
+        @media only screen and (min-width : 320px) {
+            .product_sale p {
+                width: 200px;
+                margin: 0;
+                color: #31211A;
+            }
+
+            .product_values {
+                float: left;
+                /* padding: 0 10px; */
+            }
+
+            .product_rating {
+                margin-right: 10px;
+            }
+
+            .product_image {
+                float: left;
+            }
+
+            .product_image .product_buttons {
+                display: none;
+            }
+
+            .product_desc {
+                overflow: hidden;
+                float: left;
+                line-height: 1;
+            }
+
+        }
+
+        @media only screen and (min-width: 678px) {
+            .product_item {
+                width: 100%;
+            }
+
+        }
+
+        @media only screen and (min-width : 992px) {
+
+            /* Image inside modal */
+            .modal-content img {
+                max-width: 400px;
+                height: auto;
+                border-radius: 10px;
+            }
+
+            .product_desc {
+                max-height: 200px;
+            }
+
+            .product_values {
+                float: left;
+                padding-right: 40px;
+            }
+        }
+
+        @media only screen and (min-width : 1200px) {
+
+            /* Image inside modal */
+            .modal-content img {
+                max-width: 400px;
+                height: auto;
+                border-radius: 10px;
+            }
+
+            .product_item {
+                width: 100%;
+            }
+
+            .product_desc {
+                max-height: 131px;
+            }
+
+            .product_values {
+                float: left;
+                padding-right: 40px;
+            }
+        }
+
+        @media only screen and (max-width : 992px) {
+            .product_desc {
+                max-height: 67px;
+            }
+        }
+
+        @media only screen and (max-width : 480px) {
+            .product_title h5 {
+                font-weight: bold;
+            }
+
+            /* Modal content */
+            .modal-content {
+                margin: 5% auto;
+                padding: 10px;
+                background-color: white;
+                border-radius: 20px;
+                width: 90% !important;
+                text-align: center;
+            }
+
+            /* Image inside modal */
+            .modal-content img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+
+            /* Close button */
+            .close {
+                padding-right: 3px !important;
+            }
+
+        }
+
+        @media only screen and (max-width : 320px) {
+            .product_sale {
+                display: none;
+            }
+
+            .product_image img {
+                position: relative;
+            }
+
+            .product_desc {
+                display: none;
+            }
+
+            .product_buttons {
+                display: none;
+            }
+
+            /* Image inside modal */
+            .modal-content img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+
+        .image-container {
+            position: relative;
+            overflow: visible;
+        }
+
+        .overflow-image {
+            position: absolute;
+            left: 50%;
+            bottom: 0 !important;
+            transform: translateX(-50%);
         }
     </style>
 
@@ -240,6 +456,78 @@
                     <div class="cursor-follower"></div>
                 </div>
             </header>
+
+
+            {{-- <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="{{ asset('assets/frontend/images/aug15.png') }}" alt="Happy 78th Independence Day">
+            </div>
+        </div> --}}
+
+            <!-- Page onload Modal -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="close-btn">
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class='px-md-0 px-2'>
+                        <div class="product_grid">
+                            <ul class="product_list list">
+                                <li class="product_item">
+                                    <div class='row m-0'>
+                                        <div class="p-0 col-md-6 position-relative image-container ">
+                                            <img src="assets\frontend\images\web_image-crop.png"
+                                                class='d-md-block d-none overflow-image' width="100%"
+                                                alt="" style="height:130% !important">
+                                            <img src="assets\frontend\images\02.jpeg" class='d-md-none d-block'
+                                                width="100%" alt="" style="height:300px !important">
+                                        </div>
+                                        <div class="product_values col-md-6 py-md-5 py-5">
+                                            <div class="product_title">
+                                                <h5 class=''>Secure Your Warranty Today!</h5>
+                                            </div>
+                                            <div class="product_price text-center w-100 pt-5">
+                                                <p class="mt-md-0 mt-3" style="">Lifetime
+                                                    Structural Warranty for Your Dream Home or Office</p>
+                                            </div>
+                                            <div class="w-100 pt-3">
+                                                <form autocomplete="off" method="POST"
+                                                    action="{{ route('enquiry.store') }}"
+                                                    class='w-100 popup-form px-md-1 px-2 contact-validation-active'>
+                                                    @csrf
+                                                    <div class='d-block'>
+                                                        <input class="form-control popup-input" autocomplete="off"
+                                                            style="" name="name" type="text"
+                                                            placeholder="Your Name" />
+                                                    </div>
+                                                    <div class='d-block pt-4'>
+                                                        <input class="form-control popup-input" autocomplete="off"
+                                                            name="phonenumber" type="text"
+                                                            placeholder="Your Contact Number" />
+                                                    </div>
+
+                                                    <div class='d-block pt-4'>
+                                                        <input class="form-control popup-input" autocomplete="off"
+                                                            name="address" type="text" placeholder="Your City" />
+                                                    </div>
+
+                                                    <div class='w-100 d-flex justify-content-center mt-4'>
+                                                        <button type="submit" class='popup-btn px-4 py-2'>Book Free
+                                                            Consultation</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <section class="hidden-sidebar close-sidebar">
                 <div class="wrapper-box">
@@ -1063,8 +1351,30 @@
                     </div>
                 </div>
             </section>
-
             <script>
+                window.onload = function() {
+                    document.getElementById('myModal').style.display = 'block'; // Show the modal
+                };
+
+                // Get the modal
+                var modal = document.getElementById('myModal');
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName('close')[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = 'none';
+                };
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = 'none';
+                    }
+                };
+            </script>
+            {{-- <script>
                 // Get the modal
                 var modal = document.getElementById("myModal");
 
@@ -1087,6 +1397,6 @@
                         modal.style.display = "none";
                     }
                 }
-            </script>
+            </script> --}}
 
             @include('components.guest.footer')
