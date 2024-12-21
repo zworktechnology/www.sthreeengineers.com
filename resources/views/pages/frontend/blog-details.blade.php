@@ -7,19 +7,29 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Sthree Engineers">
-    <meta name="description"
-        content="{{ $data->short_content }}">
-    <meta name="keywords"
-        content="{{ $data->meta_keywords }}">
+    <meta name="description" content="{{ $data->short_content }}">
+    <meta name="keywords" content="{{ $data->meta_keywords }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.sthreeengineers.com/{{ $data->slug_url }}/{{ $data->random_id }}">
     <meta property="og:title" content="{{ $data->title }}">
-    <meta property="og:description"
-        content="{{ $data->short_content }}">
+    <meta property="og:description" content="{{ $data->short_content }}">
     <meta property="og:image" content="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}">
 
     <!-- Page Title -->
     <title>{{ $data->title }}</title>
+
+    {{-- Hot Jar --}}
+    <script>
+        (function (c, s, q, u, a, r, e) {
+                c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
+                c._hjSettings = { hjid: a };
+                r = s.getElementsByTagName('head')[0];
+                e = s.createElement('script');
+                e.async = true;
+                e.src = q + c._hjSettings.hjid + u;
+                r.appendChild(e);
+            })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5248241);
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -139,8 +149,7 @@
                             <div class="right-column d-flex align-items-center">
                                 <div class="nav-outer">
                                     <div class="mobile-nav-toggler"><img
-                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
-                                            alt="">
+                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
                                     </div>
                                     <nav class="main-menu navbar-expand-md navbar-light">
 
@@ -165,8 +174,7 @@
 
                 <nav class="menu-box">
                     <div class="nav-logo"><a href="{{ route('index') }}"><img
-                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
-                                title=""></a></div>
+                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
@@ -193,8 +201,8 @@
         <section class="hidden-sidebar close-sidebar">
             <div class="wrapper-box">
                 <div class="hidden-sidebar-close"><span class="fal fa-times"></span></div>
-                <div class="logo"><a href="#"><img
-                            src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""></a></div>
+                <div class="logo"><a href="#"><img src="{{ asset('assets/frontend/images/logo-light.png') }}"
+                            alt=""></a></div>
                 <div class="content">
                     <div class="about-widget-two sidebar-widget">
                         <h3>The perfect solution for all your construction needs </h3>
@@ -257,8 +265,7 @@
                             <li>
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="{{ asset('assets/frontend/images/icons/icon-9__phone.png') }}"
-                                            alt="">
+                                        <img src="{{ asset('assets/frontend/images/icons/icon-9__phone.png') }}" alt="">
                                     </div>
                                     <div class="text">
                                         <p><a href="tel:+917871313987">(+91) 78713 13987</a></p>
@@ -272,8 +279,7 @@
                                             href="https://www.facebook.com/sthreeengineers" target="_blank">
                                             <i class="fab fa-facebook-f"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                            href="https://www.linkedin.com/company/sthreeengineers"
-                                            target="_blank">
+                                            href="https://www.linkedin.com/company/sthreeengineers" target="_blank">
                                             <i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                             href="https://www.instagram.com/sthreeengineers" target="_blank">
@@ -327,8 +333,8 @@
                         <div class="col-lg-9 pe-lg-5">
                             <div>
                                 <div class="blog-1-image"><img
-                                        src="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}"
-                                        alt=""></div>
+                                        src="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}" alt="">
+                                </div>
                                 <div class="blog-1-lower-content-alt2 p_relative">
                                     <div class="d-flex mb_15">
                                         <p class="fs_22 fw_bold c_primary mr_40">
@@ -349,7 +355,7 @@
                                     </div>
                                     <ul class="cat-list">
                                         @foreach ($masterblogdata as $master)
-                                            <li><a href="#">{{ $master->master_name }}</a></li>
+                                        <li><a href="#">{{ $master->master_name }}</a></li>
                                         @endforeach
                                     </ul>
                                 </div>
@@ -364,7 +370,8 @@
                                                     src="{{ asset('assets/backend/blog/blog_image/' . $data->blog_image) }}"
                                                     alt=""></a></figure>
                                         <div class="text"><a
-                                                href="{{ route('read-blog', ['title' => $data->slug_url, 'id' => $data->random_id]) }}">{{ $data->title }}</a>
+                                                href="{{ route('read-blog', ['title' => $data->slug_url, 'id' => $data->random_id]) }}">{{
+                                                $data->title }}</a>
                                         </div>
                                         <div class="post-info">{{ $data->blog_date }}</div>
                                     </article>
@@ -384,16 +391,16 @@
                     <div class="row no-gutters">
                         <div class="col-lg-4 col-md-6">
                             <div class="contact-info-box2 d-flex align-items-start pt_20 pb_15">
-                                <img class="mr_20 mt_10"
-                                    src="{{ asset('assets/frontend/images/icons/icon-map.png') }}" alt="">
+                                <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-map.png') }}"
+                                    alt="">
                                 <p class="c_light mb_0 lh_30">location : <br>
                                     Tiruchirappalli & Perambalur</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="contact-info-box2 d-flex align-items-start ps-md-5 pt_20 pb_15">
-                                <img class="mr_20 mt_10"
-                                    src="{{ asset('assets/frontend/images/icons/icon-mail.png') }}" alt="">
+                                <img class="mr_20 mt_10" src="{{ asset('assets/frontend/images/icons/icon-mail.png') }}"
+                                    alt="">
                                 <p class="c_light mb_0 lh_30">Email us : <br> <a class="fs_20"
                                         href="mailto:admin@sthreeengineers.com">admin@sthreeengineers.com</a></p>
                             </div>
@@ -415,16 +422,15 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="about-widget mb_40">
-                                <div class="logo mb_30"><img
-                                        src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
-                                        style="height: 90px;"></div>
+                                <div class="logo mb_30"><img src="{{ asset('assets/frontend/images/logo-light.png') }}"
+                                        alt="" style="height: 90px;"></div>
                                 <ul class="footer-social-media mt_70">
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                             href="https://www.facebook.com/sthreeengineers" target="_blank"><i
                                                 class="fab fa-facebook-f"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                            href="https://www.linkedin.com/company/sthreeengineers"
-                                            target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                            href="https://www.linkedin.com/company/sthreeengineers" target="_blank"><i
+                                                class="fab fa-linkedin-in"></i></a></li>
                                     <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                             href="https://www.instagram.com/sthreeengineers" target="_blank"><i
                                                 class="fab fa-instagram"></i></a></li>
@@ -474,8 +480,8 @@
                     <div class="d-flex justify-content-lg-between pt_20 pb_6">
                         <p class="c_light2 fs_17 mb_20 fw_medium">Copyright © 2023 <a href="javascript:void(0)">Sthree
                                 Engineers</a>. All Right Reserved</p>
-                        <p class="c_light2 fs_17 mb_20 fw_medium">Crafted by <a
-                                href="https://www.zworktechnology.com/" target="_blank">zworktechnology.com</a>
+                        <p class="c_light2 fs_17 mb_20 fw_medium">Crafted by <a href="https://www.zworktechnology.com/"
+                                target="_blank">zworktechnology.com</a>
                         </p>
                     </div>
                 </div>

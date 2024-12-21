@@ -23,6 +23,19 @@
     <!-- Page Title -->
     <title>Sthree Engineers | The Key For All Your Construction Needs</title>
 
+    {{-- Hot Jar --}}
+    <script>
+        (function (c, s, q, u, a, r, e) {
+            c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
+            c._hjSettings = { hjid: a };
+            r = s.getElementsByTagName('head')[0];
+            e = s.createElement('script');
+            e.async = true;
+            e.src = q + c._hjSettings.hjid + u;
+            r.appendChild(e);
+        })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5248241);
+    </script>
+
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -77,7 +90,7 @@
             margin: 10% auto;
             background-color: white;
             border-radius: 20px;
-            width: 70%;
+            width: 65%;
             text-align: center;
         }
 
@@ -108,7 +121,7 @@
         }
 
         .popup-form input[type=text] {
-            height: 30px;
+            height: 50px;
         }
 
         .popup-form .form-control:focus {
@@ -476,14 +489,14 @@
                             <ul class="product_list list">
                                 <li class="product_item">
                                     <div class='row m-0'>
-                                        <div class="p-0 col-md-6 position-relative image-container ">
+                                        <div class="p-0 col-md-5 position-relative image-container ">
                                             <img src="assets\frontend\images\web_image-crop.png"
                                                 class='d-md-block d-none overflow-image' width="100%"
                                                 alt="" style="height:130% !important">
                                             <img src="assets\frontend\images\02.jpeg" class='d-md-none d-block'
                                                 width="100%" alt="" style="height:300px !important">
                                         </div>
-                                        <div class="product_values col-md-6 py-md-5 py-5">
+                                        <div class="product_values col-md-7 py-md-5 py-5">
                                             <div class="product_title">
                                                 <h5 class=''>Secure Your Warranty Today!</h5>
                                             </div>
