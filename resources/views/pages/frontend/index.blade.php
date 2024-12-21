@@ -472,11 +472,11 @@
 
 
             {{-- <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <img src="{{ asset('assets/frontend/images/aug15.png') }}" alt="Happy 78th Independence Day">
-            </div>
-        </div> --}}
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="{{ asset('assets/frontend/images/aug15.png') }}" alt="Happy 78th Independence Day">
+                </div>
+            </div> --}}
 
             <!-- Page onload Modal -->
             <div id="myModal" class="modal">
@@ -491,8 +491,8 @@
                                     <div class='row m-0'>
                                         <div class="p-0 col-md-5 position-relative image-container ">
                                             <img src="assets\frontend\images\web_image-crop.png"
-                                                class='d-md-block d-none overflow-image' width="100%"
-                                                alt="" style="height:130% !important">
+                                                class='d-md-block d-none overflow-image' width="100%" alt=""
+                                                style="height:130% !important">
                                             <img src="assets\frontend\images\02.jpeg" class='d-md-none d-block'
                                                 width="100%" alt="" style="height:300px !important">
                                         </div>
@@ -511,8 +511,7 @@
                                                     @csrf
                                                     <div class='d-block'>
                                                         <input class="form-control popup-input" autocomplete="off"
-                                                            style="" name="name" type="text"
-                                                            placeholder="Your Name" />
+                                                            style="" name="name" type="text" placeholder="Your Name" />
                                                     </div>
                                                     <div class='d-block pt-4'>
                                                         <input class="form-control popup-input" autocomplete="off"
@@ -1026,10 +1025,12 @@
                                     class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>our work</h6>
                             <h2 class="c_light fs_45 fw_black mb_40">Explore Recent Projects</h2>
                         </div>
-                        <div class="link-btn mb_30"><a href="{{ route('project') }}"
+                        <div class="link-btn mb_30">
+                            <a href="{{ route('project') }}"
                                 class="btn-1 pt_18 pb_15 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1">view
-                                all
-                                projects <i class="flaticon-fast-forward"></i> <span></span></a></div>
+                                all projects <i class="flaticon-fast-forward"></i> <span></span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="auto-container full-width ps-4 pe-4">
@@ -1040,17 +1041,8 @@
                                     data-wow-duration="1.5s">
                                     <div class="project-1-block">
                                         <div class="project-1-image" style="height: 375px !important;">
-                                            <img src="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}"
+                                            <img src="{{ asset('assets/frontend/images/project/project_images/4.webp') }}"
                                                 alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                            <div class="project-1-overlay">
-                                                <a href="{{ asset('assets/frontend/images/project/kknagar/4.webp') }}"
-                                                    class="project-1-icon" data-fancybox="project-1"><i
-                                                        class="flaticon-zoom"></i></a>
-                                            </div>
-                                            <div class="project-1-content">
-                                                <p class="project-1-cat">Front View</p>
-                                                <h4 class="project-1-title">K.K Nagar Project</h4>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1060,17 +1052,8 @@
                                     data-wow-duration="1.5s">
                                     <div class="project-1-block">
                                         <div class="project-1-image" style="height: 375px !important;">
-                                            <img src="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}"
+                                            <img src="{{ asset('assets/frontend/images/project/project_images/2.webp') }}"
                                                 alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                            <div class="project-1-overlay">
-                                                <a href="{{ asset('assets/frontend/images/project/gunaseelam/4.webp') }}"
-                                                    class="project-1-icon" data-fancybox="project-1"><i
-                                                        class="flaticon-zoom"></i></a>
-                                            </div>
-                                            <div class="project-1-content">
-                                                <p class="project-1-cat">Front View</p>
-                                                <h4 class="project-1-title">Gunaseeelam Project</h4>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1080,17 +1063,8 @@
                                     data-wow-duration="1.5s">
                                     <div class="project-1-block">
                                         <div class="project-1-image" style="height: 375px !important;">
-                                            <img src="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}"
+                                            <img src="{{ asset('assets/frontend/images/project/project_images/3.webp') }}"
                                                 alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                            <div class="project-1-overlay">
-                                                <a href="{{ asset('assets/frontend/images/project/vivekanandha nagar/4.webp') }}"
-                                                    class="project-1-icon" data-fancybox="project-1"><i
-                                                        class="flaticon-zoom"></i></a>
-                                            </div>
-                                            <div class="project-1-content">
-                                                <p class="project-1-cat">Front View</p>
-                                                <h4 class="project-1-title">Vivekanandha Nagar Project</h4>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1100,17 +1074,8 @@
                                     data-wow-duration="1.5s">
                                     <div class="project-1-block">
                                         <div class="project-1-image" style="height: 375px !important;">
-                                            <img src="{{ asset('assets/frontend/images/project/office interior/4.webp') }}"
+                                            <img src="{{ asset('assets/frontend/images/project/project_images/1.webp') }}"
                                                 alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                            <div class="project-1-overlay">
-                                                <a href="{{ asset('assets/frontend/images/project/office interior/4.webp') }}"
-                                                    class="project-1-icon" data-fancybox="project-1"><i
-                                                        class="flaticon-zoom"></i></a>
-                                            </div>
-                                            <div class="project-1-content">
-                                                <p class="project-1-cat">Side View</p>
-                                                <h4 class="project-1-title">Office Interior Project</h4>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
