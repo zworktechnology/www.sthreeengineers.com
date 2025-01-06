@@ -510,17 +510,17 @@
                                                     class='w-100 popup-form px-md-1 px-2 contact-validation-active'>
                                                     @csrf
                                                     <div class='d-block'>
-                                                        <input class="form-control popup-input" autocomplete="off"
+                                                        <input class="form-control popup-input" autocomplete="off" required 
                                                             style="" name="name" type="text" placeholder="Your Name" />
                                                     </div>
                                                     <div class='d-block pt-4'>
                                                         <input class="form-control popup-input" autocomplete="off"
-                                                            name="phonenumber" type="text"
+                                                            name="phonenumber" type="text" required
                                                             placeholder="Your Contact Number" />
                                                     </div>
 
                                                     <div class='d-block pt-4'>
-                                                        <input class="form-control popup-input" autocomplete="off"
+                                                        <input class="form-control popup-input" autocomplete="off" required
                                                             name="address" type="text" placeholder="Your City" />
                                                     </div>
 
@@ -694,16 +694,16 @@
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important;padding-left:0px !important">
                                         <input class="left-borderRadius" type="text" name="name" placeholder="Your Name"
-                                            required="" style="height: 50px !important;">
+                                            required style="height: 50px !important;">
                                     </div>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
-                                        <input type="text" name="phone" placeholder="Mobile Number" required=""
+                                        <input type="text" name="phonenumber" placeholder="Mobile Number" required
                                             style="border-radius: 0px !important;  height: 50px !important;">
                                     </div>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
-                                        <input type="text" name="address" placeholder="Your Address" required=""
+                                        <input type="text" name="address" placeholder="Your Address" required
                                             style="border-radius: 0px !important;  height: 50px !important;">
                                     </div>
                                     {{-- <div class=" col-12 mb-0">
