@@ -68,6 +68,10 @@ Route::get('/contact', function () {
     return view('pages.frontend.contact');
 })->name('contact');
 
+Route::get('/privacy-policy', function () {
+    return view('pages.frontend.privacy_policy');
+})->name('privacy_policy');
+
 Route::get('/builders-in-trichy', function () {
     return view('pages.frontend.builders-in-trichy');
 })->name('builders-in-trichy');
