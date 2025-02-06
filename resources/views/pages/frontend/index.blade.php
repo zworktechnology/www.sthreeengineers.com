@@ -654,7 +654,7 @@
                     <span class="line-grid-5"></span>
                 </div>
                 <div class="banner-1-image-1 p_absolute b_0 r_0"><img
-                        src="{{ asset('assets/frontend/images/main-slider/image-123.png') }}"
+                        src="{{ asset('assets/frontend/images/main-slider/image-12.webp') }}"
                         alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                 </div>
                 <!-- <div class="banner-1-image-2" data-parallax='{"x": -50}'><img src="assets/images/main-slider/image-4.png" alt=""></div>                 -->
