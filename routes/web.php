@@ -91,6 +91,9 @@ Route::get('/civil-project-and-management-company-in-trichy', function () {
 Route::get('/home-interior-design', function () {
     return view('pages.frontend.home-interior-design');
 })->name('home-interior-design');
+Route::get('/civil-engineer-near-me', function () {
+    return view('pages.frontend.civil-engineer-near-me');
+})->name('home-civil-engineer-near-me');
 
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
