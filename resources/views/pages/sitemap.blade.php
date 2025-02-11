@@ -95,6 +95,11 @@
         <lastmod>2024-01-19T08:59:38+00:00</lastmod>
         <priority>1.00</priority>
     </url>
+    <url>
+        <loc>https://www.sthreeengineers.com/civil-engineer-near-me</loc>
+        <lastmod>2024-01-19T08:59:38+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
     @foreach ($data as $sitemap)
     <url>
         <loc>https://www.sthreeengineers.com/{{ $sitemap->slug_url }}/{{ $sitemap->random_id }}</loc>

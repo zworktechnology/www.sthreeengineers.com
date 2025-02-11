@@ -12,11 +12,12 @@
     <meta name="keywords"
         content="civil engineer near me, best civil engineer in trichy, villa construction, civil and construction engineering, civil engineer for house construction, civil engineering construction">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sthreeengineers.com/home-interior-design">
+    <meta property="og:url" content="https://www.sthreeengineers.com/civil-engineer-near-me">
     <meta property="og:title" content="Civil Engineer Near Me | Expert Building & Design Services">
     <meta property="og:description"
         content="Find the best civil engineer in Trichy near you! Hire the top civil engineer near me for expert construction and design solutions.">
-    <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-13.webp"
+    <meta property="og:image"
+        content="https://www.sthreeengineers.com/assets/frontend/images/project/project_images/4.webp"
         alt="civil engineer near me, best civil engineer in trichy, villa construction, civil and construction engineering, civil engineer for house construction, civil engineering construction, 5 Importance of Civil Engineers, Why is a Civil Engineer Important?">
 
 
@@ -363,12 +364,12 @@
                     </div>
                 </div>
 
-                
+
 
                 <div class="row">
                     <div class="col-5 text-center mt_30" style="width: 350px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/why civil engineer is important.jpg') }}" style="width: 350px;"
-                            class="mt_10" alt="civil engineer near me">
+                        <img src="{{ asset('assets/frontend/images/gallery/why civil engineer is important.jpg') }}"
+                            style="width: 350px;" class="mt_10" alt="civil engineer near me">
                     </div>
                     <div class="col-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why is a Civil Engineer Important?</h4>
@@ -420,7 +421,7 @@
                         </div>
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/5 importance of civil engineer.png') }}" 
+                        <img src="{{ asset('assets/frontend/images/gallery/5 importance of civil engineer.png') }}"
                             style="width: 900px; height: 375px;" alt="civil engineer near me">
                     </div>
                 </div>
