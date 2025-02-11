@@ -389,6 +389,10 @@
 
                 <h4 class="fw_bold fs_28 mb_20 mt_30">5 Importance of Civil Engineers</h4>
                 <div class="row">
+                    <div class="col-5 text-center mb_20" style="width: 350px;">
+                        <img src="{{ asset('assets/frontend/images/gallery/5 importance of civil engineer.png') }}"
+                            style="width: 900px; height: 375px;" alt="civil engineer near me">
+                    </div>
                     <div class="col-7">
                         <div class="mb_30">
                             <p>
@@ -420,10 +424,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-5 text-center mb_20" style="width: 325px;">
-                        <img src="{{ asset('assets/frontend/images/gallery/5 importance of civil engineer.png') }}"
-                            style="width: 900px; height: 375px;" alt="civil engineer near me">
-                    </div>
+                    
                 </div>
 
                 <h4 class="fw_bold fs_28 mt_30 mb_10">Contact Us</h4>
