@@ -64,7 +64,7 @@
                                 </div>
                             </div>
 
-                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                            {{-- <div class="masonry-item all cat-2 col-lg-4 col-md-6"
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
                                     <div class="project-1-image">
@@ -85,6 +85,34 @@
                                         <div class="project-1-content">
                                             <p class="project-1-cat">Mr.Jerison, Dalmiapuram - Ariyalur</p>
                                             <h4 class="project-1-title">Residential House, 1,025sqft</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> --}}
+
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <!-- Video Element -->
+                                        <video autoplay muted loop playsinline controls
+                                            style="width: 100%; height: auto; border-radius: 10px;">
+                                            <source src="{{ asset('assets/frontend/images/project/project_images/1.mp4') }}"
+                                                type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+
+                                        <!-- Overlay with video popup -->
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/1.mp4') }}"
+                                                class="project-1-icon" data-fancybox="video-gallery">
+                                                <i class="flaticon-zoom"></i>
+                                            </a>
+                                        </div>
+
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mrs. Sudha Sobana, <br>Cantonment - Trichy</p>
+                                            <h4 class="project-1-title">Room Interior, 149sqft</h4>
                                         </div>
                                     </div>
                                 </div>
