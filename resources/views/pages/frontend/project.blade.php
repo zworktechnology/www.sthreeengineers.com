@@ -63,17 +63,24 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="masonry-item all cat-2 col-lg-4 col-md-6"
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
                                     <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
-                                            alt="">
+                                        <!-- Video Element -->
+                                        <video autoplay muted loop playsinline controls
+                                            style="width: 100%; height: auto; border-radius: 10px;">
+                                            <source src="{{ asset('assets/frontend/images/project/project_images/1.mp4') }}"
+                                                type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+
+
                                         <div class="project-1-overlay">
                                             <a href="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
                                                 class="project-1-icon" data-fancybox="project-1"><i
                                                     class="flaticon-zoom"></i></a>
-
                                         </div>
                                         <div class="project-1-content">
                                             <p class="project-1-cat">Mr.Jerison, Dalmiapuram - Ariyalur</p>
@@ -82,6 +89,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="masonry-item all cat-2 col-lg-4 col-md-6"
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
@@ -296,17 +304,17 @@
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
                                     <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/16.webp') }}"
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
                                             alt="">
                                         <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/16.webp') }}"
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
                                                 class="project-1-icon" data-fancybox="project-1"><i
                                                     class="flaticon-zoom"></i></a>
 
                                         </div>
                                         <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Beerahamed, MK Kottai - Trichy</p>
-                                            <h4 class="project-1-title">before Renovation, 1200sqft</h4>
+                                            <p class="project-1-cat">Mr.Jerison, Dalmiapuram - Ariyalur</p>
+                                            <h4 class="project-1-title">Residential House, 1,025sqft</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -326,7 +334,7 @@
                                         </div>
                                         <div class="project-1-content">
                                             <p class="project-1-cat">Mr.Beerahamed, MK Kottai - Trichy</p>
-                                            <h4 class="project-1-title">After Renovation, 1200sqft</h4>
+                                            <h4 class="project-1-title">House Renovation, 1200sqft</h4>
                                         </div>
                                     </div>
                                 </div>
