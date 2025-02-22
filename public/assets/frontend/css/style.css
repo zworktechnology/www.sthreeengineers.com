@@ -6196,3 +6196,72 @@ form input[type=email] {
 		border-radius: 0px 8px 8px 0px !important; 
 	}
 }
+
+.pagination-wrapper .pg-pagination {
+	display: inline-block;
+	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+  }
+  .pagination-wrapper .pg-pagination li {
+	float: left;
+	margin-right: 10px;
+  }
+  @media (max-width: 767px) {
+	.pagination-wrapper .pg-pagination li {
+	  margin-right: 5px;
+	}
+  }
+  .pagination-wrapper .pg-pagination li:last-child {
+	margin-right: 0;
+  }
+  .pagination-wrapper .pg-pagination li a {
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-size: 1.0666666667rem;
+	font-weight: 600;
+	color: #0D0845;
+	background: rgba(202, 171, 6, 0.1);
+	display: block;
+  }
+  @media (max-width: 991px) {
+	.pagination-wrapper .pg-pagination li a {
+	  width: 40px;
+	  height: 40px;
+	  line-height: 40px;
+	  font-size: 15px;
+	  font-size: 1rem;
+	}
+  }
+  .pagination-wrapper .pg-pagination .active a,
+  .pagination-wrapper .pg-pagination li a:hover {
+	background: #1d6ab3;
+	border-color: #1d6ab3;
+	color: #fff;
+  }
+  .pagination-wrapper .pg-pagination .fi:before {
+	font-size: 15px;
+	font-size: 1rem;
+  }
+  
+  .pagination-wrapper-left {
+	text-align: left;
+  }
+  
+  .pagination-wrapper-right {
+	text-align: right;
+  }
+  @media screen and (min-width: 1200px) {
+	.pagination-wrapper-right {
+	  padding-right: 50px;
+	}
+  }
+  @media (max-width: 991px) {
+	.pagination-wrapper-right {
+	  margin-top: 45px;
+	  text-align: left;
+	}
+  }

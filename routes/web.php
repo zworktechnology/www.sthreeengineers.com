@@ -64,6 +64,10 @@ Route::get('/project', function () {
     return view('pages.frontend.project');
 })->name('project');
 
+Route::get('/project-2', function () {
+    return view('pages.frontend.project_2');
+})->name('project-2');
+
 Route::get('/contact', function () {
     return view('pages.frontend.contact');
 })->name('contact');

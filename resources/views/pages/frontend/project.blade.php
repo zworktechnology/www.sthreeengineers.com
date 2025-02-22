@@ -44,52 +44,6 @@
                 <div class="col-lg-12">
                     <div class="sortable-masonry">
                         <div class="items-container row" style="position: relative; height: 1065px;">
-                            <div class="masonry-item all cat-1 col-lg-4 col-md-6"
-                                style="position: absolute; left: 0px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/11.webp') }}"
-                                            alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/11.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
-
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Gobi, Trichy</p>
-                                            <h4 class="project-1-title">Residential House, 8,500sqft (3 Floors)</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- <div class="masonry-item all cat-2 col-lg-4 col-md-6"
-                                style="position: absolute; left: 400px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <!-- Video Element -->
-                                        <video autoplay muted loop playsinline controls
-                                            style="width: 100%; height: auto; border-radius: 10px;">
-                                            <source src="{{ asset('assets/frontend/images/project/project_images/1.mp4') }}"
-                                                type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-
-
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Jerison, Dalmiapuram - Ariyalur</p>
-                                            <h4 class="project-1-title">Residential House, 1,025sqft</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
-
                             <div class="masonry-item all cat-2 col-lg-4 col-md-6"
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
@@ -117,7 +71,207 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/14.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/14.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
 
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Anbalagan, <br> Subramaniyapuram - Trichy</p>
+                                            <h4 class="project-1-title">Interior</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/13.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/13.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Anbalagan, <br> Subramaniyapuram - Trichy</p>
+                                            <h4 class="project-1-title">Residential House, 1,450sqft (2nd Floor)</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/21.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/13.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Anbalagan, <br> Subramaniyapuram - Trichy</p>
+                                            <h4 class="project-1-title">Residential House, 1,450sqft (2nd Floor)</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/15.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/15.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Anbalagan,<br> Subramaniyapuram - Trichy</p>
+                                            <h4 class="project-1-title">Interior</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Jerison, Dalmiapuram - Ariyalur</p>
+                                            <h4 class="project-1-title">Residential House, 1,025sqft</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/17.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/17.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Beerahamed, MK Kottai - Trichy</p>
+                                            <h4 class="project-1-title">House Renovation, 1200sqft</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/18.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/18.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr. Mansoor, Kattumanam - E - Trade
+                                                <br>Ariyamangalam - Trichy
+                                            </p>
+                                            <h4 class="project-1-title">Office interior, 900sqft</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/19.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/18.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr. Mansoor, Kattumanam - E - Trade
+                                                <br>Ariyamangalam - Trichy
+                                            </p>
+                                            <h4 class="project-1-title">Office interior, 900sqft</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/20.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/18.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr. Mansoor, Kattumanam - E - Trade
+                                                <br>Ariyamangalam - Trichy
+                                            </p>
+                                            <h4 class="project-1-title">Office interior, 900sqft</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item all cat-1 col-lg-4 col-md-6"
+                                style="position: absolute; left: 0px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/11.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/11.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Gobi, Trichy</p>
+                                            <h4 class="project-1-title">Residential House, 8,500sqft (3 Floors)</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="masonry-item all cat-2 col-lg-4 col-md-6"
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
@@ -271,102 +425,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
-                                style="position: absolute; left: 400px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/13.webp') }}"
-                                            alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/13.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
 
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Anbalagan, <br> Subramaniyapuram - Trichy</p>
-                                            <h4 class="project-1-title">Residential House, 1,450sqft (2nd Floor)</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
-                                style="position: absolute; left: 400px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/15.webp') }}"
-                                            alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/15.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
 
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Anbalagan,<br> Subramaniyapuram - Trichy</p>
-                                            <h4 class="project-1-title">Interior</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
-                                style="position: absolute; left: 400px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/14.webp') }}"
-                                            alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/14.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
-
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Anbalagan, <br> Subramaniyapuram - Trichy</p>
-                                            <h4 class="project-1-title">Interior</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
-                                style="position: absolute; left: 400px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
-                                            alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/5.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
-
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Jerison, Dalmiapuram - Ariyalur</p>
-                                            <h4 class="project-1-title">Residential House, 1,025sqft</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
-                                style="position: absolute; left: 400px; top: 0px;">
-                                <div class="project-1-block alt">
-                                    <div class="project-1-image">
-                                        <img src="{{ asset('assets/frontend/images/project/project_images/17.webp') }}"
-                                            alt="">
-                                        <div class="project-1-overlay">
-                                            <a href="{{ asset('assets/frontend/images/project/project_images/17.webp') }}"
-                                                class="project-1-icon" data-fancybox="project-1"><i
-                                                    class="flaticon-zoom"></i></a>
-
-                                        </div>
-                                        <div class="project-1-content">
-                                            <p class="project-1-cat">Mr.Beerahamed, MK Kottai - Trichy</p>
-                                            <h4 class="project-1-title">House Renovation, 1200sqft</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
