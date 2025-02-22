@@ -113,6 +113,25 @@
                                 style="position: absolute; left: 400px; top: 0px;">
                                 <div class="project-1-block alt">
                                     <div class="project-1-image">
+                                        <img src="{{ asset('assets/frontend/images/project/project_images/22.webp') }}"
+                                            alt="">
+                                        <div class="project-1-overlay">
+                                            <a href="{{ asset('assets/frontend/images/project/project_images/22.webp') }}"
+                                                class="project-1-icon" data-fancybox="project-1"><i
+                                                    class="flaticon-zoom"></i></a>
+
+                                        </div>
+                                        <div class="project-1-content">
+                                            <p class="project-1-cat">Mr.Anbalagan, <br> Subramaniyapuram - Trichy</p>
+                                            <h4 class="project-1-title">Residential House, 1,450sqft (2nd Floor)</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item all cat-2 col-lg-4 col-md-6"
+                                style="position: absolute; left: 400px; top: 0px;">
+                                <div class="project-1-block alt">
+                                    <div class="project-1-image">
                                         <img src="{{ asset('assets/frontend/images/project/project_images/21.webp') }}"
                                             alt="">
                                         <div class="project-1-overlay">
