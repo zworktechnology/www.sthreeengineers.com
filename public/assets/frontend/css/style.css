@@ -6223,8 +6223,8 @@ form input[type=email] {
 	font-size: 16px;
 	font-size: 1.0666666667rem;
 	font-weight: 600;
-	color: #0D0845;
-	background: rgba(202, 171, 6, 0.1);
+	color: grey;
+	background: #0b1930 !important;
 	display: block;
   }
   @media (max-width: 991px) {

@@ -1,4 +1,4 @@
-{{-- @extends('layouts.guest')
+@extends('layouts.guest')
 
 @section('content')
     <!-- banner -->
@@ -205,6 +205,18 @@
                     </div>
                 </div>
             </div>
+            <div class="pagination-wrapper pagination-wrapper-left">
+                <ul class="pg-pagination">
+                    {{-- <li>
+                        <a href="project" aria-label="Previous">
+                            <i class="fi ti-angle-left" white></i>
+                        </a>
+                    </li> --}}
+                    <li><a href="project">1</a></li>
+                    <li class="active"><a href="project-2">2</a></li>
+
+                </ul>
+            </div>
         </div>
     </section>
-@endsection --}}
+@endsection

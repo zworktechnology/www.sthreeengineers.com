@@ -20,17 +20,17 @@ class Contact extends Model
         'reach_out_status'
     ];
 
-    public static function boot()
-    {
-        Parent::boot();
+    // public static function boot()
+    // {
+    //     Parent::boot();
 
-        static::created(function ($item) {
+    //     static::created(function ($item) {
 
-            $to_provider = 'developer@zworktechnology.com';
-            $to_owner = 'sthreeengineers@gmail.com';
+    //         $to_provider = 'developer@zworktechnology.com';
+    //         $to_owner = 'sthreeengineers@gmail.com';
 
-            Mail::to($to_owner)->bcc($to_provider)->send(new ContactMail ($item));
-            // Mail::to($to_provider)->send(new ContactMail ($item));
-        });
-    }
+    //         Mail::to($to_owner)->bcc($to_provider)->send(new ContactMail ($item));
+    //         // Mail::to($to_provider)->send(new ContactMail ($item));
+    //     });
+    // }
 }

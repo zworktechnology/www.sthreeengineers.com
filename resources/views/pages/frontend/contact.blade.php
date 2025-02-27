@@ -68,13 +68,13 @@
                                     <textarea name="message" class="form-control" placeholder="Message *" required="">{{ old('message') }}</textarea>
                                 </div>
                                 <div class="row fullwidth">
-                                    <div class="goolge-v2 col-md-6">
+                                    {{-- <div class="goolge-v2 col-md-6">
                                         @if (config('services.recaptcha.key'))
                                             <div class="g-recaptcha"
                                                 data-sitekey="{{ config('services.recaptcha.key') }}">
                                             </div>
                                         @endif
-                                    </div>
+                                    </div> --}}
                                     <div class="submit-area col-md-6 my-md-0 my-4 d-md-block d-flex justify-content-center ">
                                         <button
                                             class="btn-1 text-center pt_12 pb_9 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1"
