@@ -30,7 +30,7 @@ class ContactController extends Controller
 
         $data->save();
 
-        $admin_number = 8838746579;
+        $admin_number = 7871313987;
 
         $name = $request->get('name');
         $clinet_phone = $request->get('mobile');

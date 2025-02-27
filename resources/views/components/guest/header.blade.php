@@ -20,38 +20,46 @@
         content="https://www.sthreeengineers.com/assets/frontend/images/resource/Building_Construction/2.jpg"
         alt="builders in trichy">
 
+    {{-- <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> --}}
+
+
     <!-- Page Title -->
     <title>Construction Maestros | Unveiling the Artistry of Sthree Engineers</title>
 
     {{-- Hot Jar --}}
     <script>
-        (function (c, s, q, u, a, r, e) {
-                c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
-                c._hjSettings = { hjid: a };
-                r = s.getElementsByTagName('head')[0];
-                e = s.createElement('script');
-                e.async = true;
-                e.src = q + c._hjSettings.hjid + u;
-                r.appendChild(e);
-            })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5248241);
+        (function(c, s, q, u, a, r, e) {
+            c.hj = c.hj || function() {
+                (c.hj.q = c.hj.q || []).push(arguments)
+            };
+            c._hjSettings = {
+                hjid: a
+            };
+            r = s.getElementsByTagName('head')[0];
+            e = s.createElement('script');
+            e.async = true;
+            e.src = q + c._hjSettings.hjid + u;
+            r.appendChild(e);
+        })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5248241);
     </script>
 
     <!-- Google Tag Manager -->
     <script>
-        (function (w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({
-				'gtm.start': new Date().getTime(),
-				event: 'gtm.js'
-			});
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src =
-				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-NTTZ597K');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NTTZ597K');
     </script>
 
     <!-- Stylesheets -->
@@ -113,7 +121,8 @@
                                             <li><a href="{{ route('about') }}">About Us</a></li>
                                             <li class="dropdown"><a href="{{ route('service') }}">Services</a>
                                                 <ul>
-                                                    <li><a href="{{ route('construction') }}">Building Construction </a>
+                                                    <li><a href="{{ route('construction') }}">Building Construction
+                                                        </a>
                                                     </li>
                                                     <li><a href="{{ route('project_management') }}">Project Management
                                                             (PMC)</a></li>
@@ -121,7 +130,8 @@
                                                     <li><a href="{{ route('survey') }}">Surveying</a></li>
                                                     <li><a href="{{ route('interior') }}">Interior Works</a></li>
                                                     <li><a href="{{ route('approval') }}">Approval</a></li>
-                                                    <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
+                                                    <li><a href="{{ route('quality_survey') }}">Quantity Survey</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                             <li><a href="{{ route('blog') }}">Blog</a></li>
@@ -154,7 +164,8 @@
                             <div class="right-column d-flex align-items-center">
                                 <div class="nav-outer">
                                     <div class="mobile-nav-toggler"><img
-                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
+                                            alt="">
                                     </div>
                                     <nav class="main-menu navbar-expand-md navbar-light">
 
@@ -165,7 +176,8 @@
                                         class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
                                         On Whatsapp<span></span></a></div>
                                 <div class="sidemenu-nav-toggler mr_30 ml_30"><img
-                                        src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt=""></div>
+                                        src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -178,7 +190,8 @@
 
                 <nav class="menu-box">
                     <div class="nav-logo"><a href="{{ route('index') }}"><img
-                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a></div>
+                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+                                title=""></a></div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
@@ -205,12 +218,13 @@
         <section class="hidden-sidebar close-sidebar">
             <div class="wrapper-box">
                 <div class="hidden-sidebar-close"><span class="fal fa-times"></span></div>
-                <div class="logo"><a href="#"><img src="{{ asset('assets/frontend/images/logo-light.png') }}"
-                            alt=""></a></div>
+                <div class="logo"><a href="#"><img
+                            src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""></a></div>
                 <div class="content">
                     <div class="about-widget-two sidebar-widget">
                         <h3>The perfect solution for all your construction needs </h3>
-                        <div class="text">Trustworthy, dependable, affordable and cost-effective building solutions with
+                        <div class="text">Trustworthy, dependable, affordable and cost-effective building solutions
+                            with
                             19 years of experience in the industry. Build your high-rise or housing project with
                             confidence.</div>
                     </div>
@@ -268,7 +282,8 @@
                             <li>
                                 <div class="inner">
                                     <div class="icon">
-                                        <img src="{{ asset('assets/frontend/images/icons/icon-9__phone.png') }}" alt="">
+                                        <img src="{{ asset('assets/frontend/images/icons/icon-9__phone.png') }}"
+                                            alt="">
                                     </div>
                                     <div class="text">
                                         <p><a href="tel:+917871313987">(+91) 78713 13987</a></p>
