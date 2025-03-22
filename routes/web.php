@@ -80,6 +80,19 @@ Route::get('/builders-in-trichy', function () {
     return view('pages.frontend.builders-in-trichy');
 })->name('builders-in-trichy');
 
+Route::get('/civil-construction-company', function () {
+    return view('pages.frontend.civil-construction-company');
+})->name('civil-construction-company');
+
+Route::get('/civil-engineering-construction', function () {
+    return view('pages.frontend.civil-engineering-construction');
+})->name('civil-engineering-construction');
+
+
+Route::get('/interior-design-company', function () {
+    return view('pages.frontend.interior-design-company');
+})->name('interior-design-company');
+
 Route::get('/interior-designer-in-trichy', function () {
     return view('pages.frontend.interior-designer-in-trichy');
 })->name('interior-designer-in-trichy');

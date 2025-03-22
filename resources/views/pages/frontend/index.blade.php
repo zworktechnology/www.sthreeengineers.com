@@ -25,9 +25,13 @@
 
     {{-- Hot Jar --}}
     <script>
-        (function (c, s, q, u, a, r, e) {
-            c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
-            c._hjSettings = { hjid: a };
+        (function(c, s, q, u, a, r, e) {
+            c.hj = c.hj || function() {
+                (c.hj.q = c.hj.q || []).push(arguments)
+            };
+            c._hjSettings = {
+                hjid: a
+            };
             r = s.getElementsByTagName('head')[0];
             e = s.createElement('script');
             e.async = true;
@@ -361,7 +365,8 @@
                                 <div class="right-column d-flex align-items-center">
                                     <div class="nav-outer">
                                         <div class="mobile-nav-toggler"><img
-                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
+                                                alt="">
                                         </div>
                                         <nav class="main-menu navbar-expand-md navbar-light">
                                             <div class="collapse navbar-collapse show clearfix"
@@ -371,7 +376,13 @@
                                                     <li><a href="{{ route('about') }}">About Us</a></li>
                                                     <li class="dropdown"><a href="{{ route('service') }}">Services</a>
                                                         <ul>
-                                                            <li><a href="{{ route('construction') }}">Building
+                                                            <li><a href="{{ route('civil-construction-company') }}">Building
+                                                                    Construction
+                                                                </a></li>
+
+                                                            <li><a
+                                                                    href="{{ route('civil-engineering-construction') }}">Civil
+                                                                    Engineering
                                                                     Construction
                                                                 </a></li>
                                                             <li><a href="{{ route('project_management') }}">Project
@@ -379,7 +390,8 @@
                                                                     (PMC)</a></li>
                                                             <li><a href="{{ route('valuation') }}">Valuation</a></li>
                                                             <li><a href="{{ route('survey') }}">Surveying</a></li>
-                                                            <li><a href="{{ route('interior') }}">Interior Works</a>
+                                                            <li><a href="{{ route('interior-design-company') }}">Interior
+                                                                    Works</a>
                                                             </li>
                                                             <li><a href="{{ route('approval') }}">Approval</a></li>
                                                             <li><a href="{{ route('quality_survey') }}">Quantity
@@ -414,24 +426,27 @@
                             <div class="inner-container d-flex align-items-center justify-content-between">
                                 <div class="logo-box">
                                     <div class="logo"><a href="{{ route('index') }}"><img
-                                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
-                                                style="height: 70px;"></a></div>
+                                                src="{{ asset('assets/frontend/images/logo-light.png') }}"
+                                                alt="" style="height: 70px;"></a></div>
                                 </div>
                                 <div class="right-column d-flex align-items-center">
                                     <div class="nav-outer">
                                         <div class="mobile-nav-toggler"><img
-                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                                src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
+                                                alt="">
                                         </div>
                                         <nav class="main-menu navbar-expand-md navbar-light">
 
                                         </nav>
                                     </div>
                                     <div class="header-link-btn ml_30"><a
-                                            href="https://api.whatsapp.com/send/?phone=%2B917871313987" target="_blank"
+                                            href="https://api.whatsapp.com/send/?phone=%2B917871313987"
+                                            target="_blank"
                                             class="btn-1 pt_10 pb_10 pl_30 pr_30 b_radius_23 ff_sec fw_bold tt_u fs_14 ls_1">Chat
                                             On Whatsapp<span></span></a></div>
                                     <div class="sidemenu-nav-toggler mr_30 ml_30"><img
-                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                            src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -445,7 +460,8 @@
 
                     <nav class="menu-box">
                         <div class="nav-logo"><a href="{{ route('index') }}"><img
-                                    src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title=""></a>
+                                    src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
+                                    title=""></a>
                         </div>
                         <div class="menu-outer">
                             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -491,8 +507,8 @@
                                     <div class='row m-0'>
                                         <div class="p-0 col-md-5 position-relative image-container ">
                                             <img src="assets\frontend\images\web_image-crop.png"
-                                                class='d-md-block d-none overflow-image' width="100%" alt=""
-                                                style="height:130% !important">
+                                                class='d-md-block d-none overflow-image' width="100%"
+                                                alt="" style="height:130% !important">
                                             <img src="assets\frontend\images\02.jpeg" class='d-md-none d-block'
                                                 width="100%" alt="" style="height:300px !important">
                                         </div>
@@ -510,8 +526,9 @@
                                                     class='w-100 popup-form px-md-1 px-2 contact-validation-active'>
                                                     @csrf
                                                     <div class='d-block'>
-                                                        <input class="form-control popup-input" autocomplete="off" required 
-                                                            style="" name="name" type="text" placeholder="Your Name" />
+                                                        <input class="form-control popup-input" autocomplete="off"
+                                                            required style="" name="name" type="text"
+                                                            placeholder="Your Name" />
                                                     </div>
                                                     <div class='d-block pt-4'>
                                                         <input class="form-control popup-input" autocomplete="off"
@@ -520,8 +537,9 @@
                                                     </div>
 
                                                     <div class='d-block pt-4'>
-                                                        <input class="form-control popup-input" autocomplete="off" required
-                                                            name="address" type="text" placeholder="Your City" />
+                                                        <input class="form-control popup-input" autocomplete="off"
+                                                            required name="address" type="text"
+                                                            placeholder="Your City" />
                                                     </div>
 
                                                     <div class='w-100 d-flex justify-content-center mt-4'>
@@ -544,8 +562,8 @@
             <section class="hidden-sidebar close-sidebar">
                 <div class="wrapper-box">
                     <div class="hidden-sidebar-close"><span class="fal fa-times"></span></div>
-                    <div class="logo"><a href="#"><img src="{{ asset('assets/frontend/images/logo-light.png') }}"
-                                alt=""></a></div>
+                    <div class="logo"><a href="#"><img
+                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""></a></div>
                     <div class="content">
                         <div class="about-widget-two sidebar-widget">
                             <h3>The perfect solution for all your construction needs </h3>
@@ -626,7 +644,8 @@
                                                 href="https://www.facebook.com/sthreeengineers" target="_blank">
                                                 <i class="fab fa-facebook-f"></i></a></li>
                                         <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
-                                                href="https://www.linkedin.com/company/sthreeengineers" target="_blank">
+                                                href="https://www.linkedin.com/company/sthreeengineers"
+                                                target="_blank">
                                                 <i class="fab fa-linkedin-in"></i></a></li>
                                         <li><a class="hvr-zoom-1 hvr-zoom-1-primary"
                                                 href="https://www.instagram.com/sthreeengineers" target="_blank">
@@ -693,8 +712,8 @@
                                 <div class='row col-12 m-0 p-0'>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important;padding-left:0px !important">
-                                        <input class="left-borderRadius" type="text" name="name" placeholder="Your Name"
-                                            required style="height: 50px !important;">
+                                        <input class="left-borderRadius" type="text" name="name"
+                                            placeholder="Your Name" required style="height: 50px !important;">
                                     </div>
                                     <div class="form-group col-lg-3"
                                         style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
@@ -1283,27 +1302,32 @@
                     <div class="row align-items-center">
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-1.png') }}" alt="">
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-1.png') }}"
+                                    alt="">
                             </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-2.png') }}" alt="">
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-2.png') }}"
+                                    alt="">
                             </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}" alt="">
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}"
+                                    alt="">
                             </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-3.png') }}" alt="">
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-3.png') }}"
+                                    alt="">
                             </div>
                         </div>
                         <div class="col-xl-2-5 col-lg-4 col-md-4">
                             <div class="client-logo-1-image mb_20"><img
-                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}" alt="">
+                                    src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}"
+                                    alt="">
                             </div>
                         </div>
                     </div>
