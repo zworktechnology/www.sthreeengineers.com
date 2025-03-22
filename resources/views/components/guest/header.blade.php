@@ -121,14 +121,21 @@
                                             <li><a href="{{ route('about') }}">About Us</a></li>
                                             <li class="dropdown"><a href="{{ route('service') }}">Services</a>
                                                 <ul>
-                                                    <li><a href="{{ route('construction') }}">Building Construction
-                                                        </a>
-                                                    </li>
+                                                    <li><a href="{{ route('civil-construction-company') }}">Building
+                                                            Construction
+                                                        </a></li>
+
+                                                    <li><a href="{{ route('civil-engineering-construction') }}">Civil
+                                                            Engineering
+                                                            Construction
+                                                        </a></li>
                                                     <li><a href="{{ route('project_management') }}">Project Management
                                                             (PMC)</a></li>
                                                     <li><a href="{{ route('valuation') }}">Valuation</a></li>
                                                     <li><a href="{{ route('survey') }}">Surveying</a></li>
-                                                    <li><a href="{{ route('interior') }}">Interior Works</a></li>
+                                                    <li><a href="{{ route('interior-design-company') }}">Interior
+                                                        Works</a>
+                                                </li>
                                                     <li><a href="{{ route('approval') }}">Approval</a></li>
                                                     <li><a href="{{ route('quality_survey') }}">Quantity Survey</a>
                                                     </li>
