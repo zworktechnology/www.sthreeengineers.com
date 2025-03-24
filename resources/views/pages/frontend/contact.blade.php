@@ -42,11 +42,12 @@
                         @enderror
                         <form autocomplete="off" method="POST" action="{{ route('contact.store') }}"
                             class="contact-validation-active">
+
                             @csrf
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" name="name" class="form-control"
-                                        placeholder="Mr/Mrs. Name *" required="" value="{{ old('name') }}">
+                                    <input type="text" name="name" class="form-control" placeholder="Mr/Mrs. Name *"
+                                        required="" value="{{ old('name') }}">
                                 </div>
 
                                 <div class="form-group col-md-6">
@@ -55,18 +56,23 @@
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <input type="number" name="mobile" class="form-control"
-                                        placeholder="00xxxxxx00 *" required="" value="{{ old('mobile') }}">
+                                    <input type="number" name="mobile" class="form-control" placeholder="00xxxxxx00 *"
+                                        required="" value="{{ old('mobile') }}">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <input type="text" name="subject" class="form-control"
-                                        placeholder="Subject *" required="" value="{{ old('subject') }}">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject *"
+                                        required="" value="{{ old('subject') }}">
                                 </div>
 
                                 <div class="form-group col-md-12">
                                     <textarea name="message" class="form-control" placeholder="Message *" required="">{{ old('message') }}</textarea>
                                 </div>
+
+                                <!-- Cloudflare Turnstile Widget -->
+                                <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div><br>
+
+
                                 <div class="row fullwidth">
                                     {{-- <div class="goolge-v2 col-md-6">
                                         @if (config('services.recaptcha.key'))
@@ -75,7 +81,8 @@
                                             </div>
                                         @endif
                                     </div> --}}
-                                    <div class="submit-area col-md-6 my-md-0 my-4 d-md-block d-flex justify-content-center ">
+                                    <div
+                                        class="submit-area col-md-6 my-md-0 my-4 d-md-block d-flex justify-content-center ">
                                         <button
                                             class="btn-1 text-center pt_12 pb_9 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1"
                                             type="submit" value="Send Mail" name="submit">Send Mail<span></span></button>
