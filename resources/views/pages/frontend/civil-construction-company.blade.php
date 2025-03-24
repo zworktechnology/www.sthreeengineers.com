@@ -75,6 +75,9 @@
     <link rel="icon" href="{{ asset('assets/frontend/images/favicon.png') }}" type="image/x-icon">
     <meta name="google-site-verification" content="FDnTIW-R603CPgGZZssDsVNFWbObl20LqHwCrJrq2B8" />
     <style>
+        body{
+            font-family: 'Barlow', sans-serif !important;
+        }
         @media only screen and (max-width: 600px) {
             [class="col-7"] {
                 width: 100%;
@@ -366,7 +369,7 @@
         </section>
 
         <!-- Project Details -->
-        <section class="projectdetails-1-section pt_70 pb_90">
+        <section class="projectdetails-1-section pt_70">
             <div class="container">
 
                 <div class="sec-title-area mb_10">
@@ -511,8 +514,8 @@
         <section>
             <div class="auto-container">
                 <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span
-                        class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>FAQ</h6>
-                <h3 class="fs_45 fw_black mb_20">Frequently Ask Questions</h3>
+                        class="w_30 h_2 theme-bg mr_10 d_iblock v_middle" style="font-family: 'Barlow', sans-serif !important"></span>FAQ</h6>
+                <h3 class=" fw_black mb_20" style="font-size:30px !important;font-family: 'Barlow', sans-serif !important">Frequently Ask Questions</h3>
                 <p class="fs_18 mb_40">
                     Find quick answers to common inquiries about our construction services.
                 </p>
@@ -523,7 +526,7 @@
                         <ul class="accordion-box alt-2 pe-lg-5">
                             <!--Block-->
                             <li class="accordion block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active" style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
@@ -546,7 +549,7 @@
                             </li>
                             <!--Block-->
                             <li class="accordion block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold" style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
@@ -570,11 +573,11 @@
                     </div>
                     <div class="col-lg-6">
                         <!--Accordian Box-->
-                        <ul class="accordion-box alt-2 pe-lg-5">
+                        <ul class="accordion-box alt-2 pe-lg-5" style="font-family: 'Barlow', sans-serif !important">
 
                             <!--Block-->
                             <li class="accordion block active-block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active" style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
@@ -596,7 +599,7 @@
                             </li>
                             <!--Block-->
                             <li class="accordion block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold" style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
