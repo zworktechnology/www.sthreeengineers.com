@@ -3,6 +3,7 @@
 
 <head>
     @include('components.guest.header')
+    @turnstileScripts()
 </head>
 
 <body class="authentication-bg">

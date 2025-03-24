@@ -6,6 +6,7 @@ use App\Models\Contact;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Http;
+use Illuminate\Validation\Rule;
 
 class ContactController extends Controller
 {
@@ -18,7 +19,9 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-        // $this->ValidatedData();
+        $request->validate([
+            'cf-turnstile-response' => ['required', Rule::turnstile()],
+        ]);
 
         $data = new Contact();
 
