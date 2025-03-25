@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Enquiry;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Validation\Rule;
 
 class EnquiryController extends Controller
 {
@@ -17,6 +18,11 @@ class EnquiryController extends Controller
 
     public function store(Request $request)
     {
+
+        $request->validate([
+            'cf-turnstile-response' => ['required', Rule::turnstile()],
+        ]);
+
         $data = new Enquiry();
 
         $data->name = $request->get('name');
@@ -25,7 +31,10 @@ class EnquiryController extends Controller
 
         $data->save();
 
+        // Live
         $admin_number = 7871313987;
+        // local
+        // $admin_number = 8838746579;
 
         $name = $request->get('name');
         $clinet_phone = $request->get('phonenumber');

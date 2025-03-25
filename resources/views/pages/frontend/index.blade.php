@@ -137,6 +137,7 @@
             color: #ffffff;
             border-radius: 10px;
             font-weight: 600;
+            height: 60px;
         }
 
         ul.product_list {
@@ -338,6 +339,7 @@
             transform: translateX(-50%);
         }
     </style>
+    @turnstileScripts()
 
 </head>
 
@@ -542,10 +544,14 @@
                                                             placeholder="Your City" />
                                                     </div>
 
-                                                    <div class='w-100 d-flex justify-content-center mt-4'>
+
+                                                    <div class='w-100 d-flex justify-content-between mt-4'>
+                                                        <div class="cf-turnstile mr-4"
+                                                            data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
                                                         <button type="submit" class='popup-btn px-4 py-2'>Book Free
                                                             Consultation</button>
                                                     </div>
+
                                                 </form>
                                             </div>
                                         </div>
@@ -725,6 +731,7 @@
                                         <input type="text" name="address" placeholder="Your Address" required
                                             style="border-radius: 0px !important;  height: 50px !important;">
                                     </div>
+
                                     {{-- <div class=" col-12 mb-0">
                                         <textarea name="message" placeholder="Message"></textarea>
                                     </div> --}}
@@ -735,7 +742,9 @@
                                             Consultation</button>
                                     </div>
                                 </div>
+                                <div class="cf-turnstile mt-20px" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
                             </form>
+                            
                         </div>
                     </div>
                 </div>

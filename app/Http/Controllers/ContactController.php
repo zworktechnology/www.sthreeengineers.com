@@ -32,8 +32,10 @@ class ContactController extends Controller
         $data->message = $request->get('message');
 
         $data->save();
-
+        // Live
         $admin_number = 7871313987;
+        // local
+        // $admin_number = 8838746579;
 
         $name = $request->get('name');
         $clinet_phone = $request->get('mobile');

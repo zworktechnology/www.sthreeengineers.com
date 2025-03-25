@@ -85,7 +85,7 @@
                                         class="submit-area col-md-6 my-md-0 my-4 d-md-block d-flex justify-content-center ">
                                         <button
                                             class="btn-1 text-center pt_12 pb_9 pl_30 pr_30 b_radius_5 ff_sec fw_bold tt_u fs_14 ls_1"
-                                            type="submit" value="Send Mail" name="submit">Send Mail<span></span></button>
+                                            type="submit" value="Send Mail" name="submit">Submit<span></span></button>
                                     </div>
                                 </div>
                             </div>
