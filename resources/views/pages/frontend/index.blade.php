@@ -339,7 +339,6 @@
             transform: translateX(-50%);
         }
     </style>
-    @turnstileScripts()
 
 </head>
 
@@ -744,7 +743,7 @@
                                 </div>
                                 <div class="cf-turnstile mt-20px" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
                             </form>
-                            
+
                         </div>
                     </div>
                 </div>
