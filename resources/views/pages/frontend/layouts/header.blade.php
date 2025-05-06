@@ -22,12 +22,7 @@
                                         <li class="dropdown {{ Route::is('service', 'building-construction', 'project-management', 'valuation', 'surveying', 'interior-works', 'approval', 'quality-survey') ? 'current' : '' }}"><a href="{{ route('service') }}">Services</a>
                                             <ul>
                                                 <li>
-                                                    <a href="{{ route('building-construction') }}">Building
-                                                        Construction</a>
-                                                </li>
-                                                <li>
-                                                    <a href="{{ route('civil-engineering-construction') }}">Civil
-                                                        Engineering Construction</a>
+                                                    <a href="{{ route('building-construction') }}">Building Construction</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ route('project-management') }}">Project Management
@@ -37,7 +32,7 @@
                                                     <a href="{{ route('valuation') }}">Valuation</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ route('survey') }}">Surveying</a>
+                                                    <a href="{{ route('surveying') }}">Surveying</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ route('interior-design-company') }}">Interior Works</a>
@@ -46,12 +41,12 @@
                                                     <a href="{{ route('approval') }}">Approval</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ route('quality_survey') }}">Quantity Survey</a>
+                                                    <a href="{{ route('quality-survey') }}">Quantity Survey</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="{{ route('blog') }}">Blog</a></li>
-                                        <li class="{{ Route::is('project', 'project-2') ?  : 'current' }}"><a href="{{ route('project') }}">Projects</a></li>
+                                        <li class="{{ Route::is('blog.*') ? 'current' : '' }}"><a href="{{ route('blog') }}">Blog</a></li>
+                                        <li class="{{ Route::is('project', 'project2') ? 'current'  : '' }}"><a href="{{ route('project') }}">Projects</a></li>
                                         <li class="{{ Route::is('contact') ? 'current' : '' }}"><a href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </div>

@@ -54,10 +54,10 @@
                     <div class="link-widget-1 mb_40">
                         <h4 class="fs_22 fw_medium mb_20 c_light fs_17">Our Services</h4>
                         <ul class="link-widget-1-list c_light2 fw_medium">
-                            <li><a href="{{ route('construction') }}">Building Construction </a></li>
-                            <li><a href="{{ route('project_management') }}">Project Management (PMC)</a></li>
+                            <li><a href="{{ route('building-construction') }}">Building Construction </a></li>
+                            <li><a href="{{ route('project-management') }}">Project Management (PMC)</a></li>
                             <li><a href="{{ route('valuation') }}">Valuation</a></li>
-                            <li><a href="{{ route('survey') }}">Surveying</a></li>
+                            <li><a href="{{ route('surveying') }}">Surveying</a></li>
                         </ul>
                     </div>
                 </div>
@@ -65,9 +65,9 @@
                     <div class="link-widget-1 mb_40">
                         <h4 class="fs_22 fw_medium mb_20 c_light fs_17">Our Services</h4>
                         <ul class="link-widget-1-list c_light2 fw_medium">
-                            <li><a href="{{ route('interior') }}">Interior Works</a></li>
+                            <li><a href="{{ route('interior-works') }}">Interior Works</a></li>
                             <li><a href="{{ route('approval') }}">Approval</a></li>
-                            <li><a href="{{ route('quality_survey') }}">Quantity Survey</a></li>
+                            <li><a href="{{ route('quality-survey') }}">Quantity Survey</a></li>
                         </ul>
                     </div>
                 </div>

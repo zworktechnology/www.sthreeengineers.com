@@ -32,16 +32,10 @@ Route::get('/service', function () {
     return view('pages.frontend.service');
 })->name('service');
 
-
-
 // SERVICE PAGES
 Route::get('/building-construction', function () {
     return view('pages.frontend.service.building-construction');
 })->name('building-construction');
-
-Route::get('/civil-engineering', function () {
-    return view('pages.frontend.service.civil-engineering');
-})->name('civil-engineering');
 
 Route::get('/project-management', function () {
     return view('pages.frontend.service.project-management');
@@ -73,73 +67,52 @@ Route::get('/project', function () {
 
 Route::get('/project-page-2', function () {
     return view('pages.frontend.project_2');
-})->name('project-2');
+})->name('project2');
 
 Route::get('/contact', function () {
     return view('pages.frontend.contact');
 })->name('contact');
 
-
-
-Route::get('/construction', function () {
-    return view('pages.frontend.construction');
-})->name('construction');
-
-Route::get('/project_management', function () {
-    return view('pages.frontend.project_management');
-})->name('project_management');
-
-Route::get('/survey', function () {
-    return view('pages.frontend.survey');
-})->name('survey');
-
-Route::get('/interior', function () {
-    return view('pages.frontend.interior');
-})->name('interior');
-
-Route::get('/quality_survey', function () {
-    return view('pages.frontend.quality_survey');
-})->name('quality_survey');
-
 Route::get('/privacy-policy', function () {
     return view('pages.frontend.privacy_policy');
 })->name('privacy_policy');
 
+// SEO PAGES
 Route::get('/builders-in-trichy', function () {
-    return view('pages.frontend.builders-in-trichy');
+    return view('pages.frontend.seo.builders-in-trichy');
 })->name('builders-in-trichy');
 
 Route::get('/civil-construction-company', function () {
-    return view('pages.frontend.civil-construction-company');
+    return view('pages.frontend.seo.civil-construction-company');
 })->name('civil-construction-company');
 
+Route::get('/civil-engineer-near-me', function () {
+    return view('pages.frontend.seo.civil-engineer-near-me');
+})->name('civil-engineer-near-me');
+
 Route::get('/civil-engineering-construction', function () {
-    return view('pages.frontend.civil-engineering-construction');
+    return view('pages.frontend.seo.civil-engineering-construction');
 })->name('civil-engineering-construction');
 
+Route::get('/civil-project-and-management-company-in-trichy', function () {
+    return view('pages.frontend.seo.civil-project-and-management-company-in-trichy');
+})->name('civil-project-and-management-company-in-trichy');
+
+Route::get('/construction-company-in-trichy', function () {
+    return view('pages.frontend.seo.construction-company-in-trichy');
+})->name('construction-company-in-trichy');
+
+Route::get('/home-interior-design', function () {
+    return view('pages.frontend.seo.home-interior-design');
+})->name('home-interior-design');
 
 Route::get('/interior-design-company', function () {
-    return view('pages.frontend.interior-design-company');
+    return view('pages.frontend.seo.interior-design-company');
 })->name('interior-design-company');
 
 Route::get('/interior-designer-in-trichy', function () {
-    return view('pages.frontend.interior-designer-in-trichy');
+    return view('pages.frontend.seo.interior-designer-in-trichy');
 })->name('interior-designer-in-trichy');
-
-Route::get('/construction-company-in-trichy', function () {
-    return view('pages.frontend.construction-company-in-trichy');
-})->name('construction-company-in-trichy');
-
-Route::get('/civil-project-and-management-company-in-trichy', function () {
-    return view('pages.frontend.civil-project-and-management-company-in-trichy');
-})->name('civil-project-and-management-company-in-trichy');
-
-Route::get('/home-interior-design', function () {
-    return view('pages.frontend.home-interior-design');
-})->name('home-interior-design');
-Route::get('/civil-engineer-near-me', function () {
-    return view('pages.frontend.civil-engineer-near-me');
-})->name('home-civil-engineer-near-me');
 
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
@@ -147,7 +120,7 @@ Route::get('/blog/filter/{id}/{name}', [FrontendController::class, 'blogfilter']
 
 Route::get('/blog/search', [FrontendController::class, 'searchblog'])->name('blog-search');
 
-Route::get('/{title}/{id}', [FrontendController::class, 'blogreadmore'])->name('read-blog');
+Route::get('/blog/{title}/{id}', [FrontendController::class, 'blogreadmore'])->name('read-blog');
 
 Route::get('/sitemap.xml', [FrontendController::class, 'sitemap'])->name('sitemap');
 

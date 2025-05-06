@@ -87,23 +87,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-building"></i></div>
-                            <a href="{{ route('civil-engineering-construction') }}">
-                                <h4 class="service-1-title fs_25">Civil Engineering</h4>
-                            </a>
-                            <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/3.jpg') }}"
-                                    alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">Building exceptional structures
-                                        with precision
-                                        and quality craftsmanship.</a></div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
                             <div class="service-1-shape"></div>

@@ -173,7 +173,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-building"></i></div>
-                                <a href="{{ route('construction') }}">
+                                <a href="{{ route('building-construction') }}">
                                     <h4 class="service-1-title fs_23">Building Construction</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -193,7 +193,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-guarantee"></i></div>
-                                <a href="{{ route('project_management') }}">
+                                <a href="{{ route('project-management') }}">
                                     <h4 class="service-1-title fs_23">Project Management</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -213,7 +213,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-interior-design"></i></div>
-                                <a href="{{ route('interior') }}">
+                                <a href="{{ route('interior-works') }}">
                                     <h4 class="service-1-title fs_23">Interior Works</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -232,7 +232,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-measure"></i></div>
-                                <a href="{{ route('survey') }}">
+                                <a href="{{ route('surveying') }}">
                                     <h4 class="service-1-title fs_23">Surveying</h4>
                                 </a>
                                 <div class="service-1-image">
@@ -291,7 +291,7 @@
                             <div class="service-1-block">
                                 <div class="service-1-shape"></div>
                                 <div class="service-1-icon"><i class="flaticon-newspaper"></i></div>
-                                <a href="{{ route('quality_survey') }}">
+                                <a href="{{ route('quality-survey') }}">
                                     <h4 class="service-1-title fs_23">Quantity Survey</h4>
                                 </a>
                                 <div class="service-1-image">
