@@ -9,6 +9,6 @@
     @yield('content')
 </body>
 
-@include('components.guest.footer')
+{{-- @include('components.guest.footer') --}}
 
 </html>

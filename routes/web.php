@@ -32,6 +32,55 @@ Route::get('/service', function () {
     return view('pages.frontend.service');
 })->name('service');
 
+
+
+// SERVICE PAGES
+Route::get('/building-construction', function () {
+    return view('pages.frontend.service.building-construction');
+})->name('building-construction');
+
+Route::get('/civil-engineering', function () {
+    return view('pages.frontend.service.civil-engineering');
+})->name('civil-engineering');
+
+Route::get('/project-management', function () {
+    return view('pages.frontend.service.project-management');
+})->name('project-management');
+
+Route::get('/valuation', function () {
+    return view('pages.frontend.service.valuation');
+})->name('valuation');
+
+Route::get('/surveying', function () {
+    return view('pages.frontend.service.surveying');
+})->name('surveying');
+
+Route::get('/interior-works', function () {
+    return view('pages.frontend.service.interior-works');
+})->name('interior-works');
+
+Route::get('/approval', function () {
+    return view('pages.frontend.service.approval');
+})->name('approval');
+
+Route::get('/quality-survey', function () {
+    return view('pages.frontend.service.quality-survey');
+})->name('quality-survey');
+
+Route::get('/project', function () {
+    return view('pages.frontend.project');
+})->name('project');
+
+Route::get('/project-page-2', function () {
+    return view('pages.frontend.project_2');
+})->name('project-2');
+
+Route::get('/contact', function () {
+    return view('pages.frontend.contact');
+})->name('contact');
+
+
+
 Route::get('/construction', function () {
     return view('pages.frontend.construction');
 })->name('construction');
@@ -39,10 +88,6 @@ Route::get('/construction', function () {
 Route::get('/project_management', function () {
     return view('pages.frontend.project_management');
 })->name('project_management');
-
-Route::get('/valuation', function () {
-    return view('pages.frontend.valuation');
-})->name('valuation');
 
 Route::get('/survey', function () {
     return view('pages.frontend.survey');
@@ -52,25 +97,9 @@ Route::get('/interior', function () {
     return view('pages.frontend.interior');
 })->name('interior');
 
-Route::get('/approval', function () {
-    return view('pages.frontend.approval');
-})->name('approval');
-
 Route::get('/quality_survey', function () {
     return view('pages.frontend.quality_survey');
 })->name('quality_survey');
-
-Route::get('/project', function () {
-    return view('pages.frontend.project');
-})->name('project');
-
-Route::get('/project-2', function () {
-    return view('pages.frontend.project_2');
-})->name('project-2');
-
-Route::get('/contact', function () {
-    return view('pages.frontend.contact');
-})->name('contact');
 
 Route::get('/privacy-policy', function () {
     return view('pages.frontend.privacy_policy');

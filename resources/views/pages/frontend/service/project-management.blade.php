@@ -38,19 +38,20 @@
                 <span class="line-grid-5"></span>
             </div>
             <div class="banner-1-image-1 p_absolute b_0 r_0"><img
-                    src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}"
+                    src="{{asset('assets/frontend/images/main-slider/image-2.png')}}"
                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
             </div>
             <div class="auto-container">
                 <div class="p_relative text-center">
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        Services
-                    </h1>
+                        Project Management</h1>
                     <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s"
                         data-wow-duration="1.5s">
                         <li><a href="{{ route('index') }}">Home</a></li>
                         <li class="ml_10 mr_10">/</li>
-                        <li>Services</li>
+                        <li><a href="{{ route('service') }}">Services</a></li>
+                        <li class="ml_10 mr_10">/</li>
+                        <li>Project Management</li>
                     </ul>
                 </div>
             </div>
@@ -58,150 +59,139 @@
 
         <section class="pb_110 pt_100">
             <div class="auto-container">
-                <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span
-                        class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"></span>Services</h6>
-                <h2 class="fw_black fs_45 mb_20">What we do</h2>
-                <p class="mb_50 fs_18">
-                    Besides providing civil engineering services, we also provide
-                    contractor service for building renovation, Interior works like modual kitchen and other.
-                    Dectrative works
-                    as well as extensive range of building
-                    services. Thus, we are a one stop solution for you to build your dream building at an
-                    affordable price.
-                </p>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-building"></i></div>
-                            <a href="{{ route('building-construction') }}">
-                                <h4 class="service-1-title fs_25">Building Construction</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">Project Management</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/1.jpg') }}"
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/9.jpg')}}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">Building exceptional structures
-                                        with precision
-                                        and quality craftsmanship.</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-building"></i></div>
-                            <a href="{{ route('civil-engineering-construction') }}">
-                                <h4 class="service-1-title fs_25">Civil Engineering</h4>
-                            </a>
-                            <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/3.jpg') }}"
-                                    alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
-                                <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">Building exceptional structures
-                                        with precision
-                                        and quality craftsmanship.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Efficiently plan, execute, and oversee construction projects with our
+                                        comprehensive civil project management services.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-engineer"></i></div>
-                            <a href="{{ route('project-management') }}">
-                                <h4 class="service-1-title fs_25">Project Management</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">Documentation</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/5.jpg') }}"
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/1.jpg')}}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">We efficiently manage every aspect
-                                        of
-                                        &nbsp;your construction project.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Streamline your project with comprehensive documentation services. Organized
+                                        records for smooth operations.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-planning"></i></div>
-                            <a href="{{ route('valuation') }}">
-                                <h4 class="service-1-title fs_25">Valuation</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">BOQ Preparation</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/13.jpg') }} "
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/2.jpg')}}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">We provide accurate and reliable
-                                        property
-                                        valuation for your needs.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Accurate BOQs prepared to detail. Ensuring transparency and precision in
+                                        project cost estimation.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-measure"></i></div>
-                            <a href="{{ route('surveying') }}">
-                                <h4 class="service-1-title fs_25">Surveying</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">Time Management</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/14.jpg') }} "
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/3.jpg')}}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">We provide Accurate land and
-                                        building
-                                        surveying for informed decision-making.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Time is money. Our experts optimize project schedules for timely and
+                                        efficient delivery.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
+                        <div class="service-1-block alt">
+                            <h4 class="service-1-title fs_25">Bill Certification</h4>
+                            <div class="service-1-image">
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/5.jpg')}}"
+                                    alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
+                                <div class="service-1-read-more"><a href="javascript:void(0);"
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Trust us for accurate bill certification services. Ensuring fair and
+                                        transparent financial transactions.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-interior-design"></i></div>
-                            <a href="{{ route('interior-works') }}">
-                                <h4 class="service-1-title fs_25">Interior Works</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">Cost Management</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/2.jpg') }}"
-                                    alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy, interior designer in trichy">
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/4.jpg')}}"
+                                    alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">Transform your Empty space with
-                                        customized
-                                        and innovative designs.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Keep costs in check with our meticulous cost management strategies.
+                                        Maximizing value for your investments.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
+                        <div class="service-1-block alt">
+                            <h4 class="service-1-title fs_25">Rate Analysis</h4>
+                            <div class="service-1-image">
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/6.jpg')}}"
+                                    alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
+                                <div class="service-1-read-more"><a href="javascript:void(0);"
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        In-depth rate analysis for informed decision-making. Achieve cost-effective
+                                        project outcomes.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-building-1"></i></div>
-                            <a href="{{ route('approval') }}">
-                                <h4 class="service-1-title fs_25">Approval</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">Quality & Cost Audit</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/4.jpg') }}"
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/7.jpg')}}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">Efficient building approval
-                                        services for a
-                                        hassle-free construction process.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Rigorous audits for quality and cost-effectiveness. Continuous improvement
+                                        for project excellence.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
                         <div class="service-1-block alt">
-                            <div class="service-1-shape"></div>
-                            <div class="service-1-icon"><i class="flaticon-newspaper"></i></div>
-                            <a href="{{ route('quality-survey') }}">
-                                <h4 class="service-1-title fs_25">Quantity Survey</h4>
-                            </a>
+                            <h4 class="service-1-title fs_25">Project Consultation</h4>
                             <div class="service-1-image">
-                                <img src="{{ asset('assets/frontend/images/resource/12.jpg') }}"
+                                <img src="{{asset('assets/frontend/images/resource/Project_Management/8.jpg')}}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
-                                        class="c_light ff_sec fw_bold fs_14 ls_1">Ensure the on time completion in
-                                        cost-efficiency in your construction project.</a></div>
+                                        class="c_light ff_sec fw_bold fs_14 ls_1">
+                                        Consult with our experts for project success. Invaluable insights and
+                                        guidance throughout your venture.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -225,11 +215,9 @@
                                     Faster </h6>
                                 <h2 class="c_light fs_45 fw_black mb_18">Leading Way In Civil <br> Construction</h2>
                                 <p class="mb_20 fs_16 c_light p_relative">Bring to the table win-win survival
-                                    strategies to
-                                    ensure
+                                    strategies to ensure
                                     proactive domination. At the end of the day, going forward, a new normal that
-                                    has evolved.
-                                </p>
+                                    has evolved.</p>
                                 <a href="{{ route('contact') }}"
                                     class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i
                                         class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
@@ -248,7 +236,7 @@
         @include('pages.frontend.layouts.script')
 
         @include('pages.frontend.layouts.backtotop')
-
+        
     </div>
 
 </body>
