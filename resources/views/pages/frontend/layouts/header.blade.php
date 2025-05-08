@@ -48,7 +48,7 @@
                                         <li class="{{ Route::is('blog.*') ? 'current' : '' }}"><a href="{{ route('blog') }}">Blog</a></li>
                                         <li class="{{ Route::is('project', 'project2') ? 'current'  : '' }}"><a href="{{ route('project') }}">Projects</a></li>
                                         <li class="{{ Route::is('contact') ? 'current' : '' }}"><a href="{{ route('contact') }}">Contact</a></li>
-                                        <li class="dropdown"><a href="#">SEO Pages</a>
+                                        <li class="dropdown" hidden><a href="#">SEO Pages</a>
                                             <ul>
                                                 <li>
                                                     <a href="{{ route('builders-in-trichy') }}">Page 01</a>
