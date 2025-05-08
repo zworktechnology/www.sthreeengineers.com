@@ -35,7 +35,7 @@
                                                     <a href="{{ route('surveying') }}">Surveying</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ route('interior-design-company') }}">Interior Works</a>
+                                                    <a href="{{ route('interior-works') }}">Interior Works</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ route('approval') }}">Approval</a>
@@ -48,6 +48,37 @@
                                         <li class="{{ Route::is('blog.*') ? 'current' : '' }}"><a href="{{ route('blog') }}">Blog</a></li>
                                         <li class="{{ Route::is('project', 'project2') ? 'current'  : '' }}"><a href="{{ route('project') }}">Projects</a></li>
                                         <li class="{{ Route::is('contact') ? 'current' : '' }}"><a href="{{ route('contact') }}">Contact</a></li>
+                                        <li class="dropdown"><a href="#">SEO Pages</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="{{ route('builders-in-trichy') }}">Page 01</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('civil-construction-company') }}">Page 02</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('civil-engineer-near-me') }}">Page 03</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('civil-engineering-construction') }}">Page 04</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('civil-project-and-management-company-in-trichy') }}">Page 05</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('construction-company-in-trichy') }}">Page 06</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('home-interior-design') }}">Page 07</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('interior-design-company') }}">Page 08</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ route('interior-designer-in-trichy') }}">Page 09</a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>

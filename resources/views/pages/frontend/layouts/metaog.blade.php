@@ -6,7 +6,7 @@
 <meta property="og:description" content="Discover Sthree Engineers' comprehensive construction solutions in Trichy, delivering quality and reliability in every project.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/service-8.jpg">
 <meta property="og:image:alt" content="building construction Trichy, civil engineering services, interior design Trichy, project management Trichy, valuation services, surveying Trichy">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -18,7 +18,7 @@
 <meta property="og:description" content="Get to know Sthree Engineers, a leading construction company in Trichy with a legacy of excellence and innovation.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/about">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/authors.png">
 <meta property="og:image:alt" content="about Sthree Engineers, construction company Trichy, experienced builders, civil engineering Trichy">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -30,7 +30,7 @@
 <meta property="og:description" content="Discover the diverse construction services offered by Sthree Engineers, tailored to meet your building needs in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/service">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/1.jpg">
 <meta property="og:image:alt" content="construction services Trichy, building construction, interior design, project management, valuation, surveying">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -42,7 +42,7 @@
 <meta property="og:description" content="Experience top-tier building construction services in Trichy with Sthree Engineers, ensuring durability and excellence.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/building-construction">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Building_Construction/4.jpg">
 <meta property="og:image:alt" content="building construction Trichy, residential construction, commercial construction, construction company">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -54,7 +54,7 @@
 <meta property="og:description" content="Optimize your construction projects with Sthree Engineers' expert project management services in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/project-management">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Project_Management/3.jpg">
 <meta property="og:image:alt" content="project management Trichy, construction management, PMC services, construction planning">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -66,7 +66,7 @@
 <meta property="og:description" content="Trust Sthree Engineers for precise property valuation services in Trichy, ensuring fair market assessments.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/valuation">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Valuation/1.jpg">
 <meta property="og:image:alt" content="property valuation Trichy, real estate appraisal, asset valuation, construction valuation">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -78,7 +78,7 @@
 <meta property="og:description" content="Ensure precision in your construction projects with Sthree Engineers' expert land surveying services in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/surveying">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Survey/3.jpg">
 <meta property="og:image:alt" content="land surveying Trichy, topographic survey, construction survey, boundary survey">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -90,7 +90,7 @@
 <meta property="og:description" content="Elevate your interiors with Sthree Engineers' creative design solutions in Trichy, tailored to your style and needs.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/interior-works">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Interior/5.jpg">
 <meta property="og:image:alt" content="interior design Trichy, home interiors, office interiors, modular kitchen">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -102,7 +102,7 @@
 <meta property="og:description" content="Navigate construction approvals seamlessly with Sthree Engineers' expert services in Trichy, ensuring compliance and efficiency.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/approval">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Approval/2.jpg">
 <meta property="og:image:alt" content="building approval Trichy, construction permits, regulatory compliance, approval services">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -114,7 +114,7 @@
 <meta property="og:description" content="Get accurate cost and quantity estimates for your construction project with our expert quantity surveying services in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/quantity-survey">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/resource/Quality_Survey/3.jpg">
 <meta property="og:image:alt" content="quantity survey Trichy, construction cost estimation, BOQ preparation, quantity takeoff, civil estimating services">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -126,7 +126,7 @@
 <meta property="og:description" content="Explore articles from Sthree Engineers on construction, interiors, and project management tailored for Trichy-based projects.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/blog">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/backend/blog/blog_image/eW1EE2ZFtV.png">
 <meta property="og:image:alt" content="construction blog, civil engineering tips, building trends, project management insights, Trichy construction updates">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -138,7 +138,7 @@
 <meta property="og:description" content="View our completed projects showcasing precision, planning, and premium construction work in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/projects">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/project/project_images/13.webp">
 <meta property="og:image:alt" content="construction projects Trichy, residential buildings, commercial construction, completed projects Sthree Engineers">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -150,7 +150,7 @@
 <meta property="og:description" content="Connect with our expert civil engineers and construction team in Trichy for your next project.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/contact">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/main-slider/image-2.png">
 <meta property="og:image:alt" content="contact Sthree Engineers, construction company Trichy, builder contact, civil engineers Trichy">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -162,7 +162,7 @@
 <meta property="og:description" content="Build your dream home with Sthree Engineers – Trichy’s trusted name in construction and civil engineering.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/builders-in-trichy">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-47.webp">
 <meta property="og:image:alt" content="builders in Trichy, best construction company Trichy, house builders Trichy">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -174,7 +174,7 @@
 <meta property="og:description" content="Discover top-quality civil construction services in Trichy with Sthree Engineers – From design to delivery.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/civil-construction-company">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-7.webp">
 <meta property="og:image:alt" content="civil construction company, civil engineering services Trichy, construction firm Trichy">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -186,7 +186,7 @@
 <meta property="og:description" content="Get expert guidance for your building project from experienced civil engineers in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/civil-engineer-near-me">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/why%20civil%20engineer%20is%20important.jpg">
 <meta property="og:image:alt" content="civil engineer near me, local civil engineer Trichy, construction expert nearby">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -198,7 +198,7 @@
 <meta property="og:description" content="Empowering your construction journey with precise and reliable civil engineering services.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/civil-engineering-construction">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-4.webp">
 <meta property="og:image:alt" content="civil engineering Trichy, construction services, structural design, engineering consultant">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -210,7 +210,7 @@
 <meta property="og:description" content="Optimize your construction project with expert management and planning from Sthree Engineers.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/civil-project-and-management-company-in-trichy">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-8.webp">
 <meta property="og:image:alt" content="project management construction Trichy, PMC Trichy, civil project managers">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -222,7 +222,7 @@
 <meta property="og:description" content="Trusted construction solutions delivered by experts in Trichy – residential, commercial, and more.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/construction-company-in-trichy">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-3.webp">
 <meta property="og:image:alt" content="construction company Trichy, civil engineering firm, top builders Trichy">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -234,7 +234,7 @@
 <meta property="og:description" content="Create stunning interiors tailored to your lifestyle with Sthree Engineers’ design team in Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/home-interior-design">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-16.webp">
 <meta property="og:image:alt" content="home interior design Trichy, modular kitchen, custom interiors, house decor">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
@@ -246,19 +246,19 @@
 <meta property="og:description" content="From concept to execution, Sthree Engineers crafts beautiful interiors across Trichy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/interior-design-company">
-<meta property="og:image" content="">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-13.webp">
 <meta property="og:image:alt" content="interior design company Trichy, interior decorators, modern interiors, space planning">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
-@elseif (Route::currentRouteName() == 'interior-designers-in-trichy')
+@elseif (Route::currentRouteName() == 'interior-designer-in-trichy')
 <title>Best Interior Designer in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="interior designer Trichy, professional interior design, Trichy interiors">
 <meta name="description" content="Hire the best interior designers in Trichy from Sthree Engineers for innovative and functional interior solutions.">
 <meta property="og:title" content="Trichy’s Leading Interior Designers | Sthree Engineers">
 <meta property="og:description" content="Discover creative, custom-designed interiors by Sthree Engineers’ expert team in Trichy.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-trichy">
-<meta property="og:image" content="">
+<meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-in-trichy">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
 <meta property="og:image:alt" content="interior designer Trichy, professional interior design, Trichy interiors">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">

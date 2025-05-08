@@ -317,7 +317,7 @@
                 <div class="pagination-wrapper pagination-wrapper-left">
                     <ul class="pg-pagination">
                         <li class="active"><a href="{{ route('project') }}">1</a></li>
-                        <li><a href="{{ route('project-2') }}">2</a></li>
+                        <li><a href="{{ route('project2') }}">2</a></li>
                     </ul>
                 </div>
             </div>
