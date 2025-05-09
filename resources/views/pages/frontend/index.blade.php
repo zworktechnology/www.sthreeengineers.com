@@ -16,6 +16,8 @@
 
     @include('pages.frontend.layouts.headestyle')
 
+    @turnstileScripts()
+
 </head>
 
 <body>
@@ -77,8 +79,8 @@
                             <div class='row col-12 m-0 p-0'>
                                 <div class="form-group col-lg-3"
                                     style="margin-right: 0px !important; padding-right: 0px !important;padding-left:0px !important">
-                                    <input class="left-borderRadius" type="text" name="name" placeholder="Your Name"
-                                        required style="height: 50px !important;">
+                                    <input class="left-borderRadius" type="text" name="name"
+                                        placeholder="Your Name" required style="height: 50px !important;">
                                 </div>
                                 <div class="form-group col-lg-3"
                                     style="margin-right: 0px !important; padding-right: 0px !important; margin-left: 0px !important; padding-left: 0px !important;">
@@ -352,7 +354,8 @@
                                 <div class="right-column">
                                     <h5 class="fs_14 fw_bold tt_u c_primary mt_10 mb_10">call for contractor now
                                     </h5>
-                                    <div class="fs_30 fw_bold c_dark"><a class="c_dark" href="tel:+917871313987">(+91)
+                                    <div class="fs_30 fw_bold c_dark"><a class="c_dark"
+                                            href="tel:+917871313987">(+91)
                                             78713 13987</a></div>
                                 </div>
                             </div>
@@ -377,8 +380,9 @@
                                 <a href="{{ route('contact') }}"
                                     class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request
                                     a call back <i class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
-                                <div class="p_absolute r_0 t__35 p_33 bg_primary"><a href="https://youtu.be/uop7muARSno"
-                                        class="video-btn-1 ripple" data-fancybox="video-1" data-caption=""><i
+                                <div class="p_absolute r_0 t__35 p_33 bg_primary"><a
+                                        href="https://youtu.be/uop7muARSno" class="video-btn-1 ripple"
+                                        data-fancybox="video-1" data-caption=""><i
                                             class="flaticon-play-button"></i></a></div>
                             </div>
                         </div>
@@ -418,7 +422,8 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
+                            <div class="project-1-column wow fadeInDown" data-wow-delay=".2s"
+                                data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
                                         <img src="{{ asset('assets/frontend/images/project/project_images/2.webp') }}"
@@ -438,7 +443,8 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="project-1-column wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
+                            <div class="project-1-column wow fadeInDown" data-wow-delay=".2s"
+                                data-wow-duration="1.5s">
                                 <div class="project-1-block">
                                     <div class="project-1-image" style="height: 375px !important;">
                                         <img src="{{ asset('assets/frontend/images/project/project_images/1.webp') }}"
@@ -458,7 +464,8 @@
             <div class="auto-container">
                 <div class="row">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        <div class="image mb_30"><img src="{{ asset('assets/frontend/images/resource/service-8.jpg') }}"
+                        <div class="image mb_30"><img
+                                src="{{ asset('assets/frontend/images/resource/service-8.jpg') }}"
                                 alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                         </div>
                     </div>
@@ -496,7 +503,8 @@
             </div>
         </section>
 
-        <section class="pt_120 pb_90 bg_cover" style="background-image:url(assets/frontend/images/background/bg-3.jpg)">
+        <section class="pt_120 pb_90 bg_cover"
+            style="background-image:url(assets/frontend/images/background/bg-3.jpg)">
             <div class="auto-container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -644,27 +652,32 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2-5 col-lg-4 col-md-4">
                         <div class="client-logo-1-image mb_20"><img
-                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-1.png') }}" alt="">
+                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-1.png') }}"
+                                alt="">
                         </div>
                     </div>
                     <div class="col-xl-2-5 col-lg-4 col-md-4">
                         <div class="client-logo-1-image mb_20"><img
-                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-2.png') }}" alt="">
+                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-2.png') }}"
+                                alt="">
                         </div>
                     </div>
                     <div class="col-xl-2-5 col-lg-4 col-md-4">
                         <div class="client-logo-1-image mb_20"><img
-                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}" alt="">
+                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}"
+                                alt="">
                         </div>
                     </div>
                     <div class="col-xl-2-5 col-lg-4 col-md-4">
                         <div class="client-logo-1-image mb_20"><img
-                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-3.png') }}" alt="">
+                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-3.png') }}"
+                                alt="">
                         </div>
                     </div>
                     <div class="col-xl-2-5 col-lg-4 col-md-4">
                         <div class="client-logo-1-image mb_20"><img
-                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}" alt="">
+                                src="{{ asset('assets/frontend/images/clients-logo/brand-logo-4.png') }}"
+                                alt="">
                         </div>
                     </div>
                 </div>

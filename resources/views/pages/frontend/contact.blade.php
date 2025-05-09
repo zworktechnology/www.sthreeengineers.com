@@ -15,6 +15,8 @@
     @include('pages.frontend.layouts.googletagmanager')
 
     @include('pages.frontend.layouts.headestyle')
+    @turnstileScripts()
+    
 
 </head>
 
@@ -63,8 +65,8 @@
                     <div class="col-lg-7">
                         <div class="">
                             @error('g-recaptcha-response')
-                            <div class="alert alert-danger mt-1 mb-5" style="margin-top: 10px !important; color: red;">
-                                {{ $message }}</div>
+                                <div class="alert alert-danger mt-1 mb-5" style="margin-top: 10px !important; color: red;">
+                                    {{ $message }}</div>
                             @enderror
                             <form autocomplete="off" method="POST" action="{{ route('contact.store') }}"
                                 class="contact-validation-active">
@@ -72,8 +74,8 @@
                                 @csrf
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" name="name" class="form-control" placeholder="Mr/Mrs. Name *"
-                                            required="" value="{{ old('name') }}">
+                                        <input type="text" name="name" class="form-control"
+                                            placeholder="Mr/Mrs. Name *" required="" value="{{ old('name') }}">
                                     </div>
 
                                     <div class="form-group col-md-6">
@@ -87,13 +89,12 @@
                                     </div>
 
                                     <div class="form-group col-md-6">
-                                        <input type="text" name="subject" class="form-control" placeholder="Subject *"
-                                            required="" value="{{ old('subject') }}">
+                                        <input type="text" name="subject" class="form-control"
+                                            placeholder="Subject *" required="" value="{{ old('subject') }}">
                                     </div>
 
                                     <div class="form-group col-md-12">
-                                        <textarea name="message" class="form-control" placeholder="Message *"
-                                            required="">{{ old('message') }}</textarea>
+                                        <textarea name="message" class="form-control" placeholder="Message *" required="">{{ old('message') }}</textarea>
                                     </div>
 
                                     <!-- Cloudflare Turnstile Widget -->
@@ -134,7 +135,8 @@
                                 </div>
                                 <div class="d-flex flex-nowrap  align-items-start pb_30">
                                     <img class="mr_20 mt_10"
-                                        src="{{ asset('assets/frontend/images/icons/icon-map.png') }}" alt="">
+                                        src="{{ asset('assets/frontend/images/icons/icon-map.png') }}"
+                                        alt="">
                                     <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Branch Office :</span>
                                         <br> Attur
                                         Main Road, Perambalur, Tamilnadu.
@@ -142,7 +144,8 @@
                                 </div>
                                 <div class="d-flex flex-nowrap  align-items-start pb_30">
                                     <img class="mr_20 mt_10"
-                                        src="{{ asset('assets/frontend/images/icons/icon-mail.png') }}" alt="">
+                                        src="{{ asset('assets/frontend/images/icons/icon-mail.png') }}"
+                                        alt="">
                                     <p class="mb_0 lh_30"><span class="fs_20 fw_bold c_dark">Phone :</span> <br> <a
                                             href="tel:+9104312963987">+91 0431-2963987</a>
                                         <sapn> | </sapn><a class="fs_20" href="tel:+917871313987">+91 78713
@@ -151,7 +154,8 @@
                                 </div>
                                 <div class="d-flex flex-nowrap  align-items-start pb_30">
                                     <img class="mr_20 mt_10"
-                                        src="{{ asset('assets/frontend/images/icons/icon-phone.png') }}" alt="">
+                                        src="{{ asset('assets/frontend/images/icons/icon-phone.png') }}"
+                                        alt="">
                                     <p class="mb_0 fs_20 lh_30"><span class="fs_20 fw_bold c_dark">Email :</span>
                                         <br> <a href="mailto:admin@sthreeengineers.com">admin@sthreeengineers.com</a>
                                         <sapn> | </sapn><a
