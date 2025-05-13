@@ -12,7 +12,7 @@ class EnforceCanonicalUrl
         $url = $request->fullUrl();
 
         // Canonical base domain
-        $canonicalHost = 'www.vernaconstruction.com';
+        $canonicalHost = 'www.sthreeengineers.com';
 
         // Redirect to HTTPS and www
         if (

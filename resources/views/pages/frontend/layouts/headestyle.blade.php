@@ -1,7 +1,7 @@
 @php
     $canonical = str_replace(
-        ['http://', 'vernaconstruction.com/public', 'vernaconstruction.com/index.php'],
-        ['https://', 'www.vernaconstruction.com', 'www.vernaconstruction.com'],
+        ['http://', 'sthreeengineers.com/public', 'sthreeengineers.com/index.php'],
+        ['https://', 'www.sthreeengineers.com', 'www.sthreeengineers.com'],
         url()->current()
     );
 @endphp
