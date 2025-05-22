@@ -120,7 +120,7 @@ Route::get('/blog/filter/{id}/{name}', [FrontendController::class, 'blogfilter']
 
 Route::get('/blog/search', [FrontendController::class, 'searchblog'])->name('blog-search');
 
-Route::get('/blog/{title}/{id}', [FrontendController::class, 'blogreadmore'])->name('read-blog');
+Route::get('/{title}/{id}', [FrontendController::class, 'blogreadmore'])->name('read-blog');
 
 Route::get('/sitemap.xml', [FrontendController::class, 'sitemap'])->name('sitemap');
 
