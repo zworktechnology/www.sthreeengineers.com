@@ -91,7 +91,7 @@
                         unique needs of our clients:</p>
                 </div>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <div class="mb_30">
                             <p>
                                 <b>Residential Buildings :</b>
@@ -136,7 +136,7 @@
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" style="width: 350px;"
                             class="mt_20" alt="building contractor">
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
                         <p>
                             <b>Exceptional Quality :</b>

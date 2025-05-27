@@ -79,7 +79,7 @@
                         <img src="{{ asset('assets/frontend/images/gallery/why civil engineer is important.jpg') }}"
                             style="width: 350px;" class="mt_10" alt="civil engineer near me">
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why is a Civil Engineer Important?</h4>
                         <p>
 
@@ -101,7 +101,7 @@
                         <img src="{{ asset('assets/frontend/images/gallery/5 importance of civil engineer.png') }}"
                             style="width: 900px; height: 375px;" alt="civil engineer near me">
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <div class="mb_30">
                             <p>
                                 <b>Designing Safe Structures :</b>

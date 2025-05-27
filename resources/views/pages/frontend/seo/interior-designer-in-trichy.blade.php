@@ -91,7 +91,7 @@
                         unique needs of our clients:</p>
                 </div>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <div class="mb_30">
                             <p>
                                 <b>Design :</b>
@@ -128,7 +128,7 @@
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-11.webp') }}" style="width: 350px;"
                             class="mt_20" alt="interior designer in trichy">
                     </div>
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
                         <p>
                             <b>Expertise :</b>

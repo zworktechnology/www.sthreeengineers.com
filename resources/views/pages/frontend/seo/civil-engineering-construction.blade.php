@@ -69,7 +69,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="projectdetails-1-text mb_30">
-                            <h5>Why Choose Us?
+                            <h5 class="mb-3">Why Choose Us?
                             </h5>
                             <p>
                                 Our expertise in civil and construction engineering guarantees innovative and
@@ -106,7 +106,7 @@
                 <h2 class="fw_bold fs_28 mb_10">Our Civil Engineering Services
                 </h2>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <p>
                             <b>Structural Design & Planning
                             </b>
@@ -149,7 +149,7 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <div class="projectdetails-1-text mb_30">
+                        <div class="projectdetails-1-text mb_30 mt-4">
                             <h5>Contact Us – Build with Confidence
                             </h5>
                             <p>

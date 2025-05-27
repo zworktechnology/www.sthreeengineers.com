@@ -72,7 +72,7 @@
 
                 <h4 class="fw_bold fs_28 mb_20">Our Home Interior Design Services</h4>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <div class="mb_30">
                             <p>
                                 <b>Personalized Consultation :</b>
@@ -119,7 +119,7 @@
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-15.webp') }}" style="width: 350px;"
                             class="mt_10" alt="interior designer">
                     </div>
-                    <div class="col-7">
+                    <div class="col-md-7">
                         <h4 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers?</h4>
                         <p>
                             <b>Expertise :</b>

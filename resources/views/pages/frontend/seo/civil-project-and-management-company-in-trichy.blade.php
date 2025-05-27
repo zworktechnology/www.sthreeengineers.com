@@ -92,7 +92,7 @@
                         services tailored to meet the diverse needs of our clients:</p>
                 </div>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-md-7">
                         <div class="mb_30">
                             <p>
                                 <b>Project Planning and Execution :</b>
@@ -138,7 +138,7 @@
                             class="mt_20" alt="construction industry project management">
                     </div>
 
-                    <div class="col-7 ml_50">
+                    <div class="col-md-7  mt-4">
                         <h4 class="fw_bold fs_28 mb_20">Why Choose Sthree Engineers?</h4>
                         <p>
                             <b>Expertise :</b>
