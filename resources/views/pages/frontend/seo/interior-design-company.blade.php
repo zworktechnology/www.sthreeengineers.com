@@ -68,7 +68,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="projectdetails-1-text mb_30">
-                            <h5>Why Choose Us?
+                            <h5 class="mb-3">Why Choose Us?
                             </h5>
                             <p>
                                 As a leading interior design company, we create elegant interiors with functionality in
@@ -108,7 +108,7 @@
                 <h2 class="fw_bold fs_28 mb_10">Interior Design Services
                 </h2>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <p>
                             <b>Home Interiors – Stylish & Functional
 
@@ -155,9 +155,9 @@
                 <br>
 
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 mt-4">
                         <div class="projectdetails-1-text mb_30">
-                            <h53>Contact Us
+                            <h5 class="mb-2">Contact Us
                                 </h5>
                                 <p>
                                     Let’s design your dream space! Our team specializes in best interior design for

@@ -70,7 +70,7 @@
                 </div>
                 <h2 class="fw_bold fs_28 mb_10">Why Choose Us?</h2>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7">
                         <p>
                             <b>Experienced Civil Construction Company</b>
                             Specialized in all types of construction projects.
@@ -104,9 +104,9 @@
 
                 <br>
 
-                <h2 class="fw_bold fs_28 mb_20">Our Construction Services</h2>
+                <h2 class="fw_bold fs_28 mb_20 mt-4">Our Construction Services</h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="mb_30">
                             <p>
                                 <b>Residential & Commercial Projects </b>
@@ -125,7 +125,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="projectdetails-1-text mb_30">
 
                             <p>
@@ -155,8 +155,8 @@
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-7.webp') }}" class="mt_50"
                             alt="construction company in Trichy, construction builders near me, industrial construction companies, civil construction company, best construction company, construction services, modular construction, road construction companies, construction company Trichy, home builders near me, commercial building contractor, building plan approval">
                     </div>
-                    <div class="col-7">
-                        <p>
+                    <div class="col-lg-7 mt-lg-0 mt-3">
+                        <p >
                             <b>Certified Construction Materials</b>
                             We use top-grade materials for long-lasting buildings.
                         </p>

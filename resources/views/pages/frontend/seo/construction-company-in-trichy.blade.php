@@ -97,7 +97,7 @@
 
                 </div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="mb_30">
                             <p>
                                 <b>Residential Construction :</b>
@@ -116,7 +116,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="projectdetails-1-text mb_30">
                             <p>
                                 <b>Institutional Construction :</b>
@@ -137,7 +137,7 @@
                     </div>
                     <h4 class="fw_bold fs_28 mb_10">Why Choose Sthree Engineers?</h4>
                     <div class="row">
-                        <div class="col-7">
+                        <div class="col-lg-7">
                             <p>
                                 <b>Residential Construction :</b>
                                 We are committed to delivering the highest standards of <a href="{{ route('project') }}"
