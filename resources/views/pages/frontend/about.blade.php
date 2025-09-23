@@ -101,7 +101,7 @@
                                 <div class="image mb_20 mr_25"><img class="b_radius_50"
                                         src="{{ asset('assets/frontend/images/resource/authors.png') }}"></div>
                                 <div class="mr_40">
-                                    <p class="mb-0 fs_20 fw_sbold c_dark">Lion. Er. M. Senthilnathan</p>
+                                    <p class="mb-0 fs_20 fw_sbold c_dark">Rtn. Er. M. Senthilnathan</p>
                                     <p class="mb_20 fs_18 c_dark">Founder</p>
                                 </div>
                             </div>

@@ -136,7 +136,7 @@
                                     <div class="author-box d-flex align-items-right"
                                         style="float:right; padding-right:20px;">
                                         <div class="ml_20" style="padding: 11px;">
-                                            <p class="mb-0 fs_20 fw_sbold c_light">Lion. Er. M. Senthilnathan</p>
+                                            <p class="mb-0 fs_20 fw_sbold c_light">Rtn. Er. M. Senthilnathan</p>
                                             <p class="mb_20 fs_18 c_light" style="float:right;">Founder</p>
                                         </div>
                                         <div class="image mb_30 mr_20"><img class="b_radius_40"

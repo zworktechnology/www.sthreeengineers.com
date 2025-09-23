@@ -48,8 +48,9 @@ class ContactController extends Controller
 
         $access_token_key = env('WHATSAPP_ACCESS_TOKEN');
         $instance_id_key = env('WHATSAPP_INSTANCE_ID');
+        $url_key = env('WHATSAPP_URL');
 
-        $response = http::post('https://app.wapionline.com/api/send?number=91' . $admin_number . '&type=text&message=' . $template . '&instance_id=' . $instance_id_key . '&access_token=' . $access_token_key . '');
+        $response = http::post($url_key.'send?number=91' . $admin_number . '&type=text&message=' . $template . '&instance_id=' . $instance_id_key . '&access_token=' . $access_token_key . '');
         if ($response->successful()) {
             return redirect()->route('thankyou');
         } else {
