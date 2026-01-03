@@ -114,6 +114,19 @@ Route::get('/interior-designer-in-trichy', function () {
     return view('pages.frontend.seo.interior-designer-in-trichy');
 })->name('interior-designer-in-trichy');
 
+Route::get('/construction-company', function () {
+    return view('pages.frontend.seo.construction-company');
+})->name('construction-company');
+
+Route::get('/interior-designer-near-me.', function () {
+    return view('pages.frontend.seo.interior-designer-near-me');
+})->name('interior-designer-near-me.');
+
+Route::get('/civil-engineer/tiruchirappalli', function () {
+    return view('pages.frontend.seo.civil-engineer');
+})->name('civil-engineer');
+
+
 Route::get('/blog', [FrontendController::class, 'blogindex'])->name('blog');
 
 Route::get('/blog/filter/{id}/{name}', [FrontendController::class, 'blogfilter'])->name('blog-filter');

@@ -262,4 +262,41 @@
 <meta property="og:image:alt" content="interior designer Trichy, professional interior design, Trichy interiors">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
+@elseif (Route::currentRouteName() == 'construction-company')
+<title>End-to-End Construction Company for All Your Building Needs</title>
+<meta name="keywords" content="construction company, building a home, modular construction, construction services, modern construction, residential building, steps of construction, quantity surveyor">
+<meta name="description" content="Reliable construction company offering residential, commercial, industrial, institutional and religious building construction services in tamilnadu.">
+<meta property="og:title" content="The Complete Construction Company from Planning to Execution">
+<meta property="og:description" content="Experienced construction company providing modern construction solutions for homes, offices, and commercial spaces.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.sthreeengineers.com/construction-company">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
+<meta property="og:image:alt" content="the construction company committed to delivering strong, durable, and well-planned buildings.">
+<meta property="og:site_name" content="Sthree Engineers">
+<meta property="og:locale" content="en_IN">
+@elseif (Route::currentRouteName() == 'interior-designer-near-me')
+<title>Interior Designer Near You | Sthree Engineers</title>
+<meta name="keywords" content="construction company, building a home, modular construction, construction services, modern construction, residential building, steps of construction, quantity surveyor">
+<meta name="description" content="Sthree Engineers provides expert interior design services modern homes, apartments, offices, kitchens, and living spaces across Trichy and Tamil Nadu.">
+<meta property="og:title" content="Trusted Interior Designer for Residential & Commercial Projects">
+<meta property="og:description" content="Looking for an experienced interior designer near you. Delivering modern, functional, and luxury interiors with flawless finishes.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-near-me.">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
+<meta property="og:image:alt" content="experienced interior designer near me, providing luxury interior finishes.">
+<meta property="og:site_name" content="Sthree Engineers">
+<meta property="og:locale" content="en_IN">
+@elseif (Route::currentRouteName() == 'civil-engineer')
+<title>Civil Engineer | Structural, Environmental & Transportation Experts</title>
+<meta name="keywords" content="construction company, building a home, modular construction, construction services, modern construction, residential building, steps of construction, quantity surveyor">
+<meta name="description" content="Looking for an experienced civil engineer in Trichy? Sthree Engineers delivers structural engineering, surveying, transportation, environmental and construction engineering services with 20+ years expertise.">
+<meta property="og:title" content="Trusted Civil Engineer for Residential & Commercial Projects">
+<meta property="og:description" content="Looking for an experienced civil engineer in Trichy? Get end-to-end support for planning, surveying, structural design, and construction services.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.sthreeengineers.com/civil-engineer/tiruchirappalli">
+<meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
+<meta property="og:image:alt" content="experienced civil engineer in trichy, providing end to end construction solutions.">
+<meta property="og:site_name" content="Sthree Engineers">
+<meta property="og:locale" content="en_IN">
+
 @endif
