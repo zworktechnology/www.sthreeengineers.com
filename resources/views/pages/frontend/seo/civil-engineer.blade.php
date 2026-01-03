@@ -175,7 +175,7 @@
 
         @include('pages.frontend.layouts.rightsidebar')
 
-    <section class="banner-1-section pt_240 pb_140 bg_cover overflow-hidden"
+        <section class="banner-1-section pt_240 pb_140 bg_cover overflow-hidden"
             style="background-image: url(assets/frontend/images/background/bg-4.jpg);">
             <div class="line-grid-wrap">
                 <span class="line-grid-1"></span>
@@ -191,7 +191,7 @@
             <div class="auto-container">
                 <div class="p_relative text-center">
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                       Civil Engineer in Trichy – Planning, Design & Execution Experts</h1>
+                        Civil Engineer in Trichy – Planning, Design & Execution Experts</h1>
                     <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s"
                         data-wow-duration="1.5s">
                         <li><a href="{{ route('index') }}">Home</a></li>
@@ -387,7 +387,7 @@
                                 </div>
                             </li>
 
-                               <!--Block-->
+                            <!--Block-->
                             <li class="accordion block active-block">
                                 <div class="acc-btn c_dark ff_sec fs_22 fw_bold active"
                                     style="font-family: 'Barlow', sans-serif !important">
@@ -491,7 +491,7 @@
                         <!--Accordian Box-->
                         <ul class="accordion-box alt-2 pe-lg-5" style="font-family: 'Barlow', sans-serif !important">
 
-                         
+
 
                             <!--Block-->
                             <li class="accordion block">

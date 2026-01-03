@@ -122,7 +122,7 @@ Route::get('/interior-designer-near-me', function () {
     return view('pages.frontend.seo.interior-designer-near-me');
 })->name('interior-designer-near-me.');
 
-Route::get('/civil-engineer/tiruchirappalli', function () {
+Route::get('/civil-engineer', function () {
     return view('pages.frontend.seo.civil-engineer');
 })->name('civil-engineer');
 

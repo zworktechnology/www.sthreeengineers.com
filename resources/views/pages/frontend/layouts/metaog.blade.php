@@ -293,7 +293,7 @@
 <meta property="og:title" content="Trusted Civil Engineer for Residential & Commercial Projects">
 <meta property="og:description" content="Looking for an experienced civil engineer in Trichy? Get end-to-end support for planning, surveying, structural design, and construction services.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.sthreeengineers.com/civil-engineer/tiruchirappalli">
+<meta property="og:url" content="https://www.sthreeengineers.com/civil-engineer">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
 <meta property="og:image:alt" content="experienced civil engineer in trichy, providing end to end construction solutions.">
 <meta property="og:site_name" content="Sthree Engineers">
