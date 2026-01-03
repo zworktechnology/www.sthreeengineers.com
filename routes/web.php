@@ -118,7 +118,7 @@ Route::get('/construction-company', function () {
     return view('pages.frontend.seo.construction-company');
 })->name('construction-company');
 
-Route::get('/interior-designer-near-me.', function () {
+Route::get('/interior-designer-near-me', function () {
     return view('pages.frontend.seo.interior-designer-near-me');
 })->name('interior-designer-near-me.');
 
