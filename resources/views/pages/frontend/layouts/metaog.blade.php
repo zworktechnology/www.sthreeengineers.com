@@ -155,39 +155,39 @@
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'builders-in-trichy')
-<title>Top Builders in Trichy | Sthree Engineers</title>
+<title>Builders in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="builders in Trichy, best construction company Trichy, house builders Trichy">
-<meta name="description" content="Looking for reliable builders in Trichy? Sthree Engineers offers quality construction backed by experience and innovation.">
-<meta property="og:title" content="Best Builders in Trichy | Sthree Engineers">
-<meta property="og:description" content="Build your dream home with Sthree Engineers – Trichy’s trusted name in construction and civil engineering.">
+<meta name="description" content="Looking for a reliable builder in Trichy? Sthree Engineers is a trusted builder near you, offering residential and commercial construction and end-to-end construction services across Trichy and Tamil Nadu.">
+<meta property="og:title" content="The Complete Construction Company from Planning to Execution">
+<meta property="og:description" content="Best builders with an experience to serve more buildings.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/builders-in-trichy">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-47.webp">
-<meta property="og:image:alt" content="builders in Trichy, best construction company Trichy, house builders Trichy">
+<meta property="og:image:alt" content="the construction company committed to delivering strong, durable, and well-planned buildings.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'civil-construction-company')
-<title>Leading Civil Construction Company | Sthree Engineers</title>
+<title>Civil Construction Company in Trichy & TN | Sthree Engineers</title>
 <meta name="keywords" content="civil construction company, civil engineering services Trichy, construction firm Trichy">
-<meta name="description" content="Sthree Engineers is a premier civil construction company in Trichy, delivering end-to-end solutions with technical excellence.">
-<meta property="og:title" content="Civil Construction Experts | Sthree Engineers">
-<meta property="og:description" content="Discover top-quality civil construction services in Trichy with Sthree Engineers – From design to delivery.">
+<meta name="description" content="Looking for a reliable civil construction company in Trichy & Tamil Nadu? We provide expert civil construction services, residential, commercial & industrial projects with quality assurance.">
+<meta property="og:title" content="The Complete Civil Construction Company from Planning to Execution">
+<meta property="og:description" content="Experienced civil construction company providing modern construction solutions for homes, offices, and commercial spaces.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/civil-construction-company">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-7.webp">
-<meta property="og:image:alt" content="civil construction company, civil engineering services Trichy, construction firm Trichy">
+<meta property="og:image:alt" content="the civil construction company committed to delivering strong, durable, and well-planned buildings.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'civil-engineer-near-me')
-<title>Civil Engineer Near Me in Trichy | Sthree Engineers</title>
+<title>Civil Engineer Near You | Sthree Engineers</title>
 <meta name="keywords" content="civil engineer near me, local civil engineer Trichy, construction expert nearby">
-<meta name="description" content="Searching for a skilled civil engineer near you? Sthree Engineers in Trichy provides trusted engineering solutions locally.">
-<meta property="og:title" content="Find Civil Engineers Near You in Trichy | Sthree Engineers">
-<meta property="og:description" content="Get expert guidance for your building project from experienced civil engineers in Trichy.">
+<meta name="description" content="Are you searching for best civil engineer near me, sthree engineer is the best choice for your construction. Think wisely to choose the correct one.">
+<meta property="og:title" content="The best civil engineer near by you.">
+<meta property="og:description" content="Experienced civil engineer  providing modern construction solutions for homes, offices, and commercial spaces.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/civil-engineer-near-me">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/why%20civil%20engineer%20is%20important.jpg">
-<meta property="og:image:alt" content="civil engineer near me, local civil engineer Trichy, construction expert nearby">
+<meta property="og:image:alt" content="The best civil engineer works with a effortfullness.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'civil-engineering-construction')
@@ -215,15 +215,15 @@
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'construction-company-in-trichy')
-<title>Best Construction Company in Trichy | Sthree Engineers</title>
+<title>Construction Company in trichy | Sthree Engineers</title>
 <meta name="keywords" content="construction company Trichy, civil engineering firm, top builders Trichy">
-<meta name="description" content="Sthree Engineers is a top-rated construction company in Trichy specializing in residential, commercial, and interior works.">
-<meta property="og:title" content="Trichy’s Premier Construction Company | Sthree Engineers">
-<meta property="og:description" content="Trusted construction solutions delivered by experts in Trichy – residential, commercial, and more.">
+<meta name="description" content="Sthree Engineers is a top-rated construction company in trichy. we are providing the best construction services, localised in trichy construction company.">
+<meta property="og:title" content="The Complete Construction Company in Trichy from Planning to Execution">
+<meta property="og:description" content=" Experienced construction company providing modern construction solutions for homes, offices, and commercial spaces.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/construction-company-in-trichy">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-3.webp">
-<meta property="og:image:alt" content="construction company Trichy, civil engineering firm, top builders Trichy">
+<meta property="og:image:alt" content="the construction company committed to delivering strong, durable, and well-planned buildings.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'home-interior-design')
@@ -251,15 +251,15 @@
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'interior-designer-in-trichy')
-<title>Best Interior Designer in Trichy | Sthree Engineers</title>
+<title>Interior Design Company in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="interior designer Trichy, professional interior design, Trichy interiors">
-<meta name="description" content="Hire the best interior designers in Trichy from Sthree Engineers for innovative and functional interior solutions.">
-<meta property="og:title" content="Trichy’s Leading Interior Designers | Sthree Engineers">
-<meta property="og:description" content="Discover creative, custom-designed interiors by Sthree Engineers’ expert team in Trichy.">
+<meta name="description" content="Professional interior design company in Trichy We specialize in home decor for living rooms, contemporary style interiors, duplex house interiors.">
+<meta property="og:title" content="Interior Design Company | Customized Home & Commercial Interiors">
+<meta property="og:description" content="A trusted interior design company offering creative designs, transparent pricing, and timely delivery for residential and commercial interiors.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-in-trichy">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
-<meta property="og:image:alt" content="interior designer Trichy, professional interior design, Trichy interiors">
+<meta property="og:image:alt" content="the construction company committed to delivering strong, durable, and well-planned buildings.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'construction-company')
