@@ -203,9 +203,9 @@
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'civil-project-and-management-company-in-trichy')
-<title>Civil Project Management Company | Sthree Engineers – Trichy</title>
+<title>PMC Company in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="project management construction Trichy, PMC Trichy, civil project managers">
-<meta name="description" content="Sthree Engineers is a trusted project and construction management company in Trichy, ensuring timely delivery with expert supervision.">
+<meta name="description" content="Looking for a reliable PMC company in Trichy? We offer construction industry project management, planning, cost control, and end-to-end PMC services.">
 <meta property="og:title" content="PMC Services in Trichy | Sthree Engineers">
 <meta property="og:description" content="Optimize your construction project with expert management and planning from Sthree Engineers.">
 <meta property="og:type" content="website">
@@ -251,15 +251,15 @@
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'interior-designer-in-trichy')
-<title>Interior Design Company in Trichy | Sthree Engineers</title>
+<title>Interior Designer in trichy | Sthree Engineers</title>
 <meta name="keywords" content="interior designer Trichy, professional interior design, Trichy interiors">
-<meta name="description" content="Professional interior design company in Trichy We specialize in home decor for living rooms, contemporary style interiors, duplex house interiors.">
-<meta property="og:title" content="Interior Design Company | Customized Home & Commercial Interiors">
-<meta property="og:description" content="A trusted interior design company offering creative designs, transparent pricing, and timely delivery for residential and commercial interiors.">
+<meta name="description" content="Sthree engineer is a trusted interior designer in Trichy. Offering smart, and budget friendly interior solutions for homes, offices, and commercial spaces.">
+<meta property="og:title" content="Best Interior Design Company in Trichy for Homes, Offices & Commercial Spaces">
+<meta property="og:description" content="Interior designers in Trichy offering customized home and commercial interiors with quality finishes and end-to-end execution.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sthreeengineers.com/interior-designer-in-trichy">
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-9.webp">
-<meta property="og:image:alt" content="the construction company committed to delivering strong, durable, and well-planned buildings.">
+<meta property="og:image:alt" content="the interior design company committed to delivering strong, durable, and well-planned buildings.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
 @elseif (Route::currentRouteName() == 'construction-company')

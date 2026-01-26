@@ -16,7 +16,7 @@
 
     @include('pages.frontend.layouts.headestyle')
     @turnstileScripts()
-    
+
 
 </head>
 
@@ -183,7 +183,31 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+       {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact Sthree Engineers",
+            "url": "https://www.sthreeengineers.com/contact",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Contact"}
+                ]
+            },
+            "mainEntity": {
+                "@id": "https://www.sthreeengineers.com/#organization",
+                "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-78713-13987",
+                "contactType": "customer service",
+                "email": "admin@sthreeengineers.com",
+                "areaServed": ["TN"]
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>

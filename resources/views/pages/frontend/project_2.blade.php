@@ -252,7 +252,23 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Our Projects Page 2 | Sthree Engineers Portfolio",
+            "url": "https://www.sthreeengineers.com/project-page-2",
+            "description": "Page 2 of the portfolio of completed and ongoing construction, interior, and project management works by Sthree Engineers.",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Projects", "item": "https://www.sthreeengineers.com/project"},
+                {"@type": "ListItem", "position": 3, "name": "Page 2"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

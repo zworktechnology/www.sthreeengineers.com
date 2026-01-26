@@ -38,7 +38,7 @@
                 <span class="line-grid-5"></span>
             </div>
             <div class="banner-1-image-1 p_absolute b_0 r_0"><img
-                    src="{{asset('assets/frontend/images/main-slider/image-2.png')}}"
+                    src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}"
                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
             </div>
             <div class="auto-container">
@@ -64,7 +64,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Quantity Estimation</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Quality_Survey/1.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Quality_Survey/1.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -79,7 +79,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Cost Estimation</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Quality_Survey/2.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Quality_Survey/2.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -94,7 +94,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Material Estimation</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Quality_Survey/3.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Quality_Survey/3.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -109,7 +109,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Approved Drawing Estimation</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Quality_Survey/4.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Quality_Survey/4.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -124,7 +124,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Loan Estimation</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Quality_Survey/5.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Quality_Survey/5.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -161,8 +161,9 @@
                                 <a href="{{ route('contact') }}"
                                     class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i
                                         class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
-                                <div class="p_absolute r_0 t__35 p_33 bg_primary"><a href="https://youtu.be/uop7muARSno"
-                                        class="video-btn-1 ripple" data-fancybox="video-1" data-caption=""><i
+                                <div class="p_absolute r_0 t__35 p_33 bg_primary"><a
+                                        href="https://youtu.be/uop7muARSno" class="video-btn-1 ripple"
+                                        data-fancybox="video-1" data-caption=""><i
                                             class="flaticon-play-button"></i></a></div>
                             </div>
                         </div>
@@ -178,7 +179,26 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Quantity Survey",
+            "name": "Quantity Survey Services",
+            "description": "Ensure the highest quality and cost-efficiency in your construction project with professional quantity surveying.",
+            "url": "https://www.sthreeengineers.com/quality-survey",
+            "provider": {"@id": "https://www.sthreeengineers.com/#organization"},
+            "areaServed": {"@type": "City", "name": "Trichy"},
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.sthreeengineers.com/service"},
+                {"@type": "ListItem", "position": 3, "name": "Quantity Survey"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

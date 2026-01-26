@@ -193,7 +193,26 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Building Construction",
+            "name": "Building Construction Services in Trichy",
+            "description": "Building exceptional structures with precision and quality craftsmanship for residential and commercial projects.",
+            "url": "https://www.sthreeengineers.com/building-construction",
+            "provider": {"@id": "https://www.sthreeengineers.com/#organization"},
+            "areaServed": {"@type": "City", "name": "Trichy"},
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.sthreeengineers.com/service"},
+                {"@type": "ListItem", "position": 3, "name": "Building Construction"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

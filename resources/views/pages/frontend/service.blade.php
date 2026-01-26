@@ -216,8 +216,9 @@
                                 <a href="{{ route('contact') }}"
                                     class="c_light ff_sec fw_bold tt_u fs_14 ls_1 p_relative">request a call back <i
                                         class="ml_10 fs_20 v_middle flaticon-right-1"></i></a>
-                                <div class="p_absolute r_0 t__35 p_33 bg_primary"><a href="https://youtu.be/uop7muARSno"
-                                        class="video-btn-1 ripple" data-fancybox="video-1" data-caption=""><i
+                                <div class="p_absolute r_0 t__35 p_33 bg_primary"><a
+                                        href="https://youtu.be/uop7muARSno" class="video-btn-1 ripple"
+                                        data-fancybox="video-1" data-caption=""><i
                                             class="flaticon-play-button"></i></a></div>
                             </div>
                         </div>
@@ -233,7 +234,22 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Our Services | Building, PMC, Valuation, and More",
+            "url": "https://www.sthreeengineers.com/service",
+            "description": "Explore the range of services offered by Sthree Engineers, including Building Construction, Project Management, Valuation, and Interior Works.",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Services"}
+                ]
+            }
+            }
+    </script>
 </body>
 
 </html>

@@ -16,142 +16,7 @@
 
     @include('pages.frontend.layouts.headestyle')
 
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@graph": [{
-                    "@type": "WebPage",
-                    "@id": "https://www.sthreeengineers.com/construction-company",
-                    "url": "https://www.sthreeengineers.com/construction-company",
-                    "name": "End-to-End Construction Company for All Your Building Needs – Sthree Engineers",
-                    "description": "Reliable construction company offering residential, commercial, industrial, institutional and religious building construction services in tamilnadu.",
-                    "isPartOf": {
-                        "@id": "https://www.sthreeengineers.com/#website"
-                    },
-                    "breadcrumb": {
-                        "@id": "https://www.sthreeengineers.com/construction-company#breadcrumb"
-                    }
-                },
-                {
-                    "@type": "BreadcrumbList",
-                    "@id": "https://www.sthreeengineers.com/construction-company#breadcrumb",
-                    "itemListElement": [{
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Home",
-                            "item": "https://www.sthreeengineers.com/"
-                        },
-                        {
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Construction Company",
-                            "item": "https://www.sthreeengineers.com/construction-company"
-                        }
-                    ]
-                },
-                {
-                    "@type": "ConstructionCompany",
-                    "@id": "https://www.sthreeengineers.com/#organization",
-                    "name": "Sthree Engineers",
-                    "url": "https://www.sthreeengineers.com/",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://www.sthreeengineers.com/assets/images/logo.png"
-                    },
-                    "address": {
-                        "@type": "PostalAddress",
-                        "streetAddress": "No:43F, First Floor, Canara Bank ATM Upstair, Pudukottai Main Rd, Subramaniapuram",
-                        "addressLocality": "Tiruchirapalli",
-                        "addressRegion": "Tamil Nadu",
-                        "postalCode": "620020",
-                        "addressCountry": "IN"
-                    },
-                    "areaServed": {
-                        "@type": "AdministrativeArea",
-                        "name": "Trichy and surrounding districts"
-                    },
-                    "description": "Sthree Engineers is a full-service construction company offering residential, commercial, industrial, institutional, religious and infrastructure construction services."
-                },
-                {
-                    "@type": "FAQ",
-                    "@id": "https://www.sthreeengineers.com/construction-company#faq",
-                    "mainEntity": [{
-                            "@type": "Question",
-                            "name": "Which construction company built Burj Khalifa?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Burj Khalifa was constructed by Samsung C&T in partnership with BESIX and Arabtec as part of an international joint venture."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "How does a construction company work?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "A construction company manages planning, design coordination, material sourcing, execution, supervision, quality checks, and final project handover."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "What does a construction company do?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "A construction company handles residential, commercial, industrial, and infrastructure projects from concept to completion using professional engineering practices."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "Why choose a construction company?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Choosing a construction company ensures proper project management, technical expertise, cost control, quality standards, and regulatory compliance."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "How long does a construction company take to complete a project?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Project timelines depend on size, approvals, design complexity, and site conditions, typically ranging from several months to over a year."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "Construction company vs general contractor – what is the difference?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "A construction company manages the entire project lifecycle, while a general contractor mainly focuses on executing construction work."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "Does a construction company come under MSME?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Yes, a construction company can be registered under MSME if it meets the government-defined investment and turnover limits."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "What do you mean by a construction company?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "A construction company is an organization that plans, manages, and executes building and infrastructure projects using engineering and management expertise."
-                            }
-                        },
-                        {
-                            "@type": "Question",
-                            "name": "How to choose a construction company for industrial projects?",
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": "Choose a construction company with proven industrial project experience, strong technical teams, safety standards, quality control systems, and on-time delivery capability."
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    </script>
+
 
 </head>
 
@@ -181,7 +46,7 @@
             <div class="auto-container">
                 <div class="p_relative text-center">
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        Construction Company – Sthree Engineers</h1>
+                        What does a construction company do?</h1>
                     <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s"
                         data-wow-duration="1.5s">
                         <li><a href="{{ route('index') }}">Home</a></li>
@@ -196,10 +61,12 @@
                 <div class="sec-title-area mb_10">
                     <div class="row ">
                         <p class="mb_10">
-                            Sthree Engineers is a well-established construction company with over 20 years of experience
-                            delivering reliable and quality-focused construction projects in Trichy and surrounding
-                            districts. From initial planning to final execution, we manage every stage of construction
-                            with technical expertise, transparency, and on-ground experience.
+                            A construction company builds and renovates structures like homes, roads, bridges, and
+                            factories, managing projects from planning and design through execution, ensuring safety,
+                            quality, and compliance, often coordinating architects, engineers, and specialized
+                            subcontractors to deliver a finished, functional building or infrastructure. They handle
+                            complexities like permits, materials, labor, and site management, offering services for
+                            residential, commercial, industrial, or civil projects.
                         </p>
                         <p class="mb_30">
                             As a full service construction company, we work across residential, commercial,
@@ -254,23 +121,35 @@
                 </h4>
                 <div class="row">
                     <div class="col-lg-7 mt-lg-0 mt-3">
-                        <p>
-                            <b>Site analysis and feasibility study</b>
-                        </p>
-                        <p>
-                            <b>Planning, design, and approvals</b>
-                        </p>
-                        <p>
-                            <b>Quantity estimation and budgeting</b>
-                        </p>
-                        <p>
-                            <b>Execution and project management</b>
+                        <ul class="px-md-5 px-3">
+                            <li style="list-style: square">
+                                <p>
+                                    <b>Site analysis and feasibility study</b>
 
-                        </p>
-                        <p>
-                            <b>Quality checks and final handover</b>
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    <b>Planning, design, and approvals</b>
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    <b>Quantity estimation and budgeting</b>
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    <b>Execution and project management</b>
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    <b>Quality checks and final handover</b>
+                                </p>
+                            </li>
+                        </ul>
 
-                        </p>
                         <p>
                             Each stage is managed by qualified engineers and supervisors with real project experience.
 
@@ -323,31 +202,46 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="projectdetails-1-text mb_30">
-                            <h3>Why Choose Sthree Engineers as Your Construction Company
+                            <h3 class="fw_bold fs_28 mb_10">Why Choose Sthree Engineers as Your Construction Company
                             </h3>
-                            <p>
-                                20+ years of hands-on construction experience
-                            </p>
-                            <p class="mt-4">
-                                Strong local presence in Trichy and nearby districts
-                            </p>
-                            <p class="mt-4">
-                                Complete in-house construction services
-                            </p>
-                            <p class="mt-4">
-                                Experienced engineers, planners, and quantity surveyors
-                            </p>
-                            <p class="mt-4">
-                                Transparent execution and quality control
-                            </p>
-                            <p class="mt-4">
-                                As a trusted construction company, Sthree Engineers focuses on building structures that
-                                are safe, functional, and long-lasting.
-                            </p>
+                            <ul class="px-md-5 px-3 mt-4">
+                                <li style="list-style: square">
+                                    <p>
+                                        20+ years of hands-on construction experience
+                                    </p>
+                                </li>
+                                <li style="list-style: square">
+                                    <p>
+                                        Strong local presence in Trichy and nearby districts
+                                    </p>
+                                </li>
+                                <li style="list-style: square">
+                                    <p>
+                                        Complete in-house construction services
+                                    </p>
+                                </li>
+                                <li style="list-style: square">
+                                    <p>
+                                        Experienced engineers, planners, and quantity surveyors
+                                    </p>
+                                </li>
+                                <li style="list-style: square">
+                                    <p>
+                                        Transparent execution and quality control
+                                    </p>
+                                </li>
+                                <li style="list-style: square">
+                                    <p>
+                                        As a trusted construction company, Sthree Engineers focuses on building
+                                        structures that
+                                        are safe, functional, and long-lasting.
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
 
                         <div class="projectdetails-1-text mb_30">
-                            <h3>Serving Trichy and Surrounding Districts
+                            <h3 class="fw_bold fs_28 mb_10">Serving Trichy and Surrounding Districts
                             </h3>
                             <p>
                                 Sthree Engineers operates across Trichy and nearby regions, delivering reliable
@@ -365,7 +259,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="pt_40 pb_40">
             <div class="auto-container">
                 <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span
                         class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"
@@ -422,8 +316,8 @@
                             </li>
 
                             <!--Block-->
-                            <li class="accordion block active-block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active"
+                            <li class="accordion block ">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold "
                                     style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
@@ -431,7 +325,7 @@
                                     </div>
                                     What does a construction company do?
                                 </div>
-                                <div class="acc-content current">
+                                <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
                                             A construction company manages residential, commercial, and infrastructure
@@ -585,7 +479,142 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                    "@type": "WebPage",
+                    "@id": "https://www.sthreeengineers.com/construction-company",
+                    "url": "https://www.sthreeengineers.com/construction-company",
+                    "name": "End-to-End Construction Company for All Your Building Needs – Sthree Engineers",
+                    "description": "Reliable construction company offering residential, commercial, industrial, institutional and religious building construction services in tamilnadu.",
+                    "isPartOf": {
+                        "@id": "https://www.sthreeengineers.com/#website"
+                    },
+                    "breadcrumb": {
+                        "@id": "https://www.sthreeengineers.com/construction-company#breadcrumb"
+                    }
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://www.sthreeengineers.com/construction-company#breadcrumb",
+                    "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.sthreeengineers.com/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Construction Company",
+                            "item": "https://www.sthreeengineers.com/construction-company"
+                        }
+                    ]
+                },
+                {
+                    "@type": "ConstructionCompany",
+                    "@id": "https://www.sthreeengineers.com/#organization",
+                    "name": "Sthree Engineers",
+                    "url": "https://www.sthreeengineers.com/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://www.sthreeengineers.com/assets/images/logo.png"
+                    },
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "No:43F, First Floor, Canara Bank ATM Upstair, Pudukottai Main Rd, Subramaniapuram",
+                        "addressLocality": "Tiruchirapalli",
+                        "addressRegion": "Tamil Nadu",
+                        "postalCode": "620020",
+                        "addressCountry": "IN"
+                    },
+                    "areaServed": {
+                        "@type": "AdministrativeArea",
+                        "name": "Trichy and surrounding districts"
+                    },
+                    "description": "Sthree Engineers is a full-service construction company offering residential, commercial, industrial, institutional, religious and infrastructure construction services."
+                },
+                {
+                    "@type": "FAQ",
+                    "@id": "https://www.sthreeengineers.com/construction-company#faq",
+                    "mainEntity": [{
+                            "@type": "Question",
+                            "name": "Which construction company built Burj Khalifa?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Burj Khalifa was constructed by Samsung C&T in partnership with BESIX and Arabtec as part of an international joint venture."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How does a construction company work?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "A construction company manages planning, design coordination, material sourcing, execution, supervision, quality checks, and final project handover."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What does a construction company do?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "A construction company handles residential, commercial, industrial, and infrastructure projects from concept to completion using professional engineering practices."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Why choose a construction company?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Choosing a construction company ensures proper project management, technical expertise, cost control, quality standards, and regulatory compliance."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How long does a construction company take to complete a project?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Project timelines depend on size, approvals, design complexity, and site conditions, typically ranging from several months to over a year."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Construction company vs general contractor – what is the difference?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "A construction company manages the entire project lifecycle, while a general contractor mainly focuses on executing construction work."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does a construction company come under MSME?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, a construction company can be registered under MSME if it meets the government-defined investment and turnover limits."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What do you mean by a construction company?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "A construction company is an organization that plans, manages, and executes building and infrastructure projects using engineering and management expertise."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How to choose a construction company for industrial projects?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Choose a construction company with proven industrial project experience, strong technical teams, safety standards, quality control systems, and on-time delivery capability."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    </script>
 </body>
 
 </html>

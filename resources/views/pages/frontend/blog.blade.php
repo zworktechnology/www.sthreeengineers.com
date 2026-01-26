@@ -88,7 +88,22 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Blog | Construction and Design Insights",
+            "url": "https://www.sthreeengineers.com/blog",
+            "description": "Latest articles and expert tips on construction, interior design, project management, and property valuation.",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Blog"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

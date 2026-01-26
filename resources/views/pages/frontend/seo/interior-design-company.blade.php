@@ -315,14 +315,16 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                  Which is the best interior design company in Trichy?
+                                    Which is the best interior design company in Trichy?
 
 
                                 </div>
                                 <div class="acc-content current">
                                     <div class="content">
                                         <p class="fs_18">
-                                            Sthree Engineers is a trusted interior design company in Trichy, offering residential, duplex, and contemporary interior solutions with quality execution.
+                                            Sthree Engineers is a trusted interior design company in Trichy, offering
+                                            residential, duplex, and contemporary interior solutions with quality
+                                            execution.
                                         </p>
                                     </div>
                                 </div>
@@ -341,7 +343,8 @@
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                             Yes, we specialize in modern home decor for living rooms, including lighting, furniture, wall designs, and décor styling.
+                                            Yes, we specialize in modern home decor for living rooms, including
+                                            lighting, furniture, wall designs, and décor styling.
                                         </p>
                                     </div>
                                 </div>
@@ -360,7 +363,8 @@
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                             Duplex house interior design includes layout planning, staircase design, lighting, furniture, and contemporary interior concepts.
+                                            Duplex house interior design includes layout planning, staircase design,
+                                            lighting, furniture, and contemporary interior concepts.
 
                                         </p>
                                     </div>
@@ -380,13 +384,14 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   What interior styles do you offer?
+                                    What interior styles do you offer?
 
                                 </div>
                                 <div class="acc-content current">
                                     <div class="content">
                                         <p class="fs_18">
-                                           We offer contemporary style interiors, modern interiors, minimal designs, and customized themes based on client preferences.
+                                            We offer contemporary style interiors, modern interiors, minimal designs,
+                                            and customized themes based on client preferences.
 
                                         </p>
                                     </div>
@@ -400,14 +405,15 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   How much does interior design cost in Trichy?
+                                    How much does interior design cost in Trichy?
 
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                           Interior design costs vary based on design scope, materials, and project size. A detailed consultation is required for accurate pricing.
+                                            Interior design costs vary based on design scope, materials, and project
+                                            size. A detailed consultation is required for accurate pricing.
 
                                         </p>
                                     </div>
@@ -421,14 +427,15 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   Do you provide turnkey interior solutions?
+                                    Do you provide turnkey interior solutions?
 
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                           Yes, we offer complete turnkey interior design services from concept to final handover.
+                                            Yes, we offer complete turnkey interior design services from concept to
+                                            final handover.
                                         </p>
                                     </div>
                                 </div>
@@ -436,16 +443,18 @@
                         </ul>
                     </div>
                 </div>
-          <h2 class="fw_bold fs_28 mb_10  pt_40">Contact the Best Interior Design Company in Trichy
+                <h2 class="fw_bold fs_28 mb_10  pt_40">Contact the Best Interior Design Company in Trichy
 
                 </h2>
-                <p>If you’re looking for a reliable interior design company, Sthree Engineers is your trusted partner. Our expert designers are ready to transform your home with modern, functional, and elegant interiors.</p>
+                <p>If you’re looking for a reliable interior design company, Sthree Engineers is your trusted partner.
+                    Our expert designers are ready to transform your home with modern, functional, and elegant
+                    interiors.</p>
 
                 <h2 class="fw_black mb_20"
                     style="font-size:30px !important;font-family: 'Barlow', sans-serif !important">Frequently Ask
                     Questions</h2>
 
-                    <div class="row">
+                <div class="row">
                     <div class="col-lg-6">
                         <!--Accordian Box-->
                         <ul class="accordion-box alt-2 pe-lg-5">
@@ -457,14 +466,16 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                Which is the best interior design company in Trichy for modern homes?
+                                    Which is the best interior design company in Trichy for modern homes?
 
 
                                 </div>
                                 <div class="acc-content current">
                                     <div class="content">
                                         <p class="fs_18">
-                                           Sthree Engineers is one of the best interior design companies in Trichy, offering modern and contemporary style interior solutions for apartments, villas, and independent houses with complete end-to-end execution.
+                                            Sthree Engineers is one of the best interior design companies in Trichy,
+                                            offering modern and contemporary style interior solutions for apartments,
+                                            villas, and independent houses with complete end-to-end execution.
                                         </p>
                                     </div>
                                 </div>
@@ -484,7 +495,9 @@
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                            The cost charged by an interior design company in Trichy depends on home size, interior style, materials used, and customization level. A site visit and design consultation are required for accurate pricing.
+                                            The cost charged by an interior design company in Trichy depends on home
+                                            size, interior style, materials used, and customization level. A site visit
+                                            and design consultation are required for accurate pricing.
                                         </p>
                                     </div>
                                 </div>
@@ -497,73 +510,15 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   Do you provide complete home decor for living room interiors in Trichy?
+                                    Do you provide complete home decor for living room interiors in Trichy?
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                            Yes, we specialize in home decor for living room interiors in Trichy, including furniture layout, lighting design, wall décor, false ceilings, and contemporary style interior themes.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                             <!--Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
-                                    style="font-family: 'Barlow', sans-serif !important">
-                                    <div class="icon-outer">
-                                        <span class="icon icon-plus fa fa-plus"></span>
-                                        <span class="icon icon-minus fa fa-minus"></span>
-                                    </div>
-                                  What is included in contemporary style interior design for homes?
-
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <p class="fs_18">
-                                          Contemporary style interior design includes modern layouts, minimal furniture, neutral color palettes, smart lighting, space-saving designs, and functional storage solutions for homes.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                             <!--Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
-                                    style="font-family: 'Barlow', sans-serif !important">
-                                    <div class="icon-outer">
-                                        <span class="icon icon-plus fa fa-plus"></span>
-                                        <span class="icon icon-minus fa fa-minus"></span>
-                                    </div>
-                                 Which interior design company in Trichy is best for duplex house interiors?
-
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <p class="fs_18">
-                                         Sthree Engineers is a trusted interior design company in Trichy for duplex house interior design, offering staircase design, double-height living spaces, lighting concepts, and modern interior layouts.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                             <!--Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
-                                    style="font-family: 'Barlow', sans-serif !important">
-                                    <div class="icon-outer">
-                                        <span class="icon icon-plus fa fa-plus"></span>
-                                        <span class="icon icon-minus fa fa-minus"></span>
-                                    </div>
-                                  Do interior designers in Trichy provide turnkey interior design services?
-
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <p class="fs_18">
-                                        Yes, many interior designers in Trichy, including Sthree Engineers, provide turnkey interior design services covering design, material selection, execution, and final handover.
+                                            Yes, we specialize in home decor for living room interiors in Trichy,
+                                            including furniture layout, lighting design, wall décor, false ceilings, and
+                                            contemporary style interior themes.
 
                                         </p>
                                     </div>
@@ -577,13 +532,81 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                 How long does a home interior design project take in Trichy?
+                                    What is included in contemporary style interior design for homes?
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                        The timeline for home interior design in Trichy depends on project size, design complexity, and material availability. On average, residential interior projects take 30–60 days after design approval.
+                                            Contemporary style interior design includes modern layouts, minimal
+                                            furniture, neutral color palettes, smart lighting, space-saving designs, and
+                                            functional storage solutions for homes.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--Block-->
+                            <li class="accordion block">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
+                                    style="font-family: 'Barlow', sans-serif !important">
+                                    <div class="icon-outer">
+                                        <span class="icon icon-plus fa fa-plus"></span>
+                                        <span class="icon icon-minus fa fa-minus"></span>
+                                    </div>
+                                    Which interior design company in Trichy is best for duplex house interiors?
+
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <p class="fs_18">
+                                            Sthree Engineers is a trusted interior design company in Trichy for duplex
+                                            house interior design, offering staircase design, double-height living
+                                            spaces, lighting concepts, and modern interior layouts.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--Block-->
+                            <li class="accordion block">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
+                                    style="font-family: 'Barlow', sans-serif !important">
+                                    <div class="icon-outer">
+                                        <span class="icon icon-plus fa fa-plus"></span>
+                                        <span class="icon icon-minus fa fa-minus"></span>
+                                    </div>
+                                    Do interior designers in Trichy provide turnkey interior design services?
+
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <p class="fs_18">
+                                            Yes, many interior designers in Trichy, including Sthree Engineers, provide
+                                            turnkey interior design services covering design, material selection,
+                                            execution, and final handover.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--Block-->
+                            <li class="accordion block">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
+                                    style="font-family: 'Barlow', sans-serif !important">
+                                    <div class="icon-outer">
+                                        <span class="icon icon-plus fa fa-plus"></span>
+                                        <span class="icon icon-minus fa fa-minus"></span>
+                                    </div>
+                                    How long does a home interior design project take in Trichy?
+
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <p class="fs_18">
+                                            The timeline for home interior design in Trichy depends on project size,
+                                            design complexity, and material availability. On average, residential
+                                            interior projects take 30–60 days after design approval.
 
                                         </p>
                                     </div>
@@ -603,14 +626,16 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   What are the best interior design styles for small homes in Trichy?
+                                    What are the best interior design styles for small homes in Trichy?
 
 
                                 </div>
                                 <div class="acc-content current">
                                     <div class="content">
                                         <p class="fs_18">
-                                          The best interior design styles for small homes in Trichy include contemporary style interiors, minimal designs, modular furniture, and space-saving layouts that improve functionality and aesthetics.
+                                            The best interior design styles for small homes in Trichy include
+                                            contemporary style interiors, minimal designs, modular furniture, and
+                                            space-saving layouts that improve functionality and aesthetics.
 
                                         </p>
                                     </div>
@@ -624,14 +649,16 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                  Do interior design companies in Trichy provide 3D interior designs?
+                                    Do interior design companies in Trichy provide 3D interior designs?
 
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                           Yes, professional interior design companies in Trichy provide 3D interior design visuals to help clients understand layouts, color combinations, furniture placement, and final design outcomes.
+                                            Yes, professional interior design companies in Trichy provide 3D interior
+                                            design visuals to help clients understand layouts, color combinations,
+                                            furniture placement, and final design outcomes.
 
                                         </p>
                                     </div>
@@ -645,19 +672,21 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                  What materials are used by interior design companies in Trichy?
+                                    What materials are used by interior design companies in Trichy?
 
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                          Interior design companies in Trichy use high-quality materials such as plywood, MDF, laminates, acrylic boards, glass, metal fittings, and eco-friendly materials based on design requirements.
+                                            Interior design companies in Trichy use high-quality materials such as
+                                            plywood, MDF, laminates, acrylic boards, glass, metal fittings, and
+                                            eco-friendly materials based on design requirements.
                                         </p>
                                     </div>
                                 </div>
                             </li>
-                             <!--Block-->
+                            <!--Block-->
                             <li class="accordion block">
                                 <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
                                     style="font-family: 'Barlow', sans-serif !important">
@@ -665,19 +694,21 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   Can an interior design company in Trichy customize designs based on budget?
+                                    Can an interior design company in Trichy customize designs based on budget?
 
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                         Yes, a reliable interior design company in Trichy offers customized interior solutions based on budget, design preferences, material selection, and space requirements.
+                                            Yes, a reliable interior design company in Trichy offers customized interior
+                                            solutions based on budget, design preferences, material selection, and space
+                                            requirements.
                                         </p>
                                     </div>
                                 </div>
                             </li>
-                             <!--Block-->
+                            <!--Block-->
                             <li class="accordion block">
                                 <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
                                     style="font-family: 'Barlow', sans-serif !important">
@@ -685,19 +716,21 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   Do interior design services in Trichy cover projects across Tamil Nadu?
+                                    Do interior design services in Trichy cover projects across Tamil Nadu?
 
 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                           Yes, interior design services from Trichy extend across Tamil Nadu, covering residential, duplex house, and contemporary interior projects in urban and semi-urban areas.
+                                            Yes, interior design services from Trichy extend across Tamil Nadu, covering
+                                            residential, duplex house, and contemporary interior projects in urban and
+                                            semi-urban areas.
                                         </p>
                                     </div>
                                 </div>
                             </li>
-                             <!--Block-->
+                            <!--Block-->
                             <li class="accordion block">
                                 <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
                                     style="font-family: 'Barlow', sans-serif !important">
@@ -705,7 +738,7 @@
                                         <span class="icon icon-plus fa fa-plus"></span>
                                         <span class="icon icon-minus fa fa-minus"></span>
                                     </div>
-                                   How can I contact an interior design company in Trichy for a consultation?
+                                    How can I contact an interior design company in Trichy for a consultation?
 
 
 
@@ -713,7 +746,9 @@
                                 <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
-                                           You can contact an interior design company in Trichy through their website, phone call, or office visit to schedule a design consultation and receive a detailed interior project quote.
+                                            You can contact an interior design company in Trichy through their website,
+                                            phone call, or office visit to schedule a design consultation and receive a
+                                            detailed interior project quote.
                                         </p>
                                     </div>
                                 </div>
@@ -734,7 +769,7 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [

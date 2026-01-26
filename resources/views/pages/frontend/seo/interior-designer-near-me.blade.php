@@ -15,139 +15,7 @@
     @include('pages.frontend.layouts.googletagmanager')
 
     @include('pages.frontend.layouts.headestyle')
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "FAQ",
-      "@id": "https://www.sthreeengineers.com/interior-designer-near-me",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do local interior designers offer customized designs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, local interior designers offer fully customized interior designs based on your space, lifestyle, budget, and design preferences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does a home interior project usually take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A home interior project usually takes 30 to 60 days depending on design complexity, material selection, and site conditions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What questions should I ask an interior designer near me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You should ask about experience, design process, timelines, material quality, warranty, and past interior design projects."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do interior companies near me provide site visits?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, most interior companies near you provide site visits to understand space requirements and provide accurate design solutions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should I check before hiring an interior design company?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Before hiring an interior design company, check their portfolio, material quality, timelines, pricing transparency, and client reviews."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do interior companies near me offer warranty on interior work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, professional interior companies offer warranty on materials, fittings, and workmanship depending on the project scope."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I compare interior companies near me?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can compare interior companies based on design quality, pricing, material brands, timelines, and customer feedback."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between interior designers and interior decorators?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Interior designers focus on space planning and functional design, while interior decorators mainly handle furnishings and visual aesthetics."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What factors are important in hotel interior design?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Key factors in hotel interior design include guest comfort, space utilization, lighting, durability, branding, and maintenance efficiency."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does hotel interior design cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hotel interior design cost depends on project size, design style, materials used, and customization requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the latest hotel interior design trends?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Current hotel interior design trends include modern minimal interiors, sustainable materials, smart lighting, and luxury finishes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does interior design improve guest experience?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Good interior design improves guest experience by enhancing comfort, navigation, ambiance, and overall visual appeal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do interior designers handle hotel interior projects end-to-end?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, professional interior designers handle hotel interior projects end-to-end from concept design to final execution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do interior design companies handle turnkey projects?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, interior design companies provide turnkey interior solutions covering design, material procurement, execution, and handover."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does office interior design impact productivity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Office interior design improves productivity by optimizing workspace layout, lighting, acoustics, and employee comfort."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
+
 
 </head>
 
@@ -223,23 +91,22 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-lg-7 mt-lg-0 mt-3">
-                        <li>
-                            <b>Apartment interior design</b>
+                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-3">
+                        <li style="list-style: circle">
+                            <p><b>Apartment interior design</b></p>
                         </li>
-                        <li>
-                            <b> Best house interior design concepts</b>
+                        <li style="list-style: circle">
+                            <p><b> Best house interior design concepts</b></p>
                         </li>
-                        <li>
-                            <b>Living room interior & décor planning</b>
+                        <li style="list-style: circle">
+                            <p><b>Living room interior & décor planning</b></p>
                         </li>
-                        <li>
-                            <b>Kitchen interior design ideas</b>
+                        <li style="list-style: circle">
+                            <p><b>Kitchen interior design ideas</b></p>
                         </li>
-                        <li>
-                            <b>Pooja room design in hall</b>
+                        <li style="list-style: circle">
+                            <p><b>Pooja room design in hall</b></p>
                         </li>
-
                     </ul>
                 </div>
                 <p>
@@ -265,17 +132,17 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-lg-7 mt-lg-0 mt-3">
-                        <li>
+                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-3">
+                        <li style="list-style: disc">
                             <b>Modern office interior layouts</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>Workspace planning & partitioningModern office interior layouts</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>Conference room & reception design</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>Lighting and ergonomic furniture planning</b>
                         </li>
 
@@ -293,20 +160,20 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-lg-7 mt-lg-0 mt-3">
-                        <li>
+                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-3">
+                        <li style="list-style: disc">
                             <b>Experienced interior designers and project managers</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>Customized interior design ideas</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>Quality materials and branded fittings</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>Transparent pricing and clear timelines</b>
                         </li>
-                        <li>
+                        <li style="list-style: disc">
                             <b>On-time project completion</b>
                         </li>
                     </ul>
@@ -404,7 +271,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="pt_40 pb_40">
             <div class="auto-container">
                 <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span
                         class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"
@@ -461,8 +328,8 @@
                             </li>
 
                             <!--Block-->
-                            <li class="accordion block active-block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active"
+                            <li class="accordion block">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold "
                                     style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
@@ -470,7 +337,7 @@
                                     </div>
                                     What questions should I ask an interior designer near me?
                                 </div>
-                                <div class="acc-content current">
+                                <div class="acc-content">
                                     <div class="content">
                                         <p class="fs_18">
                                             You should ask about experience, design process, timelines, material
@@ -759,7 +626,139 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+            "@type": "FAQ",
+            "@id": "https://www.sthreeengineers.com/interior-designer-near-me",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "Do local interior designers offer customized designs?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, local interior designers offer fully customized interior designs based on your space, lifestyle, budget, and design preferences."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How long does a home interior project usually take?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A home interior project usually takes 30 to 60 days depending on design complexity, material selection, and site conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What questions should I ask an interior designer near me?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You should ask about experience, design process, timelines, material quality, warranty, and past interior design projects."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Do interior companies near me provide site visits?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, most interior companies near you provide site visits to understand space requirements and provide accurate design solutions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What should I check before hiring an interior design company?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Before hiring an interior design company, check their portfolio, material quality, timelines, pricing transparency, and client reviews."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Do interior companies near me offer warranty on interior work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, professional interior companies offer warranty on materials, fittings, and workmanship depending on the project scope."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How can I compare interior companies near me?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can compare interior companies based on design quality, pricing, material brands, timelines, and customer feedback."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is the difference between interior designers and interior decorators?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Interior designers focus on space planning and functional design, while interior decorators mainly handle furnishings and visual aesthetics."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What factors are important in hotel interior design?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key factors in hotel interior design include guest comfort, space utilization, lighting, durability, branding, and maintenance efficiency."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How much does hotel interior design cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hotel interior design cost depends on project size, design style, materials used, and customization requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the latest hotel interior design trends?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Current hotel interior design trends include modern minimal interiors, sustainable materials, smart lighting, and luxury finishes."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How does interior design improve guest experience?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Good interior design improves guest experience by enhancing comfort, navigation, ambiance, and overall visual appeal."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Do interior designers handle hotel interior projects end-to-end?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, professional interior designers handle hotel interior projects end-to-end from concept design to final execution."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Do interior design companies handle turnkey projects?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, interior design companies provide turnkey interior solutions covering design, material procurement, execution, and handover."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How does office interior design impact productivity?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Office interior design improves productivity by optimizing workspace layout, lighting, acoustics, and employee comfort."
+                }
+                }
+            ]
+            }
+        ]
+    }
+</script>
 </body>
 
 </html>

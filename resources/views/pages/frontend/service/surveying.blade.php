@@ -38,7 +38,7 @@
                 <span class="line-grid-5"></span>
             </div>
             <div class="banner-1-image-1 p_absolute b_0 r_0"><img
-                    src="{{asset('assets/frontend/images/main-slider/image-2.png')}}"
+                    src="{{ asset('assets/frontend/images/main-slider/image-2.png') }}"
                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
             </div>
             <div class="auto-container">
@@ -64,7 +64,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Land Surveying</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Survey/1.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Survey/1.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -79,7 +79,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Building Surveying</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Survey/2.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Survey/2.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">
@@ -94,7 +94,7 @@
                         <div class="service-1-block alt">
                             <h4 class="service-1-title fs_25">Terrain Survey (REECE)</h4>
                             <div class="service-1-image">
-                                <img src="{{asset('assets/frontend/images/resource/Survey/3.jpg')}}"
+                                <img src="{{ asset('assets/frontend/images/resource/Survey/3.jpg') }}"
                                     alt="building construction, valuation, approval, surveyor, builder near me, building contractor, e valuation, builders in trichy, construction company in trichy">
                                 <div class="service-1-read-more"><a href="javascript:void(0);"
                                         class="c_light ff_sec fw_bold fs_14 ls_1">Sthree Engineers.</a></div>
@@ -144,7 +144,26 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+       {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Land and Building Surveying",
+            "name": "Land and Building Surveying Services",
+            "description": "Accurate land and building surveying for informed decision-making and project planning.",
+            "url": "https://www.sthreeengineers.com/surveying",
+            "provider": {"@id": "https://www.sthreeengineers.com/#organization"},
+            "areaServed": {"@type": "City", "name": "Trichy"},
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.sthreeengineers.com/service"},
+                {"@type": "ListItem", "position": 3, "name": "Surveying"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

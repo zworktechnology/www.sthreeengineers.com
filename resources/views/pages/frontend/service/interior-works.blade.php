@@ -163,7 +163,26 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Interior Works and Design",
+            "name": "Interior Works and Home Design Services",
+            "description": "Transform your empty space with customized and innovative interior designs and modular kitchen solutions.",
+            "url": "https://www.sthreeengineers.com/interior-works",
+            "provider": {"@id": "https://www.sthreeengineers.com/#organization"},
+            "areaServed": {"@type": "City", "name": "Trichy"},
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.sthreeengineers.com/service"},
+                {"@type": "ListItem", "position": 3, "name": "Interior Works"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

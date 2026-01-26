@@ -332,7 +332,22 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Our Projects | Sthree Engineers Portfolio",
+            "url": "https://www.sthreeengineers.com/project",
+            "description": "View the portfolio of completed and ongoing construction, interior, and project management works by Sthree Engineers.",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Projects"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -238,7 +238,26 @@
         @include('pages.frontend.layouts.backtotop')
         
     </div>
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Project Management Consultancy (PMC)",
+            "name": "Project Management (PMC) Services",
+            "description": "Efficiently managing every aspect of your construction project from inception to completion.",
+            "url": "https://www.sthreeengineers.com/project-management",
+            "provider": {"@id": "https://www.sthreeengineers.com/#organization"},
+            "areaServed": {"@type": "City", "name": "Trichy"},
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sthreeengineers.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.sthreeengineers.com/service"},
+                {"@type": "ListItem", "position": 3, "name": "Project Management (PMC)"}
+                ]
+            }
+        }
+    </script>
 </body>
 
 </html>

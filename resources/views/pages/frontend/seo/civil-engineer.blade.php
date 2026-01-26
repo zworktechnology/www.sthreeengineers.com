@@ -15,153 +15,7 @@
     @include('pages.frontend.layouts.googletagmanager')
 
     @include('pages.frontend.layouts.headestyle')
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-            "@type": "WebPage",
-            "@id": "https://www.sthreeengineers.com/civil-engineer",
-            "url": "https://www.sthreeengineers.com/civil-engineer/tiruchirappalli",
-            "name": "Civil Engineer | Sthree Engineers",
-            "description": "Experienced civil engineer providing structural engineering, surveying, construction engineering, and infrastructure services in Trichy and surrounding districts.",
-            "isPartOf": {
-                "@type": "WebSite",
-                "@id": "https://www.sthreeengineers.com/#website"
-            }
-            },
-            {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.sthreeengineers.com/"
-                },
-                {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Civil Engineer",
-                "item": "https://www.sthreeengineers.com/civil-engineer/tiruchirappalli"
-                }
-            ]
-            },
-            {
-            "@type": "ProfessionalService",
-            "@id": "https://www.sthreeengineers.com/#civil-engineer",
-            "name": "Civil Engineer Services",
-            "provider": {
-                "@type": "ConstructionCompany",
-                "name": "Sthree Engineers",
-                "url": "https://www.sthreeengineers.com/",
-                "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.sthreeengineers.com/assets/frontend/images/logo-light.png"
-                }
-            },
-            "areaServed": {
-                "@type": "Place",
-                "name": "Trichy and surrounding districts"
-            },
-            "serviceType": [
-                "Structural Engineering",
-                "Surveying in Civil Engineering",
-                "Geotechnical Engineering",
-                "Transportation Engineering",
-                "Environmental Engineering",
-                "Construction Engineering"
-            ]
-            },
-            {
-            "@type": "FAQPage",
-            "@id": "https://www.sthreeengineers.com/civil-engineer#faq",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What does a civil engineer do?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A civil engineer manages planning, surveying, structural design, and execution of residential and infrastructure projects using modern construction practices."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Why should I hire a civil engineer?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Professional involvement ensures correct construction engineering methods, accurate quantity surveying, and long-term structural safety."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "How does a civil engineer support structural safety?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Structural engineering principles are applied to design strong foundations, beams, and columns based on load and soil conditions."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "When do I need a civil engineer during construction?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Expert involvement is required from surveying in civil engineering through planning, execution, and quality monitoring."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Can a civil engineer handle geotechnical planning?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Geotechnical engineering helps analyze soil conditions and determine suitable foundation systems for safe construction."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "How does a civil engineer contribute to transportation projects?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Transportation engineering includes road design, traffic flow planning, and coordination with traffic management engineers."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Does a civil engineer handle environmental concerns?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Environmental engineering focuses on sustainability engineering, drainage planning, and green engineering practices."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "How does a civil engineer control construction costs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cost control is achieved through quantity surveying, material optimization, and efficient construction engineering planning."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Can a civil engineer manage modern construction projects?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Modern construction involves modular construction techniques, structured planning, and coordinated execution."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Is a civil engineer necessary for residential building projects?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Residential building requires professional planning, approvals, execution monitoring, and long-term durability assurance."
-                }
-                }
-            ]
-            }
-        ]
-        }
-</script>
+
 
 </head>
 
@@ -202,13 +56,16 @@
 
         <section class="projectdetails-1-section pt_70">
             <div class="container">
-                <h2 class="fw_bold fs_28 mb_20 mt-4"> Who Is a Civil Engineer?</h2>
+                <h1 class="fw_bold fs_28 mb_20 mt-4"> Who Is a Civil Engineer?</h1>
                 <div class="row">
                     <div class="mb_30">
                         <p>
-                            A civil engineer is responsible for planning, designing, constructing, and maintaining
-                            infrastructure projects that support everyday life. At Sthree Engineers, our civil engineers
-                            manage projects from concept to completion, ensuring safety, quality, and sustainability.
+                            Civil engineers plan, design, construct, and maintain essential infrastructure like roads,
+                            bridges, dams, water systems, and buildings, ensuring public safety, efficiency, and
+                            sustainability by applying math, science, and problem-solving to create the physical
+                            environment we live in, from initial site analysis to project completion and upkeep. They
+                            often specialize in areas such as transportation, structural, or environmental engineering
+                            and work with diverse teams to manage projects and meet regulations.
                         </p>
                     </div>
                 </div>
@@ -301,34 +158,41 @@
                 </h2>
                 <div class="row">
                     <div class="col-lg-7 mt-lg-0 mt-3">
-                        <p>
-                            <b>20+ years of civil engineering experience
-                            </b>
-                        </p>
-                        <p>
-                            <b>Expertise across all civil engineering disciplines
-                            </b>
-                        </p>
-                        <p>
-                            <b>Local knowledge of Trichy & surrounding districts
-                            </b>
-                        </p>
-                        <p>
-                            <b>End-to-end services from survey to execution</b>
+                        <ul class="px-md-5 px-3">
+                            <li style="list-style: square">
+                                <p>
+                                    20+ years of civil engineering experience
 
-                        </p>
-                        <p>
-                            <b>Transparent process and professional project management</b>
-
-                        </p>
-
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    Expertise across all civil engineering disciplines
+                               </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    Local knowledge of Trichy & surrounding districts
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    End-to-end services from survey to execution
+                                </p>
+                            </li>
+                            <li style="list-style: square">
+                                <p>
+                                    Transparent process and professional project management
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <section>
+        <section class="pt_40 pb_40">
             <div class="auto-container">
                 <h6 class="theme-color ff_sec fw_bold tt_u fs_14 ls_1 mb_15"><span
                         class="w_30 h_2 theme-bg mr_10 d_iblock v_middle"
@@ -388,8 +252,8 @@
                             </li>
 
                             <!--Block-->
-                            <li class="accordion block active-block">
-                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold active"
+                            <li class="accordion block">
+                                <div class="acc-btn c_dark ff_sec fs_22 fw_bold"
                                     style="font-family: 'Barlow', sans-serif !important">
                                     <div class="icon-outer">
                                         <span class="icon icon-plus fa fa-plus"></span>
@@ -397,7 +261,7 @@
                                     </div>
                                     How does a civil engineer support structural safety?
                                 </div>
-                                <div class="acc-content current">
+                                <div class="acc-content ">
                                     <div class="content">
                                         <p class="fs_18">
                                             Structural engineering helps design strong foundations, beams, and columns
@@ -650,7 +514,153 @@
         @include('pages.frontend.layouts.backtotop')
 
     </div>
-
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+            "@type": "WebPage",
+            "@id": "https://www.sthreeengineers.com/civil-engineer",
+            "url": "https://www.sthreeengineers.com/civil-engineer/tiruchirappalli",
+            "name": "Civil Engineer | Sthree Engineers",
+            "description": "Experienced civil engineer providing structural engineering, surveying, construction engineering, and infrastructure services in Trichy and surrounding districts.",
+            "isPartOf": {
+                "@type": "WebSite",
+                "@id": "https://www.sthreeengineers.com/#website"
+            }
+            },
+            {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.sthreeengineers.com/"
+                },
+                {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Civil Engineer",
+                "item": "https://www.sthreeengineers.com/civil-engineer/tiruchirappalli"
+                }
+            ]
+            },
+            {
+            "@type": "ProfessionalService",
+            "@id": "https://www.sthreeengineers.com/#civil-engineer",
+            "name": "Civil Engineer Services",
+            "provider": {
+                "@type": "ConstructionCompany",
+                "name": "Sthree Engineers",
+                "url": "https://www.sthreeengineers.com/",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.sthreeengineers.com/assets/frontend/images/logo-light.png"
+                }
+            },
+            "areaServed": {
+                "@type": "Place",
+                "name": "Trichy and surrounding districts"
+            },
+            "serviceType": [
+                "Structural Engineering",
+                "Surveying in Civil Engineering",
+                "Geotechnical Engineering",
+                "Transportation Engineering",
+                "Environmental Engineering",
+                "Construction Engineering"
+            ]
+            },
+            {
+            "@type": "FAQPage",
+            "@id": "https://www.sthreeengineers.com/civil-engineer#faq",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What does a civil engineer do?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A civil engineer manages planning, surveying, structural design, and execution of residential and infrastructure projects using modern construction practices."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why should I hire a civil engineer?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Professional involvement ensures correct construction engineering methods, accurate quantity surveying, and long-term structural safety."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How does a civil engineer support structural safety?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Structural engineering principles are applied to design strong foundations, beams, and columns based on load and soil conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "When do I need a civil engineer during construction?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Expert involvement is required from surveying in civil engineering through planning, execution, and quality monitoring."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can a civil engineer handle geotechnical planning?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Geotechnical engineering helps analyze soil conditions and determine suitable foundation systems for safe construction."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How does a civil engineer contribute to transportation projects?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Transportation engineering includes road design, traffic flow planning, and coordination with traffic management engineers."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Does a civil engineer handle environmental concerns?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Environmental engineering focuses on sustainability engineering, drainage planning, and green engineering practices."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How does a civil engineer control construction costs?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cost control is achieved through quantity surveying, material optimization, and efficient construction engineering planning."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can a civil engineer manage modern construction projects?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Modern construction involves modular construction techniques, structured planning, and coordinated execution."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is a civil engineer necessary for residential building projects?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Residential building requires professional planning, approvals, execution monitoring, and long-term durability assurance."
+                }
+                }
+            ]
+            }
+        ]
+        }
+</script>
 </body>
 
 </html>
