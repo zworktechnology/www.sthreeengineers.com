@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -92,7 +92,7 @@
                                 with a
                                 focus on:</p>
                         </div>
-                        <ul class="mb_30 px-md-4 px-2">
+                        <ul class="mb_30 px-md-4 px-4">
                             <li style="list-style: disc !important">
                                 <p>Structural strength and durability</p>
                             </li>
@@ -107,7 +107,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-5 text-center mb_20 d-flex align-items-start" style="width: 325px;">
+                    <div class="col-lg-5 text-center mb_20 d-flex align-items-start" style="width: 325px;">
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-48.webp') }}" class="mt_50 ml_20"
                             style="width: 800px;" alt="building plan approval">
                     </div>
@@ -141,7 +141,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-5 text-center mb_20 d-flex align-items-start">
+                    <div class="col-lg-5 text-center mb_20 d-flex align-items-start">
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-49.webp') }}" class="mt_50 ml_20"
                             style="width: 350px;" alt="building contractor">
                     </div>
@@ -151,7 +151,7 @@
                             <p>One of the key advantages of choosing Sthree Engineers is our support with building plan
                                 approval. We assist with:</p>
                         </div>
-                        <ul class="mb_30 px-md-4 px-2">
+                        <ul class="mb_30 px-md-4 px-4">
                             <li style="list-style: disc !important">
                                 <p>DTCP / CMDA approvals</p>
                             </li>
@@ -177,7 +177,7 @@
                     <div class="col-lg-12">
                         <h2 class="fw_bold fs_28 mb_20 mt_20">Why Choose Sthree Engineers as Your Builder in Trichy</h2>
                         <p>Clients choose us because we offer:</p>
-                        <ul class="px-md-4 px-2">
+                        <ul class="px-md-4 px-4">
                             <li style="list-style: square">
                                 <p>
                                     <b>Experienced civil engineers and site supervisors</b>
@@ -224,7 +224,7 @@
 
                         <h2 class="fw_bold fs_28 mb_20 mt_20">Our Construction Process</h2>
 
-                        <ul class="px-md-4 px-2">
+                        <ul class="px-md-4 px-4">
                             <li style="list-style: circle">
                                 <h3 class="fw_bold fs_18 mb_10 mt_20">
                                     <b>Planning & Design</b>
@@ -581,114 +581,176 @@
 
     </div>
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "FAQ",
-      "@id": "https://www.sthreeengineers.com/builders-in-trichy",
-      "mainEntity": [
         {
-          "@type": "Question",
-          "name": "Which is the best builder in Trichy for residential house construction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sthree Engineers is a trusted builder in Trichy offering residential house construction with proper planning, quality materials, structural safety, and timely project delivery."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What construction services are provided by builders in Trichy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Builders in Trichy provide residential construction, commercial building construction, turnkey projects, structural construction, renovation services, and building plan approval support."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does a builder in Trichy charge per square foot?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Construction cost charged by a builder in Trichy depends on design specifications, materials, built-up area, and site conditions. Exact pricing is shared after site evaluation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do builders in Trichy provide turnkey construction services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, professional builders in Trichy like Sthree Engineers provide turnkey construction services covering design, approvals, construction, and final handover."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does a builder in Trichy help with building plan approval?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, builders in Trichy assist with building plan approval including DTCP approvals, local body permissions, and statutory compliance documentation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are builders in Trichy experienced with local regulations and soil conditions?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Local builders in Trichy are familiar with soil conditions, climate factors, municipal rules, and approval procedures, ensuring smoother project execution."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does residential building construction take in Trichy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Residential construction timelines in Trichy generally range from 6 to 12 months depending on project size, approvals, and design complexity."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do builders near me in Trichy handle commercial building projects?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, experienced builders near you in Trichy undertake commercial construction projects such as offices, shops, and commercial complexes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why should I choose a local builder in Trichy for construction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Choosing a local builder in Trichy ensures better coordination, faster approvals, cost efficiency, and compliance with regional construction norms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do builders in Trichy provide renovation and extension services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, builders in Trichy offer renovation, remodeling, structural repairs, and building extension services for residential and commercial properties."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What materials are used by builders in Trichy for construction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reputed builders in Trichy use certified cement, steel, concrete, bricks, and quality-tested construction materials to ensure durability and safety."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I contact a builder in Trichy for a construction quote?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact a builder in Trichy through their website, phone call, or office visit to schedule a consultation and receive a construction estimate."
-          }
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                "@type": "WebPage",
+                "@id": "https://www.sthreeengineers.com/builders-in-trichy",
+                "url": "https://www.sthreeengineers.com/builders-in-trichy",
+                "name": "Builders in Trichy | Sthree Engineers",
+                "description": "Sthree Engineers is a trusted builder in Trichy offering residential and commercial construction with planning, approvals, and end-to-end execution.",
+                "isPartOf": {
+                    "@type": "WebSite",
+                    "@id": "https://www.sthreeengineers.com/#website"
+                }
+                },
+                {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.sthreeengineers.com/"
+                    },
+                    {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Builders in Trichy",
+                    "item": "https://www.sthreeengineers.com/builders-in-trichy"
+                    }
+                ]
+                },
+                {
+                "@type": "ConstructionCompany",
+                "@id": "https://www.sthreeengineers.com/#builder",
+                "name": "Sthree Engineers",
+                "url": "https://www.sthreeengineers.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.sthreeengineers.com/assets/frontend/images/logo-light.png"
+                },
+                "telephone": "+91-7871313987",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No:43F, First Floor, Canara Bank ATM Upstairs, Pudukottai Main Rd, Subramaniapuram",
+                    "addressLocality": "Tiruchirapalli",
+                    "addressRegion": "Tamil Nadu",
+                    "postalCode": "620020",
+                    "addressCountry": "IN"
+                },
+                "areaServed": {
+                    "@type": "AdministrativeArea",
+                    "name": "Trichy and Tamil Nadu"
+                },
+                "openingHours": "Mo-Sa 09:00-20:00",
+                "description": "Sthree Engineers is an experienced builder in Trichy providing residential, commercial, and turnkey construction services with approval support."
+                },
+                {
+                "@type": "FAQPage",
+                "@id": "https://www.sthreeengineers.com/builders-in-trichy#faq",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "Who is the best builder in Trichy for house construction?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sthree Engineers is a trusted builder in Trichy offering quality residential construction with proper planning, approvals, and execution."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How do I find a reliable builder near me in Trichy?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Check the builder’s experience, completed projects, approval support, and client reviews before finalizing."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Does a builder in Trichy help with building plan approval?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, professional builders in Trichy assist with building plan approvals including DTCP and local authority approvals."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How much does a builder in Trichy charge per square foot?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Construction cost depends on design, materials, and project size; a site inspection is required for accurate pricing."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Do builders near me offer turnkey construction services?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, many builders in Trichy provide turnkey construction services from planning to final handover."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What types of projects does a builder in Trichy handle?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Builders in Trichy handle houses, villas, apartments, commercial buildings, and renovation projects."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How long does house construction take in Trichy?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "House construction timelines usually range from 6 to 12 months depending on approvals, design, and project size."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Are building plan approvals mandatory in Trichy?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, building plan approval is mandatory in Trichy before starting any construction work."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Do builders in Trichy provide material procurement?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, most builders handle material procurement using quality-tested and certified construction materials."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Can a builder near me customize construction based on budget?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Reliable builders in Trichy customize construction plans and materials based on budget and requirements."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Do builders in Trichy construct commercial buildings?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, experienced builders in Trichy provide commercial construction for offices, shops, and complexes."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Are builders in Trichy experienced with local regulations?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Local builders understand soil conditions, climate, and municipal regulations for smoother project execution."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How can I contact a builder in Trichy for a construction quote?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You can contact a builder in Trichy through their website or phone to schedule a consultation and get an estimate."
+                    }
+                    }
+                ]
+                }
+            ]
         }
-      ]
-    }
-  ]
-}
 </script>
+
 </body>
 
 </html>

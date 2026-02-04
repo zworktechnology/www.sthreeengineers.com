@@ -333,7 +333,7 @@
 
     </div>
     <script type="application/ld+json">
-        {
+         {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "Our Projects | Sthree Engineers Portfolio",
@@ -347,6 +347,7 @@
                 ]
             }
         }
+
     </script>
 </body>
 

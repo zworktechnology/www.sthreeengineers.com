@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -121,7 +121,7 @@
                 </h4>
                 <div class="row">
                     <div class="col-lg-7 mt-lg-0 mt-3">
-                        <ul class="px-md-5 px-3">
+                        <ul class="px-md-5 px-4">
                             <li style="list-style: square">
                                 <p>
                                     <b>Site analysis and feasibility study</b>
@@ -204,7 +204,7 @@
                         <div class="projectdetails-1-text mb_30">
                             <h3 class="fw_bold fs_28 mb_10">Why Choose Sthree Engineers as Your Construction Company
                             </h3>
-                            <ul class="px-md-5 px-3 mt-4">
+                            <ul class="px-md-5 px-4 mt-4">
                                 <li style="list-style: square">
                                     <p>
                                         20+ years of hands-on construction experience

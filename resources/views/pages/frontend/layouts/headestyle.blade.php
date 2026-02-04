@@ -29,24 +29,45 @@
     rel="stylesheet">
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Sthree Engineers",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "No:43F, First Floor, Canara Bank ATM Upstair, Pudukottai Main Rd, Subramaniapuram",
-    "addressLocality": "Tiruchirapalli",
-    "addressRegion": "Tamil Nadu",
-    "postalCode": "620020",
-    "addressCountry": "IN"
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.sthreeengineers.com/",
+    "name": "Sthree Engineers | Premier Construction Company in Trichy",
+    "description": "Trustworthy, dependable, affordable, and cost-effective building solutions with 19 years of experience in Building Construction, Project Management, and Interior Works.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.sthreeengineers.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
   },
-  "telephone": "+91-7871313987",
-  "url": "https://www.sthreeengineers.com",
-  "openingHours": [
-    "Mo-Sa 09:00-20:00"
-  ],
-  "image": "https://www.sthreeengineers.com/assets/frontend/images/logo-light.png",
-  "logo": "https://www.sthreeengineers.com/assets/frontend/images/logo-light.png"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://www.sthreeengineers.com/",
+    "inLanguage": "en-US",
+    "primaryImageOfPage": "https://www.sthreeengineers.com/assets/images/logo.png",
+    "isPartOf": {"@id": "https://www.sthreeengineers.com/#organization"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ConstructionCompany",
+    "@id": "https://www.sthreeengineers.com/#organization",
+    "name": "Sthree Engineers",
+    "url": "https://www.sthreeengineers.com/",
+    "telephone": "+91-78713-13987",
+    "email": "admin@sthreeengineers.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "43F, 1st Floor, Pudukottai Main Road, Subramaniyapuram, Upstair Canara Bank ATM",
+      "addressLocality": "Trichy",
+      "addressRegion": "Tamilnadu",
+      "postalCode": "620020",
+      "addressCountry": "IN"
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Tiruchirappalli"},
+      {"@type": "City", "name": "Perambalur"}
+    ]
+  }
 </script>

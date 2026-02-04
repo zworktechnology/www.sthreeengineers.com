@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -45,7 +45,7 @@
             <div class="auto-container">
                 <div class="p_relative text-center">
                     <h1 class="c_light mb_10 fw_black fs_65 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.5s">
-                        Civil Engineer in Trichy – Planning, Design & Execution Experts</h1>
+                        What Does a Civil Engineer Do?</h1>
                     <ul class="fs_18 d-flex justify-content-center c_light wow fadeInLeft" data-wow-delay=".5s"
                         data-wow-duration="1.5s">
                         <li><a href="{{ route('index') }}">Home</a></li>
@@ -68,15 +68,6 @@
                             and work with diverse teams to manage projects and meet regulations.
                         </p>
                     </div>
-                </div>
-                <h2 class="fw_bold fs_28 mb_10">What Does a Civil Engineer Do?
-                </h2>
-                <div class="row">
-                    <p>
-                        If you are wondering what does a civil engineer do, the role covers multiple disciplines
-                        including design analysis, site execution, surveying, structural safety, and project
-                        coordination. Our team ensures every project meets regulatory standards and client expectations.
-                    </p>
                 </div>
                 <br>
                 <h2 class="fw_bold fs_28 mb_10">Surveying in Civil Engineering
@@ -158,7 +149,7 @@
                 </h2>
                 <div class="row">
                     <div class="col-lg-7 mt-lg-0 mt-3">
-                        <ul class="px-md-5 px-3">
+                        <ul class="px-md-5 px-4">
                             <li style="list-style: square">
                                 <p>
                                     20+ years of civil engineering experience
@@ -168,7 +159,7 @@
                             <li style="list-style: square">
                                 <p>
                                     Expertise across all civil engineering disciplines
-                               </p>
+                                </p>
                             </li>
                             <li style="list-style: square">
                                 <p>

@@ -4,25 +4,32 @@
             <div class="inner-container d-flex align-items-center justify-content-between">
                 <div class="logo-box">
                     <div class="logo"><a href="{{ route('index') }}"><img
-                                src="{{ asset('assets/frontend/images/logo-light.png') }}" alt=""
-                                style="height: 80px;"></a>
+                                src="{{ asset('assets/frontend/images/logo-light.png') }}"
+                                alt="Sthree Engineers civil engineering company in Trichy"
+                                title="Sthree Engineers – Civil Engineer Near Me" style="height: 80px;"></a>
                     </div>
                 </div>
                 <div class="d-flex align-items-center">
                     <div class="right-column d-flex align-items-center">
                         <div class="nav-outer">
                             <div class="mobile-nav-toggler">
-                                <img src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
+                                    alt="Website navigation menu icon" title="Open navigation menu">
                             </div>
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li class="{{ Route::is('index') ? 'current' : '' }}"><a href="{{ route('index') }}">Home</a></li>
-                                        <li class="{{ Route::is('about') ? 'current' : '' }}"><a href="{{ route('about') }}">About Us</a></li>
-                                        <li class="dropdown {{ Route::is('service', 'building-construction', 'project-management', 'valuation', 'surveying', 'interior-works', 'approval', 'quality-survey') ? 'current' : '' }}"><a href="{{ route('service') }}">Services</a>
+                                        <li class="{{ Route::is('index') ? 'current' : '' }}"><a
+                                                href="{{ route('index') }}">Home</a></li>
+                                        <li class="{{ Route::is('about') ? 'current' : '' }}"><a
+                                                href="{{ route('about') }}">About Us</a></li>
+                                        <li
+                                            class="dropdown {{ Route::is('service', 'building-construction', 'project-management', 'valuation', 'surveying', 'interior-works', 'approval', 'quality-survey') ? 'current' : '' }}">
+                                            <a href="{{ route('service') }}">Services</a>
                                             <ul>
                                                 <li>
-                                                    <a href="{{ route('building-construction') }}">Building Construction</a>
+                                                    <a href="{{ route('building-construction') }}">Building
+                                                        Construction</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ route('project-management') }}">Project Management
@@ -45,9 +52,12 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="{{ Route::is('blog.*') ? 'current' : '' }}"><a href="{{ route('blog') }}">Blog</a></li>
-                                        <li class="{{ Route::is('project', 'project2') ? 'current'  : '' }}"><a href="{{ route('project') }}">Projects</a></li>
-                                        <li class="{{ Route::is('contact') ? 'current' : '' }}"><a href="{{ route('contact') }}">Contact</a></li>
+                                        <li class="{{ Route::is('blog.*') ? 'current' : '' }}"><a
+                                                href="{{ route('blog') }}">Blog</a></li>
+                                        <li class="{{ Route::is('project', 'project2') ? 'current' : '' }}"><a
+                                                href="{{ route('project') }}">Projects</a></li>
+                                        <li class="{{ Route::is('contact') ? 'current' : '' }}"><a
+                                                href="{{ route('contact') }}">Contact</a></li>
                                         <li class="dropdown" hidden><a href="#">SEO Pages</a>
                                             <ul>
                                                 <li>
@@ -63,7 +73,9 @@
                                                     <a href="{{ route('civil-engineering-construction') }}">Page 04</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ route('civil-project-and-management-company-in-trichy') }}">Page 05</a>
+                                                    <a
+                                                        href="{{ route('civil-project-and-management-company-in-trichy') }}">Page
+                                                        05</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{ route('construction-company-in-trichy') }}">Page 06</a>
@@ -89,7 +101,8 @@
                                 On Whatsapp<span></span></a>
                         </div>
                         <div class="sidemenu-nav-toggler mr_30 ml_30">
-                            <img src="{{ asset('assets/frontend/images/icons/menu.svg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/icons/menu.svg') }}"
+                                alt="Website navigation menu icon" title="Open navigation menu">
                         </div>
                     </div>
                 </div>
@@ -137,7 +150,8 @@
         <nav class="menu-box">
             <div class="nav-logo">
                 <a href="{{ route('index') }}">
-                    <img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="" title="">
+                    <img src="{{ asset('assets/frontend/images/logo-light.png') }}" alt="Sthree Engineers civil engineering company in Trichy"
+                                title="Sthree Engineers – Civil Engineer Near Me">
                 </a>
             </div>
             <div class="menu-outer"></div>

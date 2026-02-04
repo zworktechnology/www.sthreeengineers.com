@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -97,7 +97,7 @@
                                 We provide complete residential interior design solutions for apartments, villas, and
                                 independent houses, including:
                             </p>
-                            <ul class="px-md-5 px-2">
+                            <ul class="px-md-5 px-4">
                                 <li style="list-style: square">
                                     <p>
                                         <b>Living room interior design & home decor</b>
@@ -133,7 +133,7 @@
                 <p>Our home decor for living room designs focus on:</p>
                 <div class="row">
                     <div class="col-lg-7">
-                        <ul class="px-md-5 px-2">
+                        <ul class="px-md-5 px-4">
                             <li style="list-style: square">
                                 <p>
                                     Contemporary style interiors
@@ -175,7 +175,7 @@
                     solutions include:</p>
                 <div class="row">
                     <div class="col-lg-7">
-                        <ul class="px-md-5 px-2">
+                        <ul class="px-md-5 px-4">
                             <li style="list-style: square">
                                 <p>
                                     Double-height living spaces
@@ -209,7 +209,7 @@
                     Here’s why clients trust Sthree Engineers:</p>
                 <div class="row">
                     <div class="col-lg-7">
-                        <ul class="px-md-5 px-2">
+                        <ul class="px-md-5 px-4">
                             <li style="list-style: square">
                                 <p>
                                     Experienced interior designers and project managers

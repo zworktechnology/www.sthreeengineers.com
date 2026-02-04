@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -115,7 +115,7 @@
                             class="mt_20" alt="interior designer in trichy">
                     </div>
                     <div class="col-lg-7">
-                        <h2 class="fw_bold fs_28 mb_20">Benefits of Hiring a Professional Interior Designer in
+                        <h2 class="fw_bold fs_28 mb_20 mt-md-0 mt-5">Benefits of Hiring a Professional Interior Designer in
                             Trichy</h2>
                         <p>
                             Hiring a professional interior designer in Trichy saves time, avoids costly mistakes,

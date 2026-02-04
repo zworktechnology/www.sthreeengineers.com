@@ -165,7 +165,7 @@
 
     </div>
     <script type="application/ld+json">
-       {
+      {
             "@context": "https://schema.org",
             "@type": "Service",
             "serviceType": "Building Approval and Sanction",
@@ -183,6 +183,7 @@
                 ]
             }
         }
+
     </script>
 </body>
 

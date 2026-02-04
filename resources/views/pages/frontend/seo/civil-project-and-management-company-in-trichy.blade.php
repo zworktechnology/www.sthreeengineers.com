@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -101,7 +101,7 @@
                         <div class="projectdetails-1-text mb_30">
                             <p>We offer complete construction industry project management services, including:</p>
                         </div>
-                        <ul class="mb_30 px-md-5 px-3">
+                        <ul class="mb_30 px-md-5 px-4">
                             <li style="list-style: circle">
                                 Project planning and scheduling
                             </li>
@@ -145,7 +145,7 @@
                         <h2 class="fw_bold fs_28 mb_20">Why Choose Our PMC Company in Trichy?</h2>
                         <p>Choosing the right PMC company is critical for successful project execution. Clients trust
                             Sthree Engineers because we offer:</p>
-                        <ul class="px-md-5 px-2 mb_10">
+                        <ul class="px-md-5 px-4 mb_10">
                             <li style="list-style: square">
                                 Experienced project managers and civil engineers
                             </li>
@@ -170,7 +170,7 @@
                 <h2 class="fw_bold fs_28 mt_30 mb_20">Role of a Project Management Consultant in Construction</h2>
                 <p>A professional project management consultant (PMC) ensures:
                 </p>
-                <ul class="px-md-5 px-2 mb_10">
+                <ul class="px-md-5 px-4 mb_10">
                     <li style="list-style: square">
                         Proper planning and coordination
                     </li>

@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -91,7 +91,7 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-3">
+                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-5">
                         <li style="list-style: circle">
                             <p><b>Apartment interior design</b></p>
                         </li>
@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-3">
+                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-5 mb-5">
                         <li style="list-style: disc">
                             <b>Modern office interior layouts</b>
                         </li>
@@ -160,7 +160,7 @@
                 </div>
 
                 <div class="row">
-                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-3">
+                    <ul class="col-lg-7 mt-lg-0 mt-3 px-md-5 px-5">
                         <li style="list-style: disc">
                             <b>Experienced interior designers and project managers</b>
                         </li>

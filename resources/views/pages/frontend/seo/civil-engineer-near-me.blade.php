@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -63,7 +63,9 @@
                             projects such as roads, bridges, buildings, dams, water supply systems. </p>
                         <div class="col-12 text-center mb_30">
                             <img src="{{ asset('assets/frontend/images/gallery/gallery-5.webp') }}"
-                                style="width: 750px;" alt="civil engineer near me ">
+                                style="width: 750px;"
+                                alt="Civil engineer near me providing quality construction services"
+                                title="Civil engineer near me – Sthree Engineers Trichy">
                         </div>
                     </div>
                 </div>
@@ -73,7 +75,9 @@
                 <div class="row">
                     <div class="col-5 text-center mt_30" style="width: 350px;">
                         <img src="{{ asset('assets/frontend/images/gallery/why civil engineer is important.jpg') }}"
-                            style="width: 350px;" class="mt_10" alt="civil engineer near me">
+                            style="width: 350px;" class="mt_10"
+                            alt="Why civil engineer is important in construction projects"
+                            title="Importance of civil engineer in construction">
                     </div>
                     <div class="col-lg-7">
                         <h2 class="fw_bold fs_28 mb_20 mt_20">What Is the Role of a Civil Engineer in Construction
@@ -106,7 +110,9 @@
                     </div>
                     <div class="col-5 text-center mb_20" style="width: 350px;">
                         <img src="{{ asset('assets/frontend/images/gallery/5 importance of civil engineer.png') }}"
-                            style="width: 900px; height: 375px;" alt="civil engineer near me">
+                            style="width: 900px; height: 375px;"
+                            alt="Five importance of civil engineer in building construction"
+                            title="5 importance of civil engineer">
                     </div>
                 </div>
 

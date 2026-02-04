@@ -248,7 +248,7 @@
                 {"@type": "ListItem", "position": 2, "name": "Services"}
                 ]
             }
-            }
+        }
     </script>
 </body>
 

@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="author" content="Zwork Technology">
-
+    <meta name="robots" content="noindex, follow">
     @include('pages.frontend.layouts.metaog')
 
     @include('pages.frontend.layouts.hotjar')
@@ -39,7 +39,7 @@
             </div>
             <div class="banner-1-image-1 p_absolute b_0 r_0"><img
                     src="{{ asset('assets/frontend/images/resource/building3.png') }}"
-                    alt="construction company in Trichy, construction builders near me, industrial construction companies, civil construction company, best construction company, construction services, modular construction, road construction companies, construction company Trichy, home builders near me, commercial building contractor, building plan approval">
+                    alt="Civil engineer near me for residential and commercial construction" title="Professional civil engineer services in Trichy">
             </div>
             <div class="auto-container">
                 <div class="p_relative text-center">
@@ -90,7 +90,7 @@
                 </p>
                 <div class="row">
                     <div class="col-lg-7">
-                        <ul class="mb_30 px-md-4 px-2">
+                        <ul class="mb_30 px-md-4 px-4">
                             <li style="list-style: disc !important">
                                 <p>Strong structural integrity
                                 </p>
@@ -106,7 +106,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-5" style="width: 450px;">
+                    <div class="col-lg-5" style="width: 450px;">
                         <img src="{{ asset('assets/frontend/images/gallery/gallery-4.webp') }}" class="mt_50"
                             alt="construction company in Trichy, construction builders near me, industrial construction companies, civil construction company, best construction company, construction services, modular construction, road construction companies, construction company Trichy, home builders near me, commercial building contractor, building plan approval">
                     </div>
@@ -146,7 +146,7 @@
                 <div class="row">
 
                     <div class="col-lg-7 mt-lg-0 mt-3">
-                        <ul class="mb_30 px-md-4 px-2">
+                        <ul class="mb_30 px-md-4 px-4">
                             <li style="list-style: disc !important">
                                 <p>Experienced civil engineers and project managers
                                 </p>
@@ -184,7 +184,7 @@
 
                             <h2 class="fw_bold fs_28 mb_20 mt_20">Our Civil Construction Process</h2>
 
-                            <ul class="px-md-4 px-2">
+                            <ul class="px-md-4 px-4">
                                 <li style="list-style: circle">
                                     <h3 class="fw_bold fs_18 mb_10 mt_20">
                                         <b>Planning & Design</b>
@@ -737,6 +737,7 @@
   ]
 }
 </script>
+
 
 </body>
 

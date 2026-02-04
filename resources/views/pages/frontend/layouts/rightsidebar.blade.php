@@ -18,7 +18,9 @@
                     <li>
                         <div class="inner">
                             <div class="icon">
-                                <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}"
+                                    alt="Civil engineer near me location Trichy"
+                                    title="Civil engineering services location – Trichy">
                             </div>
                             <div class="text">
                                 <p><span class="theme-color">Registered Office:</span> 43F, 1st Floor,
@@ -30,7 +32,9 @@
                     <li>
                         <div class="inner">
                             <div class="icon">
-                                <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/icon-7__mapmarker.png') }}"
+                                    alt="Civil engineer near me location Trichy"
+                                    title="Civil engineering services location – Trichy">
                             </div>
                             <div class="text">
                                 <p><span class="theme-color">Branch Office:</span> 17/F, kamban Street,
@@ -42,7 +46,8 @@
                     <li>
                         <div class="inner">
                             <div class="icon">
-                                <img src="{{ asset('assets/frontend/images/icons/icon-10__clock.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/icon-10__clock.png') }}"
+                                    alt="Civil engineer working hours Trichy" title="Working hours – Sthree Engineers">
                             </div>
                             <div class="text">
                                 <p>Monday - Saturday (09.00 AM - 08.00 PM)</p>
@@ -52,7 +57,8 @@
                     <li>
                         <div class="inner">
                             <div class="icon">
-                                <img src="{{ asset('assets/frontend/images/icons/icon-8__envelop.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/icon-8__envelop.png') }}"
+                                    alt="Email contact for civil engineer near me" title="Email Sthree Engineers">
                             </div>
                             <div class="text">
                                 <p><a href="mailto:admin@sthreeengineers.com">admin@sthreeengineers.com</a>
@@ -63,7 +69,8 @@
                     <li>
                         <div class="inner">
                             <div class="icon">
-                                <img src="{{ asset('assets/frontend/images/icons/icon-9__phone.png') }}" alt="">
+                                <img src="{{ asset('assets/frontend/images/icons/icon-9__phone.png') }}"
+                                    alt="Phone contact for civil engineer near me" title="Call Sthree Engineers">
                             </div>
                             <div class="text">
                                 <p><a href="tel:+917871313987">(+91) 78713 13987</a></p>
