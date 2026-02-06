@@ -56,7 +56,7 @@
 
         <section class="projectdetails-1-section pt_70">
             <div class="container">
-                <h1 class="fw_bold fs_28 mb_20 mt-4"> Who Is a Civil Engineer?</h1>
+               
                 <div class="row">
                     <div class="mb_30">
                         <p>

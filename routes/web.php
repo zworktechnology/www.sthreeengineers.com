@@ -90,9 +90,9 @@ Route::get('/civil-engineer-near-me', function () {
     return view('pages.frontend.seo.civil-engineer-near-me');
 })->name('civil-engineer-near-me');
 
-Route::get('/civil-engineering-construction', function () {
-    return view('pages.frontend.seo.civil-engineering-construction');
-})->name('civil-engineering-construction');
+// Route::get('/civil-engineering-construction', function () {
+//     return view('pages.frontend.seo.civil-engineering-construction');
+// })->name('civil-engineering-construction');
 
 Route::get('/civil-project-and-management-company-in-trichy', function () {
     return view('pages.frontend.seo.civil-project-and-management-company-in-trichy');
@@ -102,9 +102,9 @@ Route::get('/construction-company-in-trichy', function () {
     return view('pages.frontend.seo.construction-company-in-trichy');
 })->name('construction-company-in-trichy');
 
-Route::get('/home-interior-design', function () {
-    return view('pages.frontend.seo.home-interior-design');
-})->name('home-interior-design');
+// Route::get('/home-interior-design', function () {
+//     return view('pages.frontend.seo.home-interior-design');
+// })->name('home-interior-design');
 
 Route::get('/interior-design-company', function () {
     return view('pages.frontend.seo.interior-design-company');

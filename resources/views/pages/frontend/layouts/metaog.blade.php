@@ -190,7 +190,7 @@
 <meta property="og:image:alt" content="The best civil engineer works with a effortfullness.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
-@elseif (Route::currentRouteName() == 'civil-engineering-construction')
+{{-- @elseif (Route::currentRouteName() == 'civil-engineering-construction')
 <title>Civil Engineering & Construction Services | Sthree Engineers</title>
 <meta name="keywords" content="civil engineering Trichy, construction services, structural design, engineering consultant">
 <meta name="description" content="Sthree Engineers offers comprehensive civil engineering construction solutions including design, planning, and execution in Trichy.">
@@ -201,7 +201,7 @@
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-4.webp">
 <meta property="og:image:alt" content="civil engineering Trichy, construction services, structural design, engineering consultant">
 <meta property="og:site_name" content="Sthree Engineers">
-<meta property="og:locale" content="en_IN">
+<meta property="og:locale" content="en_IN"> --}}
 @elseif (Route::currentRouteName() == 'civil-project-and-management-company-in-trichy')
 <title>PMC Company in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="project management construction Trichy, PMC Trichy, civil project managers">
@@ -226,7 +226,7 @@
 <meta property="og:image:alt" content="the construction company committed to delivering strong, durable, and well-planned buildings.">
 <meta property="og:site_name" content="Sthree Engineers">
 <meta property="og:locale" content="en_IN">
-@elseif (Route::currentRouteName() == 'home-interior-design')
+{{-- @elseif (Route::currentRouteName() == 'home-interior-design')
 <title>Home Interior Design in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="home interior design Trichy, modular kitchen, custom interiors, house decor">
 <meta name="description" content="Transform your living space with innovative home interior design solutions by Sthree Engineers in Trichy.">
@@ -237,7 +237,7 @@
 <meta property="og:image" content="https://www.sthreeengineers.com/assets/frontend/images/gallery/gallery-16.webp">
 <meta property="og:image:alt" content="home interior design Trichy, modular kitchen, custom interiors, house decor">
 <meta property="og:site_name" content="Sthree Engineers">
-<meta property="og:locale" content="en_IN">
+<meta property="og:locale" content="en_IN"> --}}
 @elseif (Route::currentRouteName() == 'interior-design-company')
 <title>Interior Design Company in Trichy | Sthree Engineers</title>
 <meta name="keywords" content="interior design company Trichy, interior decorators, modern interiors, space planning">
